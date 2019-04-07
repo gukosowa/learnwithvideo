@@ -149,10 +149,10 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
-        'Roboto',
         '"Helvetica Neue"',
         'Arial',
         '"Noto Sans"',

@@ -1,0 +1,747 @@
+[
+  {
+    "Kanji": "どう",
+    "Kana": "どう",
+    "Romaji": "dou"
+  },
+  {
+    "Kanji": "もう",
+    "Kana": "もう",
+    "Romaji": "mou"
+  },
+  {
+    "Kanji": "まだ",
+    "Kana": "まだ",
+    "Romaji": "mada"
+  },
+  {
+    "Kanji": "すぐ",
+    "Kana": "すぐ",
+    "Romaji": "sugu"
+  },
+  {
+    "Kanji": "いつも",
+    "Kana": "いつも",
+    "Romaji": "itsumo"
+  },
+  {
+    "Kanji": "まるで",
+    "Kana": "まるで",
+    "Romaji": "marude"
+  },
+  {
+    "Kanji": "どうして",
+    "Kana": "どうして",
+    "Romaji": "doushite"
+  },
+  {
+    "Kanji": "もっと",
+    "Kana": "もっと",
+    "Romaji": "motto"
+  },
+  {
+    "Kanji": "もちろん",
+    "Kana": "もちろん",
+    "Romaji": "mochiron"
+  },
+  {
+    "Kanji": "まったく",
+    "Kana": "まったく",
+    "Romaji": "mattaku"
+  },
+  {
+    "Kanji": "なぜ",
+    "Kana": "なぜ",
+    "Romaji": "naze"
+  },
+  {
+    "Kanji": "本当に",
+    "Kana": "ほんとうに",
+    "Romaji": "hontouni"
+  },
+  {
+    "Kanji": "ずっと",
+    "Kana": "ずっと",
+    "Romaji": "zutto"
+  },
+  {
+    "Kanji": "やはり",
+    "Kana": "やはり",
+    "Romaji": "yahari"
+  },
+  {
+    "Kanji": "すでに",
+    "Kana": "すでに",
+    "Romaji": "sudeni"
+  },
+  {
+    "Kanji": "ゆっくり",
+    "Kana": "ゆっくり",
+    "Romaji": "yukkuri"
+  },
+  {
+    "Kanji": "もし",
+    "Kana": "もし",
+    "Romaji": "moshi"
+  },
+  {
+    "Kanji": "ほとんど",
+    "Kana": "ほとんど",
+    "Romaji": "hotondo"
+  },
+  {
+    "Kanji": "やがて",
+    "Kana": "やがて",
+    "Romaji": "yagate"
+  },
+  {
+    "Kanji": "きっと",
+    "Kana": "きっと",
+    "Romaji": "kitto"
+  },
+  {
+    "Kanji": "同時に",
+    "Kana": "どうじに",
+    "Romaji": "doujini"
+  },
+  {
+    "Kanji": "とても",
+    "Kana": "とても",
+    "Romaji": "totemo"
+  },
+  {
+    "Kanji": "初めて",
+    "Kana": "はじめて",
+    "Romaji": "hajimete"
+  },
+  {
+    "Kanji": "やっぱり",
+    "Kana": "やっぱり",
+    "Romaji": "yappari"
+  },
+  {
+    "Kanji": "ようやく",
+    "Kana": "ようやく",
+    "Romaji": "youyaku"
+  },
+  {
+    "Kanji": "これから",
+    "Kana": "これから",
+    "Romaji": "korekara"
+  },
+  {
+    "Kanji": "はっきり",
+    "Kana": "はっきり",
+    "Romaji": "hakkiri"
+  },
+  {
+    "Kanji": "まず",
+    "Kana": "まず",
+    "Romaji": "mazu"
+  },
+  {
+    "Kanji": "とにかく",
+    "Kana": "とにかく",
+    "Romaji": "tonikaku"
+  },
+  {
+    "Kanji": "再び",
+    "Kana": "ふたたび",
+    "Romaji": "futatabi"
+  },
+  {
+    "Kanji": "なにか",
+    "Kana": "なにか",
+    "Romaji": "nanika"
+  },
+  {
+    "Kanji": "さすが",
+    "Kana": "さすが",
+    "Romaji": "sasuga"
+  },
+  {
+    "Kanji": "ちゃんと",
+    "Kana": "ちゃんと",
+    "Romaji": "chanto"
+  },
+  {
+    "Kanji": "まさか",
+    "Kana": "まさか",
+    "Romaji": "masaka"
+  },
+  {
+    "Kanji": "ふと",
+    "Kana": "ふと",
+    "Romaji": "futo"
+  },
+  {
+    "Kanji": "そんなに",
+    "Kana": "そんなに",
+    "Romaji": "sonnani"
+  },
+  {
+    "Kanji": "決して",
+    "Kana": "けっして",
+    "Romaji": "kesshite"
+  },
+  {
+    "Kanji": "突然",
+    "Kana": "とつぜん",
+    "Romaji": "totsuzen"
+  },
+  {
+    "Kanji": "いきなり",
+    "Kana": "いきなり",
+    "Romaji": "ikinari"
+  },
+  {
+    "Kanji": "思わず",
+    "Kana": "おもわず",
+    "Romaji": "omowazu"
+  },
+  {
+    "Kanji": "別に",
+    "Kana": "べつに",
+    "Romaji": "betsuni"
+  },
+  {
+    "Kanji": "つい",
+    "Kana": "つい",
+    "Romaji": "tsui"
+  },
+  {
+    "Kanji": "ちょうど",
+    "Kana": "ちょうど",
+    "Romaji": "choudo"
+  },
+  {
+    "Kanji": "すっかり",
+    "Kana": "すっかり",
+    "Romaji": "sukkari"
+  },
+  {
+    "Kanji": "もう一度",
+    "Kana": "もういちど",
+    "Romaji": "mouichido"
+  },
+  {
+    "Kanji": "じっと",
+    "Kana": "じっと",
+    "Romaji": "jitto"
+  },
+  {
+    "Kanji": "いったい",
+    "Kana": "いったい",
+    "Romaji": "ittai"
+  },
+  {
+    "Kanji": "どうやら",
+    "Kana": "どうやら",
+    "Romaji": "douyara"
+  },
+  {
+    "Kanji": "あまりに",
+    "Kana": "あまりに",
+    "Romaji": "amarini"
+  },
+  {
+    "Kanji": "やっと",
+    "Kana": "やっと",
+    "Romaji": "yatto"
+  },
+  {
+    "Kanji": "たぶん",
+    "Kana": "たぶん",
+    "Romaji": "tabun"
+  },
+  {
+    "Kanji": "そっと",
+    "Kana": "そっと",
+    "Romaji": "sotto"
+  },
+  {
+    "Kanji": "しっかり",
+    "Kana": "しっかり",
+    "Romaji": "shikkari"
+  },
+  {
+    "Kanji": "全く",
+    "Kana": "まったく",
+    "Romaji": "mattaku"
+  },
+  {
+    "Kanji": "たた",
+    "Kana": "たた",
+    "Romaji": "tata"
+  },
+  {
+    "Kanji": "たしかに",
+    "Kana": "たしかに",
+    "Romaji": "tashikani"
+  },
+  {
+    "Kanji": "なんとか",
+    "Kana": "なんとか",
+    "Romaji": "nantoka"
+  },
+  {
+    "Kanji": "おそらく",
+    "Kana": "おそらく",
+    "Romaji": "osoraku"
+  },
+  {
+    "Kanji": "どうしても",
+    "Kana": "どうしても",
+    "Romaji": "doushitemo"
+  },
+  {
+    "Kanji": "もはや",
+    "Kana": "もはや",
+    "Romaji": "mohaya"
+  },
+  {
+    "Kanji": "たとえ",
+    "Kana": "たとえ",
+    "Romaji": "tatoe"
+  },
+  {
+    "Kanji": "ずいぶん",
+    "Kana": "ずいぶん",
+    "Romaji": "zuibun"
+  },
+  {
+    "Kanji": "必ず",
+    "Kana": "かならず",
+    "Romaji": "kanarazu"
+  },
+  {
+    "Kanji": "特に",
+    "Kana": "とくに",
+    "Romaji": "tokuni"
+  },
+  {
+    "Kanji": "グッ",
+    "Kana": "グッ",
+    "Romaji": "gu"
+  },
+  {
+    "Kanji": "なんだか",
+    "Kana": "なんだか",
+    "Romaji": "nandaka"
+  },
+  {
+    "Kanji": "ついに",
+    "Kana": "ついに",
+    "Romaji": "tsuini"
+  },
+  {
+    "Kanji": "かつて",
+    "Kana": "かつて",
+    "Romaji": "katsute"
+  },
+  {
+    "Kanji": "すこし",
+    "Kana": "すこし",
+    "Romaji": "sukoshi"
+  },
+  {
+    "Kanji": "最も",
+    "Kana": "もっとも",
+    "Romaji": "mottomo"
+  },
+  {
+    "Kanji": "そろそろ",
+    "Kana": "そろそろ",
+    "Romaji": "sorosoro"
+  },
+  {
+    "Kanji": "ともかく",
+    "Kana": "ともかく",
+    "Romaji": "tomokaku"
+  },
+  {
+    "Kanji": "いよいよ",
+    "Kana": "いよいよ",
+    "Romaji": "iyoiyo"
+  },
+  {
+    "Kanji": "ごく",
+    "Kana": "ごく",
+    "Romaji": "goku"
+  },
+  {
+    "Kanji": "一気に",
+    "Kana": "いっきに",
+    "Romaji": "ikkini"
+  },
+  {
+    "Kanji": "どうせ",
+    "Kana": "どうせ",
+    "Romaji": "douse"
+  },
+  {
+    "Kanji": "実に",
+    "Kana": "じつに",
+    "Romaji": "jitsuni"
+  },
+  {
+    "Kanji": "それほど",
+    "Kana": "それほど",
+    "Romaji": "sorehodo"
+  },
+  {
+    "Kanji": "少なくとも",
+    "Kana": "すくなくとも",
+    "Romaji": "sukunakutomo"
+  },
+  {
+    "Kanji": "はじめて",
+    "Kana": "はじめて",
+    "Romaji": "hajimete"
+  },
+  {
+    "Kanji": "全然",
+    "Kana": "ぜんぜん",
+    "Romaji": "zenzen"
+  },
+  {
+    "Kanji": "それだけ",
+    "Kana": "それだけ",
+    "Romaji": "soredake"
+  },
+  {
+    "Kanji": "どうか",
+    "Kana": "どうか",
+    "Romaji": "douka"
+  },
+  {
+    "Kanji": "たちまち",
+    "Kana": "たちまち",
+    "Romaji": "tachimachi"
+  },
+  {
+    "Kanji": "とりあえず",
+    "Kana": "とりあえず",
+    "Romaji": "toriaezu"
+  },
+  {
+    "Kanji": "たった",
+    "Kana": "たった",
+    "Romaji": "tatta"
+  },
+  {
+    "Kanji": "どんなに",
+    "Kana": "どんなに",
+    "Romaji": "donnani"
+  },
+  {
+    "Kanji": "いかにも",
+    "Kana": "いかにも",
+    "Romaji": "ikanimo"
+  },
+  {
+    "Kanji": "もう少し",
+    "Kana": "もうすこし",
+    "Romaji": "mousukoshi"
+  },
+  {
+    "Kanji": "とうとう",
+    "Kana": "とうとう",
+    "Romaji": "toutou"
+  },
+  {
+    "Kanji": "わざわざ",
+    "Kana": "わざわざ",
+    "Romaji": "wazawaza"
+  },
+  {
+    "Kanji": "何だか",
+    "Kana": "なんだか",
+    "Romaji": "nandaka"
+  },
+  {
+    "Kanji": "ますます",
+    "Kana": "ますます",
+    "Romaji": "masumasu"
+  },
+  {
+    "Kanji": "ほほ",
+    "Kana": "ほほ",
+    "Romaji": "hoho"
+  },
+  {
+    "Kanji": "せっかく",
+    "Kana": "せっかく",
+    "Romaji": "sekkaku"
+  },
+  {
+    "Kanji": "ほんとに",
+    "Kana": "ほんとに",
+    "Romaji": "hontoni"
+  },
+  {
+    "Kanji": "一応",
+    "Kana": "いちおう",
+    "Romaji": "ichiou"
+  },
+  {
+    "Kanji": "ハッ",
+    "Kana": "ハッ",
+    "Romaji": "ha"
+  },
+  {
+    "Kanji": "かえって",
+    "Kana": "かえって",
+    "Romaji": "kaette"
+  },
+  {
+    "Kanji": "何故",
+    "Kana": "なぜ",
+    "Romaji": "naze"
+  },
+  {
+    "Kanji": "時々",
+    "Kana": "ときどき",
+    "Romaji": "tokidoki"
+  },
+  {
+    "Kanji": "まさに",
+    "Kana": "まさに",
+    "Romaji": "masani"
+  },
+  {
+    "Kanji": "もともと",
+    "Kana": "もともと",
+    "Romaji": "motomoto"
+  },
+  {
+    "Kanji": "もしも",
+    "Kana": "もしも",
+    "Romaji": "moshimo"
+  },
+  {
+    "Kanji": "せめて",
+    "Kana": "せめて",
+    "Romaji": "semete"
+  },
+  {
+    "Kanji": "いかに",
+    "Kana": "いかに",
+    "Romaji": "ikani"
+  },
+  {
+    "Kanji": "いつの間にか",
+    "Kana": "いつのまにか",
+    "Romaji": "itsunomanika"
+  },
+  {
+    "Kanji": "いと",
+    "Kana": "いと",
+    "Romaji": "ito"
+  },
+  {
+    "Kanji": "二度と",
+    "Kana": "にどと",
+    "Romaji": "nidoto"
+  },
+  {
+    "Kanji": "ふたたび",
+    "Kana": "ふたたび",
+    "Romaji": "futatabi"
+  },
+  {
+    "Kanji": "どうにか",
+    "Kana": "どうにか",
+    "Romaji": "dounika"
+  },
+  {
+    "Kanji": "ほぼ",
+    "Kana": "ほぼ",
+    "Romaji": "hobo"
+  },
+  {
+    "Kanji": "どんどん",
+    "Kana": "どんどん",
+    "Romaji": "dondon"
+  },
+  {
+    "Kanji": "よほど",
+    "Kana": "よほど",
+    "Romaji": "yohodo"
+  },
+  {
+    "Kanji": "なんとなく",
+    "Kana": "なんとなく",
+    "Romaji": "nantonaku"
+  },
+  {
+    "Kanji": "次第に",
+    "Kana": "しだいに",
+    "Romaji": "shidaini"
+  },
+  {
+    "Kanji": "さっさと",
+    "Kana": "さっさと",
+    "Romaji": "sassato"
+  },
+  {
+    "Kanji": "わざと",
+    "Kana": "わざと",
+    "Romaji": "wazato"
+  },
+  {
+    "Kanji": "間もなく",
+    "Kana": "まもなく",
+    "Romaji": "mamonaku"
+  },
+  {
+    "Kanji": "なにしろ",
+    "Kana": "なにしろ",
+    "Romaji": "nanishiro"
+  },
+  {
+    "Kanji": "だんだん",
+    "Kana": "だんだん",
+    "Romaji": "dandan"
+  },
+  {
+    "Kanji": "だいぶ",
+    "Kana": "だいぶ",
+    "Romaji": "daibu"
+  },
+  {
+    "Kanji": "常に",
+    "Kana": "つねに",
+    "Romaji": "tsuneni"
+  },
+  {
+    "Kanji": "いくらか",
+    "Kana": "いくらか",
+    "Romaji": "ikuraka"
+  },
+  {
+    "Kanji": "何となく",
+    "Kana": "なんとなく",
+    "Romaji": "nantonaku"
+  },
+  {
+    "Kanji": "然",
+    "Kana": "しか",
+    "Romaji": "shika"
+  },
+  {
+    "Kanji": "単に",
+    "Kana": "たんに",
+    "Romaji": "tanni"
+  },
+  {
+    "Kanji": "どうにも",
+    "Kana": "どうにも",
+    "Romaji": "dounimo"
+  },
+  {
+    "Kanji": "きちんと",
+    "Kana": "きちんと",
+    "Romaji": "kichinto"
+  },
+  {
+    "Kanji": "どれほど",
+    "Kana": "どれほど",
+    "Romaji": "dorehodo"
+  },
+  {
+    "Kanji": "ちらりと",
+    "Kana": "ちらりと",
+    "Romaji": "chirarito"
+  },
+  {
+    "Kanji": "勿論",
+    "Kana": "もちろん",
+    "Romaji": "mochiron"
+  },
+  {
+    "Kanji": "いざ",
+    "Kana": "いざ",
+    "Romaji": "iza"
+  },
+  {
+    "Kanji": "改めて",
+    "Kana": "あらためて",
+    "Romaji": "aratamete"
+  },
+  {
+    "Kanji": "何とも",
+    "Kana": "なんとも",
+    "Romaji": "nantomo"
+  },
+  {
+    "Kanji": "まだまだ",
+    "Kana": "まだまだ",
+    "Romaji": "madamada"
+  },
+  {
+    "Kanji": "できるだけ",
+    "Kana": "できるだけ",
+    "Romaji": "dekirudake"
+  },
+  {
+    "Kanji": "更に",
+    "Kana": "さらに",
+    "Romaji": "sarani"
+  },
+  {
+    "Kanji": "後に",
+    "Kana": "のちに",
+    "Romaji": "nochini"
+  },
+  {
+    "Kanji": "しきりに",
+    "Kana": "しきりに",
+    "Romaji": "shikirini"
+  },
+  {
+    "Kanji": "たいへん",
+    "Kana": "たいへん",
+    "Romaji": "taihen"
+  },
+  {
+    "Kanji": "はっと",
+    "Kana": "はっと",
+    "Romaji": "hatto"
+  },
+  {
+    "Kanji": "無論",
+    "Kana": "むろん",
+    "Romaji": "muron"
+  },
+  {
+    "Kanji": "むろん",
+    "Kana": "むろん",
+    "Romaji": "muron"
+  },
+  {
+    "Kanji": "なんとも",
+    "Kana": "なんとも",
+    "Romaji": "nantomo"
+  },
+  {
+    "Kanji": "まして",
+    "Kana": "まして",
+    "Romaji": "mashite"
+  },
+  {
+    "Kanji": "さっぱり",
+    "Kana": "さっぱり",
+    "Romaji": "sappari"
+  },
+  {
+    "Kanji": "たいてい",
+    "Kana": "たいてい",
+    "Romaji": "taitei"
+  },
+  {
+    "Kanji": "もしかして",
+    "Kana": "もしかして",
+    "Romaji": "moshikashite"
+  }
+]

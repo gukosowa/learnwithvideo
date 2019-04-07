@@ -1,0 +1,3612 @@
+[
+  {
+    "Kanji": "する",
+    "Kana": "する",
+    "Romaji": "suru"
+  },
+  {
+    "Kanji": "いる",
+    "Kana": "いる",
+    "Romaji": "iru"
+  },
+  {
+    "Kanji": "なる",
+    "Kana": "なる",
+    "Romaji": "naru"
+  },
+  {
+    "Kanji": "れる",
+    "Kana": "れる",
+    "Romaji": "reru"
+  },
+  {
+    "Kanji": "いう",
+    "Kana": "いう",
+    "Romaji": "iu"
+  },
+  {
+    "Kanji": "言う",
+    "Kana": "いう",
+    "Romaji": "iu"
+  },
+  {
+    "Kanji": "くる",
+    "Kana": "くる",
+    "Romaji": "kuru"
+  },
+  {
+    "Kanji": "思う",
+    "Kana": "おもう",
+    "Romaji": "omou"
+  },
+  {
+    "Kanji": "見る",
+    "Kana": "みる",
+    "Romaji": "miru"
+  },
+  {
+    "Kanji": "られる",
+    "Kana": "られる",
+    "Romaji": "rareru"
+  },
+  {
+    "Kanji": "せる",
+    "Kana": "せる",
+    "Romaji": "seru"
+  },
+  {
+    "Kanji": "く",
+    "Kana": "く",
+    "Romaji": "ku"
+  },
+  {
+    "Kanji": "できる",
+    "Kana": "できる",
+    "Romaji": "dekiru"
+  },
+  {
+    "Kanji": "しまう",
+    "Kana": "しまう",
+    "Romaji": "shimau"
+  },
+  {
+    "Kanji": "やる",
+    "Kana": "やる",
+    "Romaji": "yaru"
+  },
+  {
+    "Kanji": "みる",
+    "Kana": "みる",
+    "Romaji": "miru"
+  },
+  {
+    "Kanji": "出る",
+    "Kana": "でる",
+    "Romaji": "deru"
+  },
+  {
+    "Kanji": "知る",
+    "Kana": "しる",
+    "Romaji": "shiru"
+  },
+  {
+    "Kanji": "行く",
+    "Kana": "いく",
+    "Romaji": "iku"
+  },
+  {
+    "Kanji": "わかる",
+    "Kana": "わかる",
+    "Romaji": "wakaru"
+  },
+  {
+    "Kanji": "くれる",
+    "Kana": "くれる",
+    "Romaji": "kureru"
+  },
+  {
+    "Kanji": "きる",
+    "Kana": "きる",
+    "Romaji": "kiru"
+  },
+  {
+    "Kanji": "つく",
+    "Kana": "つく",
+    "Romaji": "tsuku"
+  },
+  {
+    "Kanji": "聞く",
+    "Kana": "きく",
+    "Romaji": "kiku"
+  },
+  {
+    "Kanji": "見える",
+    "Kana": "みえる",
+    "Romaji": "mieru"
+  },
+  {
+    "Kanji": "える",
+    "Kana": "える",
+    "Romaji": "eru"
+  },
+  {
+    "Kanji": "考える",
+    "Kana": "かんがえる",
+    "Romaji": "kangaeru"
+  },
+  {
+    "Kanji": "出す",
+    "Kana": "だす",
+    "Romaji": "dasu"
+  },
+  {
+    "Kanji": "入る",
+    "Kana": "はいる",
+    "Romaji": "hairu"
+  },
+  {
+    "Kanji": "持つ",
+    "Kana": "もつ",
+    "Romaji": "motsu"
+  },
+  {
+    "Kanji": "かける",
+    "Kana": "かける",
+    "Romaji": "kakeru"
+  },
+  {
+    "Kanji": "ふる",
+    "Kana": "ふる",
+    "Romaji": "furu"
+  },
+  {
+    "Kanji": "立つ",
+    "Kana": "たつ",
+    "Romaji": "tatsu"
+  },
+  {
+    "Kanji": "おく",
+    "Kana": "おく",
+    "Romaji": "oku"
+  },
+  {
+    "Kanji": "おる",
+    "Kana": "おる",
+    "Romaji": "oru"
+  },
+  {
+    "Kanji": "ひる",
+    "Kana": "ひる",
+    "Romaji": "hiru"
+  },
+  {
+    "Kanji": "ける",
+    "Kana": "ける",
+    "Romaji": "keru"
+  },
+  {
+    "Kanji": "云う",
+    "Kana": "いう",
+    "Romaji": "iu"
+  },
+  {
+    "Kanji": "感じる",
+    "Kana": "かんじる",
+    "Romaji": "kanjiru"
+  },
+  {
+    "Kanji": "ちる",
+    "Kana": "ちる",
+    "Romaji": "chiru"
+  },
+  {
+    "Kanji": "笑う",
+    "Kana": "わらう",
+    "Romaji": "warau"
+  },
+  {
+    "Kanji": "つける",
+    "Kana": "つける",
+    "Romaji": "tsukeru"
+  },
+  {
+    "Kanji": "あげる",
+    "Kana": "あげる",
+    "Romaji": "ageru"
+  },
+  {
+    "Kanji": "しれる",
+    "Kana": "しれる",
+    "Romaji": "shireru"
+  },
+  {
+    "Kanji": "帰る",
+    "Kana": "かえる",
+    "Romaji": "kaeru"
+  },
+  {
+    "Kanji": "ねる",
+    "Kana": "ねる",
+    "Romaji": "neru"
+  },
+  {
+    "Kanji": "待つ",
+    "Kana": "まつ",
+    "Romaji": "matsu"
+  },
+  {
+    "Kanji": "歩く",
+    "Kana": "あるく",
+    "Romaji": "aruku"
+  },
+  {
+    "Kanji": "死ぬ",
+    "Kana": "しぬ",
+    "Romaji": "shinu"
+  },
+  {
+    "Kanji": "スる",
+    "Kana": "スる",
+    "Romaji": "suru"
+  },
+  {
+    "Kanji": "開く",
+    "Kana": "ひらく",
+    "Romaji": "hiraku"
+  },
+  {
+    "Kanji": "使う",
+    "Kana": "つかう",
+    "Romaji": "tsukau"
+  },
+  {
+    "Kanji": "取る",
+    "Kana": "とる",
+    "Romaji": "toru"
+  },
+  {
+    "Kanji": "殺す",
+    "Kana": "ころす",
+    "Romaji": "korosu"
+  },
+  {
+    "Kanji": "戻る",
+    "Kana": "もどる",
+    "Romaji": "modoru"
+  },
+  {
+    "Kanji": "とる",
+    "Kana": "とる",
+    "Romaji": "toru"
+  },
+  {
+    "Kanji": "入れる",
+    "Kana": "いれる",
+    "Romaji": "ireru"
+  },
+  {
+    "Kanji": "呼ぶ",
+    "Kana": "よぶ",
+    "Romaji": "yobu"
+  },
+  {
+    "Kanji": "上げる",
+    "Kana": "あげる",
+    "Romaji": "ageru"
+  },
+  {
+    "Kanji": "答える",
+    "Kana": "こたえる",
+    "Romaji": "kotaeru"
+  },
+  {
+    "Kanji": "振る",
+    "Kana": "ふる",
+    "Romaji": "furu"
+  },
+  {
+    "Kanji": "置く",
+    "Kana": "おく",
+    "Romaji": "oku"
+  },
+  {
+    "Kanji": "見せる",
+    "Kana": "みせる",
+    "Romaji": "miseru"
+  },
+  {
+    "Kanji": "走る",
+    "Kana": "はしる",
+    "Romaji": "hashiru"
+  },
+  {
+    "Kanji": "もらう",
+    "Kana": "もらう",
+    "Romaji": "morau"
+  },
+  {
+    "Kanji": "違う",
+    "Kana": "ちがう",
+    "Romaji": "chigau"
+  },
+  {
+    "Kanji": "動く",
+    "Kana": "うごく",
+    "Romaji": "ugoku"
+  },
+  {
+    "Kanji": "すぎる",
+    "Kana": "すぎる",
+    "Romaji": "sugiru"
+  },
+  {
+    "Kanji": "よる",
+    "Kana": "よる",
+    "Romaji": "yoru"
+  },
+  {
+    "Kanji": "向かう",
+    "Kana": "むかう",
+    "Romaji": "mukau"
+  },
+  {
+    "Kanji": "終わる",
+    "Kana": "おわる",
+    "Romaji": "owaru"
+  },
+  {
+    "Kanji": "始める",
+    "Kana": "はじめる",
+    "Romaji": "hajimeru"
+  },
+  {
+    "Kanji": "書く",
+    "Kana": "かく",
+    "Romaji": "kaku"
+  },
+  {
+    "Kanji": "ちゃう",
+    "Kana": "ちゃう",
+    "Romaji": "chau"
+  },
+  {
+    "Kanji": "落ちる",
+    "Kana": "おちる",
+    "Romaji": "ochiru"
+  },
+  {
+    "Kanji": "受ける",
+    "Kana": "うける",
+    "Romaji": "ukeru"
+  },
+  {
+    "Kanji": "でる",
+    "Kana": "でる",
+    "Romaji": "deru"
+  },
+  {
+    "Kanji": "出来る",
+    "Kana": "できる",
+    "Romaji": "dekiru"
+  },
+  {
+    "Kanji": "くださる",
+    "Kana": "くださる",
+    "Romaji": "kudasaru"
+  },
+  {
+    "Kanji": "聞こえる",
+    "Kana": "きこえる",
+    "Romaji": "kikoeru"
+  },
+  {
+    "Kanji": "向ける",
+    "Kana": "むける",
+    "Romaji": "mukeru"
+  },
+  {
+    "Kanji": "いける",
+    "Kana": "いける",
+    "Romaji": "ikeru"
+  },
+  {
+    "Kanji": "なさる",
+    "Kana": "なさる",
+    "Romaji": "nasaru"
+  },
+  {
+    "Kanji": "引く",
+    "Kana": "ひく",
+    "Romaji": "hiku"
+  },
+  {
+    "Kanji": "続ける",
+    "Kana": "つづける",
+    "Romaji": "tsudukeru"
+  },
+  {
+    "Kanji": "話す",
+    "Kana": "はなす",
+    "Romaji": "hanasu"
+  },
+  {
+    "Kanji": "はじめる",
+    "Kana": "はじめる",
+    "Romaji": "hajimeru"
+  },
+  {
+    "Kanji": "得る",
+    "Kana": "える",
+    "Romaji": "eru"
+  },
+  {
+    "Kanji": "行う",
+    "Kana": "おこなう",
+    "Romaji": "okonau"
+  },
+  {
+    "Kanji": "居る",
+    "Kana": "いる",
+    "Romaji": "iru"
+  },
+  {
+    "Kanji": "かれる",
+    "Kana": "かれる",
+    "Romaji": "kareru"
+  },
+  {
+    "Kanji": "信じる",
+    "Kana": "しんじる",
+    "Romaji": "shinjiru"
+  },
+  {
+    "Kanji": "忘れる",
+    "Kana": "わすれる",
+    "Romaji": "wasureru"
+  },
+  {
+    "Kanji": "残る",
+    "Kana": "のこる",
+    "Romaji": "nokoru"
+  },
+  {
+    "Kanji": "がる",
+    "Kana": "がる",
+    "Romaji": "garu"
+  },
+  {
+    "Kanji": "気づく",
+    "Kana": "きづく",
+    "Romaji": "kiduku"
+  },
+  {
+    "Kanji": "生きる",
+    "Kana": "いきる",
+    "Romaji": "ikiru"
+  },
+  {
+    "Kanji": "見つめる",
+    "Kana": "みつめる",
+    "Romaji": "mitsumeru"
+  },
+  {
+    "Kanji": "会う",
+    "Kana": "あう",
+    "Romaji": "au"
+  },
+  {
+    "Kanji": "切る",
+    "Kana": "きる",
+    "Romaji": "kiru"
+  },
+  {
+    "Kanji": "飛ぶ",
+    "Kana": "とぶ",
+    "Romaji": "tobu"
+  },
+  {
+    "Kanji": "しいる",
+    "Kana": "しいる",
+    "Romaji": "shiiru"
+  },
+  {
+    "Kanji": "知れる",
+    "Kana": "しれる",
+    "Romaji": "shireru"
+  },
+  {
+    "Kanji": "作る",
+    "Kana": "つくる",
+    "Romaji": "tsukuru"
+  },
+  {
+    "Kanji": "こむ",
+    "Kana": "こむ",
+    "Romaji": "komu"
+  },
+  {
+    "Kanji": "消える",
+    "Kana": "きえる",
+    "Romaji": "kieru"
+  },
+  {
+    "Kanji": "だす",
+    "Kana": "だす",
+    "Romaji": "dasu"
+  },
+  {
+    "Kanji": "ほる",
+    "Kana": "ほる",
+    "Romaji": "horu"
+  },
+  {
+    "Kanji": "分かる",
+    "Kana": "わかる",
+    "Romaji": "wakaru"
+  },
+  {
+    "Kanji": "変わる",
+    "Kana": "かわる",
+    "Romaji": "kawaru"
+  },
+  {
+    "Kanji": "にる",
+    "Kana": "にる",
+    "Romaji": "niru"
+  },
+  {
+    "Kanji": "乗る",
+    "Kana": "のる",
+    "Romaji": "noru"
+  },
+  {
+    "Kanji": "思える",
+    "Kana": "おもえる",
+    "Romaji": "omoeru"
+  },
+  {
+    "Kanji": "ゆく",
+    "Kana": "ゆく",
+    "Romaji": "yuku"
+  },
+  {
+    "Kanji": "驚く",
+    "Kana": "おどろく",
+    "Romaji": "odoroku"
+  },
+  {
+    "Kanji": "離れる",
+    "Kana": "はなれる",
+    "Romaji": "hanareru"
+  },
+  {
+    "Kanji": "ゐる",
+    "Kana": "ゐる",
+    "Romaji": "wiru"
+  },
+  {
+    "Kanji": "うなずく",
+    "Kana": "うなずく",
+    "Romaji": "unazuku"
+  },
+  {
+    "Kanji": "黙る",
+    "Kana": "だまる",
+    "Romaji": "damaru"
+  },
+  {
+    "Kanji": "ぶる",
+    "Kana": "ぶる",
+    "Romaji": "buru"
+  },
+  {
+    "Kanji": "立てる",
+    "Kana": "たてる",
+    "Romaji": "tateru"
+  },
+  {
+    "Kanji": "やめる",
+    "Kana": "やめる",
+    "Romaji": "yameru"
+  },
+  {
+    "Kanji": "思い出す",
+    "Kana": "おもいだす",
+    "Romaji": "omoidasu"
+  },
+  {
+    "Kanji": "教える",
+    "Kana": "おしえる",
+    "Romaji": "oshieru"
+  },
+  {
+    "Kanji": "続く",
+    "Kana": "つづく",
+    "Romaji": "tsuduku"
+  },
+  {
+    "Kanji": "飲む",
+    "Kana": "のむ",
+    "Romaji": "nomu"
+  },
+  {
+    "Kanji": "逃げる",
+    "Kana": "にげる",
+    "Romaji": "nigeru"
+  },
+  {
+    "Kanji": "叫ぶ",
+    "Kana": "さけぶ",
+    "Romaji": "sakebu"
+  },
+  {
+    "Kanji": "着る",
+    "Kana": "きる",
+    "Romaji": "kiru"
+  },
+  {
+    "Kanji": "開ける",
+    "Kana": "あける",
+    "Romaji": "akeru"
+  },
+  {
+    "Kanji": "似る",
+    "Kana": "にる",
+    "Romaji": "niru"
+  },
+  {
+    "Kanji": "近づく",
+    "Kana": "ちかづく",
+    "Romaji": "chikaduku"
+  },
+  {
+    "Kanji": "ぼる",
+    "Kana": "ぼる",
+    "Romaji": "boru"
+  },
+  {
+    "Kanji": "合う",
+    "Kana": "あう",
+    "Romaji": "au"
+  },
+  {
+    "Kanji": "泣く",
+    "Kana": "なく",
+    "Romaji": "naku"
+  },
+  {
+    "Kanji": "かう",
+    "Kana": "かう",
+    "Romaji": "kau"
+  },
+  {
+    "Kanji": "させる",
+    "Kana": "させる",
+    "Romaji": "saseru"
+  },
+  {
+    "Kanji": "押す",
+    "Kana": "おす",
+    "Romaji": "osu"
+  },
+  {
+    "Kanji": "止める",
+    "Kana": "とめる",
+    "Romaji": "tomeru"
+  },
+  {
+    "Kanji": "しく",
+    "Kana": "しく",
+    "Romaji": "shiku"
+  },
+  {
+    "Kanji": "上がる",
+    "Kana": "あがる",
+    "Romaji": "agaru"
+  },
+  {
+    "Kanji": "失う",
+    "Kana": "うしなう",
+    "Romaji": "ushinau"
+  },
+  {
+    "Kanji": "読む",
+    "Kana": "よむ",
+    "Romaji": "yomu"
+  },
+  {
+    "Kanji": "食べる",
+    "Kana": "たべる",
+    "Romaji": "taberu"
+  },
+  {
+    "Kanji": "込む",
+    "Kana": "こむ",
+    "Romaji": "komu"
+  },
+  {
+    "Kanji": "困る",
+    "Kana": "こまる",
+    "Romaji": "komaru"
+  },
+  {
+    "Kanji": "覚える",
+    "Kana": "おぼえる",
+    "Romaji": "oboeru"
+  },
+  {
+    "Kanji": "握る",
+    "Kana": "にぎる",
+    "Romaji": "nigiru"
+  },
+  {
+    "Kanji": "返す",
+    "Kana": "かえす",
+    "Romaji": "kaesu"
+  },
+  {
+    "Kanji": "はいる",
+    "Kana": "はいる",
+    "Romaji": "hairu"
+  },
+  {
+    "Kanji": "通る",
+    "Kana": "とおる",
+    "Romaji": "tooru"
+  },
+  {
+    "Kanji": "寝る",
+    "Kana": "ねる",
+    "Romaji": "neru"
+  },
+  {
+    "Kanji": "連れる",
+    "Kana": "つれる",
+    "Romaji": "tsureru"
+  },
+  {
+    "Kanji": "進む",
+    "Kana": "すすむ",
+    "Romaji": "susumu"
+  },
+  {
+    "Kanji": "打つ",
+    "Kana": "うつ",
+    "Romaji": "utsu"
+  },
+  {
+    "Kanji": "申す",
+    "Kana": "もうす",
+    "Romaji": "mousu"
+  },
+  {
+    "Kanji": "与える",
+    "Kana": "あたえる",
+    "Romaji": "ataeru"
+  },
+  {
+    "Kanji": "追う",
+    "Kana": "おう",
+    "Romaji": "ou"
+  },
+  {
+    "Kanji": "立ち上がる",
+    "Kana": "たちあがる",
+    "Romaji": "tachiagaru"
+  },
+  {
+    "Kanji": "かる",
+    "Kana": "かる",
+    "Romaji": "karu"
+  },
+  {
+    "Kanji": "流れる",
+    "Kana": "ながれる",
+    "Romaji": "nagareru"
+  },
+  {
+    "Kanji": "過ぎる",
+    "Kana": "すぎる",
+    "Romaji": "sugiru"
+  },
+  {
+    "Kanji": "買う",
+    "Kana": "かう",
+    "Romaji": "kau"
+  },
+  {
+    "Kanji": "分る",
+    "Kana": "わかる",
+    "Romaji": "wakaru"
+  },
+  {
+    "Kanji": "隠す",
+    "Kana": "かくす",
+    "Romaji": "kakusu"
+  },
+  {
+    "Kanji": "送る",
+    "Kana": "おくる",
+    "Romaji": "okuru"
+  },
+  {
+    "Kanji": "許す",
+    "Kana": "ゆるす",
+    "Romaji": "yurusu"
+  },
+  {
+    "Kanji": "下さる",
+    "Kana": "くださる",
+    "Romaji": "kudasaru"
+  },
+  {
+    "Kanji": "見つける",
+    "Kana": "みつける",
+    "Romaji": "mitsukeru"
+  },
+  {
+    "Kanji": "残す",
+    "Kana": "のこす",
+    "Romaji": "nokosu"
+  },
+  {
+    "Kanji": "抱く",
+    "Kana": "いだく",
+    "Romaji": "idaku"
+  },
+  {
+    "Kanji": "気がつく",
+    "Kana": "きがつく",
+    "Romaji": "kigatsuku"
+  },
+  {
+    "Kanji": "訊く",
+    "Kana": "きく",
+    "Romaji": "kiku"
+  },
+  {
+    "Kanji": "怒る",
+    "Kana": "おこる",
+    "Romaji": "okoru"
+  },
+  {
+    "Kanji": "動かす",
+    "Kana": "うごかす",
+    "Romaji": "ugokasu"
+  },
+  {
+    "Kanji": "つづける",
+    "Kana": "つづける",
+    "Romaji": "tsudukeru"
+  },
+  {
+    "Kanji": "守る",
+    "Kana": "まもる",
+    "Romaji": "mamoru"
+  },
+  {
+    "Kanji": "向く",
+    "Kana": "むく",
+    "Romaji": "muku"
+  },
+  {
+    "Kanji": "つぶやく",
+    "Kana": "つぶやく",
+    "Romaji": "tsubuyaku"
+  },
+  {
+    "Kanji": "変える",
+    "Kana": "かえる",
+    "Romaji": "kaeru"
+  },
+  {
+    "Kanji": "うる",
+    "Kana": "うる",
+    "Romaji": "uru"
+  },
+  {
+    "Kanji": "起こす",
+    "Kana": "おこす",
+    "Romaji": "okosu"
+  },
+  {
+    "Kanji": "眺める",
+    "Kana": "ながめる",
+    "Romaji": "nagameru"
+  },
+  {
+    "Kanji": "あがる",
+    "Kana": "あがる",
+    "Romaji": "agaru"
+  },
+  {
+    "Kanji": "探す",
+    "Kana": "さがす",
+    "Romaji": "sagasu"
+  },
+  {
+    "Kanji": "座る",
+    "Kana": "すわる",
+    "Romaji": "suwaru"
+  },
+  {
+    "Kanji": "そる",
+    "Kana": "そる",
+    "Romaji": "soru"
+  },
+  {
+    "Kanji": "降りる",
+    "Kana": "おりる",
+    "Romaji": "oriru"
+  },
+  {
+    "Kanji": "起こる",
+    "Kana": "おこる",
+    "Romaji": "okoru"
+  },
+  {
+    "Kanji": "見上げる",
+    "Kana": "みあげる",
+    "Romaji": "miageru"
+  },
+  {
+    "Kanji": "認める",
+    "Kana": "みとめる",
+    "Romaji": "mitomeru"
+  },
+  {
+    "Kanji": "もどる",
+    "Kana": "もどる",
+    "Romaji": "modoru"
+  },
+  {
+    "Kanji": "落とす",
+    "Kana": "おとす",
+    "Romaji": "otosu"
+  },
+  {
+    "Kanji": "運ぶ",
+    "Kana": "はこぶ",
+    "Romaji": "hakobu"
+  },
+  {
+    "Kanji": "起きる",
+    "Kana": "おきる",
+    "Romaji": "okiru"
+  },
+  {
+    "Kanji": "眠る",
+    "Kana": "ねむる",
+    "Romaji": "nemuru"
+  },
+  {
+    "Kanji": "食う",
+    "Kana": "くう",
+    "Romaji": "kuu"
+  },
+  {
+    "Kanji": "働く",
+    "Kana": "はたらく",
+    "Romaji": "hataraku"
+  },
+  {
+    "Kanji": "助ける",
+    "Kana": "たすける",
+    "Romaji": "tasukeru"
+  },
+  {
+    "Kanji": "あう",
+    "Kana": "あう",
+    "Romaji": "au"
+  },
+  {
+    "Kanji": "浮かぶ",
+    "Kana": "うかぶ",
+    "Romaji": "ukabu"
+  },
+  {
+    "Kanji": "求める",
+    "Kana": "もとめる",
+    "Romaji": "motomeru"
+  },
+  {
+    "Kanji": "現れる",
+    "Kana": "あらわれる",
+    "Romaji": "arawareru"
+  },
+  {
+    "Kanji": "放つ",
+    "Kana": "はなつ",
+    "Romaji": "hanatsu"
+  },
+  {
+    "Kanji": "閉じる",
+    "Kana": "とじる",
+    "Romaji": "tojiru"
+  },
+  {
+    "Kanji": "倒れる",
+    "Kana": "たおれる",
+    "Romaji": "taoreru"
+  },
+  {
+    "Kanji": "捨てる",
+    "Kana": "すてる",
+    "Romaji": "suteru"
+  },
+  {
+    "Kanji": "示す",
+    "Kana": "しめす",
+    "Romaji": "shimesu"
+  },
+  {
+    "Kanji": "合わせる",
+    "Kana": "あわせる",
+    "Romaji": "awaseru"
+  },
+  {
+    "Kanji": "戦う",
+    "Kana": "たたかう",
+    "Romaji": "tatakau"
+  },
+  {
+    "Kanji": "むく",
+    "Kana": "むく",
+    "Romaji": "muku"
+  },
+  {
+    "Kanji": "かむ",
+    "Kana": "かむ",
+    "Romaji": "kamu"
+  },
+  {
+    "Kanji": "返る",
+    "Kana": "かえる",
+    "Romaji": "kaeru"
+  },
+  {
+    "Kanji": "並ぶ",
+    "Kana": "ならぶ",
+    "Romaji": "narabu"
+  },
+  {
+    "Kanji": "振り返る",
+    "Kana": "ふりかえる",
+    "Romaji": "furikaeru"
+  },
+  {
+    "Kanji": "かぐ",
+    "Kana": "かぐ",
+    "Romaji": "kagu"
+  },
+  {
+    "Kanji": "包む",
+    "Kana": "つつむ",
+    "Romaji": "tsutsumu"
+  },
+  {
+    "Kanji": "言える",
+    "Kana": "いえる",
+    "Romaji": "ieru"
+  },
+  {
+    "Kanji": "生まれる",
+    "Kana": "うまれる",
+    "Romaji": "umareru"
+  },
+  {
+    "Kanji": "みせる",
+    "Kana": "みせる",
+    "Romaji": "miseru"
+  },
+  {
+    "Kanji": "住む",
+    "Kana": "すむ",
+    "Romaji": "sumu"
+  },
+  {
+    "Kanji": "選ぶ",
+    "Kana": "えらぶ",
+    "Romaji": "erabu"
+  },
+  {
+    "Kanji": "へる",
+    "Kana": "へる",
+    "Romaji": "heru"
+  },
+  {
+    "Kanji": "触れる",
+    "Kana": "ふれる",
+    "Romaji": "fureru"
+  },
+  {
+    "Kanji": "尋ねる",
+    "Kana": "たずねる",
+    "Romaji": "tazuneru"
+  },
+  {
+    "Kanji": "すむ",
+    "Kana": "すむ",
+    "Romaji": "sumu"
+  },
+  {
+    "Kanji": "抜ける",
+    "Kana": "ぬける",
+    "Romaji": "nukeru"
+  },
+  {
+    "Kanji": "叩く",
+    "Kana": "たたく",
+    "Romaji": "tataku"
+  },
+  {
+    "Kanji": "決める",
+    "Kana": "きめる",
+    "Romaji": "kimeru"
+  },
+  {
+    "Kanji": "頼む",
+    "Kana": "たのむ",
+    "Romaji": "tanomu"
+  },
+  {
+    "Kanji": "急ぐ",
+    "Kana": "いそぐ",
+    "Romaji": "isogu"
+  },
+  {
+    "Kanji": "つかむ",
+    "Kana": "つかむ",
+    "Romaji": "tsukamu"
+  },
+  {
+    "Kanji": "抜く",
+    "Kana": "ぬく",
+    "Romaji": "nuku"
+  },
+  {
+    "Kanji": "告げる",
+    "Kana": "つげる",
+    "Romaji": "tsugeru"
+  },
+  {
+    "Kanji": "たてる",
+    "Kana": "たてる",
+    "Romaji": "tateru"
+  },
+  {
+    "Kanji": "いただく",
+    "Kana": "いただく",
+    "Romaji": "itadaku"
+  },
+  {
+    "Kanji": "鳴る",
+    "Kana": "なる",
+    "Romaji": "naru"
+  },
+  {
+    "Kanji": "調べる",
+    "Kana": "しらべる",
+    "Romaji": "shiraberu"
+  },
+  {
+    "Kanji": "上る",
+    "Kana": "のぼる",
+    "Romaji": "noboru"
+  },
+  {
+    "Kanji": "光る",
+    "Kana": "ひかる",
+    "Romaji": "hikaru"
+  },
+  {
+    "Kanji": "止まる",
+    "Kana": "とまる",
+    "Romaji": "tomaru"
+  },
+  {
+    "Kanji": "浮かべる",
+    "Kana": "うかべる",
+    "Romaji": "ukaberu"
+  },
+  {
+    "Kanji": "着く",
+    "Kana": "つく",
+    "Romaji": "tsuku"
+  },
+  {
+    "Kanji": "下げる",
+    "Kana": "さげる",
+    "Romaji": "sageru"
+  },
+  {
+    "Kanji": "描く",
+    "Kana": "えがく",
+    "Romaji": "egaku"
+  },
+  {
+    "Kanji": "震える",
+    "Kana": "ふるえる",
+    "Romaji": "furueru"
+  },
+  {
+    "Kanji": "いたす",
+    "Kana": "いたす",
+    "Romaji": "itasu"
+  },
+  {
+    "Kanji": "吹く",
+    "Kana": "ふく",
+    "Romaji": "fuku"
+  },
+  {
+    "Kanji": "ちまう",
+    "Kana": "ちまう",
+    "Romaji": "chimau"
+  },
+  {
+    "Kanji": "降る",
+    "Kana": "ふる",
+    "Romaji": "furu"
+  },
+  {
+    "Kanji": "吸う",
+    "Kana": "すう",
+    "Romaji": "suu"
+  },
+  {
+    "Kanji": "回る",
+    "Kana": "まわる",
+    "Romaji": "mawaru"
+  },
+  {
+    "Kanji": "いえる",
+    "Kana": "いえる",
+    "Romaji": "ieru"
+  },
+  {
+    "Kanji": "やってくる",
+    "Kana": "やってくる",
+    "Romaji": "yattekuru"
+  },
+  {
+    "Kanji": "伸ばす",
+    "Kana": "のばす",
+    "Romaji": "nobasu"
+  },
+  {
+    "Kanji": "うなる",
+    "Kana": "うなる",
+    "Romaji": "unaru"
+  },
+  {
+    "Kanji": "あわてる",
+    "Kana": "あわてる",
+    "Romaji": "awateru"
+  },
+  {
+    "Kanji": "かぶる",
+    "Kana": "かぶる",
+    "Romaji": "kaburu"
+  },
+  {
+    "Kanji": "なれる",
+    "Kana": "なれる",
+    "Romaji": "nareru"
+  },
+  {
+    "Kanji": "ひく",
+    "Kana": "ひく",
+    "Romaji": "hiku"
+  },
+  {
+    "Kanji": "寄せる",
+    "Kana": "よせる",
+    "Romaji": "yoseru"
+  },
+  {
+    "Kanji": "語る",
+    "Kana": "かたる",
+    "Romaji": "kataru"
+  },
+  {
+    "Kanji": "ちがう",
+    "Kana": "ちがう",
+    "Romaji": "chigau"
+  },
+  {
+    "Kanji": "蹴る",
+    "Kana": "ける",
+    "Romaji": "keru"
+  },
+  {
+    "Kanji": "当てる",
+    "Kana": "あてる",
+    "Romaji": "ateru"
+  },
+  {
+    "Kanji": "張る",
+    "Kana": "はる",
+    "Romaji": "haru"
+  },
+  {
+    "Kanji": "判る",
+    "Kana": "わかる",
+    "Romaji": "wakaru"
+  },
+  {
+    "Kanji": "届く",
+    "Kana": "とどく",
+    "Romaji": "todoku"
+  },
+  {
+    "Kanji": "取り出す",
+    "Kana": "とりだす",
+    "Romaji": "toridasu"
+  },
+  {
+    "Kanji": "巻く",
+    "Kana": "まく",
+    "Romaji": "maku"
+  },
+  {
+    "Kanji": "伝える",
+    "Kana": "つたえる",
+    "Romaji": "tsutaeru"
+  },
+  {
+    "Kanji": "決まる",
+    "Kana": "きまる",
+    "Romaji": "kimaru"
+  },
+  {
+    "Kanji": "襲う",
+    "Kana": "おそう",
+    "Romaji": "osou"
+  },
+  {
+    "Kanji": "始まる",
+    "Kana": "はじまる",
+    "Romaji": "hajimaru"
+  },
+  {
+    "Kanji": "下ろす",
+    "Kana": "おろす",
+    "Romaji": "orosu"
+  },
+  {
+    "Kanji": "寄る",
+    "Kana": "よる",
+    "Romaji": "yoru"
+  },
+  {
+    "Kanji": "まわす",
+    "Kana": "まわす",
+    "Romaji": "mawasu"
+  },
+  {
+    "Kanji": "つづく",
+    "Kana": "つづく",
+    "Romaji": "tsuduku"
+  },
+  {
+    "Kanji": "流す",
+    "Kana": "ながす",
+    "Romaji": "nagasu"
+  },
+  {
+    "Kanji": "消す",
+    "Kana": "けす",
+    "Romaji": "kesu"
+  },
+  {
+    "Kanji": "さえる",
+    "Kana": "さえる",
+    "Romaji": "saeru"
+  },
+  {
+    "Kanji": "まわる",
+    "Kana": "まわる",
+    "Romaji": "mawaru"
+  },
+  {
+    "Kanji": "舐める",
+    "Kana": "なめる",
+    "Romaji": "nameru"
+  },
+  {
+    "Kanji": "広がる",
+    "Kana": "ひろがる",
+    "Romaji": "hirogaru"
+  },
+  {
+    "Kanji": "吐く",
+    "Kana": "はく",
+    "Romaji": "haku"
+  },
+  {
+    "Kanji": "響く",
+    "Kana": "ひびく",
+    "Romaji": "hibiku"
+  },
+  {
+    "Kanji": "渡す",
+    "Kana": "わたす",
+    "Romaji": "watasu"
+  },
+  {
+    "Kanji": "負ける",
+    "Kana": "まける",
+    "Romaji": "makeru"
+  },
+  {
+    "Kanji": "いらっしゃる",
+    "Kana": "いらっしゃる",
+    "Romaji": "irassharu"
+  },
+  {
+    "Kanji": "当たる",
+    "Kana": "あたる",
+    "Romaji": "ataru"
+  },
+  {
+    "Kanji": "しかる",
+    "Kana": "しかる",
+    "Romaji": "shikaru"
+  },
+  {
+    "Kanji": "見つかる",
+    "Kana": "みつかる",
+    "Romaji": "mitsukaru"
+  },
+  {
+    "Kanji": "ませる",
+    "Kana": "ませる",
+    "Romaji": "maseru"
+  },
+  {
+    "Kanji": "切れる",
+    "Kana": "きれる",
+    "Romaji": "kireru"
+  },
+  {
+    "Kanji": "済む",
+    "Kana": "すむ",
+    "Romaji": "sumu"
+  },
+  {
+    "Kanji": "さす",
+    "Kana": "さす",
+    "Romaji": "sasu"
+  },
+  {
+    "Kanji": "投げる",
+    "Kana": "なげる",
+    "Romaji": "nageru"
+  },
+  {
+    "Kanji": "喜ぶ",
+    "Kana": "よろこぶ",
+    "Romaji": "yorokobu"
+  },
+  {
+    "Kanji": "売る",
+    "Kana": "うる",
+    "Romaji": "uru"
+  },
+  {
+    "Kanji": "渡る",
+    "Kana": "わたる",
+    "Romaji": "wataru"
+  },
+  {
+    "Kanji": "望む",
+    "Kana": "のぞむ",
+    "Romaji": "nozomu"
+  },
+  {
+    "Kanji": "輝く",
+    "Kana": "かがやく",
+    "Romaji": "kagayaku"
+  },
+  {
+    "Kanji": "こる",
+    "Kana": "こる",
+    "Romaji": "koru"
+  },
+  {
+    "Kanji": "かえる",
+    "Kana": "かえる",
+    "Romaji": "kaeru"
+  },
+  {
+    "Kanji": "落ち着く",
+    "Kana": "おちつく",
+    "Romaji": "ochitsuku"
+  },
+  {
+    "Kanji": "覗く",
+    "Kana": "のぞく",
+    "Romaji": "nozoku"
+  },
+  {
+    "Kanji": "集まる",
+    "Kana": "あつまる",
+    "Romaji": "atsumaru"
+  },
+  {
+    "Kanji": "きれる",
+    "Kana": "きれる",
+    "Romaji": "kireru"
+  },
+  {
+    "Kanji": "つくる",
+    "Kana": "つくる",
+    "Romaji": "tsukuru"
+  },
+  {
+    "Kanji": "まう",
+    "Kana": "まう",
+    "Romaji": "mau"
+  },
+  {
+    "Kanji": "頷く",
+    "Kana": "うなずく",
+    "Romaji": "unazuku"
+  },
+  {
+    "Kanji": "おっしゃる",
+    "Kana": "おっしゃる",
+    "Romaji": "ossharu"
+  },
+  {
+    "Kanji": "こく",
+    "Kana": "こく",
+    "Romaji": "koku"
+  },
+  {
+    "Kanji": "含む",
+    "Kana": "ふくむ",
+    "Romaji": "fukumu"
+  },
+  {
+    "Kanji": "飛び出す",
+    "Kana": "とびだす",
+    "Romaji": "tobidasu"
+  },
+  {
+    "Kanji": "おう",
+    "Kana": "おう",
+    "Romaji": "ou"
+  },
+  {
+    "Kanji": "離す",
+    "Kana": "はなす",
+    "Romaji": "hanasu"
+  },
+  {
+    "Kanji": "やく",
+    "Kana": "やく",
+    "Romaji": "yaku"
+  },
+  {
+    "Kanji": "確かめる",
+    "Kana": "たしかめる",
+    "Romaji": "tashikameru"
+  },
+  {
+    "Kanji": "かわる",
+    "Kana": "かわる",
+    "Romaji": "kawaru"
+  },
+  {
+    "Kanji": "はねる",
+    "Kana": "はねる",
+    "Romaji": "haneru"
+  },
+  {
+    "Kanji": "濡れる",
+    "Kana": "ぬれる",
+    "Romaji": "nureru"
+  },
+  {
+    "Kanji": "触る",
+    "Kana": "さわる",
+    "Romaji": "sawaru"
+  },
+  {
+    "Kanji": "回す",
+    "Kana": "まわす",
+    "Romaji": "mawasu"
+  },
+  {
+    "Kanji": "斬る",
+    "Kana": "きる",
+    "Romaji": "kiru"
+  },
+  {
+    "Kanji": "疲れる",
+    "Kana": "つかれる",
+    "Romaji": "tsukareru"
+  },
+  {
+    "Kanji": "脱ぐ",
+    "Kana": "ぬぐ",
+    "Romaji": "nugu"
+  },
+  {
+    "Kanji": "迎える",
+    "Kana": "むかえる",
+    "Romaji": "mukaeru"
+  },
+  {
+    "Kanji": "映る",
+    "Kana": "うつる",
+    "Romaji": "utsuru"
+  },
+  {
+    "Kanji": "突く",
+    "Kana": "つく",
+    "Romaji": "tsuku"
+  },
+  {
+    "Kanji": "あける",
+    "Kana": "あける",
+    "Romaji": "akeru"
+  },
+  {
+    "Kanji": "広げる",
+    "Kana": "ひろげる",
+    "Romaji": "hirogeru"
+  },
+  {
+    "Kanji": "もらえる",
+    "Kana": "もらえる",
+    "Romaji": "moraeru"
+  },
+  {
+    "Kanji": "とぶ",
+    "Kana": "とぶ",
+    "Romaji": "tobu"
+  },
+  {
+    "Kanji": "かねる",
+    "Kana": "かねる",
+    "Romaji": "kaneru"
+  },
+  {
+    "Kanji": "参る",
+    "Kana": "まいる",
+    "Romaji": "mairu"
+  },
+  {
+    "Kanji": "しゃべる",
+    "Kana": "しゃべる",
+    "Romaji": "shaberu"
+  },
+  {
+    "Kanji": "鳴らす",
+    "Kana": "ならす",
+    "Romaji": "narasu"
+  },
+  {
+    "Kanji": "出かける",
+    "Kana": "でかける",
+    "Romaji": "dekakeru"
+  },
+  {
+    "Kanji": "慣れる",
+    "Kana": "なれる",
+    "Romaji": "nareru"
+  },
+  {
+    "Kanji": "付く",
+    "Kana": "つく",
+    "Romaji": "tsuku"
+  },
+  {
+    "Kanji": "うむ",
+    "Kana": "うむ",
+    "Romaji": "umu"
+  },
+  {
+    "Kanji": "借りる",
+    "Kana": "かりる",
+    "Romaji": "kariru"
+  },
+  {
+    "Kanji": "直す",
+    "Kana": "なおす",
+    "Romaji": "naosu"
+  },
+  {
+    "Kanji": "払う",
+    "Kana": "はらう",
+    "Romaji": "harau"
+  },
+  {
+    "Kanji": "救う",
+    "Kana": "すくう",
+    "Romaji": "sukuu"
+  },
+  {
+    "Kanji": "われる",
+    "Kana": "われる",
+    "Romaji": "wareru"
+  },
+  {
+    "Kanji": "迫る",
+    "Kana": "せまる",
+    "Romaji": "semaru"
+  },
+  {
+    "Kanji": "繰り返す",
+    "Kana": "くりかえす",
+    "Romaji": "kurikaesu"
+  },
+  {
+    "Kanji": "揺れる",
+    "Kana": "ゆれる",
+    "Romaji": "yureru"
+  },
+  {
+    "Kanji": "転がる",
+    "Kana": "ころがる",
+    "Romaji": "korogaru"
+  },
+  {
+    "Kanji": "組む",
+    "Kana": "くむ",
+    "Romaji": "kumu"
+  },
+  {
+    "Kanji": "伝わる",
+    "Kana": "つたわる",
+    "Romaji": "tsutawaru"
+  },
+  {
+    "Kanji": "受け取る",
+    "Kana": "うけとる",
+    "Romaji": "uketoru"
+  },
+  {
+    "Kanji": "探る",
+    "Kana": "さぐる",
+    "Romaji": "saguru"
+  },
+  {
+    "Kanji": "燃える",
+    "Kana": "もえる",
+    "Romaji": "moeru"
+  },
+  {
+    "Kanji": "限る",
+    "Kana": "かぎる",
+    "Romaji": "kagiru"
+  },
+  {
+    "Kanji": "やって来る",
+    "Kana": "やってくる",
+    "Romaji": "yattekuru"
+  },
+  {
+    "Kanji": "抱える",
+    "Kana": "かかえる",
+    "Romaji": "kakaeru"
+  },
+  {
+    "Kanji": "やむ",
+    "Kana": "やむ",
+    "Romaji": "yamu"
+  },
+  {
+    "Kanji": "おろす",
+    "Kana": "おろす",
+    "Romaji": "orosu"
+  },
+  {
+    "Kanji": "かまう",
+    "Kana": "かまう",
+    "Romaji": "kamau"
+  },
+  {
+    "Kanji": "疑う",
+    "Kana": "うたがう",
+    "Romaji": "utagau"
+  },
+  {
+    "Kanji": "隠れる",
+    "Kana": "かくれる",
+    "Romaji": "kakureru"
+  },
+  {
+    "Kanji": "遊ぶ",
+    "Kana": "あそぶ",
+    "Romaji": "asobu"
+  },
+  {
+    "Kanji": "坐る",
+    "Kana": "すわる",
+    "Romaji": "suwaru"
+  },
+  {
+    "Kanji": "乗せる",
+    "Kana": "のせる",
+    "Romaji": "noseru"
+  },
+  {
+    "Kanji": "奪う",
+    "Kana": "うばう",
+    "Romaji": "ubau"
+  },
+  {
+    "Kanji": "外す",
+    "Kana": "はずす",
+    "Romaji": "hazusu"
+  },
+  {
+    "Kanji": "なくなる",
+    "Kana": "なくなる",
+    "Romaji": "nakunaru"
+  },
+  {
+    "Kanji": "埋める",
+    "Kana": "うめる",
+    "Romaji": "umeru"
+  },
+  {
+    "Kanji": "迷う",
+    "Kana": "まよう",
+    "Romaji": "mayou"
+  },
+  {
+    "Kanji": "焼く",
+    "Kana": "やく",
+    "Romaji": "yaku"
+  },
+  {
+    "Kanji": "休む",
+    "Kana": "やすむ",
+    "Romaji": "yasumu"
+  },
+  {
+    "Kanji": "駆る",
+    "Kana": "かる",
+    "Romaji": "karu"
+  },
+  {
+    "Kanji": "押さえる",
+    "Kana": "おさえる",
+    "Romaji": "osaeru"
+  },
+  {
+    "Kanji": "破る",
+    "Kana": "やぶる",
+    "Romaji": "yaburu"
+  },
+  {
+    "Kanji": "まえる",
+    "Kana": "まえる",
+    "Romaji": "maeru"
+  },
+  {
+    "Kanji": "沈む",
+    "Kana": "しずむ",
+    "Romaji": "shizumu"
+  },
+  {
+    "Kanji": "終える",
+    "Kana": "おえる",
+    "Romaji": "oeru"
+  },
+  {
+    "Kanji": "楽しむ",
+    "Kana": "たのしむ",
+    "Romaji": "tanoshimu"
+  },
+  {
+    "Kanji": "たずねる",
+    "Kana": "たずねる",
+    "Romaji": "tazuneru"
+  },
+  {
+    "Kanji": "問う",
+    "Kana": "とう",
+    "Romaji": "tou"
+  },
+  {
+    "Kanji": "変る",
+    "Kana": "かわる",
+    "Romaji": "kawaru"
+  },
+  {
+    "Kanji": "加える",
+    "Kana": "くわえる",
+    "Romaji": "kuwaeru"
+  },
+  {
+    "Kanji": "致す",
+    "Kana": "いたす",
+    "Romaji": "itasu"
+  },
+  {
+    "Kanji": "伸びる",
+    "Kana": "のびる",
+    "Romaji": "nobiru"
+  },
+  {
+    "Kanji": "下りる",
+    "Kana": "おりる",
+    "Romaji": "oriru"
+  },
+  {
+    "Kanji": "覆う",
+    "Kana": "おおう",
+    "Romaji": "oou"
+  },
+  {
+    "Kanji": "集める",
+    "Kana": "あつめる",
+    "Romaji": "atsumeru"
+  },
+  {
+    "Kanji": "避ける",
+    "Kana": "さける",
+    "Romaji": "sakeru"
+  },
+  {
+    "Kanji": "差し出す",
+    "Kana": "さしだす",
+    "Romaji": "sashidasu"
+  },
+  {
+    "Kanji": "踏む",
+    "Kana": "ふむ",
+    "Romaji": "fumu"
+  },
+  {
+    "Kanji": "倒す",
+    "Kana": "たおす",
+    "Romaji": "taosu"
+  },
+  {
+    "Kanji": "掛ける",
+    "Kana": "かける",
+    "Romaji": "kakeru"
+  },
+  {
+    "Kanji": "戻す",
+    "Kana": "もどす",
+    "Romaji": "modosu"
+  },
+  {
+    "Kanji": "洗う",
+    "Kana": "あらう",
+    "Romaji": "arau"
+  },
+  {
+    "Kanji": "現われる",
+    "Kana": "あらわれる",
+    "Romaji": "arawareru"
+  },
+  {
+    "Kanji": "耐える",
+    "Kana": "たえる",
+    "Romaji": "taeru"
+  },
+  {
+    "Kanji": "命じる",
+    "Kana": "めいじる",
+    "Romaji": "meijiru"
+  },
+  {
+    "Kanji": "ぶつかる",
+    "Kana": "ぶつかる",
+    "Romaji": "butsukaru"
+  },
+  {
+    "Kanji": "結ぶ",
+    "Kana": "むすぶ",
+    "Romaji": "musubu"
+  },
+  {
+    "Kanji": "振り向く",
+    "Kana": "ふりむく",
+    "Romaji": "furimuku"
+  },
+  {
+    "Kanji": "気付く",
+    "Kana": "きづく",
+    "Romaji": "kiduku"
+  },
+  {
+    "Kanji": "有る",
+    "Kana": "ある",
+    "Romaji": "aru"
+  },
+  {
+    "Kanji": "怒鳴る",
+    "Kana": "どなる",
+    "Romaji": "donaru"
+  },
+  {
+    "Kanji": "従う",
+    "Kana": "したがう",
+    "Romaji": "shitagau"
+  },
+  {
+    "Kanji": "割る",
+    "Kana": "われる",
+    "Romaji": "wareru"
+  },
+  {
+    "Kanji": "至る",
+    "Kana": "いたる",
+    "Romaji": "itaru"
+  },
+  {
+    "Kanji": "登る",
+    "Kana": "のぼる",
+    "Romaji": "noboru"
+  },
+  {
+    "Kanji": "愛す",
+    "Kana": "あいす",
+    "Romaji": "aisu"
+  },
+  {
+    "Kanji": "掴む",
+    "Kana": "つかむ",
+    "Romaji": "tsukamu"
+  },
+  {
+    "Kanji": "とめる",
+    "Kana": "とめる",
+    "Romaji": "tomeru"
+  },
+  {
+    "Kanji": "照らす",
+    "Kana": "てらす",
+    "Romaji": "terasu"
+  },
+  {
+    "Kanji": "のむ",
+    "Kana": "のむ",
+    "Romaji": "nomu"
+  },
+  {
+    "Kanji": "呟く",
+    "Kana": "つぶやく",
+    "Romaji": "tsubuyaku"
+  },
+  {
+    "Kanji": "願う",
+    "Kana": "ねがう",
+    "Romaji": "negau"
+  },
+  {
+    "Kanji": "通す",
+    "Kana": "とおす",
+    "Romaji": "toosu"
+  },
+  {
+    "Kanji": "ぬる",
+    "Kana": "ぬる",
+    "Romaji": "nuru"
+  },
+  {
+    "Kanji": "駆ける",
+    "Kana": "かける",
+    "Romaji": "kakeru"
+  },
+  {
+    "Kanji": "勝つ",
+    "Kana": "かつ",
+    "Romaji": "katsu"
+  },
+  {
+    "Kanji": "すく",
+    "Kana": "すく",
+    "Romaji": "suku"
+  },
+  {
+    "Kanji": "支える",
+    "Kana": "ささえる",
+    "Romaji": "sasaeru"
+  },
+  {
+    "Kanji": "貰う",
+    "Kana": "もらう",
+    "Romaji": "morau"
+  },
+  {
+    "Kanji": "別れる",
+    "Kana": "わかれる",
+    "Romaji": "wakareru"
+  },
+  {
+    "Kanji": "のぞく",
+    "Kana": "のぞく",
+    "Romaji": "nozoku"
+  },
+  {
+    "Kanji": "散る",
+    "Kana": "ちる",
+    "Romaji": "chiru"
+  },
+  {
+    "Kanji": "浮く",
+    "Kana": "うく",
+    "Romaji": "uku"
+  },
+  {
+    "Kanji": "出会う",
+    "Kana": "であう",
+    "Romaji": "deau"
+  },
+  {
+    "Kanji": "なぐ",
+    "Kana": "なぐ",
+    "Romaji": "nagu"
+  },
+  {
+    "Kanji": "付ける",
+    "Kana": "つける",
+    "Romaji": "tsukeru"
+  },
+  {
+    "Kanji": "押しつける",
+    "Kana": "おしつける",
+    "Romaji": "oshitsukeru"
+  },
+  {
+    "Kanji": "撃つ",
+    "Kana": "うつ",
+    "Romaji": "utsu"
+  },
+  {
+    "Kanji": "飛ばす",
+    "Kana": "とばす",
+    "Romaji": "tobasu"
+  },
+  {
+    "Kanji": "構う",
+    "Kana": "かまう",
+    "Romaji": "kamau"
+  },
+  {
+    "Kanji": "見下ろす",
+    "Kana": "みおろす",
+    "Romaji": "miorosu"
+  },
+  {
+    "Kanji": "ばる",
+    "Kana": "ばる",
+    "Romaji": "baru"
+  },
+  {
+    "Kanji": "這う",
+    "Kana": "はう",
+    "Romaji": "hau"
+  },
+  {
+    "Kanji": "構える",
+    "Kana": "かまえる",
+    "Romaji": "kamaeru"
+  },
+  {
+    "Kanji": "越える",
+    "Kana": "こえる",
+    "Romaji": "koeru"
+  },
+  {
+    "Kanji": "拾う",
+    "Kana": "ひろう",
+    "Romaji": "hirou"
+  },
+  {
+    "Kanji": "にぎる",
+    "Kana": "にぎる",
+    "Romaji": "nigiru"
+  },
+  {
+    "Kanji": "話しかける",
+    "Kana": "はなしかける",
+    "Romaji": "hanashikakeru"
+  },
+  {
+    "Kanji": "貸す",
+    "Kana": "かす",
+    "Romaji": "kasu"
+  },
+  {
+    "Kanji": "づく",
+    "Kana": "づく",
+    "Romaji": "duku"
+  },
+  {
+    "Kanji": "もる",
+    "Kana": "もる",
+    "Romaji": "moru"
+  },
+  {
+    "Kanji": "及ぶ",
+    "Kana": "およぶ",
+    "Romaji": "oyobu"
+  },
+  {
+    "Kanji": "応じる",
+    "Kana": "おうじる",
+    "Romaji": "oujiru"
+  },
+  {
+    "Kanji": "通じる",
+    "Kana": "つうじる",
+    "Romaji": "tsuujiru"
+  },
+  {
+    "Kanji": "たまる",
+    "Kana": "たまる",
+    "Romaji": "tamaru"
+  },
+  {
+    "Kanji": "撫でる",
+    "Kana": "なでる",
+    "Romaji": "naderu"
+  },
+  {
+    "Kanji": "殴る",
+    "Kana": "なぐる",
+    "Romaji": "naguru"
+  },
+  {
+    "Kanji": "重ねる",
+    "Kana": "かさねる",
+    "Romaji": "kasaneru"
+  },
+  {
+    "Kanji": "狂う",
+    "Kana": "くるう",
+    "Romaji": "kuruu"
+  },
+  {
+    "Kanji": "誘う",
+    "Kana": "さそう",
+    "Romaji": "sasou"
+  },
+  {
+    "Kanji": "はぐ",
+    "Kana": "はぐ",
+    "Romaji": "hagu"
+  },
+  {
+    "Kanji": "うける",
+    "Kana": "うける",
+    "Romaji": "ukeru"
+  },
+  {
+    "Kanji": "しる",
+    "Kana": "しる",
+    "Romaji": "shiru"
+  },
+  {
+    "Kanji": "使える",
+    "Kana": "つかえる",
+    "Romaji": "tsukaeru"
+  },
+  {
+    "Kanji": "聞える",
+    "Kana": "きこえる",
+    "Romaji": "kikoeru"
+  },
+  {
+    "Kanji": "恐れる",
+    "Kana": "おそれる",
+    "Romaji": "osoreru"
+  },
+  {
+    "Kanji": "移る",
+    "Kana": "うつる",
+    "Romaji": "utsuru"
+  },
+  {
+    "Kanji": "すくめる",
+    "Kana": "すくめる",
+    "Romaji": "sukumeru"
+  },
+  {
+    "Kanji": "思ふ",
+    "Kana": "おもふ",
+    "Romaji": "omofu"
+  },
+  {
+    "Kanji": "追いかける",
+    "Kana": "おいかける",
+    "Romaji": "oikakeru"
+  },
+  {
+    "Kanji": "こめる",
+    "Kana": "こめる",
+    "Romaji": "komeru"
+  },
+  {
+    "Kanji": "まいる",
+    "Kana": "まいる",
+    "Romaji": "mairu"
+  },
+  {
+    "Kanji": "伏せる",
+    "Kana": "ふせる",
+    "Romaji": "fuseru"
+  },
+  {
+    "Kanji": "増す",
+    "Kana": "ます",
+    "Romaji": "masu"
+  },
+  {
+    "Kanji": "見回す",
+    "Kana": "みまわす",
+    "Romaji": "mimawasu"
+  },
+  {
+    "Kanji": "狙う",
+    "Kana": "ねらう",
+    "Romaji": "nerau"
+  },
+  {
+    "Kanji": "任せる",
+    "Kana": "まかせる",
+    "Romaji": "makaseru"
+  },
+  {
+    "Kanji": "並べる",
+    "Kana": "ならべる",
+    "Romaji": "naraberu"
+  },
+  {
+    "Kanji": "引っ張る",
+    "Kana": "ひっぱる",
+    "Romaji": "hipparu"
+  },
+  {
+    "Kanji": "呼びかける",
+    "Kana": "よびかける",
+    "Romaji": "yobikakeru"
+  },
+  {
+    "Kanji": "慌てる",
+    "Kana": "あわてる",
+    "Romaji": "awateru"
+  },
+  {
+    "Kanji": "はう",
+    "Kana": "はう",
+    "Romaji": "hau"
+  },
+  {
+    "Kanji": "終る",
+    "Kana": "おわる",
+    "Romaji": "owaru"
+  },
+  {
+    "Kanji": "しめる",
+    "Kana": "しめる",
+    "Romaji": "shimeru"
+  },
+  {
+    "Kanji": "遣る",
+    "Kana": "やる",
+    "Romaji": "yaru"
+  },
+  {
+    "Kanji": "折る",
+    "Kana": "おる",
+    "Romaji": "oru"
+  },
+  {
+    "Kanji": "ひそめる",
+    "Kana": "ひそめる",
+    "Romaji": "hisomeru"
+  },
+  {
+    "Kanji": "飛び込む",
+    "Kana": "とびこむ",
+    "Romaji": "tobikomu"
+  },
+  {
+    "Kanji": "囲む",
+    "Kana": "かこむ",
+    "Romaji": "kakomu"
+  },
+  {
+    "Kanji": "あたる",
+    "Kana": "あたる",
+    "Romaji": "ataru"
+  },
+  {
+    "Kanji": "隠る",
+    "Kana": "こもる",
+    "Romaji": "komoru"
+  },
+  {
+    "Kanji": "恐る",
+    "Kana": "おそれる",
+    "Romaji": "osoreru"
+  },
+  {
+    "Kanji": "満ちる",
+    "Kana": "みちる",
+    "Romaji": "michiru"
+  },
+  {
+    "Kanji": "比べる",
+    "Kana": "くらべる",
+    "Romaji": "kuraberu"
+  },
+  {
+    "Kanji": "足りる",
+    "Kana": "たりる",
+    "Romaji": "tariru"
+  },
+  {
+    "Kanji": "こする",
+    "Kana": "こする",
+    "Romaji": "kosuru"
+  },
+  {
+    "Kanji": "のる",
+    "Kana": "のる",
+    "Romaji": "noru"
+  },
+  {
+    "Kanji": "行なう",
+    "Kana": "おこなう",
+    "Romaji": "okonau"
+  },
+  {
+    "Kanji": "仰る",
+    "Kana": "おっしゃる",
+    "Romaji": "ossharu"
+  },
+  {
+    "Kanji": "みえる",
+    "Kana": "みえる",
+    "Romaji": "mieru"
+  },
+  {
+    "Kanji": "助かる",
+    "Kana": "たすかる",
+    "Romaji": "tasukaru"
+  },
+  {
+    "Kanji": "逃げ出す",
+    "Kana": "にげだす",
+    "Romaji": "nigedasu"
+  },
+  {
+    "Kanji": "発す",
+    "Kana": "はっす",
+    "Romaji": "hassu"
+  },
+  {
+    "Kanji": "すう",
+    "Kana": "すう",
+    "Romaji": "suu"
+  },
+  {
+    "Kanji": "差す",
+    "Kana": "さす",
+    "Romaji": "sasu"
+  },
+  {
+    "Kanji": "ためらう",
+    "Kana": "ためらう",
+    "Romaji": "tamerau"
+  },
+  {
+    "Kanji": "解く",
+    "Kana": "とく",
+    "Romaji": "toku"
+  },
+  {
+    "Kanji": "積む",
+    "Kana": "つむ",
+    "Romaji": "tsumu"
+  },
+  {
+    "Kanji": "下る",
+    "Kana": "くだる",
+    "Romaji": "kudaru"
+  },
+  {
+    "Kanji": "思いつく",
+    "Kana": "おもいつく",
+    "Romaji": "omoitsuku"
+  },
+  {
+    "Kanji": "見送る",
+    "Kana": "みおくる",
+    "Romaji": "miokuru"
+  },
+  {
+    "Kanji": "下がる",
+    "Kana": "さがる",
+    "Romaji": "sagaru"
+  },
+  {
+    "Kanji": "突き出す",
+    "Kana": "つきだす",
+    "Romaji": "tsukidasu"
+  },
+  {
+    "Kanji": "あせる",
+    "Kana": "あせる",
+    "Romaji": "aseru"
+  },
+  {
+    "Kanji": "どく",
+    "Kana": "どく",
+    "Romaji": "doku"
+  },
+  {
+    "Kanji": "暮らす",
+    "Kana": "くらす",
+    "Romaji": "kurasu"
+  },
+  {
+    "Kanji": "見守る",
+    "Kana": "みまもる",
+    "Romaji": "mimamoru"
+  },
+  {
+    "Kanji": "呻く",
+    "Kana": "うめく",
+    "Romaji": "umeku"
+  },
+  {
+    "Kanji": "漂う",
+    "Kana": "ただよう",
+    "Romaji": "tadayou"
+  },
+  {
+    "Kanji": "かわす",
+    "Kana": "かわす",
+    "Romaji": "kawasu"
+  },
+  {
+    "Kanji": "成る",
+    "Kana": "なる",
+    "Romaji": "naru"
+  },
+  {
+    "Kanji": "くう",
+    "Kana": "くう",
+    "Romaji": "kuu"
+  },
+  {
+    "Kanji": "ゆる",
+    "Kana": "ゆる",
+    "Romaji": "yuru"
+  },
+  {
+    "Kanji": "ささやく",
+    "Kana": "ささやく",
+    "Romaji": "sasayaku"
+  },
+  {
+    "Kanji": "貫く",
+    "Kana": "つらぬく",
+    "Romaji": "tsuranuku"
+  },
+  {
+    "Kanji": "犯す",
+    "Kana": "おかす",
+    "Romaji": "okasu"
+  },
+  {
+    "Kanji": "生じる",
+    "Kana": "しょうじる",
+    "Romaji": "shoujiru"
+  },
+  {
+    "Kanji": "折れる",
+    "Kana": "おれる",
+    "Romaji": "oreru"
+  },
+  {
+    "Kanji": "廻る",
+    "Kana": "めぐる",
+    "Romaji": "meguru"
+  },
+  {
+    "Kanji": "いたる",
+    "Kana": "いたる",
+    "Romaji": "itaru"
+  },
+  {
+    "Kanji": "頼る",
+    "Kana": "たよる",
+    "Romaji": "tayoru"
+  },
+  {
+    "Kanji": "手伝う",
+    "Kana": "てつだう",
+    "Romaji": "tetsudau"
+  },
+  {
+    "Kanji": "立ち止まる",
+    "Kana": "たちどまる",
+    "Romaji": "tachidomaru"
+  },
+  {
+    "Kanji": "うかがう",
+    "Kana": "うかがう",
+    "Romaji": "ukagau"
+  },
+  {
+    "Kanji": "閉める",
+    "Kana": "しめる",
+    "Romaji": "shimeru"
+  },
+  {
+    "Kanji": "注ぐ",
+    "Kana": "そそぐ",
+    "Romaji": "sosogu"
+  },
+  {
+    "Kanji": "むかう",
+    "Kana": "むかう",
+    "Romaji": "mukau"
+  },
+  {
+    "Kanji": "あてる",
+    "Kana": "あてる",
+    "Romaji": "ateru"
+  },
+  {
+    "Kanji": "つまる",
+    "Kana": "つまる",
+    "Romaji": "tsumaru"
+  },
+  {
+    "Kanji": "気に入る",
+    "Kana": "きにいる",
+    "Romaji": "kiniiru"
+  },
+  {
+    "Kanji": "ふむ",
+    "Kana": "ふむ",
+    "Romaji": "fumu"
+  },
+  {
+    "Kanji": "味わう",
+    "Kana": "あじわう",
+    "Romaji": "ajiwau"
+  },
+  {
+    "Kanji": "間違う",
+    "Kana": "まちがう",
+    "Romaji": "machigau"
+  },
+  {
+    "Kanji": "とまる",
+    "Kana": "とまる",
+    "Romaji": "tomaru"
+  },
+  {
+    "Kanji": "いれる",
+    "Kana": "いれる",
+    "Romaji": "ireru"
+  },
+  {
+    "Kanji": "立ちあがる",
+    "Kana": "たちあがる",
+    "Romaji": "tachiagaru"
+  },
+  {
+    "Kanji": "貼る",
+    "Kana": "はる",
+    "Romaji": "haru"
+  },
+  {
+    "Kanji": "浴びる",
+    "Kana": "あびる",
+    "Romaji": "abiru"
+  },
+  {
+    "Kanji": "焦る",
+    "Kana": "あせる",
+    "Romaji": "aseru"
+  },
+  {
+    "Kanji": "かかわる",
+    "Kana": "かかわる",
+    "Romaji": "kakawaru"
+  },
+  {
+    "Kanji": "踊る",
+    "Kana": "おどる",
+    "Romaji": "odoru"
+  },
+  {
+    "Kanji": "聴く",
+    "Kana": "きく",
+    "Romaji": "kiku"
+  },
+  {
+    "Kanji": "進める",
+    "Kana": "すすめる",
+    "Romaji": "susumeru"
+  },
+  {
+    "Kanji": "訴える",
+    "Kana": "うったえる",
+    "Romaji": "uttaeru"
+  },
+  {
+    "Kanji": "指さす",
+    "Kana": "ゆびさす",
+    "Romaji": "yubisasu"
+  },
+  {
+    "Kanji": "昇る",
+    "Kana": "のぼる",
+    "Romaji": "noboru"
+  },
+  {
+    "Kanji": "混じる",
+    "Kana": "まじる",
+    "Romaji": "majiru"
+  },
+  {
+    "Kanji": "刺す",
+    "Kana": "さす",
+    "Romaji": "sasu"
+  },
+  {
+    "Kanji": "微笑む",
+    "Kana": "ほほえむ",
+    "Romaji": "hohoemu"
+  },
+  {
+    "Kanji": "育つ",
+    "Kana": "そだつ",
+    "Romaji": "sodatsu"
+  },
+  {
+    "Kanji": "述べる",
+    "Kana": "のべる",
+    "Romaji": "noberu"
+  },
+  {
+    "Kanji": "過ごす",
+    "Kana": "すごす",
+    "Romaji": "sugosu"
+  },
+  {
+    "Kanji": "受け入れる",
+    "Kana": "うけいれる",
+    "Romaji": "ukeireru"
+  },
+  {
+    "Kanji": "噛む",
+    "Kana": "かむ",
+    "Romaji": "kamu"
+  },
+  {
+    "Kanji": "生える",
+    "Kana": "はえる",
+    "Romaji": "haeru"
+  },
+  {
+    "Kanji": "震わせる",
+    "Kana": "ふるわせる",
+    "Romaji": "furuwaseru"
+  },
+  {
+    "Kanji": "めぐる",
+    "Kana": "めぐる",
+    "Romaji": "meguru"
+  },
+  {
+    "Kanji": "溢れる",
+    "Kana": "あふれる",
+    "Romaji": "afureru"
+  },
+  {
+    "Kanji": "祈る",
+    "Kana": "いのる",
+    "Romaji": "inoru"
+  },
+  {
+    "Kanji": "はずす",
+    "Kana": "はずす",
+    "Romaji": "hazusu"
+  },
+  {
+    "Kanji": "解る",
+    "Kana": "わかる",
+    "Romaji": "wakaru"
+  },
+  {
+    "Kanji": "湧く",
+    "Kana": "わく",
+    "Romaji": "waku"
+  },
+  {
+    "Kanji": "訪れる",
+    "Kana": "おとずれる",
+    "Romaji": "otozureru"
+  },
+  {
+    "Kanji": "見開く",
+    "Kana": "みひらく",
+    "Romaji": "mihiraku"
+  },
+  {
+    "Kanji": "行ける",
+    "Kana": "いける",
+    "Romaji": "ikeru"
+  },
+  {
+    "Kanji": "喘ぐ",
+    "Kana": "あえぐ",
+    "Romaji": "aegu"
+  },
+  {
+    "Kanji": "むす",
+    "Kana": "むす",
+    "Romaji": "musu"
+  },
+  {
+    "Kanji": "持ち上げる",
+    "Kana": "もちあげる",
+    "Romaji": "mochiageru"
+  },
+  {
+    "Kanji": "横たわる",
+    "Kana": "よこたわる",
+    "Romaji": "yokotawaru"
+  },
+  {
+    "Kanji": "こもる",
+    "Kana": "こもる",
+    "Romaji": "komoru"
+  },
+  {
+    "Kanji": "たす",
+    "Kana": "たす",
+    "Romaji": "tasu"
+  },
+  {
+    "Kanji": "経つ",
+    "Kana": "たつ",
+    "Romaji": "tatsu"
+  },
+  {
+    "Kanji": "とれる",
+    "Kana": "とれる",
+    "Romaji": "toreru"
+  },
+  {
+    "Kanji": "まく",
+    "Kana": "まく",
+    "Romaji": "maku"
+  },
+  {
+    "Kanji": "たまう",
+    "Kana": "たまう",
+    "Romaji": "tamau"
+  },
+  {
+    "Kanji": "保つ",
+    "Kana": "たもつ",
+    "Romaji": "tamotsu"
+  },
+  {
+    "Kanji": "目立つ",
+    "Kana": "めだつ",
+    "Romaji": "medatsu"
+  },
+  {
+    "Kanji": "くぐる",
+    "Kana": "くぐる",
+    "Romaji": "kuguru"
+  },
+  {
+    "Kanji": "達す",
+    "Kana": "たっす",
+    "Romaji": "tassu"
+  },
+  {
+    "Kanji": "あふれる",
+    "Kana": "あふれる",
+    "Romaji": "afureru"
+  },
+  {
+    "Kanji": "訪ねる",
+    "Kana": "たずねる",
+    "Romaji": "tazuneru"
+  },
+  {
+    "Kanji": "分ける",
+    "Kana": "わける",
+    "Romaji": "wakeru"
+  },
+  {
+    "Kanji": "似合う",
+    "Kana": "にあう",
+    "Romaji": "niau"
+  },
+  {
+    "Kanji": "断る",
+    "Kana": "ことわる",
+    "Romaji": "kotowaru"
+  },
+  {
+    "Kanji": "見やる",
+    "Kana": "みやる",
+    "Romaji": "miyaru"
+  },
+  {
+    "Kanji": "ひらく",
+    "Kana": "ひらく",
+    "Romaji": "hiraku"
+  },
+  {
+    "Kanji": "はじまる",
+    "Kana": "はじまる",
+    "Romaji": "hajimaru"
+  },
+  {
+    "Kanji": "取り戻す",
+    "Kana": "とりもどす",
+    "Romaji": "torimodosu"
+  },
+  {
+    "Kanji": "捜す",
+    "Kana": "さがす",
+    "Romaji": "sagasu"
+  },
+  {
+    "Kanji": "すわる",
+    "Kana": "すわる",
+    "Romaji": "suwaru"
+  },
+  {
+    "Kanji": "掘る",
+    "Kana": "ほる",
+    "Romaji": "horu"
+  },
+  {
+    "Kanji": "責める",
+    "Kana": "せめる",
+    "Romaji": "semeru"
+  },
+  {
+    "Kanji": "崩れる",
+    "Kana": "くずれる",
+    "Romaji": "kuzureru"
+  },
+  {
+    "Kanji": "喋る",
+    "Kana": "しゃべる",
+    "Romaji": "shaberu"
+  },
+  {
+    "Kanji": "歌う",
+    "Kana": "うたう",
+    "Romaji": "utau"
+  },
+  {
+    "Kanji": "放す",
+    "Kana": "ほかす",
+    "Romaji": "hokasu"
+  },
+  {
+    "Kanji": "染める",
+    "Kana": "そめる",
+    "Romaji": "someru"
+  },
+  {
+    "Kanji": "しかめる",
+    "Kana": "しかめる",
+    "Romaji": "shikameru"
+  },
+  {
+    "Kanji": "抑える",
+    "Kana": "おさえる",
+    "Romaji": "osaeru"
+  },
+  {
+    "Kanji": "叱る",
+    "Kana": "しかる",
+    "Romaji": "shikaru"
+  },
+  {
+    "Kanji": "移す",
+    "Kana": "うつす",
+    "Romaji": "utsusu"
+  },
+  {
+    "Kanji": "塗る",
+    "Kana": "ぬる",
+    "Romaji": "nuru"
+  },
+  {
+    "Kanji": "染まる",
+    "Kana": "そまる",
+    "Romaji": "somaru"
+  },
+  {
+    "Kanji": "放る",
+    "Kana": "ほうる",
+    "Romaji": "houru"
+  },
+  {
+    "Kanji": "おりる",
+    "Kana": "おりる",
+    "Romaji": "oriru"
+  },
+  {
+    "Kanji": "つながる",
+    "Kana": "つながる",
+    "Romaji": "tsunagaru"
+  },
+  {
+    "Kanji": "まくる",
+    "Kana": "まくる",
+    "Romaji": "makuru"
+  },
+  {
+    "Kanji": "きこえる",
+    "Kana": "きこえる",
+    "Romaji": "kikoeru"
+  },
+  {
+    "Kanji": "まとう",
+    "Kana": "まとう",
+    "Romaji": "matou"
+  },
+  {
+    "Kanji": "遅れる",
+    "Kana": "おくれる",
+    "Romaji": "okureru"
+  },
+  {
+    "Kanji": "下す",
+    "Kana": "くだす",
+    "Romaji": "kudasu"
+  },
+  {
+    "Kanji": "しがみつく",
+    "Kana": "しがみつく",
+    "Romaji": "shigamitsuku"
+  },
+  {
+    "Kanji": "重なる",
+    "Kana": "かさなる",
+    "Romaji": "kasanaru"
+  },
+  {
+    "Kanji": "つぐ",
+    "Kana": "つぐ",
+    "Romaji": "tsugu"
+  },
+  {
+    "Kanji": "だく",
+    "Kana": "だく",
+    "Romaji": "daku"
+  },
+  {
+    "Kanji": "うつむく",
+    "Kana": "うつむく",
+    "Romaji": "utsumuku"
+  },
+  {
+    "Kanji": "突っ込む",
+    "Kana": "つっこむ",
+    "Romaji": "tsukkomu"
+  },
+  {
+    "Kanji": "背負う",
+    "Kana": "せおう",
+    "Romaji": "seou"
+  },
+  {
+    "Kanji": "見合わせる",
+    "Kana": "みあわせる",
+    "Romaji": "miawaseru"
+  },
+  {
+    "Kanji": "化す",
+    "Kana": "かす",
+    "Romaji": "kasu"
+  },
+  {
+    "Kanji": "撮る",
+    "Kana": "とる",
+    "Romaji": "toru"
+  },
+  {
+    "Kanji": "ひねる",
+    "Kana": "ひねる",
+    "Romaji": "hineru"
+  },
+  {
+    "Kanji": "挟む",
+    "Kana": "はさむ",
+    "Romaji": "hasamu"
+  },
+  {
+    "Kanji": "のばす",
+    "Kana": "のばす",
+    "Romaji": "nobasu"
+  },
+  {
+    "Kanji": "擦る",
+    "Kana": "こする",
+    "Romaji": "kosuru"
+  },
+  {
+    "Kanji": "縛る",
+    "Kana": "しばる",
+    "Romaji": "shibaru"
+  },
+  {
+    "Kanji": "役に立つ",
+    "Kana": "やくにたつ",
+    "Romaji": "yakunitatsu"
+  },
+  {
+    "Kanji": "乗り出す",
+    "Kana": "のりだす",
+    "Romaji": "noridasu"
+  },
+  {
+    "Kanji": "まとめる",
+    "Kana": "まとめる",
+    "Romaji": "matomeru"
+  },
+  {
+    "Kanji": "揉む",
+    "Kana": "もむ",
+    "Romaji": "momu"
+  },
+  {
+    "Kanji": "呑む",
+    "Kana": "のむ",
+    "Romaji": "nomu"
+  },
+  {
+    "Kanji": "つかう",
+    "Kana": "つかう",
+    "Romaji": "tsukau"
+  },
+  {
+    "Kanji": "酔う",
+    "Kana": "よう",
+    "Romaji": "you"
+  },
+  {
+    "Kanji": "つなぐ",
+    "Kana": "つなぐ",
+    "Romaji": "tsunagu"
+  },
+  {
+    "Kanji": "射る",
+    "Kana": "いる",
+    "Romaji": "iru"
+  },
+  {
+    "Kanji": "曲がる",
+    "Kana": "まがる",
+    "Romaji": "magaru"
+  },
+  {
+    "Kanji": "頑張る",
+    "Kana": "がんばる",
+    "Romaji": "ganbaru"
+  },
+  {
+    "Kanji": "ぬぐ",
+    "Kana": "ぬぐ",
+    "Romaji": "nugu"
+  },
+  {
+    "Kanji": "乱れる",
+    "Kana": "みだれる",
+    "Romaji": "midareru"
+  },
+  {
+    "Kanji": "つれる",
+    "Kana": "つれる",
+    "Romaji": "tsureru"
+  },
+  {
+    "Kanji": "唸る",
+    "Kana": "うなる",
+    "Romaji": "unaru"
+  },
+  {
+    "Kanji": "めく",
+    "Kana": "めく",
+    "Romaji": "meku"
+  },
+  {
+    "Kanji": "苦しむ",
+    "Kana": "くるしむ",
+    "Romaji": "kurushimu"
+  },
+  {
+    "Kanji": "尖る",
+    "Kana": "とがる",
+    "Romaji": "togaru"
+  },
+  {
+    "Kanji": "加わる",
+    "Kana": "くわわる",
+    "Romaji": "kuwawaru"
+  },
+  {
+    "Kanji": "込める",
+    "Kana": "こめる",
+    "Romaji": "komeru"
+  },
+  {
+    "Kanji": "異なる",
+    "Kana": "ことなる",
+    "Romaji": "kotonaru"
+  },
+  {
+    "Kanji": "唱える",
+    "Kana": "となえる",
+    "Romaji": "tonaeru"
+  },
+  {
+    "Kanji": "はさむ",
+    "Kana": "はさむ",
+    "Romaji": "hasamu"
+  },
+  {
+    "Kanji": "会える",
+    "Kana": "あえる",
+    "Romaji": "aeru"
+  },
+  {
+    "Kanji": "申し上げる",
+    "Kana": "もうしあげる",
+    "Romaji": "moushiageru"
+  },
+  {
+    "Kanji": "捕る",
+    "Kana": "とる",
+    "Romaji": "toru"
+  },
+  {
+    "Kanji": "覆る",
+    "Kana": "くつがえる",
+    "Romaji": "kutsugaeru"
+  },
+  {
+    "Kanji": "這入る",
+    "Kana": "はいいる",
+    "Romaji": "haiiru"
+  },
+  {
+    "Kanji": "舞う",
+    "Kana": "まう",
+    "Romaji": "mau"
+  },
+  {
+    "Kanji": "たたく",
+    "Kana": "たたく",
+    "Romaji": "tataku"
+  },
+  {
+    "Kanji": "負う",
+    "Kana": "おう",
+    "Romaji": "ou"
+  },
+  {
+    "Kanji": "存じる",
+    "Kana": "ぞんじる",
+    "Romaji": "zonjiru"
+  },
+  {
+    "Kanji": "なく",
+    "Kana": "なく",
+    "Romaji": "naku"
+  },
+  {
+    "Kanji": "くちる",
+    "Kana": "くちる",
+    "Romaji": "kuchiru"
+  },
+  {
+    "Kanji": "辿る",
+    "Kana": "たどる",
+    "Romaji": "tadoru"
+  },
+  {
+    "Kanji": "おびる",
+    "Kana": "おびる",
+    "Romaji": "obiru"
+  },
+  {
+    "Kanji": "名乗る",
+    "Kana": "なのる",
+    "Romaji": "nanoru"
+  },
+  {
+    "Kanji": "痛む",
+    "Kana": "いたむ",
+    "Romaji": "itamu"
+  },
+  {
+    "Kanji": "引きずる",
+    "Kana": "ひきずる",
+    "Romaji": "hikizuru"
+  },
+  {
+    "Kanji": "悟る",
+    "Kana": "さとる",
+    "Romaji": "satoru"
+  },
+  {
+    "Kanji": "尽くす",
+    "Kana": "つくす",
+    "Romaji": "tsukusu"
+  },
+  {
+    "Kanji": "扱う",
+    "Kana": "あつかう",
+    "Romaji": "atsukau"
+  },
+  {
+    "Kanji": "よこす",
+    "Kana": "よこす",
+    "Romaji": "yokosu"
+  },
+  {
+    "Kanji": "帯びる",
+    "Kana": "おびる",
+    "Romaji": "obiru"
+  },
+  {
+    "Kanji": "裏切る",
+    "Kana": "うらぎる",
+    "Romaji": "uragiru"
+  },
+  {
+    "Kanji": "跳ねる",
+    "Kana": "はねる",
+    "Romaji": "haneru"
+  },
+  {
+    "Kanji": "やれる",
+    "Kana": "やれる",
+    "Romaji": "yareru"
+  },
+  {
+    "Kanji": "聞かす",
+    "Kana": "きかす",
+    "Romaji": "kikasu"
+  },
+  {
+    "Kanji": "退る",
+    "Kana": "しさる",
+    "Romaji": "shisaru"
+  },
+  {
+    "Kanji": "こす",
+    "Kana": "こす",
+    "Romaji": "kosu"
+  },
+  {
+    "Kanji": "焼ける",
+    "Kana": "やける",
+    "Romaji": "yakeru"
+  },
+  {
+    "Kanji": "近寄る",
+    "Kana": "ちかよる",
+    "Romaji": "chikayoru"
+  },
+  {
+    "Kanji": "起つ",
+    "Kana": "たつ",
+    "Romaji": "tatsu"
+  },
+  {
+    "Kanji": "たどる",
+    "Kana": "たどる",
+    "Romaji": "tadoru"
+  },
+  {
+    "Kanji": "祟る",
+    "Kana": "たたる",
+    "Romaji": "tataru"
+  },
+  {
+    "Kanji": "騒ぐ",
+    "Kana": "さわぐ",
+    "Romaji": "sawagu"
+  },
+  {
+    "Kanji": "おこる",
+    "Kana": "おこる",
+    "Romaji": "okoru"
+  },
+  {
+    "Kanji": "ながめる",
+    "Kana": "ながめる",
+    "Romaji": "nagameru"
+  },
+  {
+    "Kanji": "あきらめる",
+    "Kana": "あきらめる",
+    "Romaji": "akirameru"
+  },
+  {
+    "Kanji": "だける",
+    "Kana": "だける",
+    "Romaji": "dakeru"
+  },
+  {
+    "Kanji": "載る",
+    "Kana": "のる",
+    "Romaji": "noru"
+  },
+  {
+    "Kanji": "抱きしめる",
+    "Kana": "だきしめる",
+    "Romaji": "dakishimeru"
+  },
+  {
+    "Kanji": "乾く",
+    "Kana": "かわく",
+    "Romaji": "kawaku"
+  },
+  {
+    "Kanji": "かしげる",
+    "Kana": "かしげる",
+    "Romaji": "kashigeru"
+  },
+  {
+    "Kanji": "導く",
+    "Kana": "みちびく",
+    "Romaji": "michibiku"
+  },
+  {
+    "Kanji": "盗む",
+    "Kana": "ぬすむ",
+    "Romaji": "nusumu"
+  },
+  {
+    "Kanji": "こぼれる",
+    "Kana": "こぼれる",
+    "Romaji": "koboreru"
+  },
+  {
+    "Kanji": "溶ける",
+    "Kana": "とける",
+    "Romaji": "tokeru"
+  },
+  {
+    "Kanji": "細める",
+    "Kana": "ほそめる",
+    "Romaji": "hosomeru"
+  },
+  {
+    "Kanji": "はなれる",
+    "Kana": "はなれる",
+    "Romaji": "hanareru"
+  },
+  {
+    "Kanji": "かかえる",
+    "Kana": "かかえる",
+    "Romaji": "kakaeru"
+  },
+  {
+    "Kanji": "散らす",
+    "Kana": "ちらす",
+    "Romaji": "chirasu"
+  },
+  {
+    "Kanji": "さらす",
+    "Kana": "さらす",
+    "Romaji": "sarasu"
+  },
+  {
+    "Kanji": "満たす",
+    "Kana": "みたす",
+    "Romaji": "mitasu"
+  },
+  {
+    "Kanji": "陥る",
+    "Kana": "おちいる",
+    "Romaji": "ochiiru"
+  },
+  {
+    "Kanji": "学ぶ",
+    "Kana": "まなぶ",
+    "Romaji": "manabu"
+  },
+  {
+    "Kanji": "握りしめる",
+    "Kana": "にぎりしめる",
+    "Romaji": "nigirishimeru"
+  },
+  {
+    "Kanji": "跳ぶ",
+    "Kana": "とぶ",
+    "Romaji": "tobu"
+  },
+  {
+    "Kanji": "果たす",
+    "Kana": "はたす",
+    "Romaji": "hatasu"
+  },
+  {
+    "Kanji": "もたらす",
+    "Kana": "もたらす",
+    "Romaji": "motarasu"
+  },
+  {
+    "Kanji": "あわせる",
+    "Kana": "あわせる",
+    "Romaji": "awaseru"
+  },
+  {
+    "Kanji": "経る",
+    "Kana": "へる",
+    "Romaji": "heru"
+  },
+  {
+    "Kanji": "指す",
+    "Kana": "さす",
+    "Romaji": "sasu"
+  },
+  {
+    "Kanji": "絞る",
+    "Kana": "しぼる",
+    "Romaji": "shiboru"
+  },
+  {
+    "Kanji": "詰まる",
+    "Kana": "つまる",
+    "Romaji": "tsumaru"
+  },
+  {
+    "Kanji": "いただける",
+    "Kana": "いただける",
+    "Romaji": "itadakeru"
+  },
+  {
+    "Kanji": "増える",
+    "Kana": "ふえる",
+    "Romaji": "fueru"
+  },
+  {
+    "Kanji": "汚れる",
+    "Kana": "よごれる",
+    "Romaji": "yogoreru"
+  },
+  {
+    "Kanji": "利く",
+    "Kana": "きく",
+    "Romaji": "kiku"
+  },
+  {
+    "Kanji": "泳ぐ",
+    "Kana": "およぐ",
+    "Romaji": "oyogu"
+  },
+  {
+    "Kanji": "立ち去る",
+    "Kana": "たちさる",
+    "Romaji": "tachisaru"
+  }
+]
