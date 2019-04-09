@@ -1,0 +1,9702 @@
+[
+  {
+    "Kanji": "こと",
+    "Kana": "こと",
+    "Romaji": "koto"
+  },
+  {
+    "Kanji": "人",
+    "Kana": "ひと",
+    "Romaji": "hito"
+  },
+  {
+    "Kanji": "もの",
+    "Kana": "もの",
+    "Romaji": "mono"
+  },
+  {
+    "Kanji": "一",
+    "Kana": "いち",
+    "Romaji": "ichi"
+  },
+  {
+    "Kanji": "何",
+    "Kana": "なに",
+    "Romaji": "nani"
+  },
+  {
+    "Kanji": "二",
+    "Kana": "に",
+    "Romaji": "ni"
+  },
+  {
+    "Kanji": "たち",
+    "Kana": "たち",
+    "Romaji": "tachi"
+  },
+  {
+    "Kanji": "自分",
+    "Kana": "じぶん",
+    "Romaji": "jibun"
+  },
+  {
+    "Kanji": "さん",
+    "Kana": "さん",
+    "Romaji": "san"
+  },
+  {
+    "Kanji": "これ",
+    "Kana": "これ",
+    "Romaji": "kore"
+  },
+  {
+    "Kanji": "顔",
+    "Kana": "かお",
+    "Romaji": "kao"
+  },
+  {
+    "Kanji": "彼",
+    "Kana": "かれ",
+    "Romaji": "kare"
+  },
+  {
+    "Kanji": "ら",
+    "Kana": "ら",
+    "Romaji": "ra"
+  },
+  {
+    "Kanji": "声",
+    "Kana": "こえ",
+    "Romaji": "koe"
+  },
+  {
+    "Kanji": "目",
+    "Kana": "め",
+    "Romaji": "me"
+  },
+  {
+    "Kanji": "男",
+    "Kana": "おとこ",
+    "Romaji": "otoko"
+  },
+  {
+    "Kanji": "者",
+    "Kana": "もの",
+    "Romaji": "mono"
+  },
+  {
+    "Kanji": "十",
+    "Kana": "じゅう",
+    "Romaji": "juu"
+  },
+  {
+    "Kanji": "三",
+    "Kana": "さん",
+    "Romaji": "san"
+  },
+  {
+    "Kanji": "ところ",
+    "Kana": "ところ",
+    "Romaji": "tokoro"
+  },
+  {
+    "Kanji": "時",
+    "Kana": "とき",
+    "Romaji": "toki"
+  },
+  {
+    "Kanji": "彼女",
+    "Kana": "かのじょ",
+    "Romaji": "kanojo"
+  },
+  {
+    "Kanji": "ここ",
+    "Kana": "ここ",
+    "Romaji": "koko"
+  },
+  {
+    "Kanji": "わたし",
+    "Kana": "わたし",
+    "Romaji": "watashi"
+  },
+  {
+    "Kanji": "的",
+    "Kana": "てき",
+    "Romaji": "teki"
+  },
+  {
+    "Kanji": "方",
+    "Kana": "かた",
+    "Romaji": "kata"
+  },
+  {
+    "Kanji": "上",
+    "Kana": "うえ",
+    "Romaji": "ue"
+  },
+  {
+    "Kanji": "気",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "ため",
+    "Kana": "ため",
+    "Romaji": "tame"
+  },
+  {
+    "Kanji": "俺",
+    "Kana": "おれ",
+    "Romaji": "ore"
+  },
+  {
+    "Kanji": "とき",
+    "Kana": "とき",
+    "Romaji": "toki"
+  },
+  {
+    "Kanji": "ぼく",
+    "Kana": "ぼく",
+    "Romaji": "boku"
+  },
+  {
+    "Kanji": "家",
+    "Kana": "いえ",
+    "Romaji": "ie"
+  },
+  {
+    "Kanji": "日",
+    "Kana": "にち",
+    "Romaji": "nichi"
+  },
+  {
+    "Kanji": "おれ",
+    "Kana": "おれ",
+    "Romaji": "ore"
+  },
+  {
+    "Kanji": "そこ",
+    "Kana": "そこ",
+    "Romaji": "soko"
+  },
+  {
+    "Kanji": "口",
+    "Kana": "くち",
+    "Romaji": "kuchi"
+  },
+  {
+    "Kanji": "話",
+    "Kana": "はなし",
+    "Romaji": "hanashi"
+  },
+  {
+    "Kanji": "わけ",
+    "Kana": "わけ",
+    "Romaji": "wake"
+  },
+  {
+    "Kanji": "事",
+    "Kana": "こと",
+    "Romaji": "koto"
+  },
+  {
+    "Kanji": "あなた",
+    "Kana": "あなた",
+    "Romaji": "anata"
+  },
+  {
+    "Kanji": "音",
+    "Kana": "おと",
+    "Romaji": "oto"
+  },
+  {
+    "Kanji": "頭",
+    "Kana": "あたま",
+    "Romaji": "atama"
+  },
+  {
+    "Kanji": "め",
+    "Kana": "め",
+    "Romaji": "me"
+  },
+  {
+    "Kanji": "言葉",
+    "Kana": "ことば",
+    "Romaji": "kotoba"
+  },
+  {
+    "Kanji": "間",
+    "Kana": "ま",
+    "Romaji": "ma"
+  },
+  {
+    "Kanji": "こ",
+    "Kana": "こ",
+    "Romaji": "ko"
+  },
+  {
+    "Kanji": "どこ",
+    "Kana": "どこ",
+    "Romaji": "doko"
+  },
+  {
+    "Kanji": "人間",
+    "Kana": "にんげん",
+    "Romaji": "ningen"
+  },
+  {
+    "Kanji": "さま",
+    "Kana": "さま",
+    "Romaji": "sama"
+  },
+  {
+    "Kanji": "年",
+    "Kana": "とし",
+    "Romaji": "toshi"
+  },
+  {
+    "Kanji": "心",
+    "Kana": "こころ",
+    "Romaji": "kokoro"
+  },
+  {
+    "Kanji": "力",
+    "Kana": "ちから",
+    "Romaji": "chikara"
+  },
+  {
+    "Kanji": "五",
+    "Kana": "ご",
+    "Romaji": "go"
+  },
+  {
+    "Kanji": "うち",
+    "Kana": "うち",
+    "Romaji": "uchi"
+  },
+  {
+    "Kanji": "はず",
+    "Kana": "はず",
+    "Romaji": "hazu"
+  },
+  {
+    "Kanji": "誰",
+    "Kana": "だれ",
+    "Romaji": "dare"
+  },
+  {
+    "Kanji": "ろ",
+    "Kana": "ろ",
+    "Romaji": "ro"
+  },
+  {
+    "Kanji": "姿",
+    "Kana": "すがた",
+    "Romaji": "sugata"
+  },
+  {
+    "Kanji": "四",
+    "Kana": "よん",
+    "Romaji": "yon"
+  },
+  {
+    "Kanji": "僕",
+    "Kana": "ぼく",
+    "Romaji": "boku"
+  },
+  {
+    "Kanji": "ラ",
+    "Kana": "ラ",
+    "Romaji": "ra"
+  },
+  {
+    "Kanji": "部屋",
+    "Kana": "へや",
+    "Romaji": "heya"
+  },
+  {
+    "Kanji": "君",
+    "Kana": "きみ",
+    "Romaji": "kimi"
+  },
+  {
+    "Kanji": "あたし",
+    "Kana": "あたし",
+    "Romaji": "atashi"
+  },
+  {
+    "Kanji": "時間",
+    "Kana": "じかん",
+    "Romaji": "jikan"
+  },
+  {
+    "Kanji": "ちゃん",
+    "Kana": "ちゃん",
+    "Romaji": "chan"
+  },
+  {
+    "Kanji": "身",
+    "Kana": "み",
+    "Romaji": "mi"
+  },
+  {
+    "Kanji": "あと",
+    "Kana": "あと",
+    "Romaji": "ato"
+  },
+  {
+    "Kanji": "度",
+    "Kana": "ど",
+    "Romaji": "do"
+  },
+  {
+    "Kanji": "体",
+    "Kana": "からだ",
+    "Romaji": "karada"
+  },
+  {
+    "Kanji": "なに",
+    "Kana": "なに",
+    "Romaji": "nani"
+  },
+  {
+    "Kanji": "様",
+    "Kana": "よう",
+    "Romaji": "you"
+  },
+  {
+    "Kanji": "眼",
+    "Kana": "め",
+    "Romaji": "me"
+  },
+  {
+    "Kanji": "げ",
+    "Kana": "げ",
+    "Romaji": "ge"
+  },
+  {
+    "Kanji": "相手",
+    "Kana": "あいて",
+    "Romaji": "aite"
+  },
+  {
+    "Kanji": "国",
+    "Kana": "くに",
+    "Romaji": "kuni"
+  },
+  {
+    "Kanji": "世界",
+    "Kana": "せかい",
+    "Romaji": "sekai"
+  },
+  {
+    "Kanji": "外",
+    "Kana": "そと",
+    "Romaji": "soto"
+  },
+  {
+    "Kanji": "少女",
+    "Kana": "しょうじょ",
+    "Romaji": "shoujo"
+  },
+  {
+    "Kanji": "首",
+    "Kana": "くび",
+    "Romaji": "kubi"
+  },
+  {
+    "Kanji": "足",
+    "Kana": "あし",
+    "Romaji": "ashi"
+  },
+  {
+    "Kanji": "胸",
+    "Kana": "むね",
+    "Romaji": "mune"
+  },
+  {
+    "Kanji": "風",
+    "Kana": "かぜ",
+    "Romaji": "kaze"
+  },
+  {
+    "Kanji": "お前",
+    "Kana": "おまえ",
+    "Romaji": "omae"
+  },
+  {
+    "Kanji": "一つ",
+    "Kana": "ひとつ",
+    "Romaji": "hitotsu"
+  },
+  {
+    "Kanji": "子供",
+    "Kana": "こども",
+    "Romaji": "kodomo"
+  },
+  {
+    "Kanji": "六",
+    "Kana": "ろく",
+    "Romaji": "roku"
+  },
+  {
+    "Kanji": "夜",
+    "Kana": "よる",
+    "Romaji": "yoru"
+  },
+  {
+    "Kanji": "おまえ",
+    "Kana": "おまえ",
+    "Romaji": "omae"
+  },
+  {
+    "Kanji": "光",
+    "Kana": "ひかり",
+    "Romaji": "hikari"
+  },
+  {
+    "Kanji": "敵",
+    "Kana": "てき",
+    "Romaji": "teki"
+  },
+  {
+    "Kanji": "以上",
+    "Kana": "いじょう",
+    "Romaji": "ijou"
+  },
+  {
+    "Kanji": "みたい",
+    "Kana": "みたい",
+    "Romaji": "mitai"
+  },
+  {
+    "Kanji": "なん",
+    "Kana": "なん",
+    "Romaji": "nan"
+  },
+  {
+    "Kanji": "腰",
+    "Kana": "こし",
+    "Romaji": "koshi"
+  },
+  {
+    "Kanji": "そ",
+    "Kana": "そ",
+    "Romaji": "so"
+  },
+  {
+    "Kanji": "いつ",
+    "Kana": "いつ",
+    "Romaji": "itsu"
+  },
+  {
+    "Kanji": "指",
+    "Kana": "ゆび",
+    "Romaji": "yubi"
+  },
+  {
+    "Kanji": "水",
+    "Kana": "みず",
+    "Romaji": "mizu"
+  },
+  {
+    "Kanji": "ロ",
+    "Kana": "ロ",
+    "Romaji": "ro"
+  },
+  {
+    "Kanji": "今日",
+    "Kana": "きょう",
+    "Romaji": "kyou"
+  },
+  {
+    "Kanji": "腕",
+    "Kana": "うで",
+    "Romaji": "ude"
+  },
+  {
+    "Kanji": "肩",
+    "Kana": "かた",
+    "Romaji": "kata"
+  },
+  {
+    "Kanji": "娘",
+    "Kana": "むすめ",
+    "Romaji": "musume"
+  },
+  {
+    "Kanji": "身体",
+    "Kana": "しんたい",
+    "Romaji": "shintai"
+  },
+  {
+    "Kanji": "先生",
+    "Kana": "せんせい",
+    "Romaji": "sensei"
+  },
+  {
+    "Kanji": "物",
+    "Kana": "もの",
+    "Romaji": "mono"
+  },
+  {
+    "Kanji": "道",
+    "Kana": "みち",
+    "Romaji": "michi"
+  },
+  {
+    "Kanji": "色",
+    "Kana": "いろ",
+    "Romaji": "iro"
+  },
+  {
+    "Kanji": "傍点",
+    "Kana": "ぼうてん",
+    "Romaji": "bouten"
+  },
+  {
+    "Kanji": "場所",
+    "Kana": "ばしょ",
+    "Romaji": "basho"
+  },
+  {
+    "Kanji": "意味",
+    "Kana": "いみ",
+    "Romaji": "imi"
+  },
+  {
+    "Kanji": "必要",
+    "Kana": "ひつよう",
+    "Romaji": "hitsuyou"
+  },
+  {
+    "Kanji": "百",
+    "Kana": "ひゃく",
+    "Romaji": "hyaku"
+  },
+  {
+    "Kanji": "こちら",
+    "Kana": "こちら",
+    "Romaji": "kochira"
+  },
+  {
+    "Kanji": "なか",
+    "Kana": "なか",
+    "Romaji": "naka"
+  },
+  {
+    "Kanji": "つもり",
+    "Kana": "つもり",
+    "Romaji": "tsumori"
+  },
+  {
+    "Kanji": "すべて",
+    "Kana": "すべて",
+    "Romaji": "subete"
+  },
+  {
+    "Kanji": "機",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "七",
+    "Kana": "なな",
+    "Romaji": "nana"
+  },
+  {
+    "Kanji": "彼ら",
+    "Kana": "かれら",
+    "Romaji": "karera"
+  },
+  {
+    "Kanji": "空",
+    "Kana": "そら",
+    "Romaji": "sora"
+  },
+  {
+    "Kanji": "王",
+    "Kana": "おう",
+    "Romaji": "ou"
+  },
+  {
+    "Kanji": "壁",
+    "Kana": "かべ",
+    "Romaji": "kabe"
+  },
+  {
+    "Kanji": "あんた",
+    "Kana": "あんた",
+    "Romaji": "anta"
+  },
+  {
+    "Kanji": "仕事",
+    "Kana": "しごと",
+    "Romaji": "shigoto"
+  },
+  {
+    "Kanji": "表情",
+    "Kana": "ひょうじょう",
+    "Romaji": "hyoujou"
+  },
+  {
+    "Kanji": "だれ",
+    "Kana": "だれ",
+    "Romaji": "dare"
+  },
+  {
+    "Kanji": "かん",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "息",
+    "Kana": "いき",
+    "Romaji": "iki"
+  },
+  {
+    "Kanji": "ひとつ",
+    "Kana": "ひとつ",
+    "Romaji": "hitotsu"
+  },
+  {
+    "Kanji": "様子",
+    "Kana": "ようす",
+    "Romaji": "yousu"
+  },
+  {
+    "Kanji": "室",
+    "Kana": "しつ",
+    "Romaji": "shitsu"
+  },
+  {
+    "Kanji": "神",
+    "Kana": "かみ",
+    "Romaji": "kami"
+  },
+  {
+    "Kanji": "耳",
+    "Kana": "みみ",
+    "Romaji": "mimi"
+  },
+  {
+    "Kanji": "場",
+    "Kana": "ば",
+    "Romaji": "ba"
+  },
+  {
+    "Kanji": "次",
+    "Kana": "つぎ",
+    "Romaji": "tsugi"
+  },
+  {
+    "Kanji": "唇",
+    "Kana": "くちびる",
+    "Romaji": "kuchibiru"
+  },
+  {
+    "Kanji": "一緒",
+    "Kana": "いっしょ",
+    "Romaji": "issho"
+  },
+  {
+    "Kanji": "八",
+    "Kana": "はち",
+    "Romaji": "hachi"
+  },
+  {
+    "Kanji": "問題",
+    "Kana": "もんだい",
+    "Romaji": "mondai"
+  },
+  {
+    "Kanji": "最後",
+    "Kana": "さいご",
+    "Romaji": "saigo"
+  },
+  {
+    "Kanji": "ガ",
+    "Kana": "ガ",
+    "Romaji": "ga"
+  },
+  {
+    "Kanji": "窓",
+    "Kana": "まど",
+    "Romaji": "mado"
+  },
+  {
+    "Kanji": "金",
+    "Kana": "きむ",
+    "Romaji": "kimu"
+  },
+  {
+    "Kanji": "せい",
+    "Kana": "せい",
+    "Romaji": "sei"
+  },
+  {
+    "Kanji": "ク",
+    "Kana": "ク",
+    "Romaji": "ku"
+  },
+  {
+    "Kanji": "肉",
+    "Kana": "にく",
+    "Romaji": "niku"
+  },
+  {
+    "Kanji": "船",
+    "Kana": "ふね",
+    "Romaji": "fune"
+  },
+  {
+    "Kanji": "やつ",
+    "Kana": "やつ",
+    "Romaji": "yatsu"
+  },
+  {
+    "Kanji": "通り",
+    "Kana": "とおり",
+    "Romaji": "toori"
+  },
+  {
+    "Kanji": "祐",
+    "Kana": "ゆう",
+    "Romaji": "yuu"
+  },
+  {
+    "Kanji": "血",
+    "Kana": "ち",
+    "Romaji": "chi"
+  },
+  {
+    "Kanji": "奥",
+    "Kana": "おく",
+    "Romaji": "oku"
+  },
+  {
+    "Kanji": "軍",
+    "Kana": "ぐん",
+    "Romaji": "gun"
+  },
+  {
+    "Kanji": "所",
+    "Kana": "ところ",
+    "Romaji": "tokoro"
+  },
+  {
+    "Kanji": "存在",
+    "Kana": "そんざい",
+    "Romaji": "sonzai"
+  },
+  {
+    "Kanji": "車",
+    "Kana": "くるま",
+    "Romaji": "kuruma"
+  },
+  {
+    "Kanji": "ほか",
+    "Kana": "ほか",
+    "Romaji": "hoka"
+  },
+  {
+    "Kanji": "今度",
+    "Kana": "こんど",
+    "Romaji": "kondo"
+  },
+  {
+    "Kanji": "山",
+    "Kana": "やま",
+    "Romaji": "yama"
+  },
+  {
+    "Kanji": "視線",
+    "Kana": "しせん",
+    "Romaji": "shisen"
+  },
+  {
+    "Kanji": "奴",
+    "Kana": "やつ",
+    "Romaji": "yatsu"
+  },
+  {
+    "Kanji": "つて",
+    "Kana": "つて",
+    "Romaji": "tsute"
+  },
+  {
+    "Kanji": "横",
+    "Kana": "よこ",
+    "Romaji": "yoko"
+  },
+  {
+    "Kanji": "関係",
+    "Kana": "かんけい",
+    "Romaji": "kankei"
+  },
+  {
+    "Kanji": "きみ",
+    "Kana": "きみ",
+    "Romaji": "kimi"
+  },
+  {
+    "Kanji": "剣",
+    "Kana": "けん",
+    "Romaji": "ken"
+  },
+  {
+    "Kanji": "さっき",
+    "Kana": "さっき",
+    "Romaji": "sakki"
+  },
+  {
+    "Kanji": "村",
+    "Kana": "むら",
+    "Romaji": "mura"
+  },
+  {
+    "Kanji": "頃",
+    "Kana": "ころ",
+    "Romaji": "koro"
+  },
+  {
+    "Kanji": "父",
+    "Kana": "ちち",
+    "Romaji": "chichi"
+  },
+  {
+    "Kanji": "好き",
+    "Kana": "すき",
+    "Romaji": "suki"
+  },
+  {
+    "Kanji": "自身",
+    "Kana": "じしん",
+    "Romaji": "jishin"
+  },
+  {
+    "Kanji": "きょう",
+    "Kana": "きょう",
+    "Romaji": "kyou"
+  },
+  {
+    "Kanji": "地",
+    "Kana": "ち",
+    "Romaji": "chi"
+  },
+  {
+    "Kanji": "ドア",
+    "Kana": "ドア",
+    "Romaji": "doa"
+  },
+  {
+    "Kanji": "最初",
+    "Kana": "さいしょ",
+    "Romaji": "saisho"
+  },
+  {
+    "Kanji": "少年",
+    "Kana": "しょうねん",
+    "Romaji": "shounen"
+  },
+  {
+    "Kanji": "性",
+    "Kana": "せい",
+    "Romaji": "sei"
+  },
+  {
+    "Kanji": "達",
+    "Kana": "いたる",
+    "Romaji": "itaru"
+  },
+  {
+    "Kanji": "ゆ",
+    "Kana": "ゆ",
+    "Romaji": "yu"
+  },
+  {
+    "Kanji": "形",
+    "Kana": "かたち",
+    "Romaji": "katachi"
+  },
+  {
+    "Kanji": "影",
+    "Kana": "かげ",
+    "Romaji": "kage"
+  },
+  {
+    "Kanji": "竜",
+    "Kana": "りゅう",
+    "Romaji": "ryuu"
+  },
+  {
+    "Kanji": "電話",
+    "Kana": "でんわ",
+    "Romaji": "denwa"
+  },
+  {
+    "Kanji": "字",
+    "Kana": "じ",
+    "Romaji": "ji"
+  },
+  {
+    "Kanji": "名前",
+    "Kana": "なまえ",
+    "Romaji": "namae"
+  },
+  {
+    "Kanji": "かた",
+    "Kana": "かた",
+    "Romaji": "kata"
+  },
+  {
+    "Kanji": "床",
+    "Kana": "ゆか",
+    "Romaji": "yuka"
+  },
+  {
+    "Kanji": "部",
+    "Kana": "ぶ",
+    "Romaji": "bu"
+  },
+  {
+    "Kanji": "くん",
+    "Kana": "くん",
+    "Romaji": "kun"
+  },
+  {
+    "Kanji": "髪",
+    "Kana": "かみ",
+    "Romaji": "kami"
+  },
+  {
+    "Kanji": "こっち",
+    "Kana": "こっち",
+    "Romaji": "kocchi"
+  },
+  {
+    "Kanji": "い",
+    "Kana": "い",
+    "Romaji": "i"
+  },
+  {
+    "Kanji": "あたり",
+    "Kana": "あたり",
+    "Romaji": "atari"
+  },
+  {
+    "Kanji": "扉",
+    "Kana": "とびら",
+    "Romaji": "tobira"
+  },
+  {
+    "Kanji": "店",
+    "Kana": "みせ",
+    "Romaji": "mise"
+  },
+  {
+    "Kanji": "場合",
+    "Kana": "ばあい",
+    "Romaji": "baai"
+  },
+  {
+    "Kanji": "母",
+    "Kana": "はは",
+    "Romaji": "haha"
+  },
+  {
+    "Kanji": "気持ち",
+    "Kana": "きもち",
+    "Romaji": "kimochi"
+  },
+  {
+    "Kanji": "感じ",
+    "Kana": "かんじ",
+    "Romaji": "kanji"
+  },
+  {
+    "Kanji": "町",
+    "Kana": "まち",
+    "Romaji": "machi"
+  },
+  {
+    "Kanji": "心配",
+    "Kana": "しんぱい",
+    "Romaji": "shinpai"
+  },
+  {
+    "Kanji": "巳",
+    "Kana": "み",
+    "Romaji": "mi"
+  },
+  {
+    "Kanji": "キノ",
+    "Kana": "キノ",
+    "Romaji": "kino"
+  },
+  {
+    "Kanji": "背中",
+    "Kana": "せなか",
+    "Romaji": "senaka"
+  },
+  {
+    "Kanji": "馬",
+    "Kana": "うま",
+    "Romaji": "uma"
+  },
+  {
+    "Kanji": "説明",
+    "Kana": "せつめい",
+    "Romaji": "setsumei"
+  },
+  {
+    "Kanji": "生活",
+    "Kana": "せいかつ",
+    "Romaji": "seikatsu"
+  },
+  {
+    "Kanji": "右",
+    "Kana": "みぎ",
+    "Romaji": "migi"
+  },
+  {
+    "Kanji": "瞬間",
+    "Kana": "しゅんかん",
+    "Romaji": "shunkan"
+  },
+  {
+    "Kanji": "花",
+    "Kana": "はな",
+    "Romaji": "hana"
+  },
+  {
+    "Kanji": "意識",
+    "Kana": "いしき",
+    "Romaji": "ishiki"
+  },
+  {
+    "Kanji": "ろう",
+    "Kana": "ろう",
+    "Romaji": "rou"
+  },
+  {
+    "Kanji": "レイ",
+    "Kana": "レイ",
+    "Romaji": "rei"
+  },
+  {
+    "Kanji": "海",
+    "Kana": "うみ",
+    "Romaji": "umi"
+  },
+  {
+    "Kanji": "学校",
+    "Kana": "がっこう",
+    "Romaji": "gakkou"
+  },
+  {
+    "Kanji": "事件",
+    "Kana": "じけん",
+    "Romaji": "jiken"
+  },
+  {
+    "Kanji": "わし",
+    "Kana": "わし",
+    "Romaji": "washi"
+  },
+  {
+    "Kanji": "人々",
+    "Kana": "ひとびと",
+    "Romaji": "hitobito"
+  },
+  {
+    "Kanji": "側",
+    "Kana": "がわ",
+    "Romaji": "gawa"
+  },
+  {
+    "Kanji": "火",
+    "Kana": "ひ",
+    "Romaji": "hi"
+  },
+  {
+    "Kanji": "点",
+    "Kana": "てん",
+    "Romaji": "ten"
+  },
+  {
+    "Kanji": "一瞬",
+    "Kana": "いっしゅん",
+    "Romaji": "isshun"
+  },
+  {
+    "Kanji": "後ろ",
+    "Kana": "うしろ",
+    "Romaji": "ushiro"
+  },
+  {
+    "Kanji": "理由",
+    "Kana": "りゆう",
+    "Romaji": "riyuu"
+  },
+  {
+    "Kanji": "日本",
+    "Kana": "にっぽん",
+    "Romaji": "nippon"
+  },
+  {
+    "Kanji": "用",
+    "Kana": "よう",
+    "Romaji": "you"
+  },
+  {
+    "Kanji": "九",
+    "Kana": "きゅう",
+    "Romaji": "kyuu"
+  },
+  {
+    "Kanji": "屋",
+    "Kana": "や",
+    "Romaji": "ya"
+  },
+  {
+    "Kanji": "夢",
+    "Kana": "ゆめ",
+    "Romaji": "yume"
+  },
+  {
+    "Kanji": "連中",
+    "Kana": "れんちゅう",
+    "Romaji": "renchuu"
+  },
+  {
+    "Kanji": "両手",
+    "Kana": "りょうて",
+    "Romaji": "ryoute"
+  },
+  {
+    "Kanji": "だい",
+    "Kana": "だい",
+    "Romaji": "dai"
+  },
+  {
+    "Kanji": "ミ",
+    "Kana": "ミ",
+    "Romaji": "mi"
+  },
+  {
+    "Kanji": "歳",
+    "Kana": "とし",
+    "Romaji": "toshi"
+  },
+  {
+    "Kanji": "周囲",
+    "Kana": "しゅうい",
+    "Romaji": "shuui"
+  },
+  {
+    "Kanji": "児",
+    "Kana": "こ",
+    "Romaji": "ko"
+  },
+  {
+    "Kanji": "宗",
+    "Kana": "そう",
+    "Romaji": "sou"
+  },
+  {
+    "Kanji": "想像",
+    "Kana": "そうぞう",
+    "Romaji": "souzou"
+  },
+  {
+    "Kanji": "街",
+    "Kana": "まち",
+    "Romaji": "machi"
+  },
+  {
+    "Kanji": "黒",
+    "Kana": "くろ",
+    "Romaji": "kuro"
+  },
+  {
+    "Kanji": "森",
+    "Kana": "もり",
+    "Romaji": "mori"
+  },
+  {
+    "Kanji": "静か",
+    "Kana": "しずか",
+    "Romaji": "shizuka"
+  },
+  {
+    "Kanji": "われわれ",
+    "Kana": "われわれ",
+    "Romaji": "wareware"
+  },
+  {
+    "Kanji": "生徒",
+    "Kana": "せいと",
+    "Romaji": "seito"
+  },
+  {
+    "Kanji": "一番",
+    "Kana": "いちばん",
+    "Romaji": "ichiban"
+  },
+  {
+    "Kanji": "パー",
+    "Kana": "パー",
+    "Romaji": "pa-"
+  },
+  {
+    "Kanji": "闇",
+    "Kana": "やみ",
+    "Romaji": "yami"
+  },
+  {
+    "Kanji": "女性",
+    "Kana": "じょせい",
+    "Romaji": "josei"
+  },
+  {
+    "Kanji": "不思議",
+    "Kana": "ふしぎ",
+    "Romaji": "fushigi"
+  },
+  {
+    "Kanji": "階",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "朝",
+    "Kana": "あさ",
+    "Romaji": "asa"
+  },
+  {
+    "Kanji": "服",
+    "Kana": "ふく",
+    "Romaji": "fuku"
+  },
+  {
+    "Kanji": "感",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "事実",
+    "Kana": "じじつ",
+    "Romaji": "jijitsu"
+  },
+  {
+    "Kanji": "昔",
+    "Kana": "むかし",
+    "Romaji": "mukashi"
+  },
+  {
+    "Kanji": "理解",
+    "Kana": "りかい",
+    "Romaji": "rikai"
+  },
+  {
+    "Kanji": "千",
+    "Kana": "せん",
+    "Romaji": "sen"
+  },
+  {
+    "Kanji": "背",
+    "Kana": "せ",
+    "Romaji": "se"
+  },
+  {
+    "Kanji": "部分",
+    "Kana": "ぶぶん",
+    "Romaji": "bubun"
+  },
+  {
+    "Kanji": "姉",
+    "Kana": "あね",
+    "Romaji": "ane"
+  },
+  {
+    "Kanji": "わたくし",
+    "Kana": "わたくし",
+    "Romaji": "watakushi"
+  },
+  {
+    "Kanji": "月",
+    "Kana": "つき",
+    "Romaji": "tsuki"
+  },
+  {
+    "Kanji": "動き",
+    "Kana": "うごき",
+    "Romaji": "ugoki"
+  },
+  {
+    "Kanji": "木",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "二つ",
+    "Kana": "ふたつ",
+    "Romaji": "futatsu"
+  },
+  {
+    "Kanji": "太",
+    "Kana": "ふとし",
+    "Romaji": "futoshi"
+  },
+  {
+    "Kanji": "席",
+    "Kana": "せき",
+    "Romaji": "seki"
+  },
+  {
+    "Kanji": "状態",
+    "Kana": "じょうたい",
+    "Romaji": "joutai"
+  },
+  {
+    "Kanji": "頬",
+    "Kana": "ほお",
+    "Romaji": "hoo"
+  },
+  {
+    "Kanji": "騎士",
+    "Kana": "きし",
+    "Romaji": "kishi"
+  },
+  {
+    "Kanji": "才人",
+    "Kana": "さいじん",
+    "Romaji": "saijin"
+  },
+  {
+    "Kanji": "舌",
+    "Kana": "した",
+    "Romaji": "shita"
+  },
+  {
+    "Kanji": "大丈夫",
+    "Kana": "だいじょうぶ",
+    "Romaji": "daijoubu"
+  },
+  {
+    "Kanji": "死",
+    "Kana": "し",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "背後",
+    "Kana": "はいご",
+    "Romaji": "haigo"
+  },
+  {
+    "Kanji": "時代",
+    "Kana": "じだい",
+    "Romaji": "jidai"
+  },
+  {
+    "Kanji": "師",
+    "Kana": "し",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "魔法",
+    "Kana": "まほう",
+    "Romaji": "mahou"
+  },
+  {
+    "Kanji": "ごと",
+    "Kana": "ごと",
+    "Romaji": "goto"
+  },
+  {
+    "Kanji": "メートル",
+    "Kana": "メートル",
+    "Romaji": "me-toru"
+  },
+  {
+    "Kanji": "膝",
+    "Kana": "ひざ",
+    "Romaji": "hiza"
+  },
+  {
+    "Kanji": "セ",
+    "Kana": "セ",
+    "Romaji": "se"
+  },
+  {
+    "Kanji": "腹",
+    "Kana": "はら",
+    "Romaji": "hara"
+  },
+  {
+    "Kanji": "以外",
+    "Kana": "いがい",
+    "Romaji": "igai"
+  },
+  {
+    "Kanji": "気分",
+    "Kana": "きぶん",
+    "Romaji": "kibun"
+  },
+  {
+    "Kanji": "ベッド",
+    "Kana": "ベッド",
+    "Romaji": "beddo"
+  },
+  {
+    "Kanji": "島",
+    "Kana": "しま",
+    "Romaji": "shima"
+  },
+  {
+    "Kanji": "介",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "伸子",
+    "Kana": "しんし",
+    "Romaji": "shinshi"
+  },
+  {
+    "Kanji": "無理",
+    "Kana": "むり",
+    "Romaji": "muri"
+  },
+  {
+    "Kanji": "そば",
+    "Kana": "そば",
+    "Romaji": "soba"
+  },
+  {
+    "Kanji": "近く",
+    "Kana": "ちかく",
+    "Romaji": "chikaku"
+  },
+  {
+    "Kanji": "石",
+    "Kana": "いし",
+    "Romaji": "ishi"
+  },
+  {
+    "Kanji": "涙",
+    "Kana": "なみだ",
+    "Romaji": "namida"
+  },
+  {
+    "Kanji": "兵",
+    "Kana": "へい",
+    "Romaji": "hei"
+  },
+  {
+    "Kanji": "面",
+    "Kana": "めん",
+    "Romaji": "men"
+  },
+  {
+    "Kanji": "ころ",
+    "Kana": "ころ",
+    "Romaji": "koro"
+  },
+  {
+    "Kanji": "ふたり",
+    "Kana": "ふたり",
+    "Romaji": "futari"
+  },
+  {
+    "Kanji": "オーラ",
+    "Kana": "オーラ",
+    "Romaji": "o-ra"
+  },
+  {
+    "Kanji": "危険",
+    "Kana": "きけん",
+    "Romaji": "kiken"
+  },
+  {
+    "Kanji": "穴",
+    "Kana": "あな",
+    "Romaji": "ana"
+  },
+  {
+    "Kanji": "完全",
+    "Kana": "かんぜん",
+    "Romaji": "kanzen"
+  },
+  {
+    "Kanji": "さい",
+    "Kana": "さい",
+    "Romaji": "sai"
+  },
+  {
+    "Kanji": "左",
+    "Kana": "ひだり",
+    "Romaji": "hidari"
+  },
+  {
+    "Kanji": "攻撃",
+    "Kana": "こうげき",
+    "Romaji": "kougeki"
+  },
+  {
+    "Kanji": "つた",
+    "Kana": "つた",
+    "Romaji": "tsuta"
+  },
+  {
+    "Kanji": "魔",
+    "Kana": "ま",
+    "Romaji": "ma"
+  },
+  {
+    "Kanji": "仲間",
+    "Kana": "なかま",
+    "Romaji": "nakama"
+  },
+  {
+    "Kanji": "リ",
+    "Kana": "リ",
+    "Romaji": "ri"
+  },
+  {
+    "Kanji": "可能",
+    "Kana": "かのう",
+    "Romaji": "kanou"
+  },
+  {
+    "Kanji": "１",
+    "Kana": "いち",
+    "Romaji": "ichi"
+  },
+  {
+    "Kanji": "尻",
+    "Kana": "しり",
+    "Romaji": "shiri"
+  },
+  {
+    "Kanji": "台",
+    "Kana": "たい",
+    "Romaji": "tai"
+  },
+  {
+    "Kanji": "ラン",
+    "Kana": "ラン",
+    "Romaji": "ran"
+  },
+  {
+    "Kanji": "鼻",
+    "Kana": "はな",
+    "Romaji": "hana"
+  },
+  {
+    "Kanji": "会",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "陽子",
+    "Kana": "ようし",
+    "Romaji": "youshi"
+  },
+  {
+    "Kanji": "違い",
+    "Kana": "ちがい",
+    "Romaji": "chigai"
+  },
+  {
+    "Kanji": "けい",
+    "Kana": "けい",
+    "Romaji": "kei"
+  },
+  {
+    "Kanji": "瞳",
+    "Kana": "ひとみ",
+    "Romaji": "hitomi"
+  },
+  {
+    "Kanji": "主人",
+    "Kana": "しゅじん",
+    "Romaji": "shujin"
+  },
+  {
+    "Kanji": "レ",
+    "Kana": "レ",
+    "Romaji": "re"
+  },
+  {
+    "Kanji": "地上",
+    "Kana": "ちじょう",
+    "Romaji": "chijou"
+  },
+  {
+    "Kanji": "あいつ",
+    "Kana": "あいつ",
+    "Romaji": "aitsu"
+  },
+  {
+    "Kanji": "空気",
+    "Kana": "くうき",
+    "Romaji": "kuuki"
+  },
+  {
+    "Kanji": "兄",
+    "Kana": "あに",
+    "Romaji": "ani"
+  },
+  {
+    "Kanji": "星",
+    "Kana": "ほし",
+    "Romaji": "hoshi"
+  },
+  {
+    "Kanji": "思い",
+    "Kana": "おもい",
+    "Romaji": "omoi"
+  },
+  {
+    "Kanji": "ページ",
+    "Kana": "ページ",
+    "Romaji": "pe-ji"
+  },
+  {
+    "Kanji": "妹",
+    "Kana": "いもうと",
+    "Romaji": "imouto"
+  },
+  {
+    "Kanji": "戦闘",
+    "Kana": "せんとう",
+    "Romaji": "sentou"
+  },
+  {
+    "Kanji": "式",
+    "Kana": "しき",
+    "Romaji": "shiki"
+  },
+  {
+    "Kanji": "ホ",
+    "Kana": "ホ",
+    "Romaji": "ho"
+  },
+  {
+    "Kanji": "リア",
+    "Kana": "リア",
+    "Romaji": "ria"
+  },
+  {
+    "Kanji": "ぼう",
+    "Kana": "ぼう",
+    "Romaji": "bou"
+  },
+  {
+    "Kanji": "命",
+    "Kana": "いのち",
+    "Romaji": "inochi"
+  },
+  {
+    "Kanji": "こいつ",
+    "Kana": "こいつ",
+    "Romaji": "koitsu"
+  },
+  {
+    "Kanji": "宇宙",
+    "Kana": "うちゅう",
+    "Romaji": "uchuu"
+  },
+  {
+    "Kanji": "廊下",
+    "Kana": "ろうか",
+    "Romaji": "rouka"
+  },
+  {
+    "Kanji": "テーブル",
+    "Kana": "テーブル",
+    "Romaji": "te-buru"
+  },
+  {
+    "Kanji": "記憶",
+    "Kana": "きおく",
+    "Romaji": "kioku"
+  },
+  {
+    "Kanji": "本当",
+    "Kana": "ほんとう",
+    "Romaji": "hontou"
+  },
+  {
+    "Kanji": "巨大",
+    "Kana": "きょだい",
+    "Romaji": "kyodai"
+  },
+  {
+    "Kanji": "浅羽",
+    "Kana": "あさば",
+    "Romaji": "asaba"
+  },
+  {
+    "Kanji": "ルー",
+    "Kana": "ルー",
+    "Romaji": "ru-"
+  },
+  {
+    "Kanji": "全身",
+    "Kana": "ぜんしん",
+    "Romaji": "zenshin"
+  },
+  {
+    "Kanji": "客",
+    "Kana": "きゃく",
+    "Romaji": "kyaku"
+  },
+  {
+    "Kanji": "レナ",
+    "Kana": "レナ",
+    "Romaji": "rena"
+  },
+  {
+    "Kanji": "貴族",
+    "Kana": "きぞく",
+    "Romaji": "kizoku"
+  },
+  {
+    "Kanji": "サー",
+    "Kana": "サー",
+    "Romaji": "sa-"
+  },
+  {
+    "Kanji": "だめ",
+    "Kana": "だめ",
+    "Romaji": "dame"
+  },
+  {
+    "Kanji": "酒",
+    "Kana": "さけ",
+    "Romaji": "sake"
+  },
+  {
+    "Kanji": "不安",
+    "Kana": "ふあん",
+    "Romaji": "fuan"
+  },
+  {
+    "Kanji": "結果",
+    "Kana": "けっか",
+    "Romaji": "kekka"
+  },
+  {
+    "Kanji": "東京",
+    "Kana": "とうきょう",
+    "Romaji": "toukyou"
+  },
+  {
+    "Kanji": "女の子",
+    "Kana": "おんなのこ",
+    "Romaji": "onnanoko"
+  },
+  {
+    "Kanji": "写真",
+    "Kana": "しゃしん",
+    "Romaji": "shashin"
+  },
+  {
+    "Kanji": "返事",
+    "Kana": "へんじ",
+    "Romaji": "henji"
+  },
+  {
+    "Kanji": "椅子",
+    "Kana": "いす",
+    "Romaji": "isu"
+  },
+  {
+    "Kanji": "右手",
+    "Kana": "みぎて",
+    "Romaji": "migite"
+  },
+  {
+    "Kanji": "機械",
+    "Kana": "きかい",
+    "Romaji": "kikai"
+  },
+  {
+    "Kanji": "階段",
+    "Kana": "かいだん",
+    "Romaji": "kaidan"
+  },
+  {
+    "Kanji": "隊",
+    "Kana": "たい",
+    "Romaji": "tai"
+  },
+  {
+    "Kanji": "改",
+    "Kana": "あらため",
+    "Romaji": "aratame"
+  },
+  {
+    "Kanji": "からだ",
+    "Kana": "からだ",
+    "Romaji": "karada"
+  },
+  {
+    "Kanji": "とおり",
+    "Kana": "とおり",
+    "Romaji": "toori"
+  },
+  {
+    "Kanji": "桜",
+    "Kana": "さくら",
+    "Romaji": "sakura"
+  },
+  {
+    "Kanji": "行動",
+    "Kana": "こうどう",
+    "Romaji": "koudou"
+  },
+  {
+    "Kanji": "がら",
+    "Kana": "がら",
+    "Romaji": "gara"
+  },
+  {
+    "Kanji": "左右",
+    "Kana": "さゆう",
+    "Romaji": "sayuu"
+  },
+  {
+    "Kanji": "白",
+    "Kana": "しろ",
+    "Romaji": "shiro"
+  },
+  {
+    "Kanji": "官",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "我々",
+    "Kana": "われわれ",
+    "Romaji": "wareware"
+  },
+  {
+    "Kanji": "雨",
+    "Kana": "あめ",
+    "Romaji": "ame"
+  },
+  {
+    "Kanji": "老人",
+    "Kana": "ろうじん",
+    "Romaji": "roujin"
+  },
+  {
+    "Kanji": "嘘",
+    "Kana": "うそ",
+    "Romaji": "uso"
+  },
+  {
+    "Kanji": "自然",
+    "Kana": "しぜん",
+    "Romaji": "shizen"
+  },
+  {
+    "Kanji": "しん",
+    "Kana": "しん",
+    "Romaji": "shin"
+  },
+  {
+    "Kanji": "２",
+    "Kana": "に",
+    "Romaji": "ni"
+  },
+  {
+    "Kanji": "城",
+    "Kana": "しろ",
+    "Romaji": "shiro"
+  },
+  {
+    "Kanji": "例",
+    "Kana": "れい",
+    "Romaji": "rei"
+  },
+  {
+    "Kanji": "バー",
+    "Kana": "バー",
+    "Romaji": "ba-"
+  },
+  {
+    "Kanji": "下げ",
+    "Kana": "さげ",
+    "Romaji": "sage"
+  },
+  {
+    "Kanji": "回",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "箱",
+    "Kana": "はこ",
+    "Romaji": "hako"
+  },
+  {
+    "Kanji": "考え",
+    "Kana": "かんがえ",
+    "Romaji": "kangae"
+  },
+  {
+    "Kanji": "じゅう",
+    "Kana": "じゅう",
+    "Romaji": "juu"
+  },
+  {
+    "Kanji": "手紙",
+    "Kana": "てがみ",
+    "Romaji": "tegami"
+  },
+  {
+    "Kanji": "底",
+    "Kana": "そこ",
+    "Romaji": "soko"
+  },
+  {
+    "Kanji": "精神",
+    "Kana": "せいしん",
+    "Romaji": "seishin"
+  },
+  {
+    "Kanji": "炎",
+    "Kana": "ほのお",
+    "Romaji": "honoo"
+  },
+  {
+    "Kanji": "明日",
+    "Kana": "あした",
+    "Romaji": "ashita"
+  },
+  {
+    "Kanji": "地面",
+    "Kana": "じめん",
+    "Romaji": "jimen"
+  },
+  {
+    "Kanji": "レン",
+    "Kana": "レン",
+    "Romaji": "ren"
+  },
+  {
+    "Kanji": "員",
+    "Kana": "いん",
+    "Romaji": "in"
+  },
+  {
+    "Kanji": "簡単",
+    "Kana": "かんたん",
+    "Romaji": "kantan"
+  },
+  {
+    "Kanji": "能力",
+    "Kana": "のうりょく",
+    "Romaji": "nouryoku"
+  },
+  {
+    "Kanji": "あいだ",
+    "Kana": "あいだ",
+    "Romaji": "aida"
+  },
+  {
+    "Kanji": "犬",
+    "Kana": "いぬ",
+    "Romaji": "inu"
+  },
+  {
+    "Kanji": "天",
+    "Kana": "てん",
+    "Romaji": "ten"
+  },
+  {
+    "Kanji": "げん",
+    "Kana": "げん",
+    "Romaji": "gen"
+  },
+  {
+    "Kanji": "変",
+    "Kana": "へん",
+    "Romaji": "hen"
+  },
+  {
+    "Kanji": "ちょう",
+    "Kana": "ちょう",
+    "Romaji": "chou"
+  },
+  {
+    "Kanji": "位置",
+    "Kana": "いち",
+    "Romaji": "ichi"
+  },
+  {
+    "Kanji": "確認",
+    "Kana": "かくにん",
+    "Romaji": "kakunin"
+  },
+  {
+    "Kanji": "命令",
+    "Kana": "めいれい",
+    "Romaji": "meirei"
+  },
+  {
+    "Kanji": "門",
+    "Kana": "もん",
+    "Romaji": "mon"
+  },
+  {
+    "Kanji": "仕方",
+    "Kana": "しかた",
+    "Romaji": "shikata"
+  },
+  {
+    "Kanji": "葉",
+    "Kana": "は",
+    "Romaji": "ha"
+  },
+  {
+    "Kanji": "どちら",
+    "Kana": "どちら",
+    "Romaji": "dochira"
+  },
+  {
+    "Kanji": "歩",
+    "Kana": "あゆみ",
+    "Romaji": "ayumi"
+  },
+  {
+    "Kanji": "半分",
+    "Kana": "はんぶん",
+    "Romaji": "hanbun"
+  },
+  {
+    "Kanji": "距離",
+    "Kana": "きょり",
+    "Romaji": "kyori"
+  },
+  {
+    "Kanji": "士",
+    "Kana": "し",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "昨日",
+    "Kana": "きのう",
+    "Romaji": "kinou"
+  },
+  {
+    "Kanji": "それら",
+    "Kana": "それら",
+    "Romaji": "sorera"
+  },
+  {
+    "Kanji": "げき",
+    "Kana": "げき",
+    "Romaji": "geki"
+  },
+  {
+    "Kanji": "雪",
+    "Kana": "ゆき",
+    "Romaji": "yuki"
+  },
+  {
+    "Kanji": "情報",
+    "Kana": "じょうほう",
+    "Romaji": "jouhou"
+  },
+  {
+    "Kanji": "悲鳴",
+    "Kana": "ひめい",
+    "Romaji": "himei"
+  },
+  {
+    "Kanji": "化",
+    "Kana": "か",
+    "Romaji": "ka"
+  },
+  {
+    "Kanji": "戦争",
+    "Kana": "せんそう",
+    "Romaji": "sensou"
+  },
+  {
+    "Kanji": "旅",
+    "Kana": "たび",
+    "Romaji": "tabi"
+  },
+  {
+    "Kanji": "妙",
+    "Kana": "みょう",
+    "Romaji": "myou"
+  },
+  {
+    "Kanji": "方法",
+    "Kana": "ほうほう",
+    "Romaji": "houhou"
+  },
+  {
+    "Kanji": "円",
+    "Kana": "えん",
+    "Romaji": "en"
+  },
+  {
+    "Kanji": "隣",
+    "Kana": "となり",
+    "Romaji": "tonari"
+  },
+  {
+    "Kanji": "状況",
+    "Kana": "じょうきょう",
+    "Romaji": "joukyou"
+  },
+  {
+    "Kanji": "母親",
+    "Kana": "ははおや",
+    "Romaji": "hahaoya"
+  },
+  {
+    "Kanji": "口調",
+    "Kana": "くちょう",
+    "Romaji": "kuchou"
+  },
+  {
+    "Kanji": "泰",
+    "Kana": "やすし",
+    "Romaji": "yasushi"
+  },
+  {
+    "Kanji": "殿",
+    "Kana": "しんがり",
+    "Romaji": "shingari"
+  },
+  {
+    "Kanji": "感情",
+    "Kana": "かんじょう",
+    "Romaji": "kanjou"
+  },
+  {
+    "Kanji": "しょ",
+    "Kana": "しょ",
+    "Romaji": "sho"
+  },
+  {
+    "Kanji": "愛",
+    "Kana": "あい",
+    "Romaji": "ai"
+  },
+  {
+    "Kanji": "犯人",
+    "Kana": "はんにん",
+    "Romaji": "hannin"
+  },
+  {
+    "Kanji": "魅",
+    "Kana": "み",
+    "Romaji": "mi"
+  },
+  {
+    "Kanji": "気配",
+    "Kana": "けはい",
+    "Romaji": "kehai"
+  },
+  {
+    "Kanji": "傷",
+    "Kana": "きず",
+    "Romaji": "kizu"
+  },
+  {
+    "Kanji": "恐怖",
+    "Kana": "きょうふ",
+    "Romaji": "kyoufu"
+  },
+  {
+    "Kanji": "いっしょ",
+    "Kana": "いっしょ",
+    "Romaji": "issho"
+  },
+  {
+    "Kanji": "感覚",
+    "Kana": "かんかく",
+    "Romaji": "kankaku"
+  },
+  {
+    "Kanji": "機体",
+    "Kana": "きたい",
+    "Romaji": "kitai"
+  },
+  {
+    "Kanji": "全員",
+    "Kana": "ぜんいん",
+    "Romaji": "zenin"
+  },
+  {
+    "Kanji": "自由",
+    "Kana": "じゆう",
+    "Romaji": "jiyuu"
+  },
+  {
+    "Kanji": "嫌",
+    "Kana": "いや",
+    "Romaji": "iya"
+  },
+  {
+    "Kanji": "マージ",
+    "Kana": "マージ",
+    "Romaji": "ma-ji"
+  },
+  {
+    "Kanji": "氏",
+    "Kana": "し",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "たん",
+    "Kana": "たん",
+    "Romaji": "tan"
+  },
+  {
+    "Kanji": "ヤツ",
+    "Kana": "ヤツ",
+    "Romaji": "yatsu"
+  },
+  {
+    "Kanji": "目的",
+    "Kana": "もくてき",
+    "Romaji": "mokuteki"
+  },
+  {
+    "Kanji": "裏",
+    "Kana": "うら",
+    "Romaji": "ura"
+  },
+  {
+    "Kanji": "そいつ",
+    "Kana": "そいつ",
+    "Romaji": "soitsu"
+  },
+  {
+    "Kanji": "途中",
+    "Kana": "とちゅう",
+    "Romaji": "tochuu"
+  },
+  {
+    "Kanji": "獣",
+    "Kana": "しし",
+    "Romaji": "shishi"
+  },
+  {
+    "Kanji": "たび",
+    "Kana": "たび",
+    "Romaji": "tabi"
+  },
+  {
+    "Kanji": "質問",
+    "Kana": "しつもん",
+    "Romaji": "shitsumon"
+  },
+  {
+    "Kanji": "うし",
+    "Kana": "うし",
+    "Romaji": "ushi"
+  },
+  {
+    "Kanji": "号",
+    "Kana": "ごう",
+    "Romaji": "gou"
+  },
+  {
+    "Kanji": "沙都子",
+    "Kana": "さとこ",
+    "Romaji": "satoko"
+  },
+  {
+    "Kanji": "せん",
+    "Kana": "せん",
+    "Romaji": "sen"
+  },
+  {
+    "Kanji": "噂",
+    "Kana": "うわさ",
+    "Romaji": "uwasa"
+  },
+  {
+    "Kanji": "全部",
+    "Kana": "ぜんぶ",
+    "Romaji": "zenbu"
+  },
+  {
+    "Kanji": "方向",
+    "Kana": "ほうこう",
+    "Romaji": "houkou"
+  },
+  {
+    "Kanji": "艦",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "勝手",
+    "Kana": "かって",
+    "Romaji": "katte"
+  },
+  {
+    "Kanji": "博士",
+    "Kana": "はかせ",
+    "Romaji": "hakase"
+  },
+  {
+    "Kanji": "絵",
+    "Kana": "え",
+    "Romaji": "e"
+  },
+  {
+    "Kanji": "微笑",
+    "Kana": "びしょう",
+    "Romaji": "bishou"
+  },
+  {
+    "Kanji": "警察",
+    "Kana": "けいさつ",
+    "Romaji": "keisatsu"
+  },
+  {
+    "Kanji": "薔薇",
+    "Kana": "ばら",
+    "Romaji": "bara"
+  },
+  {
+    "Kanji": "我",
+    "Kana": "わが",
+    "Romaji": "waga"
+  },
+  {
+    "Kanji": "妻",
+    "Kana": "つま",
+    "Romaji": "tsuma"
+  },
+  {
+    "Kanji": "誰か",
+    "Kana": "だれか",
+    "Romaji": "dareka"
+  },
+  {
+    "Kanji": "どれ",
+    "Kana": "どれ",
+    "Romaji": "dore"
+  },
+  {
+    "Kanji": "約束",
+    "Kana": "やくそく",
+    "Romaji": "yakusoku"
+  },
+  {
+    "Kanji": "机",
+    "Kana": "つくえ",
+    "Romaji": "tsukue"
+  },
+  {
+    "Kanji": "結局",
+    "Kana": "けっきょく",
+    "Romaji": "kekkyoku"
+  },
+  {
+    "Kanji": "現実",
+    "Kana": "げんじつ",
+    "Romaji": "genjitsu"
+  },
+  {
+    "Kanji": "魔術",
+    "Kana": "まじゅつ",
+    "Romaji": "majutsu"
+  },
+  {
+    "Kanji": "イン",
+    "Kana": "イン",
+    "Romaji": "in"
+  },
+  {
+    "Kanji": "馬鹿",
+    "Kana": "ばか",
+    "Romaji": "baka"
+  },
+  {
+    "Kanji": "建物",
+    "Kana": "たてもの",
+    "Romaji": "tatemono"
+  },
+  {
+    "Kanji": "左手",
+    "Kana": "ひだりて",
+    "Romaji": "hidarite"
+  },
+  {
+    "Kanji": "人物",
+    "Kana": "じんぶつ",
+    "Romaji": "jinbutsu"
+  },
+  {
+    "Kanji": "赤",
+    "Kana": "あか",
+    "Romaji": "aka"
+  },
+  {
+    "Kanji": "祥子",
+    "Kana": "さちこ",
+    "Romaji": "sachiko"
+  },
+  {
+    "Kanji": "云",
+    "Kana": "うん",
+    "Romaji": "un"
+  },
+  {
+    "Kanji": "肌",
+    "Kana": "はだ",
+    "Romaji": "hada"
+  },
+  {
+    "Kanji": "部隊",
+    "Kana": "ぶたい",
+    "Romaji": "butai"
+  },
+  {
+    "Kanji": "自ら",
+    "Kana": "みずから",
+    "Romaji": "mizukara"
+  },
+  {
+    "Kanji": "やう",
+    "Kana": "やう",
+    "Romaji": "yau"
+  },
+  {
+    "Kanji": "それぞれ",
+    "Kana": "それぞれ",
+    "Romaji": "sorezore"
+  },
+  {
+    "Kanji": "兵士",
+    "Kana": "へいし",
+    "Romaji": "heishi"
+  },
+  {
+    "Kanji": "戦い",
+    "Kana": "たたかい",
+    "Romaji": "tatakai"
+  },
+  {
+    "Kanji": "そのもの",
+    "Kana": "そのもの",
+    "Romaji": "sonomono"
+  },
+  {
+    "Kanji": "現在",
+    "Kana": "げんざい",
+    "Romaji": "genzai"
+  },
+  {
+    "Kanji": "死体",
+    "Kana": "したい",
+    "Romaji": "shitai"
+  },
+  {
+    "Kanji": "言",
+    "Kana": "げん",
+    "Romaji": "gen"
+  },
+  {
+    "Kanji": "全体",
+    "Kana": "ぜんたい",
+    "Romaji": "zentai"
+  },
+  {
+    "Kanji": "野",
+    "Kana": "の",
+    "Romaji": "no"
+  },
+  {
+    "Kanji": "３",
+    "Kana": "さん",
+    "Romaji": "san"
+  },
+  {
+    "Kanji": "以前",
+    "Kana": "いぜん",
+    "Romaji": "izen"
+  },
+  {
+    "Kanji": "秒",
+    "Kana": "びょう",
+    "Romaji": "byou"
+  },
+  {
+    "Kanji": "用意",
+    "Kana": "ようい",
+    "Romaji": "youi"
+  },
+  {
+    "Kanji": "翼",
+    "Kana": "つばさ",
+    "Romaji": "tsubasa"
+  },
+  {
+    "Kanji": "かなめ",
+    "Kana": "かなめ",
+    "Romaji": "kaname"
+  },
+  {
+    "Kanji": "リック",
+    "Kana": "リック",
+    "Romaji": "rikku"
+  },
+  {
+    "Kanji": "反応",
+    "Kana": "はんのう",
+    "Romaji": "hannou"
+  },
+  {
+    "Kanji": "秘密",
+    "Kana": "ひみつ",
+    "Romaji": "himitsu"
+  },
+  {
+    "Kanji": "猫",
+    "Kana": "ねこ",
+    "Romaji": "neko"
+  },
+  {
+    "Kanji": "武器",
+    "Kana": "ぶき",
+    "Romaji": "buki"
+  },
+  {
+    "Kanji": "汗",
+    "Kana": "あせ",
+    "Romaji": "ase"
+  },
+  {
+    "Kanji": "間違い",
+    "Kana": "まちがい",
+    "Romaji": "machigai"
+  },
+  {
+    "Kanji": "額",
+    "Kana": "がく",
+    "Romaji": "gaku"
+  },
+  {
+    "Kanji": "報告",
+    "Kana": "ほうこく",
+    "Romaji": "houkoku"
+  },
+  {
+    "Kanji": "空間",
+    "Kana": "くうかん",
+    "Romaji": "kuukan"
+  },
+  {
+    "Kanji": "笑顔",
+    "Kana": "えがお",
+    "Romaji": "egao"
+  },
+  {
+    "Kanji": "匂い",
+    "Kana": "におい",
+    "Romaji": "nioi"
+  },
+  {
+    "Kanji": "葉子",
+    "Kana": "ようこ",
+    "Romaji": "youko"
+  },
+  {
+    "Kanji": "調子",
+    "Kana": "ちょうし",
+    "Romaji": "choushi"
+  },
+  {
+    "Kanji": "棒",
+    "Kana": "ぼう",
+    "Romaji": "bou"
+  },
+  {
+    "Kanji": "アン",
+    "Kana": "アン",
+    "Romaji": "an"
+  },
+  {
+    "Kanji": "エルメス",
+    "Kana": "エルメス",
+    "Romaji": "erumesu"
+  },
+  {
+    "Kanji": "がた",
+    "Kana": "がた",
+    "Romaji": "gata"
+  },
+  {
+    "Kanji": "脚",
+    "Kana": "あし",
+    "Romaji": "ashi"
+  },
+  {
+    "Kanji": "態度",
+    "Kana": "たいど",
+    "Romaji": "taido"
+  },
+  {
+    "Kanji": "発見",
+    "Kana": "はっけん",
+    "Romaji": "hakken"
+  },
+  {
+    "Kanji": "はん",
+    "Kana": "はん",
+    "Romaji": "han"
+  },
+  {
+    "Kanji": "緊張",
+    "Kana": "きんちょう",
+    "Romaji": "kinchou"
+  },
+  {
+    "Kanji": "鬼",
+    "Kana": "おに",
+    "Romaji": "oni"
+  },
+  {
+    "Kanji": "銃",
+    "Kana": "じゅう",
+    "Romaji": "juu"
+  },
+  {
+    "Kanji": "安心",
+    "Kana": "あんしん",
+    "Romaji": "anshin"
+  },
+  {
+    "Kanji": "判断",
+    "Kana": "はんだん",
+    "Romaji": "handan"
+  },
+  {
+    "Kanji": "由乃",
+    "Kana": "ゆの",
+    "Romaji": "yuno"
+  },
+  {
+    "Kanji": "他人",
+    "Kana": "たにん",
+    "Romaji": "tanin"
+  },
+  {
+    "Kanji": "行",
+    "Kana": "こう",
+    "Romaji": "kou"
+  },
+  {
+    "Kanji": "天井",
+    "Kana": "てんじょう",
+    "Romaji": "tenjou"
+  },
+  {
+    "Kanji": "屋敷",
+    "Kana": "やしき",
+    "Romaji": "yashiki"
+  },
+  {
+    "Kanji": "型",
+    "Kana": "かた",
+    "Romaji": "kata"
+  },
+  {
+    "Kanji": "雲",
+    "Kana": "くも",
+    "Romaji": "kumo"
+  },
+  {
+    "Kanji": "弾",
+    "Kana": "たま",
+    "Romaji": "tama"
+  },
+  {
+    "Kanji": "お願い",
+    "Kana": "おねがい",
+    "Romaji": "onegai"
+  },
+  {
+    "Kanji": "程度",
+    "Kana": "ていど",
+    "Romaji": "teido"
+  },
+  {
+    "Kanji": "がん",
+    "Kana": "がん",
+    "Romaji": "gan"
+  },
+  {
+    "Kanji": "訳",
+    "Kana": "わけ",
+    "Romaji": "wake"
+  },
+  {
+    "Kanji": "中央",
+    "Kana": "ちゅうおう",
+    "Romaji": "chuuou"
+  },
+  {
+    "Kanji": "限り",
+    "Kana": "かぎり",
+    "Romaji": "kagiri"
+  },
+  {
+    "Kanji": "聖",
+    "Kana": "きよし",
+    "Romaji": "kiyoshi"
+  },
+  {
+    "Kanji": "戦",
+    "Kana": "せん",
+    "Romaji": "sen"
+  },
+  {
+    "Kanji": "セイ",
+    "Kana": "セイ",
+    "Romaji": "sei"
+  },
+  {
+    "Kanji": "生命",
+    "Kana": "せいめい",
+    "Romaji": "seimei"
+  },
+  {
+    "Kanji": "必死",
+    "Kana": "ひっし",
+    "Romaji": "hisshi"
+  },
+  {
+    "Kanji": "端",
+    "Kana": "はじ",
+    "Romaji": "haji"
+  },
+  {
+    "Kanji": "地球",
+    "Kana": "ちきゅう",
+    "Romaji": "chikyuu"
+  },
+  {
+    "Kanji": "夫",
+    "Kana": "おっと",
+    "Romaji": "otto"
+  },
+  {
+    "Kanji": "経験",
+    "Kana": "けいけん",
+    "Romaji": "keiken"
+  },
+  {
+    "Kanji": "その後",
+    "Kana": "そのご",
+    "Romaji": "sonogo"
+  },
+  {
+    "Kanji": "計画",
+    "Kana": "けいかく",
+    "Romaji": "keikaku"
+  },
+  {
+    "Kanji": "今夜",
+    "Kana": "こんや",
+    "Romaji": "konya"
+  },
+  {
+    "Kanji": "夏",
+    "Kana": "なつ",
+    "Romaji": "natsu"
+  },
+  {
+    "Kanji": "美",
+    "Kana": "よし",
+    "Romaji": "yoshi"
+  },
+  {
+    "Kanji": "いち",
+    "Kana": "いち",
+    "Romaji": "ichi"
+  },
+  {
+    "Kanji": "オレ",
+    "Kana": "オレ",
+    "Romaji": "ore"
+  },
+  {
+    "Kanji": "彼等",
+    "Kana": "かれら",
+    "Romaji": "karera"
+  },
+  {
+    "Kanji": "反対",
+    "Kana": "はんたい",
+    "Romaji": "hantai"
+  },
+  {
+    "Kanji": "眉",
+    "Kana": "まゆ",
+    "Romaji": "mayu"
+  },
+  {
+    "Kanji": "結婚",
+    "Kana": "けっこん",
+    "Romaji": "kekkon"
+  },
+  {
+    "Kanji": "興味",
+    "Kana": "きょうみ",
+    "Romaji": "kyoumi"
+  },
+  {
+    "Kanji": "しゅん",
+    "Kana": "しゅん",
+    "Romaji": "shun"
+  },
+  {
+    "Kanji": "ぜん",
+    "Kana": "ぜん",
+    "Romaji": "zen"
+  },
+  {
+    "Kanji": "事情",
+    "Kana": "じじょう",
+    "Romaji": "jijou"
+  },
+  {
+    "Kanji": "肉体",
+    "Kana": "にくたい",
+    "Romaji": "nikutai"
+  },
+  {
+    "Kanji": "波",
+    "Kana": "なみ",
+    "Romaji": "nami"
+  },
+  {
+    "Kanji": "光景",
+    "Kana": "こうけい",
+    "Romaji": "koukei"
+  },
+  {
+    "Kanji": "教室",
+    "Kana": "きょうしつ",
+    "Romaji": "kyoushitsu"
+  },
+  {
+    "Kanji": "ペニス",
+    "Kana": "ペニス",
+    "Romaji": "penisu"
+  },
+  {
+    "Kanji": "しゅう",
+    "Kana": "しゅう",
+    "Romaji": "shuu"
+  },
+  {
+    "Kanji": "５",
+    "Kana": "ご",
+    "Romaji": "go"
+  },
+  {
+    "Kanji": "父親",
+    "Kana": "ちちおや",
+    "Romaji": "chichioya"
+  },
+  {
+    "Kanji": "社会",
+    "Kana": "しゃかい",
+    "Romaji": "shakai"
+  },
+  {
+    "Kanji": "為",
+    "Kana": "ため",
+    "Romaji": "tame"
+  },
+  {
+    "Kanji": "かすか",
+    "Kana": "かすか",
+    "Romaji": "kasuka"
+  },
+  {
+    "Kanji": "線",
+    "Kana": "せん",
+    "Romaji": "sen"
+  },
+  {
+    "Kanji": "静",
+    "Kana": "しず",
+    "Romaji": "shizu"
+  },
+  {
+    "Kanji": "市",
+    "Kana": "し",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "正面",
+    "Kana": "しょうめん",
+    "Romaji": "shoumen"
+  },
+  {
+    "Kanji": "喉",
+    "Kana": "のど",
+    "Romaji": "nodo"
+  },
+  {
+    "Kanji": "品",
+    "Kana": "しな",
+    "Romaji": "shina"
+  },
+  {
+    "Kanji": "きれい",
+    "Kana": "きれい",
+    "Romaji": "kirei"
+  },
+  {
+    "Kanji": "土",
+    "Kana": "ど",
+    "Romaji": "do"
+  },
+  {
+    "Kanji": "岩",
+    "Kana": "いわ",
+    "Romaji": "iwa"
+  },
+  {
+    "Kanji": "爆発",
+    "Kana": "ばくはつ",
+    "Romaji": "bakuhatsu"
+  },
+  {
+    "Kanji": "ゆき",
+    "Kana": "ゆき",
+    "Romaji": "yuki"
+  },
+  {
+    "Kanji": "移動",
+    "Kana": "いどう",
+    "Romaji": "idou"
+  },
+  {
+    "Kanji": "玄",
+    "Kana": "げん",
+    "Romaji": "gen"
+  },
+  {
+    "Kanji": "圭",
+    "Kana": "けい",
+    "Romaji": "kei"
+  },
+  {
+    "Kanji": "玄関",
+    "Kana": "げんかん",
+    "Romaji": "genkan"
+  },
+  {
+    "Kanji": "陰",
+    "Kana": "かげ",
+    "Romaji": "kage"
+  },
+  {
+    "Kanji": "元気",
+    "Kana": "げんき",
+    "Romaji": "genki"
+  },
+  {
+    "Kanji": "注意",
+    "Kana": "ちゅうい",
+    "Romaji": "chuui"
+  },
+  {
+    "Kanji": "破壊",
+    "Kana": "はかい",
+    "Romaji": "hakai"
+  },
+  {
+    "Kanji": "おん",
+    "Kana": "おん",
+    "Romaji": "on"
+  },
+  {
+    "Kanji": "役",
+    "Kana": "やく",
+    "Romaji": "yaku"
+  },
+  {
+    "Kanji": "庭",
+    "Kana": "にわ",
+    "Romaji": "niwa"
+  },
+  {
+    "Kanji": "研究",
+    "Kana": "けんきゅう",
+    "Romaji": "kenkyuu"
+  },
+  {
+    "Kanji": "ガラス",
+    "Kana": "ガラス",
+    "Romaji": "garasu"
+  },
+  {
+    "Kanji": "先輩",
+    "Kana": "せんぱい",
+    "Romaji": "senpai"
+  },
+  {
+    "Kanji": "乳房",
+    "Kana": "ちぶさ",
+    "Romaji": "chibusa"
+  },
+  {
+    "Kanji": "己",
+    "Kana": "おのれ",
+    "Romaji": "onore"
+  },
+  {
+    "Kanji": "矢",
+    "Kana": "や",
+    "Romaji": "ya"
+  },
+  {
+    "Kanji": "煙",
+    "Kana": "けむり",
+    "Romaji": "kemuri"
+  },
+  {
+    "Kanji": "角",
+    "Kana": "かく",
+    "Romaji": "kaku"
+  },
+  {
+    "Kanji": "シ",
+    "Kana": "シ",
+    "Romaji": "shi"
+  },
+  {
+    "Kanji": "川",
+    "Kana": "かわ",
+    "Romaji": "kawa"
+  },
+  {
+    "Kanji": "青年",
+    "Kana": "せいねん",
+    "Romaji": "seinen"
+  },
+  {
+    "Kanji": "若者",
+    "Kana": "わかもの",
+    "Romaji": "wakamono"
+  },
+  {
+    "Kanji": "脇",
+    "Kana": "わき",
+    "Romaji": "waki"
+  },
+  {
+    "Kanji": "とこ",
+    "Kana": "とこ",
+    "Romaji": "toko"
+  },
+  {
+    "Kanji": "新聞",
+    "Kana": "しんぶん",
+    "Romaji": "shinbun"
+  },
+  {
+    "Kanji": "人形",
+    "Kana": "にんぎょう",
+    "Romaji": "ningyou"
+  },
+  {
+    "Kanji": "秀麗",
+    "Kana": "しゅうれい",
+    "Romaji": "shuurei"
+  },
+  {
+    "Kanji": "はな",
+    "Kana": "はな",
+    "Romaji": "hana"
+  },
+  {
+    "Kanji": "マン",
+    "Kana": "マン",
+    "Romaji": "man"
+  },
+  {
+    "Kanji": "連絡",
+    "Kana": "れんらく",
+    "Romaji": "renraku"
+  },
+  {
+    "Kanji": "じん",
+    "Kana": "じん",
+    "Romaji": "jin"
+  },
+  {
+    "Kanji": "食事",
+    "Kana": "しょくじ",
+    "Romaji": "shokuji"
+  },
+  {
+    "Kanji": "作戦",
+    "Kana": "さくせん",
+    "Romaji": "sakusen"
+  },
+  {
+    "Kanji": "文字",
+    "Kana": "もじ",
+    "Romaji": "moji"
+  },
+  {
+    "Kanji": "同様",
+    "Kana": "どうよう",
+    "Romaji": "douyou"
+  },
+  {
+    "Kanji": "きり",
+    "Kana": "きり",
+    "Romaji": "kiri"
+  },
+  {
+    "Kanji": "毎日",
+    "Kana": "まいにち",
+    "Romaji": "mainichi"
+  },
+  {
+    "Kanji": "組",
+    "Kana": "くみ",
+    "Romaji": "kumi"
+  },
+  {
+    "Kanji": "痛み",
+    "Kana": "いたみ",
+    "Romaji": "itami"
+  },
+  {
+    "Kanji": "鳥",
+    "Kana": "とり",
+    "Romaji": "tori"
+  },
+  {
+    "Kanji": "館",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "歯",
+    "Kana": "は",
+    "Romaji": "ha"
+  },
+  {
+    "Kanji": "笑み",
+    "Kana": "えみ",
+    "Romaji": "emi"
+  },
+  {
+    "Kanji": "教師",
+    "Kana": "きょうし",
+    "Romaji": "kyoushi"
+  },
+  {
+    "Kanji": "紙",
+    "Kana": "かみ",
+    "Romaji": "kami"
+  },
+  {
+    "Kanji": "てい",
+    "Kana": "てい",
+    "Romaji": "tei"
+  },
+  {
+    "Kanji": "非常",
+    "Kana": "ひじょう",
+    "Romaji": "hijou"
+  },
+  {
+    "Kanji": "余",
+    "Kana": "よ",
+    "Romaji": "yo"
+  },
+  {
+    "Kanji": "輝",
+    "Kana": "てる",
+    "Romaji": "teru"
+  },
+  {
+    "Kanji": "納得",
+    "Kana": "なっとく",
+    "Romaji": "nattoku"
+  },
+  {
+    "Kanji": "期待",
+    "Kana": "きたい",
+    "Romaji": "kitai"
+  },
+  {
+    "Kanji": "満足",
+    "Kana": "まんぞく",
+    "Romaji": "manzoku"
+  },
+  {
+    "Kanji": "明",
+    "Kana": "あきら",
+    "Romaji": "akira"
+  },
+  {
+    "Kanji": "くせ",
+    "Kana": "くせ",
+    "Romaji": "kuse"
+  },
+  {
+    "Kanji": "令",
+    "Kana": "りょう",
+    "Romaji": "ryou"
+  },
+  {
+    "Kanji": "罪",
+    "Kana": "つみ",
+    "Romaji": "tsumi"
+  },
+  {
+    "Kanji": "れい",
+    "Kana": "れい",
+    "Romaji": "rei"
+  },
+  {
+    "Kanji": "中心",
+    "Kana": "ちゅうしん",
+    "Romaji": "chuushin"
+  },
+  {
+    "Kanji": "夫人",
+    "Kana": "ふじん",
+    "Romaji": "fujin"
+  },
+  {
+    "Kanji": "器",
+    "Kana": "うつわ",
+    "Romaji": "utsuwa"
+  },
+  {
+    "Kanji": "春",
+    "Kana": "はる",
+    "Romaji": "haru"
+  },
+  {
+    "Kanji": "骨",
+    "Kana": "ほね",
+    "Romaji": "hone"
+  },
+  {
+    "Kanji": "怒り",
+    "Kana": "いかり",
+    "Romaji": "ikari"
+  },
+  {
+    "Kanji": "無事",
+    "Kana": "ぶじ",
+    "Romaji": "buji"
+  },
+  {
+    "Kanji": "香",
+    "Kana": "こう",
+    "Romaji": "kou"
+  },
+  {
+    "Kanji": "語",
+    "Kana": "かたり",
+    "Romaji": "katari"
+  },
+  {
+    "Kanji": "ガン",
+    "Kana": "ガン",
+    "Romaji": "gan"
+  },
+  {
+    "Kanji": "楽",
+    "Kana": "らく",
+    "Romaji": "raku"
+  },
+  {
+    "Kanji": "大人",
+    "Kana": "おとな",
+    "Romaji": "otona"
+  },
+  {
+    "Kanji": "塔",
+    "Kana": "とう",
+    "Romaji": "tou"
+  },
+  {
+    "Kanji": "陛下",
+    "Kana": "へいか",
+    "Romaji": "heika"
+  },
+  {
+    "Kanji": "さき",
+    "Kana": "さき",
+    "Romaji": "saki"
+  },
+  {
+    "Kanji": "銀",
+    "Kana": "ぎん",
+    "Romaji": "gin"
+  },
+  {
+    "Kanji": "米",
+    "Kana": "べい",
+    "Romaji": "bei"
+  },
+  {
+    "Kanji": "南",
+    "Kana": "みなみ",
+    "Romaji": "minami"
+  },
+  {
+    "Kanji": "弟",
+    "Kana": "おとうと",
+    "Romaji": "otouto"
+  },
+  {
+    "Kanji": "圭一",
+    "Kana": "けいいち",
+    "Romaji": "keiichi"
+  },
+  {
+    "Kanji": "りょう",
+    "Kana": "りょう",
+    "Romaji": "ryou"
+  },
+  {
+    "Kanji": "準備",
+    "Kana": "じゅんび",
+    "Romaji": "junbi"
+  },
+  {
+    "Kanji": "惑星",
+    "Kana": "わくせい",
+    "Romaji": "wakusei"
+  },
+  {
+    "Kanji": "あん",
+    "Kana": "あん",
+    "Romaji": "an"
+  },
+  {
+    "Kanji": "抵抗",
+    "Kana": "ていこう",
+    "Romaji": "teikou"
+  },
+  {
+    "Kanji": "行為",
+    "Kana": "こうい",
+    "Romaji": "koui"
+  },
+  {
+    "Kanji": "太陽",
+    "Kana": "たいよう",
+    "Romaji": "taiyou"
+  },
+  {
+    "Kanji": "ため息",
+    "Kana": "ためいき",
+    "Romaji": "tameiki"
+  },
+  {
+    "Kanji": "つぶ",
+    "Kana": "つぶ",
+    "Romaji": "tsubu"
+  },
+  {
+    "Kanji": "宮",
+    "Kana": "みや",
+    "Romaji": "miya"
+  },
+  {
+    "Kanji": "友達",
+    "Kana": "ともだち",
+    "Romaji": "tomodachi"
+  },
+  {
+    "Kanji": "枝",
+    "Kana": "えだ",
+    "Romaji": "eda"
+  },
+  {
+    "Kanji": "処",
+    "Kana": "ところ",
+    "Romaji": "tokoro"
+  },
+  {
+    "Kanji": "明らか",
+    "Kana": "あきらか",
+    "Romaji": "akiraka"
+  },
+  {
+    "Kanji": "変化",
+    "Kana": "へんか",
+    "Romaji": "henka"
+  },
+  {
+    "Kanji": "籠",
+    "Kana": "かご",
+    "Romaji": "kago"
+  },
+  {
+    "Kanji": "相談",
+    "Kana": "そうだん",
+    "Romaji": "soudan"
+  },
+  {
+    "Kanji": "土地",
+    "Kana": "とち",
+    "Romaji": "tochi"
+  },
+  {
+    "Kanji": "民",
+    "Kana": "みん",
+    "Romaji": "min"
+  },
+  {
+    "Kanji": "案内",
+    "Kana": "あんない",
+    "Romaji": "annai"
+  },
+  {
+    "Kanji": "奇妙",
+    "Kana": "きみょう",
+    "Romaji": "kimyou"
+  },
+  {
+    "Kanji": "興奮",
+    "Kana": "こうふん",
+    "Romaji": "koufun"
+  },
+  {
+    "Kanji": "ぶり",
+    "Kana": "ぶり",
+    "Romaji": "buri"
+  },
+  {
+    "Kanji": "挨拶",
+    "Kana": "あいさつ",
+    "Romaji": "aisatsu"
+  },
+  {
+    "Kanji": "樹",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "てん",
+    "Kana": "てん",
+    "Romaji": "ten"
+  },
+  {
+    "Kanji": "ホテル",
+    "Kana": "ホテル",
+    "Romaji": "hoteru"
+  },
+  {
+    "Kanji": "李",
+    "Kana": "り",
+    "Romaji": "ri"
+  },
+  {
+    "Kanji": "界",
+    "Kana": "さかい",
+    "Romaji": "sakai"
+  },
+  {
+    "Kanji": "縁",
+    "Kana": "えん",
+    "Romaji": "en"
+  },
+  {
+    "Kanji": "会話",
+    "Kana": "かいわ",
+    "Romaji": "kaiwa"
+  },
+  {
+    "Kanji": "毛",
+    "Kana": "もう",
+    "Romaji": "mou"
+  },
+  {
+    "Kanji": "あそこ",
+    "Kana": "あそこ",
+    "Romaji": "asoko"
+  },
+  {
+    "Kanji": "秘",
+    "Kana": "ひ",
+    "Romaji": "hi"
+  },
+  {
+    "Kanji": "冗談",
+    "Kana": "じょうだん",
+    "Romaji": "joudan"
+  },
+  {
+    "Kanji": "運命",
+    "Kana": "うんめい",
+    "Romaji": "unmei"
+  },
+  {
+    "Kanji": "基地",
+    "Kana": "きち",
+    "Romaji": "kichi"
+  },
+  {
+    "Kanji": "書",
+    "Kana": "しょ",
+    "Romaji": "sho"
+  },
+  {
+    "Kanji": "付き",
+    "Kana": "つき",
+    "Romaji": "tsuki"
+  },
+  {
+    "Kanji": "鏡",
+    "Kana": "かがみ",
+    "Romaji": "kagami"
+  },
+  {
+    "Kanji": "ポケット",
+    "Kana": "ポケット",
+    "Romaji": "poketto"
+  },
+  {
+    "Kanji": "笑い",
+    "Kana": "わらい",
+    "Romaji": "warai"
+  },
+  {
+    "Kanji": "立場",
+    "Kana": "たちば",
+    "Romaji": "tachiba"
+  },
+  {
+    "Kanji": "刀",
+    "Kana": "かたな",
+    "Romaji": "katana"
+  },
+  {
+    "Kanji": "戦士",
+    "Kana": "せんし",
+    "Romaji": "senshi"
+  },
+  {
+    "Kanji": "袋",
+    "Kana": "ふくろ",
+    "Romaji": "fukuro"
+  },
+  {
+    "Kanji": "キロ",
+    "Kana": "キロ",
+    "Romaji": "kiro"
+  },
+  {
+    "Kanji": "午後",
+    "Kana": "ごご",
+    "Romaji": "gogo"
+  },
+  {
+    "Kanji": "正直",
+    "Kana": "しょうじき",
+    "Romaji": "shoujiki"
+  },
+  {
+    "Kanji": "家族",
+    "Kana": "かぞく",
+    "Romaji": "kazoku"
+  },
+  {
+    "Kanji": "きゅう",
+    "Kana": "きゅう",
+    "Romaji": "kyuu"
+  },
+  {
+    "Kanji": "歴史",
+    "Kana": "れきし",
+    "Romaji": "rekishi"
+  },
+  {
+    "Kanji": "わき",
+    "Kana": "わき",
+    "Romaji": "waki"
+  },
+  {
+    "Kanji": "こん",
+    "Kana": "こん",
+    "Romaji": "kon"
+  },
+  {
+    "Kanji": "片手",
+    "Kana": "かたて",
+    "Romaji": "katate"
+  },
+  {
+    "Kanji": "みな",
+    "Kana": "みな",
+    "Romaji": "mina"
+  },
+  {
+    "Kanji": "スト",
+    "Kana": "スト",
+    "Romaji": "suto"
+  },
+  {
+    "Kanji": "りゅう",
+    "Kana": "りゅう",
+    "Romaji": "ryuu"
+  },
+  {
+    "Kanji": "位",
+    "Kana": "くらい",
+    "Romaji": "kurai"
+  },
+  {
+    "Kanji": "カー",
+    "Kana": "カー",
+    "Romaji": "ka-"
+  },
+  {
+    "Kanji": "技術",
+    "Kana": "ぎじゅつ",
+    "Romaji": "gijutsu"
+  },
+  {
+    "Kanji": "過去",
+    "Kana": "かこ",
+    "Romaji": "kako"
+  },
+  {
+    "Kanji": "大河",
+    "Kana": "たいが",
+    "Romaji": "taiga"
+  },
+  {
+    "Kanji": "承知",
+    "Kana": "しょうち",
+    "Romaji": "shouchi"
+  },
+  {
+    "Kanji": "味",
+    "Kana": "あじ",
+    "Romaji": "aji"
+  },
+  {
+    "Kanji": "装置",
+    "Kana": "そうち",
+    "Romaji": "souchi"
+  },
+  {
+    "Kanji": "路",
+    "Kana": "みち",
+    "Romaji": "michi"
+  },
+  {
+    "Kanji": "沈黙",
+    "Kana": "ちんもく",
+    "Romaji": "chinmoku"
+  },
+  {
+    "Kanji": "自信",
+    "Kana": "じしん",
+    "Romaji": "jishin"
+  },
+  {
+    "Kanji": "傍",
+    "Kana": "はた",
+    "Romaji": "hata"
+  },
+  {
+    "Kanji": "覚悟",
+    "Kana": "かくご",
+    "Romaji": "kakugo"
+  },
+  {
+    "Kanji": "州",
+    "Kana": "しゅう",
+    "Romaji": "shuu"
+  },
+  {
+    "Kanji": "作業",
+    "Kana": "さぎょう",
+    "Romaji": "sagyou"
+  },
+  {
+    "Kanji": "４",
+    "Kana": "よん",
+    "Romaji": "yon"
+  },
+  {
+    "Kanji": "以来",
+    "Kana": "いらい",
+    "Romaji": "irai"
+  },
+  {
+    "Kanji": "大事",
+    "Kana": "だいじ",
+    "Romaji": "daiji"
+  },
+  {
+    "Kanji": "ちがい",
+    "Kana": "ちがい",
+    "Romaji": "chigai"
+  },
+  {
+    "Kanji": "艦隊",
+    "Kana": "かんたい",
+    "Romaji": "kantai"
+  },
+  {
+    "Kanji": "族",
+    "Kana": "ぞく",
+    "Romaji": "zoku"
+  },
+  {
+    "Kanji": "駄目",
+    "Kana": "だめ",
+    "Romaji": "dame"
+  },
+  {
+    "Kanji": "最近",
+    "Kana": "さいきん",
+    "Romaji": "saikin"
+  },
+  {
+    "Kanji": "息子",
+    "Kana": "むすこ",
+    "Romaji": "musuko"
+  },
+  {
+    "Kanji": "いくつ",
+    "Kana": "いくつ",
+    "Romaji": "ikutsu"
+  },
+  {
+    "Kanji": "発",
+    "Kana": "はつ",
+    "Romaji": "hatsu"
+  },
+  {
+    "Kanji": "鍵",
+    "Kana": "かぎ",
+    "Romaji": "kagi"
+  },
+  {
+    "Kanji": "意志",
+    "Kana": "いし",
+    "Romaji": "ishi"
+  },
+  {
+    "Kanji": "文学",
+    "Kana": "ぶんがく",
+    "Romaji": "bungaku"
+  },
+  {
+    "Kanji": "志摩子",
+    "Kana": "しまこ",
+    "Romaji": "shimako"
+  },
+  {
+    "Kanji": "運動",
+    "Kana": "うんどう",
+    "Romaji": "undou"
+  },
+  {
+    "Kanji": "会社",
+    "Kana": "かいしゃ",
+    "Romaji": "kaisha"
+  },
+  {
+    "Kanji": "邪魔",
+    "Kana": "じゃま",
+    "Romaji": "jama"
+  },
+  {
+    "Kanji": "代わり",
+    "Kana": "かわり",
+    "Romaji": "kawari"
+  },
+  {
+    "Kanji": "姫",
+    "Kana": "ひめ",
+    "Romaji": "hime"
+  },
+  {
+    "Kanji": "伊",
+    "Kana": "い",
+    "Romaji": "i"
+  },
+  {
+    "Kanji": "草",
+    "Kana": "くさ",
+    "Romaji": "kusa"
+  },
+  {
+    "Kanji": "隊長",
+    "Kana": "たいちょう",
+    "Romaji": "taichou"
+  },
+  {
+    "Kanji": "足音",
+    "Kana": "あしおと",
+    "Romaji": "ashioto"
+  },
+  {
+    "Kanji": "はじめ",
+    "Kana": "はじめ",
+    "Romaji": "hajime"
+  },
+  {
+    "Kanji": "景",
+    "Kana": "けい",
+    "Romaji": "kei"
+  },
+  {
+    "Kanji": "答え",
+    "Kana": "こたえ",
+    "Romaji": "kotae"
+  },
+  {
+    "Kanji": "紅",
+    "Kana": "べに",
+    "Romaji": "beni"
+  },
+  {
+    "Kanji": "無視",
+    "Kana": "むし",
+    "Romaji": "mushi"
+  },
+  {
+    "Kanji": "昨夜",
+    "Kana": "さくや",
+    "Romaji": "sakuya"
+  },
+  {
+    "Kanji": "自己",
+    "Kana": "じこ",
+    "Romaji": "jiko"
+  },
+  {
+    "Kanji": "ビル",
+    "Kana": "ビル",
+    "Romaji": "biru"
+  },
+  {
+    "Kanji": "馬車",
+    "Kana": "ばしゃ",
+    "Romaji": "basha"
+  },
+  {
+    "Kanji": "病院",
+    "Kana": "びょういん",
+    "Romaji": "byouin"
+  },
+  {
+    "Kanji": "本気",
+    "Kana": "ほんき",
+    "Romaji": "honki"
+  },
+  {
+    "Kanji": "意外",
+    "Kana": "いがい",
+    "Romaji": "igai"
+  },
+  {
+    "Kanji": "パ",
+    "Kana": "パ",
+    "Romaji": "pa"
+  },
+  {
+    "Kanji": "無言",
+    "Kana": "むごん",
+    "Romaji": "mugon"
+  },
+  {
+    "Kanji": "ナイフ",
+    "Kana": "ナイフ",
+    "Romaji": "naifu"
+  },
+  {
+    "Kanji": "カイ",
+    "Kana": "カイ",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "個",
+    "Kana": "こ",
+    "Romaji": "ko"
+  },
+  {
+    "Kanji": "倍",
+    "Kana": "ばい",
+    "Romaji": "bai"
+  },
+  {
+    "Kanji": "支配",
+    "Kana": "しはい",
+    "Romaji": "shihai"
+  },
+  {
+    "Kanji": "荷物",
+    "Kana": "にもつ",
+    "Romaji": "nimotsu"
+  },
+  {
+    "Kanji": "顎",
+    "Kana": "あご",
+    "Romaji": "ago"
+  },
+  {
+    "Kanji": "失礼",
+    "Kana": "しつれい",
+    "Romaji": "shitsurei"
+  },
+  {
+    "Kanji": "証拠",
+    "Kana": "しょうこ",
+    "Romaji": "shouko"
+  },
+  {
+    "Kanji": "遠く",
+    "Kana": "とおく",
+    "Romaji": "tooku"
+  },
+  {
+    "Kanji": "ぢ",
+    "Kana": "ぢ",
+    "Romaji": "ji"
+  },
+  {
+    "Kanji": "表",
+    "Kana": "ひょう",
+    "Romaji": "hyou"
+  },
+  {
+    "Kanji": "ひざ",
+    "Kana": "ひざ",
+    "Romaji": "hiza"
+  },
+  {
+    "Kanji": "つき",
+    "Kana": "つき",
+    "Romaji": "tsuki"
+  },
+  {
+    "Kanji": "予想",
+    "Kana": "よそう",
+    "Romaji": "yosou"
+  },
+  {
+    "Kanji": "心臓",
+    "Kana": "しんぞう",
+    "Romaji": "shinzou"
+  },
+  {
+    "Kanji": "速度",
+    "Kana": "そくど",
+    "Romaji": "sokudo"
+  },
+  {
+    "Kanji": "魂",
+    "Kana": "たましい",
+    "Romaji": "tamashii"
+  },
+  {
+    "Kanji": "今回",
+    "Kana": "こんかい",
+    "Romaji": "konkai"
+  },
+  {
+    "Kanji": "玉",
+    "Kana": "たま",
+    "Romaji": "tama"
+  },
+  {
+    "Kanji": "殺人",
+    "Kana": "さつじん",
+    "Romaji": "satsujin"
+  },
+  {
+    "Kanji": "通路",
+    "Kana": "つうろ",
+    "Romaji": "tsuuro"
+  },
+  {
+    "Kanji": "歌",
+    "Kana": "うた",
+    "Romaji": "uta"
+  },
+  {
+    "Kanji": "スカート",
+    "Kana": "スカート",
+    "Romaji": "suka-to"
+  },
+  {
+    "Kanji": "友人",
+    "Kana": "ゆうじん",
+    "Romaji": "yuujin"
+  },
+  {
+    "Kanji": "布",
+    "Kana": "ぬの",
+    "Romaji": "nuno"
+  },
+  {
+    "Kanji": "ダメ",
+    "Kana": "ダメ",
+    "Romaji": "dame"
+  },
+  {
+    "Kanji": "斎",
+    "Kana": "とき",
+    "Romaji": "toki"
+  },
+  {
+    "Kanji": "東",
+    "Kana": "ひがし",
+    "Romaji": "higashi"
+  },
+  {
+    "Kanji": "大切",
+    "Kana": "たいせつ",
+    "Romaji": "taisetsu"
+  },
+  {
+    "Kanji": "世",
+    "Kana": "よ",
+    "Romaji": "yo"
+  },
+  {
+    "Kanji": "おかげ",
+    "Kana": "おかげ",
+    "Romaji": "okage"
+  },
+  {
+    "Kanji": "熱",
+    "Kana": "ねつ",
+    "Romaji": "netsu"
+  },
+  {
+    "Kanji": "きん",
+    "Kana": "きん",
+    "Romaji": "kin"
+  },
+  {
+    "Kanji": "地下",
+    "Kana": "ちか",
+    "Romaji": "chika"
+  },
+  {
+    "Kanji": "ほお",
+    "Kana": "ほお",
+    "Romaji": "hoo"
+  },
+  {
+    "Kanji": "まわり",
+    "Kana": "まわり",
+    "Romaji": "mawari"
+  },
+  {
+    "Kanji": "格好",
+    "Kana": "かっこう",
+    "Romaji": "kakkou"
+  },
+  {
+    "Kanji": "味方",
+    "Kana": "みかた",
+    "Romaji": "mikata"
+  },
+  {
+    "Kanji": "両親",
+    "Kana": "りょうしん",
+    "Romaji": "ryoushin"
+  },
+  {
+    "Kanji": "裕生",
+    "Kana": "ゆうき",
+    "Romaji": "yuuki"
+  },
+  {
+    "Kanji": "立派",
+    "Kana": "りっぱ",
+    "Romaji": "rippa"
+  },
+  {
+    "Kanji": "当時",
+    "Kana": "とうじ",
+    "Romaji": "touji"
+  },
+  {
+    "Kanji": "衝撃",
+    "Kana": "しょうげき",
+    "Romaji": "shougeki"
+  },
+  {
+    "Kanji": "すべ",
+    "Kana": "すべ",
+    "Romaji": "sube"
+  },
+  {
+    "Kanji": "宿",
+    "Kana": "やど",
+    "Romaji": "yado"
+  },
+  {
+    "Kanji": "北",
+    "Kana": "きた",
+    "Romaji": "kita"
+  },
+  {
+    "Kanji": "晩",
+    "Kana": "ばん",
+    "Romaji": "ban"
+  },
+  {
+    "Kanji": "鉄",
+    "Kana": "てつ",
+    "Romaji": "tetsu"
+  },
+  {
+    "Kanji": "どっち",
+    "Kana": "どっち",
+    "Romaji": "docchi"
+  },
+  {
+    "Kanji": "主義",
+    "Kana": "しゅぎ",
+    "Romaji": "shugi"
+  },
+  {
+    "Kanji": "科学",
+    "Kana": "かがく",
+    "Romaji": "kagaku"
+  },
+  {
+    "Kanji": "薬",
+    "Kana": "くすり",
+    "Romaji": "kusuri"
+  },
+  {
+    "Kanji": "思考",
+    "Kana": "しこう",
+    "Romaji": "shikou"
+  },
+  {
+    "Kanji": "意見",
+    "Kana": "いけん",
+    "Romaji": "iken"
+  },
+  {
+    "Kanji": "夫婦",
+    "Kana": "ふうふ",
+    "Romaji": "fuufu"
+  },
+  {
+    "Kanji": "苦笑",
+    "Kana": "くしょう",
+    "Romaji": "kushou"
+  },
+  {
+    "Kanji": "前方",
+    "Kana": "ぜんぽう",
+    "Romaji": "zenpou"
+  },
+  {
+    "Kanji": "０",
+    "Kana": "ぜろ",
+    "Romaji": "zero"
+  },
+  {
+    "Kanji": "バトラー",
+    "Kana": "バトラー",
+    "Romaji": "batora-"
+  },
+  {
+    "Kanji": "安全",
+    "Kana": "あんぜん",
+    "Romaji": "anzen"
+  },
+  {
+    "Kanji": "戸",
+    "Kana": "と",
+    "Romaji": "to"
+  },
+  {
+    "Kanji": "内部",
+    "Kana": "ないぶ",
+    "Romaji": "naibu"
+  },
+  {
+    "Kanji": "直接",
+    "Kana": "ちょくせつ",
+    "Romaji": "chokusetsu"
+  },
+  {
+    "Kanji": "料理",
+    "Kana": "りょうり",
+    "Romaji": "ryouri"
+  },
+  {
+    "Kanji": "一部",
+    "Kana": "いちぶ",
+    "Romaji": "ichibu"
+  },
+  {
+    "Kanji": "感触",
+    "Kana": "かんしょく",
+    "Romaji": "kanshoku"
+  },
+  {
+    "Kanji": "呼吸",
+    "Kana": "こきゅう",
+    "Romaji": "kokyuu"
+  },
+  {
+    "Kanji": "しま",
+    "Kana": "しま",
+    "Romaji": "shima"
+  },
+  {
+    "Kanji": "槍",
+    "Kana": "やり",
+    "Romaji": "yari"
+  },
+  {
+    "Kanji": "杖",
+    "Kana": "つえ",
+    "Romaji": "tsue"
+  },
+  {
+    "Kanji": "制服",
+    "Kana": "せいふく",
+    "Romaji": "seifuku"
+  },
+  {
+    "Kanji": "らん",
+    "Kana": "らん",
+    "Romaji": "ran"
+  },
+  {
+    "Kanji": "貴方",
+    "Kana": "あなた",
+    "Romaji": "anata"
+  },
+  {
+    "Kanji": "集中",
+    "Kana": "しゅうちゅう",
+    "Romaji": "shuuchuu"
+  },
+  {
+    "Kanji": "内容",
+    "Kana": "ないよう",
+    "Romaji": "naiyou"
+  },
+  {
+    "Kanji": "クラス",
+    "Kana": "クラス",
+    "Romaji": "kurasu"
+  },
+  {
+    "Kanji": "あわ",
+    "Kana": "あわ",
+    "Romaji": "awa"
+  },
+  {
+    "Kanji": "婦人",
+    "Kana": "ふじん",
+    "Romaji": "fujin"
+  },
+  {
+    "Kanji": "ナギ",
+    "Kana": "ナギ",
+    "Romaji": "nagi"
+  },
+  {
+    "Kanji": "伊里",
+    "Kana": "いさと",
+    "Romaji": "isato"
+  },
+  {
+    "Kanji": "リン",
+    "Kana": "リン",
+    "Romaji": "rin"
+  },
+  {
+    "Kanji": "人生",
+    "Kana": "じんせい",
+    "Romaji": "jinsei"
+  },
+  {
+    "Kanji": "残念",
+    "Kana": "ざんねん",
+    "Romaji": "zannen"
+  },
+  {
+    "Kanji": "訓練",
+    "Kana": "くんれん",
+    "Romaji": "kunren"
+  },
+  {
+    "Kanji": "隅",
+    "Kana": "すみ",
+    "Romaji": "sumi"
+  },
+  {
+    "Kanji": "疑問",
+    "Kana": "ぎもん",
+    "Romaji": "gimon"
+  },
+  {
+    "Kanji": "手前",
+    "Kana": "てまえ",
+    "Romaji": "temae"
+  },
+  {
+    "Kanji": "姿勢",
+    "Kana": "しせい",
+    "Romaji": "shisei"
+  },
+  {
+    "Kanji": "うそ",
+    "Kana": "うそ",
+    "Romaji": "uso"
+  },
+  {
+    "Kanji": "事態",
+    "Kana": "じたい",
+    "Romaji": "jitai"
+  },
+  {
+    "Kanji": "指先",
+    "Kana": "ゆびさき",
+    "Romaji": "yubisaki"
+  },
+  {
+    "Kanji": "本人",
+    "Kana": "ほんにん",
+    "Romaji": "honnin"
+  },
+  {
+    "Kanji": "ぞう",
+    "Kana": "ぞう",
+    "Romaji": "zou"
+  },
+  {
+    "Kanji": "視界",
+    "Kana": "しかい",
+    "Romaji": "shikai"
+  },
+  {
+    "Kanji": "番",
+    "Kana": "ばん",
+    "Romaji": "ban"
+  },
+  {
+    "Kanji": "股間",
+    "Kana": "こかん",
+    "Romaji": "kokan"
+  },
+  {
+    "Kanji": "筋",
+    "Kana": "すじ",
+    "Romaji": "suji"
+  },
+  {
+    "Kanji": "離",
+    "Kana": "はなれ",
+    "Romaji": "hanare"
+  },
+  {
+    "Kanji": "友",
+    "Kana": "とも",
+    "Romaji": "tomo"
+  },
+  {
+    "Kanji": "園",
+    "Kana": "えん",
+    "Romaji": "en"
+  },
+  {
+    "Kanji": "魚",
+    "Kana": "さかな",
+    "Romaji": "sakana"
+  },
+  {
+    "Kanji": "法",
+    "Kana": "ほう",
+    "Romaji": "hou"
+  },
+  {
+    "Kanji": "駅",
+    "Kana": "えき",
+    "Romaji": "eki"
+  },
+  {
+    "Kanji": "余裕",
+    "Kana": "よゆう",
+    "Romaji": "yoyuu"
+  },
+  {
+    "Kanji": "雰囲気",
+    "Kana": "ふんいき",
+    "Romaji": "funiki"
+  },
+  {
+    "Kanji": "呪文",
+    "Kana": "じゅもん",
+    "Romaji": "jumon"
+  },
+  {
+    "Kanji": "恥",
+    "Kana": "はじ",
+    "Romaji": "haji"
+  },
+  {
+    "Kanji": "三つ",
+    "Kana": "みっつ",
+    "Romaji": "mittsu"
+  },
+  {
+    "Kanji": "塊",
+    "Kana": "かたまり",
+    "Romaji": "katamari"
+  },
+  {
+    "Kanji": "無駄",
+    "Kana": "むだ",
+    "Romaji": "muda"
+  },
+  {
+    "Kanji": "種",
+    "Kana": "たね",
+    "Romaji": "tane"
+  },
+  {
+    "Kanji": "旦那",
+    "Kana": "だんな",
+    "Romaji": "danna"
+  },
+  {
+    "Kanji": "７",
+    "Kana": "なな",
+    "Romaji": "nana"
+  },
+  {
+    "Kanji": "金属",
+    "Kana": "きんぞく",
+    "Romaji": "kinzoku"
+  },
+  {
+    "Kanji": "野郎",
+    "Kana": "やろう",
+    "Romaji": "yarou"
+  },
+  {
+    "Kanji": "文句",
+    "Kana": "もんく",
+    "Romaji": "monku"
+  },
+  {
+    "Kanji": "しよう",
+    "Kana": "しよう",
+    "Romaji": "shiyou"
+  },
+  {
+    "Kanji": "時計",
+    "Kana": "とけい",
+    "Romaji": "tokei"
+  },
+  {
+    "Kanji": "文",
+    "Kana": "ぶん",
+    "Romaji": "bun"
+  },
+  {
+    "Kanji": "神経",
+    "Kana": "しんけい",
+    "Romaji": "shinkei"
+  },
+  {
+    "Kanji": "杯",
+    "Kana": "はい",
+    "Romaji": "hai"
+  },
+  {
+    "Kanji": "暇",
+    "Kana": "ひま",
+    "Romaji": "hima"
+  },
+  {
+    "Kanji": "けた",
+    "Kana": "けた",
+    "Romaji": "keta"
+  },
+  {
+    "Kanji": "冬",
+    "Kana": "ふゆ",
+    "Romaji": "fuyu"
+  },
+  {
+    "Kanji": "タル",
+    "Kana": "タル",
+    "Romaji": "taru"
+  },
+  {
+    "Kanji": "バス",
+    "Kana": "バス",
+    "Romaji": "basu"
+  },
+  {
+    "Kanji": "機会",
+    "Kana": "きかい",
+    "Romaji": "kikai"
+  },
+  {
+    "Kanji": "大学",
+    "Kana": "だいがく",
+    "Romaji": "daigaku"
+  },
+  {
+    "Kanji": "橋",
+    "Kana": "はし",
+    "Romaji": "hashi"
+  },
+  {
+    "Kanji": "靴",
+    "Kana": "くつ",
+    "Romaji": "kutsu"
+  },
+  {
+    "Kanji": "件",
+    "Kana": "けん",
+    "Romaji": "ken"
+  },
+  {
+    "Kanji": "刺激",
+    "Kana": "しげき",
+    "Romaji": "shigeki"
+  },
+  {
+    "Kanji": "女王",
+    "Kana": "じょおう",
+    "Romaji": "joou"
+  },
+  {
+    "Kanji": "江戸",
+    "Kana": "えど",
+    "Romaji": "edo"
+  },
+  {
+    "Kanji": "我慢",
+    "Kana": "がまん",
+    "Romaji": "gaman"
+  },
+  {
+    "Kanji": "めい",
+    "Kana": "めい",
+    "Romaji": "mei"
+  },
+  {
+    "Kanji": "責任",
+    "Kana": "せきにん",
+    "Romaji": "sekinin"
+  },
+  {
+    "Kanji": "効果",
+    "Kana": "こうか",
+    "Romaji": "kouka"
+  },
+  {
+    "Kanji": "パイロット",
+    "Kana": "パイロット",
+    "Romaji": "pairotto"
+  },
+  {
+    "Kanji": "斗",
+    "Kana": "と",
+    "Romaji": "to"
+  },
+  {
+    "Kanji": "将軍",
+    "Kana": "しょうぐん",
+    "Romaji": "shougun"
+  },
+  {
+    "Kanji": "全て",
+    "Kana": "すべて",
+    "Romaji": "subete"
+  },
+  {
+    "Kanji": "屋根",
+    "Kana": "やね",
+    "Romaji": "yane"
+  },
+  {
+    "Kanji": "ほんとう",
+    "Kana": "ほんとう",
+    "Romaji": "hontou"
+  },
+  {
+    "Kanji": "爪",
+    "Kana": "つめ",
+    "Romaji": "tsume"
+  },
+  {
+    "Kanji": "週間",
+    "Kana": "しゅうかん",
+    "Romaji": "shuukan"
+  },
+  {
+    "Kanji": "一言",
+    "Kana": "ひとこと",
+    "Romaji": "hitokoto"
+  },
+  {
+    "Kanji": "林",
+    "Kana": "はやし",
+    "Romaji": "hayashi"
+  },
+  {
+    "Kanji": "術",
+    "Kana": "じゅつ",
+    "Romaji": "jutsu"
+  },
+  {
+    "Kanji": "畳",
+    "Kana": "たたみ",
+    "Romaji": "tatami"
+  },
+  {
+    "Kanji": "茶",
+    "Kana": "ちゃ",
+    "Romaji": "cha"
+  },
+  {
+    "Kanji": "霧",
+    "Kana": "きり",
+    "Romaji": "kiri"
+  },
+  {
+    "Kanji": "流れ",
+    "Kana": "ながれ",
+    "Romaji": "nagare"
+  },
+  {
+    "Kanji": "飛行",
+    "Kana": "ひこう",
+    "Romaji": "hikou"
+  },
+  {
+    "Kanji": "公",
+    "Kana": "おおやけ",
+    "Romaji": "ooyake"
+  },
+  {
+    "Kanji": "失敗",
+    "Kana": "しっぱい",
+    "Romaji": "shippai"
+  },
+  {
+    "Kanji": "西",
+    "Kana": "にし",
+    "Romaji": "nishi"
+  },
+  {
+    "Kanji": "異常",
+    "Kana": "いじょう",
+    "Romaji": "ijou"
+  },
+  {
+    "Kanji": "佐山",
+    "Kana": "さやま",
+    "Romaji": "sayama"
+  },
+  {
+    "Kanji": "成功",
+    "Kana": "せいこう",
+    "Romaji": "seikou"
+  },
+  {
+    "Kanji": "お茶",
+    "Kana": "おちゃ",
+    "Romaji": "ocha"
+  },
+  {
+    "Kanji": "回転",
+    "Kana": "かいてん",
+    "Romaji": "kaiten"
+  },
+  {
+    "Kanji": "病気",
+    "Kana": "びょうき",
+    "Romaji": "byouki"
+  },
+  {
+    "Kanji": "緑",
+    "Kana": "みどり",
+    "Romaji": "midori"
+  },
+  {
+    "Kanji": "だま",
+    "Kana": "だま",
+    "Romaji": "dama"
+  },
+  {
+    "Kanji": "際",
+    "Kana": "さい",
+    "Romaji": "sai"
+  },
+  {
+    "Kanji": "われ",
+    "Kana": "われ",
+    "Romaji": "ware"
+  },
+  {
+    "Kanji": "内側",
+    "Kana": "うちがわ",
+    "Romaji": "uchigawa"
+  },
+  {
+    "Kanji": "煙草",
+    "Kana": "たばこ",
+    "Romaji": "tabako"
+  },
+  {
+    "Kanji": "マスター",
+    "Kana": "マスター",
+    "Romaji": "masuta-"
+  },
+  {
+    "Kanji": "梨花",
+    "Kana": "りか",
+    "Romaji": "rika"
+  },
+  {
+    "Kanji": "エルフ",
+    "Kana": "エルフ",
+    "Romaji": "erufu"
+  },
+  {
+    "Kanji": "筈",
+    "Kana": "はず",
+    "Romaji": "hazu"
+  },
+  {
+    "Kanji": "頭上",
+    "Kana": "ずじょう",
+    "Romaji": "zujou"
+  },
+  {
+    "Kanji": "快感",
+    "Kana": "かいかん",
+    "Romaji": "kaikan"
+  },
+  {
+    "Kanji": "遠坂",
+    "Kana": "とおさか",
+    "Romaji": "toosaka"
+  },
+  {
+    "Kanji": "人影",
+    "Kana": "ひとかげ",
+    "Romaji": "hitokage"
+  },
+  {
+    "Kanji": "貴様",
+    "Kana": "きさま",
+    "Romaji": "kisama"
+  },
+  {
+    "Kanji": "座",
+    "Kana": "ざ",
+    "Romaji": "za"
+  },
+  {
+    "Kanji": "はし",
+    "Kana": "はし",
+    "Romaji": "hashi"
+  },
+  {
+    "Kanji": "旗",
+    "Kana": "はた",
+    "Romaji": "hata"
+  },
+  {
+    "Kanji": "匹",
+    "Kana": "ひき",
+    "Romaji": "hiki"
+  },
+  {
+    "Kanji": "念",
+    "Kana": "ねん",
+    "Romaji": "nen"
+  },
+  {
+    "Kanji": "正確",
+    "Kana": "せいかく",
+    "Romaji": "seikaku"
+  },
+  {
+    "Kanji": "利用",
+    "Kana": "りよう",
+    "Romaji": "riyou"
+  },
+  {
+    "Kanji": "入口",
+    "Kana": "いりぐち",
+    "Romaji": "iriguchi"
+  },
+  {
+    "Kanji": "瞳子",
+    "Kana": "どうし",
+    "Romaji": "doushi"
+  },
+  {
+    "Kanji": "接近",
+    "Kana": "せっきん",
+    "Romaji": "sekkin"
+  },
+  {
+    "Kanji": "本物",
+    "Kana": "ほんもの",
+    "Romaji": "honmono"
+  },
+  {
+    "Kanji": "通信",
+    "Kana": "つうしん",
+    "Romaji": "tsuushin"
+  },
+  {
+    "Kanji": "乳首",
+    "Kana": "ちくび",
+    "Romaji": "chikubi"
+  },
+  {
+    "Kanji": "板",
+    "Kana": "いた",
+    "Romaji": "ita"
+  },
+  {
+    "Kanji": "宙",
+    "Kana": "ちゅう",
+    "Romaji": "chuu"
+  },
+  {
+    "Kanji": "灯",
+    "Kana": "あかり",
+    "Romaji": "akari"
+  },
+  {
+    "Kanji": "礼",
+    "Kana": "れい",
+    "Romaji": "rei"
+  },
+  {
+    "Kanji": "小説",
+    "Kana": "しょうせつ",
+    "Romaji": "shousetsu"
+  },
+  {
+    "Kanji": "何者",
+    "Kana": "なにもの",
+    "Romaji": "nanimono"
+  },
+  {
+    "Kanji": "士官",
+    "Kana": "しかん",
+    "Romaji": "shikan"
+  },
+  {
+    "Kanji": "予定",
+    "Kana": "よてい",
+    "Romaji": "yotei"
+  },
+  {
+    "Kanji": "不意",
+    "Kana": "ふい",
+    "Romaji": "fui"
+  },
+  {
+    "Kanji": "虫",
+    "Kana": "むし",
+    "Romaji": "mushi"
+  },
+  {
+    "Kanji": "否定",
+    "Kana": "ひてい",
+    "Romaji": "hitei"
+  },
+  {
+    "Kanji": "杏",
+    "Kana": "あんず",
+    "Romaji": "anzu"
+  },
+  {
+    "Kanji": "帯",
+    "Kana": "おび",
+    "Romaji": "obi"
+  },
+  {
+    "Kanji": "みょう",
+    "Kana": "みょう",
+    "Romaji": "myou"
+  },
+  {
+    "Kanji": "穂",
+    "Kana": "ほ",
+    "Romaji": "ho"
+  },
+  {
+    "Kanji": "一種",
+    "Kana": "いっしゅ",
+    "Romaji": "isshu"
+  },
+  {
+    "Kanji": "艦長",
+    "Kana": "かんちょう",
+    "Romaji": "kanchou"
+  },
+  {
+    "Kanji": "パン",
+    "Kana": "パン",
+    "Romaji": "pan"
+  },
+  {
+    "Kanji": "観察",
+    "Kana": "かんさつ",
+    "Romaji": "kansatsu"
+  },
+  {
+    "Kanji": "活動",
+    "Kana": "かつどう",
+    "Romaji": "katsudou"
+  },
+  {
+    "Kanji": "小屋",
+    "Kana": "こや",
+    "Romaji": "koya"
+  },
+  {
+    "Kanji": "親父",
+    "Kana": "おやじ",
+    "Romaji": "oyaji"
+  },
+  {
+    "Kanji": "この世",
+    "Kana": "このよ",
+    "Romaji": "konoyo"
+  },
+  {
+    "Kanji": "くら",
+    "Kana": "くら",
+    "Romaji": "kura"
+  },
+  {
+    "Kanji": "のど",
+    "Kana": "のど",
+    "Romaji": "nodo"
+  },
+  {
+    "Kanji": "原因",
+    "Kana": "げんいん",
+    "Romaji": "genin"
+  },
+  {
+    "Kanji": "丘",
+    "Kana": "おか",
+    "Romaji": "oka"
+  },
+  {
+    "Kanji": "状",
+    "Kana": "じょう",
+    "Romaji": "jou"
+  },
+  {
+    "Kanji": "糸",
+    "Kana": "いと",
+    "Romaji": "ito"
+  },
+  {
+    "Kanji": "何処",
+    "Kana": "どこ",
+    "Romaji": "doko"
+  },
+  {
+    "Kanji": "真実",
+    "Kana": "しんじつ",
+    "Romaji": "shinjitsu"
+  },
+  {
+    "Kanji": "ゲーム",
+    "Kana": "ゲーム",
+    "Romaji": "ge-mu"
+  },
+  {
+    "Kanji": "団",
+    "Kana": "だん",
+    "Romaji": "dan"
+  },
+  {
+    "Kanji": "朝比奈",
+    "Kana": "あさひな",
+    "Romaji": "asahina"
+  },
+  {
+    "Kanji": "指揮",
+    "Kana": "しき",
+    "Romaji": "shiki"
+  },
+  {
+    "Kanji": "拳",
+    "Kana": "こぶし",
+    "Romaji": "kobushi"
+  },
+  {
+    "Kanji": "印象",
+    "Kana": "いんしょう",
+    "Romaji": "inshou"
+  },
+  {
+    "Kanji": "差",
+    "Kana": "さ",
+    "Romaji": "sa"
+  },
+  {
+    "Kanji": "革",
+    "Kana": "かわ",
+    "Romaji": "kawa"
+  },
+  {
+    "Kanji": "お父さん",
+    "Kana": "おとうさん",
+    "Romaji": "otousan"
+  },
+  {
+    "Kanji": "秋",
+    "Kana": "あき",
+    "Romaji": "aki"
+  },
+  {
+    "Kanji": "面倒",
+    "Kana": "めんどう",
+    "Romaji": "mendou"
+  },
+  {
+    "Kanji": "うえ",
+    "Kana": "うえ",
+    "Romaji": "ue"
+  },
+  {
+    "Kanji": "都市",
+    "Kana": "とし",
+    "Romaji": "toshi"
+  },
+  {
+    "Kanji": "テレビ",
+    "Kana": "テレビ",
+    "Romaji": "terebi"
+  },
+  {
+    "Kanji": "精霊",
+    "Kana": "せいれい",
+    "Romaji": "seirei"
+  },
+  {
+    "Kanji": "途端",
+    "Kana": "とたん",
+    "Romaji": "totan"
+  },
+  {
+    "Kanji": "港",
+    "Kana": "みなと",
+    "Romaji": "minato"
+  },
+  {
+    "Kanji": "あい",
+    "Kana": "あい",
+    "Romaji": "ai"
+  },
+  {
+    "Kanji": "医者",
+    "Kana": "いしゃ",
+    "Romaji": "isha"
+  },
+  {
+    "Kanji": "そっち",
+    "Kana": "そっち",
+    "Romaji": "socchi"
+  },
+  {
+    "Kanji": "知識",
+    "Kana": "ちしき",
+    "Romaji": "chishiki"
+  },
+  {
+    "Kanji": "部下",
+    "Kana": "ぶか",
+    "Romaji": "buka"
+  },
+  {
+    "Kanji": "任務",
+    "Kana": "にんむ",
+    "Romaji": "ninmu"
+  },
+  {
+    "Kanji": "大声",
+    "Kana": "おおごえ",
+    "Romaji": "oogoe"
+  },
+  {
+    "Kanji": "未来",
+    "Kana": "みらい",
+    "Romaji": "mirai"
+  },
+  {
+    "Kanji": "不明",
+    "Kana": "ふめい",
+    "Romaji": "fumei"
+  },
+  {
+    "Kanji": "連邦",
+    "Kana": "れんぽう",
+    "Romaji": "renpou"
+  },
+  {
+    "Kanji": "スパーク",
+    "Kana": "スパーク",
+    "Romaji": "supa-ku"
+  },
+  {
+    "Kanji": "章",
+    "Kana": "あきら",
+    "Romaji": "akira"
+  },
+  {
+    "Kanji": "びっくり",
+    "Kana": "びっくり",
+    "Romaji": "bikkuri"
+  },
+  {
+    "Kanji": "空中",
+    "Kana": "くうちゅう",
+    "Romaji": "kuuchuu"
+  },
+  {
+    "Kanji": "確実",
+    "Kana": "かくじつ",
+    "Romaji": "kakujitsu"
+  },
+  {
+    "Kanji": "くつ",
+    "Kana": "くつ",
+    "Romaji": "kutsu"
+  },
+  {
+    "Kanji": "類",
+    "Kana": "るい",
+    "Romaji": "rui"
+  },
+  {
+    "Kanji": "エンジン",
+    "Kana": "エンジン",
+    "Romaji": "enjin"
+  },
+  {
+    "Kanji": "素直",
+    "Kana": "すなお",
+    "Romaji": "sunao"
+  },
+  {
+    "Kanji": "系",
+    "Kana": "けい",
+    "Romaji": "kei"
+  },
+  {
+    "Kanji": "操縦",
+    "Kana": "そうじゅう",
+    "Romaji": "soujuu"
+  },
+  {
+    "Kanji": "組織",
+    "Kana": "そしき",
+    "Romaji": "soshiki"
+  },
+  {
+    "Kanji": "カード",
+    "Kana": "カード",
+    "Romaji": "ka-do"
+  },
+  {
+    "Kanji": "勉強",
+    "Kana": "べんきょう",
+    "Romaji": "benkyou"
+  },
+  {
+    "Kanji": "ステ",
+    "Kana": "ステ",
+    "Romaji": "sute"
+  },
+  {
+    "Kanji": "魔力",
+    "Kana": "まりょく",
+    "Romaji": "maryoku"
+  },
+  {
+    "Kanji": "柄",
+    "Kana": "え",
+    "Romaji": "e"
+  },
+  {
+    "Kanji": "すき",
+    "Kana": "すき",
+    "Romaji": "suki"
+  },
+  {
+    "Kanji": "これら",
+    "Kana": "これら",
+    "Romaji": "korera"
+  },
+  {
+    "Kanji": "一般",
+    "Kana": "いっぱん",
+    "Romaji": "ippan"
+  },
+  {
+    "Kanji": "矢代",
+    "Kana": "やしろ",
+    "Romaji": "yashiro"
+  },
+  {
+    "Kanji": "性格",
+    "Kana": "せいかく",
+    "Romaji": "seikaku"
+  },
+  {
+    "Kanji": "学生",
+    "Kana": "がくせい",
+    "Romaji": "gakusei"
+  },
+  {
+    "Kanji": "苦痛",
+    "Kana": "くつう",
+    "Romaji": "kutsuu"
+  },
+  {
+    "Kanji": "冷静",
+    "Kana": "れいせい",
+    "Romaji": "reisei"
+  },
+  {
+    "Kanji": "ぶん",
+    "Kana": "ぶん",
+    "Romaji": "bun"
+  },
+  {
+    "Kanji": "初め",
+    "Kana": "はじめ",
+    "Romaji": "hajime"
+  },
+  {
+    "Kanji": "作",
+    "Kana": "さく",
+    "Romaji": "saku"
+  },
+  {
+    "Kanji": "やみ",
+    "Kana": "やみ",
+    "Romaji": "yami"
+  },
+  {
+    "Kanji": "現象",
+    "Kana": "げんしょう",
+    "Romaji": "genshou"
+  },
+  {
+    "Kanji": "雛",
+    "Kana": "ひな",
+    "Romaji": "hina"
+  },
+  {
+    "Kanji": "谷",
+    "Kana": "たに",
+    "Romaji": "tani"
+  },
+  {
+    "Kanji": "重要",
+    "Kana": "じゅうよう",
+    "Romaji": "juuyou"
+  },
+  {
+    "Kanji": "表現",
+    "Kana": "ひょうげん",
+    "Romaji": "hyougen"
+  },
+  {
+    "Kanji": "努力",
+    "Kana": "どりょく",
+    "Romaji": "doryoku"
+  },
+  {
+    "Kanji": "綺麗",
+    "Kana": "きれい",
+    "Romaji": "kirei"
+  },
+  {
+    "Kanji": "幾",
+    "Kana": "いく",
+    "Romaji": "iku"
+  },
+  {
+    "Kanji": "レンズ",
+    "Kana": "レンズ",
+    "Romaji": "renzu"
+  },
+  {
+    "Kanji": "道路",
+    "Kana": "どうろ",
+    "Romaji": "douro"
+  },
+  {
+    "Kanji": "悠子",
+    "Kana": "ゆうこ",
+    "Romaji": "yuuko"
+  },
+  {
+    "Kanji": "気持",
+    "Kana": "きもち",
+    "Romaji": "kimochi"
+  },
+  {
+    "Kanji": "とら",
+    "Kana": "とら",
+    "Romaji": "tora"
+  },
+  {
+    "Kanji": "立",
+    "Kana": "たつ",
+    "Romaji": "tatsu"
+  },
+  {
+    "Kanji": "複雑",
+    "Kana": "ふくざつ",
+    "Romaji": "fukuzatsu"
+  },
+  {
+    "Kanji": "まし",
+    "Kana": "まし",
+    "Romaji": "mashi"
+  },
+  {
+    "Kanji": "あちこち",
+    "Kana": "あちこち",
+    "Romaji": "achikochi"
+  },
+  {
+    "Kanji": "卿",
+    "Kana": "きょう",
+    "Romaji": "kyou"
+  },
+  {
+    "Kanji": "輪",
+    "Kana": "わ",
+    "Romaji": "wa"
+  },
+  {
+    "Kanji": "砂",
+    "Kana": "すな",
+    "Romaji": "suna"
+  },
+  {
+    "Kanji": "まれ",
+    "Kana": "まれ",
+    "Romaji": "mare"
+  },
+  {
+    "Kanji": "跡",
+    "Kana": "あと",
+    "Romaji": "ato"
+  },
+  {
+    "Kanji": "リー",
+    "Kana": "リー",
+    "Romaji": "ri-"
+  },
+  {
+    "Kanji": "モノ",
+    "Kana": "モノ",
+    "Romaji": "mono"
+  },
+  {
+    "Kanji": "キス",
+    "Kana": "キス",
+    "Romaji": "kisu"
+  },
+  {
+    "Kanji": "協力",
+    "Kana": "きょうりょく",
+    "Romaji": "kyouryoku"
+  },
+  {
+    "Kanji": "都",
+    "Kana": "と",
+    "Romaji": "to"
+  },
+  {
+    "Kanji": "笑",
+    "Kana": "えみ",
+    "Romaji": "emi"
+  },
+  {
+    "Kanji": "調査",
+    "Kana": "ちょうさ",
+    "Romaji": "chousa"
+  },
+  {
+    "Kanji": "動物",
+    "Kana": "どうぶつ",
+    "Romaji": "doubutsu"
+  },
+  {
+    "Kanji": "世間",
+    "Kana": "せけん",
+    "Romaji": "seken"
+  },
+  {
+    "Kanji": "映画",
+    "Kana": "えいが",
+    "Romaji": "eiga"
+  },
+  {
+    "Kanji": "守",
+    "Kana": "もり",
+    "Romaji": "mori"
+  },
+  {
+    "Kanji": "驚",
+    "Kana": "おどろく",
+    "Romaji": "odoroku"
+  },
+  {
+    "Kanji": "反射",
+    "Kana": "はんしゃ",
+    "Romaji": "hansha"
+  },
+  {
+    "Kanji": "不可能",
+    "Kana": "ふかのう",
+    "Romaji": "fukanou"
+  },
+  {
+    "Kanji": "帰り",
+    "Kana": "かえり",
+    "Romaji": "kaeri"
+  },
+  {
+    "Kanji": "刃",
+    "Kana": "は",
+    "Romaji": "ha"
+  },
+  {
+    "Kanji": "混乱",
+    "Kana": "こんらん",
+    "Romaji": "konran"
+  },
+  {
+    "Kanji": "一生",
+    "Kana": "いっしょう",
+    "Romaji": "isshou"
+  },
+  {
+    "Kanji": "最高",
+    "Kana": "さいこう",
+    "Romaji": "saikou"
+  },
+  {
+    "Kanji": "だらけ",
+    "Kana": "だらけ",
+    "Romaji": "darake"
+  },
+  {
+    "Kanji": "液",
+    "Kana": "えき",
+    "Romaji": "eki"
+  },
+  {
+    "Kanji": "同士",
+    "Kana": "どうし",
+    "Romaji": "doushi"
+  },
+  {
+    "Kanji": "霊",
+    "Kana": "れい",
+    "Romaji": "rei"
+  },
+  {
+    "Kanji": "正体",
+    "Kana": "しょうたい",
+    "Romaji": "shoutai"
+  },
+  {
+    "Kanji": "表面",
+    "Kana": "ひょうめん",
+    "Romaji": "hyoumen"
+  },
+  {
+    "Kanji": "怪我",
+    "Kana": "けが",
+    "Romaji": "kega"
+  },
+  {
+    "Kanji": "ベル",
+    "Kana": "ベル",
+    "Romaji": "beru"
+  },
+  {
+    "Kanji": "お母さん",
+    "Kana": "おかあさん",
+    "Romaji": "okaasan"
+  },
+  {
+    "Kanji": "風呂",
+    "Kana": "ふろ",
+    "Romaji": "furo"
+  },
+  {
+    "Kanji": "個人",
+    "Kana": "こじん",
+    "Romaji": "kojin"
+  },
+  {
+    "Kanji": "えん",
+    "Kana": "えん",
+    "Romaji": "en"
+  },
+  {
+    "Kanji": "感謝",
+    "Kana": "かんしゃ",
+    "Romaji": "kansha"
+  },
+  {
+    "Kanji": "条件",
+    "Kana": "じょうけん",
+    "Romaji": "jouken"
+  },
+  {
+    "Kanji": "冒険",
+    "Kana": "ぼうけん",
+    "Romaji": "bouken"
+  },
+  {
+    "Kanji": "ボク",
+    "Kana": "ボク",
+    "Romaji": "boku"
+  },
+  {
+    "Kanji": "手段",
+    "Kana": "しゅだん",
+    "Romaji": "shudan"
+  },
+  {
+    "Kanji": "むら",
+    "Kana": "むら",
+    "Romaji": "mura"
+  },
+  {
+    "Kanji": "学",
+    "Kana": "まなぶ",
+    "Romaji": "manabu"
+  },
+  {
+    "Kanji": "ソ",
+    "Kana": "ソ",
+    "Romaji": "so"
+  },
+  {
+    "Kanji": "だいじょうぶ",
+    "Kana": "だいじょうぶ",
+    "Romaji": "daijoubu"
+  },
+  {
+    "Kanji": "藤",
+    "Kana": "ふじ",
+    "Romaji": "fuji"
+  },
+  {
+    "Kanji": "どおり",
+    "Kana": "どおり",
+    "Romaji": "doori"
+  },
+  {
+    "Kanji": "腿",
+    "Kana": "もも",
+    "Romaji": "momo"
+  },
+  {
+    "Kanji": "見事",
+    "Kana": "みごと",
+    "Romaji": "migoto"
+  },
+  {
+    "Kanji": "手首",
+    "Kana": "てくび",
+    "Romaji": "tekubi"
+  },
+  {
+    "Kanji": "警戒",
+    "Kana": "けいかい",
+    "Romaji": "keikai"
+  },
+  {
+    "Kanji": "列",
+    "Kana": "れつ",
+    "Romaji": "retsu"
+  },
+  {
+    "Kanji": "被害",
+    "Kana": "ひがい",
+    "Romaji": "higai"
+  },
+  {
+    "Kanji": "何事",
+    "Kana": "なにごと",
+    "Romaji": "nanigoto"
+  },
+  {
+    "Kanji": "響",
+    "Kana": "ひびき",
+    "Romaji": "hibiki"
+  },
+  {
+    "Kanji": "旅人",
+    "Kana": "たびびと",
+    "Romaji": "tabibito"
+  },
+  {
+    "Kanji": "辺り",
+    "Kana": "あたり",
+    "Romaji": "atari"
+  },
+  {
+    "Kanji": "紹介",
+    "Kana": "しょうかい",
+    "Romaji": "shoukai"
+  },
+  {
+    "Kanji": "由",
+    "Kana": "ゆかり",
+    "Romaji": "yukari"
+  },
+  {
+    "Kanji": "脳",
+    "Kana": "のう",
+    "Romaji": "nou"
+  },
+  {
+    "Kanji": "さわ",
+    "Kana": "さわ",
+    "Romaji": "sawa"
+  },
+  {
+    "Kanji": "アメリカ",
+    "Kana": "アメリカ",
+    "Romaji": "amerika"
+  },
+  {
+    "Kanji": "指示",
+    "Kana": "しじ",
+    "Romaji": "shiji"
+  },
+  {
+    "Kanji": "辺",
+    "Kana": "あたり",
+    "Romaji": "atari"
+  },
+  {
+    "Kanji": "要求",
+    "Kana": "ようきゅう",
+    "Romaji": "youkyuu"
+  },
+  {
+    "Kanji": "女子",
+    "Kana": "じょし",
+    "Romaji": "joshi"
+  },
+  {
+    "Kanji": "前後",
+    "Kana": "ぜんご",
+    "Romaji": "zengo"
+  },
+  {
+    "Kanji": "価値",
+    "Kana": "かち",
+    "Romaji": "kachi"
+  },
+  {
+    "Kanji": "道具",
+    "Kana": "どうぐ",
+    "Romaji": "dougu"
+  },
+  {
+    "Kanji": "遊び",
+    "Kana": "あそび",
+    "Romaji": "asobi"
+  },
+  {
+    "Kanji": "現場",
+    "Kana": "げんば",
+    "Romaji": "genba"
+  },
+  {
+    "Kanji": "ごろ",
+    "Kana": "ごろ",
+    "Romaji": "goro"
+  },
+  {
+    "Kanji": "先端",
+    "Kana": "せんたん",
+    "Romaji": "sentan"
+  },
+  {
+    "Kanji": "一弥",
+    "Kana": "かずや",
+    "Romaji": "kazuya"
+  },
+  {
+    "Kanji": "悪魔",
+    "Kana": "あくま",
+    "Romaji": "akuma"
+  },
+  {
+    "Kanji": "侵入",
+    "Kana": "しんにゅう",
+    "Romaji": "shinnyuu"
+  },
+  {
+    "Kanji": "センチ",
+    "Kana": "センチ",
+    "Romaji": "senchi"
+  },
+  {
+    "Kanji": "一同",
+    "Kana": "いちどう",
+    "Romaji": "ichidou"
+  },
+  {
+    "Kanji": "希望",
+    "Kana": "きぼう",
+    "Romaji": "kibou"
+  },
+  {
+    "Kanji": "ショット",
+    "Kana": "ショット",
+    "Romaji": "shotto"
+  },
+  {
+    "Kanji": "柱",
+    "Kana": "はしら",
+    "Romaji": "hashira"
+  },
+  {
+    "Kanji": "姉さん",
+    "Kana": "ねえさん",
+    "Romaji": "neesan"
+  },
+  {
+    "Kanji": "世話",
+    "Kana": "せわ",
+    "Romaji": "sewa"
+  },
+  {
+    "Kanji": "カメラ",
+    "Kana": "カメラ",
+    "Romaji": "kamera"
+  },
+  {
+    "Kanji": "お話",
+    "Kana": "おはなし",
+    "Romaji": "ohanashi"
+  },
+  {
+    "Kanji": "震",
+    "Kana": "しん",
+    "Romaji": "shin"
+  },
+  {
+    "Kanji": "容易",
+    "Kana": "ようい",
+    "Romaji": "youi"
+  },
+  {
+    "Kanji": "となり",
+    "Kana": "となり",
+    "Romaji": "tonari"
+  },
+  {
+    "Kanji": "平気",
+    "Kana": "へいき",
+    "Romaji": "heiki"
+  },
+  {
+    "Kanji": "ママ",
+    "Kana": "ママ",
+    "Romaji": "mama"
+  },
+  {
+    "Kanji": "うわさ",
+    "Kana": "うわさ",
+    "Romaji": "uwasa"
+  },
+  {
+    "Kanji": "確信",
+    "Kana": "かくしん",
+    "Romaji": "kakushin"
+  },
+  {
+    "Kanji": "人類",
+    "Kana": "じんるい",
+    "Romaji": "jinrui"
+  },
+  {
+    "Kanji": "商売",
+    "Kana": "しょうばい",
+    "Romaji": "shoubai"
+  },
+  {
+    "Kanji": "年生",
+    "Kana": "としせい",
+    "Romaji": "toshisei"
+  },
+  {
+    "Kanji": "迷惑",
+    "Kana": "めいわく",
+    "Romaji": "meiwaku"
+  },
+  {
+    "Kanji": "出発",
+    "Kana": "しゅっぱつ",
+    "Romaji": "shuppatsu"
+  },
+  {
+    "Kanji": "いつか",
+    "Kana": "いつか",
+    "Romaji": "itsuka"
+  },
+  {
+    "Kanji": "近所",
+    "Kana": "きんじょ",
+    "Romaji": "kinjo"
+  },
+  {
+    "Kanji": "鎧",
+    "Kana": "よろい",
+    "Romaji": "yoroi"
+  },
+  {
+    "Kanji": "灰色",
+    "Kana": "はいいろ",
+    "Romaji": "haiiro"
+  },
+  {
+    "Kanji": "高度",
+    "Kana": "こうど",
+    "Romaji": "koudo"
+  },
+  {
+    "Kanji": "一行",
+    "Kana": "いっこう",
+    "Romaji": "ikkou"
+  },
+  {
+    "Kanji": "解放",
+    "Kana": "かいほう",
+    "Romaji": "kaihou"
+  },
+  {
+    "Kanji": "かぎり",
+    "Kana": "かぎり",
+    "Romaji": "kagiri"
+  },
+  {
+    "Kanji": "半蔵",
+    "Kana": "はんぞう",
+    "Romaji": "hanzou"
+  },
+  {
+    "Kanji": "シル",
+    "Kana": "シル",
+    "Romaji": "shiru"
+  },
+  {
+    "Kanji": "騎",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "開始",
+    "Kana": "かいし",
+    "Romaji": "kaishi"
+  },
+  {
+    "Kanji": "帽子",
+    "Kana": "ぼうし",
+    "Romaji": "boushi"
+  },
+  {
+    "Kanji": "事故",
+    "Kana": "じこ",
+    "Romaji": "jiko"
+  },
+  {
+    "Kanji": "お金",
+    "Kana": "おかね",
+    "Romaji": "okane"
+  },
+  {
+    "Kanji": "エネルギー",
+    "Kana": "エネルギー",
+    "Romaji": "enerugi-"
+  },
+  {
+    "Kanji": "どこか",
+    "Kana": "どこか",
+    "Romaji": "dokoka"
+  },
+  {
+    "Kanji": "毒",
+    "Kana": "どく",
+    "Romaji": "doku"
+  },
+  {
+    "Kanji": "かし",
+    "Kana": "かし",
+    "Romaji": "kashi"
+  },
+  {
+    "Kanji": "生物",
+    "Kana": "せいぶつ",
+    "Romaji": "seibutsu"
+  },
+  {
+    "Kanji": "仲",
+    "Kana": "なか",
+    "Romaji": "naka"
+  },
+  {
+    "Kanji": "勝負",
+    "Kana": "しょうぶ",
+    "Romaji": "shoubu"
+  },
+  {
+    "Kanji": "尾",
+    "Kana": "お",
+    "Romaji": "o"
+  },
+  {
+    "Kanji": "トン",
+    "Kana": "トン",
+    "Romaji": "ton"
+  },
+  {
+    "Kanji": "スクリーン",
+    "Kana": "スクリーン",
+    "Romaji": "sukuri-n"
+  },
+  {
+    "Kanji": "カシュー",
+    "Kana": "カシュー",
+    "Romaji": "kashu-"
+  },
+  {
+    "Kanji": "着物",
+    "Kana": "きもの",
+    "Romaji": "kimono"
+  },
+  {
+    "Kanji": "叔父",
+    "Kana": "おじ",
+    "Romaji": "oji"
+  },
+  {
+    "Kanji": "広場",
+    "Kana": "ひろば",
+    "Romaji": "hiroba"
+  },
+  {
+    "Kanji": "ゆえ",
+    "Kana": "ゆえ",
+    "Romaji": "yue"
+  },
+  {
+    "Kanji": "旅行",
+    "Kana": "りょこう",
+    "Romaji": "ryokou"
+  },
+  {
+    "Kanji": "隙間",
+    "Kana": "すきま",
+    "Romaji": "sukima"
+  },
+  {
+    "Kanji": "商人",
+    "Kana": "しょうにん",
+    "Romaji": "shounin"
+  },
+  {
+    "Kanji": "真似",
+    "Kana": "まね",
+    "Romaji": "mane"
+  },
+  {
+    "Kanji": "ロー",
+    "Kana": "ロー",
+    "Romaji": "ro-"
+  },
+  {
+    "Kanji": "地図",
+    "Kana": "ちず",
+    "Romaji": "chizu"
+  },
+  {
+    "Kanji": "吉",
+    "Kana": "よし",
+    "Romaji": "yoshi"
+  },
+  {
+    "Kanji": "艇",
+    "Kana": "てい",
+    "Romaji": "tei"
+  },
+  {
+    "Kanji": "丸",
+    "Kana": "まる",
+    "Romaji": "maru"
+  },
+  {
+    "Kanji": "タイプ",
+    "Kana": "タイプ",
+    "Romaji": "taipu"
+  },
+  {
+    "Kanji": "参加",
+    "Kana": "さんか",
+    "Romaji": "sanka"
+  },
+  {
+    "Kanji": "コモ",
+    "Kana": "コモ",
+    "Romaji": "komo"
+  },
+  {
+    "Kanji": "裾",
+    "Kana": "すそ",
+    "Romaji": "suso"
+  },
+  {
+    "Kanji": "掌",
+    "Kana": "てのひら",
+    "Romaji": "tenohira"
+  },
+  {
+    "Kanji": "デル",
+    "Kana": "デル",
+    "Romaji": "deru"
+  },
+  {
+    "Kanji": "自体",
+    "Kana": "じたい",
+    "Romaji": "jitai"
+  },
+  {
+    "Kanji": "シャツ",
+    "Kana": "シャツ",
+    "Romaji": "shatsu"
+  },
+  {
+    "Kanji": "幽霊",
+    "Kana": "ゆうれい",
+    "Romaji": "yuurei"
+  },
+  {
+    "Kanji": "根",
+    "Kana": "ね",
+    "Romaji": "ne"
+  },
+  {
+    "Kanji": "幸せ",
+    "Kana": "しあわせ",
+    "Romaji": "shiawase"
+  },
+  {
+    "Kanji": "頼",
+    "Kana": "よりゆき",
+    "Romaji": "yoriyuki"
+  },
+  {
+    "Kanji": "コーヒー",
+    "Kana": "コーヒー",
+    "Romaji": "ko-hi-"
+  },
+  {
+    "Kanji": "パンティ",
+    "Kana": "パンティ",
+    "Romaji": "panti"
+  },
+  {
+    "Kanji": "ばく",
+    "Kana": "ばく",
+    "Romaji": "baku"
+  },
+  {
+    "Kanji": "司令",
+    "Kana": "しれい",
+    "Romaji": "shirei"
+  },
+  {
+    "Kanji": "ガス",
+    "Kana": "ガス",
+    "Romaji": "gasu"
+  },
+  {
+    "Kanji": "男性",
+    "Kana": "だんせい",
+    "Romaji": "dansei"
+  },
+  {
+    "Kanji": "日本人",
+    "Kana": "にっぽんじん",
+    "Romaji": "nipponjin"
+  },
+  {
+    "Kanji": "苦労",
+    "Kana": "くろう",
+    "Romaji": "kurou"
+  },
+  {
+    "Kanji": "寺",
+    "Kana": "てら",
+    "Romaji": "tera"
+  },
+  {
+    "Kanji": "スリル",
+    "Kana": "スリル",
+    "Romaji": "suriru"
+  },
+  {
+    "Kanji": "蘭",
+    "Kana": "らん",
+    "Romaji": "ran"
+  },
+  {
+    "Kanji": "がい",
+    "Kana": "がい",
+    "Romaji": "gai"
+  },
+  {
+    "Kanji": "虎",
+    "Kana": "とら",
+    "Romaji": "tora"
+  },
+  {
+    "Kanji": "ハイ",
+    "Kana": "ハイ",
+    "Romaji": "hai"
+  },
+  {
+    "Kanji": "６",
+    "Kana": "ろく",
+    "Romaji": "roku"
+  },
+  {
+    "Kanji": "ひび",
+    "Kana": "ひび",
+    "Romaji": "hibi"
+  },
+  {
+    "Kanji": "まゆ",
+    "Kana": "まゆ",
+    "Romaji": "mayu"
+  },
+  {
+    "Kanji": "９",
+    "Kana": "きゅう",
+    "Romaji": "kyuu"
+  },
+  {
+    "Kanji": "信用",
+    "Kana": "しんよう",
+    "Romaji": "shinyou"
+  },
+  {
+    "Kanji": "上下",
+    "Kana": "じょうげ",
+    "Romaji": "jouge"
+  },
+  {
+    "Kanji": "新た",
+    "Kana": "あらた",
+    "Romaji": "arata"
+  },
+  {
+    "Kanji": "彼方",
+    "Kana": "かなた",
+    "Romaji": "kanata"
+  },
+  {
+    "Kanji": "そちら",
+    "Kana": "そちら",
+    "Romaji": "sochira"
+  },
+  {
+    "Kanji": "里野",
+    "Kana": "さとの",
+    "Romaji": "satono"
+  },
+  {
+    "Kanji": "嬢",
+    "Kana": "じょう",
+    "Romaji": "jou"
+  },
+  {
+    "Kanji": "れん",
+    "Kana": "れん",
+    "Romaji": "ren"
+  },
+  {
+    "Kanji": "真っ赤",
+    "Kana": "まっか",
+    "Romaji": "makka"
+  },
+  {
+    "Kanji": "美人",
+    "Kana": "びじん",
+    "Romaji": "bijin"
+  },
+  {
+    "Kanji": "衣",
+    "Kana": "ころも",
+    "Romaji": "koromo"
+  },
+  {
+    "Kanji": "あご",
+    "Kana": "あご",
+    "Romaji": "ago"
+  },
+  {
+    "Kanji": "群",
+    "Kana": "ぐん",
+    "Romaji": "gun"
+  },
+  {
+    "Kanji": "ひとみ",
+    "Kana": "ひとみ",
+    "Romaji": "hitomi"
+  },
+  {
+    "Kanji": "単純",
+    "Kana": "たんじゅん",
+    "Romaji": "tanjun"
+  },
+  {
+    "Kanji": "到着",
+    "Kana": "とうちゃく",
+    "Romaji": "touchaku"
+  },
+  {
+    "Kanji": "カップ",
+    "Kana": "カップ",
+    "Romaji": "kappu"
+  },
+  {
+    "Kanji": "刑事",
+    "Kana": "けいじ",
+    "Romaji": "keiji"
+  },
+  {
+    "Kanji": "しかた",
+    "Kana": "しかた",
+    "Romaji": "shikata"
+  },
+  {
+    "Kanji": "まち",
+    "Kana": "まち",
+    "Romaji": "machi"
+  },
+  {
+    "Kanji": "授業",
+    "Kana": "じゅぎょう",
+    "Romaji": "jugyou"
+  },
+  {
+    "Kanji": "恋",
+    "Kana": "こい",
+    "Romaji": "koi"
+  },
+  {
+    "Kanji": "量",
+    "Kana": "りょう",
+    "Romaji": "ryou"
+  },
+  {
+    "Kanji": "裸",
+    "Kana": "はだか",
+    "Romaji": "hadaka"
+  },
+  {
+    "Kanji": "出来事",
+    "Kana": "できごと",
+    "Romaji": "dekigoto"
+  },
+  {
+    "Kanji": "お客",
+    "Kana": "おきゃく",
+    "Romaji": "okyaku"
+  },
+  {
+    "Kanji": "亜美",
+    "Kana": "あみ",
+    "Romaji": "ami"
+  },
+  {
+    "Kanji": "工場",
+    "Kana": "こうじょう",
+    "Romaji": "koujou"
+  },
+  {
+    "Kanji": "中身",
+    "Kana": "なかみ",
+    "Romaji": "nakami"
+  },
+  {
+    "Kanji": "入り口",
+    "Kana": "いりくち",
+    "Romaji": "irikuchi"
+  },
+  {
+    "Kanji": "機関",
+    "Kana": "きかん",
+    "Romaji": "kikan"
+  },
+  {
+    "Kanji": "電車",
+    "Kana": "でんしゃ",
+    "Romaji": "densha"
+  },
+  {
+    "Kanji": "ハン",
+    "Kana": "ハン",
+    "Romaji": "han"
+  },
+  {
+    "Kanji": "隙",
+    "Kana": "ひま",
+    "Romaji": "hima"
+  },
+  {
+    "Kanji": "その他",
+    "Kana": "そのた",
+    "Romaji": "sonota"
+  },
+  {
+    "Kanji": "嬉",
+    "Kana": "うれし",
+    "Romaji": "ureshi"
+  },
+  {
+    "Kanji": "シズ",
+    "Kana": "シズ",
+    "Romaji": "shizu"
+  },
+  {
+    "Kanji": "奥さん",
+    "Kana": "おくさん",
+    "Romaji": "okusan"
+  },
+  {
+    "Kanji": "えい",
+    "Kana": "えい",
+    "Romaji": "ei"
+  },
+  {
+    "Kanji": "派",
+    "Kana": "は",
+    "Romaji": "ha"
+  },
+  {
+    "Kanji": "鞄",
+    "Kana": "かばん",
+    "Romaji": "kaban"
+  },
+  {
+    "Kanji": "岸本",
+    "Kana": "きしもと",
+    "Romaji": "kishimoto"
+  },
+  {
+    "Kanji": "昼",
+    "Kana": "ひる",
+    "Romaji": "hiru"
+  },
+  {
+    "Kanji": "希",
+    "Kana": "まれ",
+    "Romaji": "mare"
+  },
+  {
+    "Kanji": "気味",
+    "Kana": "きみ",
+    "Romaji": "kimi"
+  },
+  {
+    "Kanji": "犠牲",
+    "Kana": "ぎせい",
+    "Romaji": "gisei"
+  },
+  {
+    "Kanji": "とたん",
+    "Kana": "とたん",
+    "Romaji": "totan"
+  },
+  {
+    "Kanji": "針",
+    "Kana": "はり",
+    "Romaji": "hari"
+  },
+  {
+    "Kanji": "公園",
+    "Kana": "こうえん",
+    "Romaji": "kouen"
+  },
+  {
+    "Kanji": "周り",
+    "Kana": "まわり",
+    "Romaji": "mawari"
+  },
+  {
+    "Kanji": "皮",
+    "Kana": "かわ",
+    "Romaji": "kawa"
+  },
+  {
+    "Kanji": "氷",
+    "Kana": "こおり",
+    "Romaji": "koori"
+  },
+  {
+    "Kanji": "乃梨子",
+    "Kana": "のりこ",
+    "Romaji": "noriko"
+  },
+  {
+    "Kanji": "ユリ",
+    "Kana": "ユリ",
+    "Romaji": "yuri"
+  },
+  {
+    "Kanji": "素子",
+    "Kana": "そし",
+    "Romaji": "soshi"
+  },
+  {
+    "Kanji": "作家",
+    "Kana": "さっか",
+    "Romaji": "sakka"
+  },
+  {
+    "Kanji": "スイッチ",
+    "Kana": "スイッチ",
+    "Romaji": "suicchi"
+  },
+  {
+    "Kanji": "ハッチ",
+    "Kana": "ハッチ",
+    "Romaji": "hacchi"
+  },
+  {
+    "Kanji": "真剣",
+    "Kana": "しんけん",
+    "Romaji": "shinken"
+  },
+  {
+    "Kanji": "政府",
+    "Kana": "せいふ",
+    "Romaji": "seifu"
+  },
+  {
+    "Kanji": "喧嘩",
+    "Kana": "けんか",
+    "Romaji": "kenka"
+  },
+  {
+    "Kanji": "大石",
+    "Kana": "おおいし",
+    "Romaji": "ooishi"
+  },
+  {
+    "Kanji": "田舎",
+    "Kana": "いなか",
+    "Romaji": "inaka"
+  },
+  {
+    "Kanji": "使用",
+    "Kana": "しよう",
+    "Romaji": "shiyou"
+  },
+  {
+    "Kanji": "末",
+    "Kana": "すえ",
+    "Romaji": "sue"
+  },
+  {
+    "Kanji": "顔色",
+    "Kana": "かおいろ",
+    "Romaji": "kaoiro"
+  },
+  {
+    "Kanji": "切",
+    "Kana": "せつ",
+    "Romaji": "setsu"
+  },
+  {
+    "Kanji": "古代",
+    "Kana": "こだい",
+    "Romaji": "kodai"
+  },
+  {
+    "Kanji": "義母",
+    "Kana": "ぎぼ",
+    "Romaji": "gibo"
+  },
+  {
+    "Kanji": "去年",
+    "Kana": "きょねん",
+    "Romaji": "kyonen"
+  },
+  {
+    "Kanji": "感心",
+    "Kana": "かんしん",
+    "Romaji": "kanshin"
+  },
+  {
+    "Kanji": "医師",
+    "Kana": "いし",
+    "Romaji": "ishi"
+  },
+  {
+    "Kanji": "わか",
+    "Kana": "わか",
+    "Romaji": "waka"
+  },
+  {
+    "Kanji": "一切",
+    "Kana": "いっさい",
+    "Romaji": "issai"
+  },
+  {
+    "Kanji": "遠慮",
+    "Kana": "えんりょ",
+    "Romaji": "enryo"
+  },
+  {
+    "Kanji": "りつ",
+    "Kana": "りつ",
+    "Romaji": "ritsu"
+  },
+  {
+    "Kanji": "下着",
+    "Kana": "したぎ",
+    "Romaji": "shitagi"
+  },
+  {
+    "Kanji": "明かり",
+    "Kana": "あかり",
+    "Romaji": "akari"
+  },
+  {
+    "Kanji": "了解",
+    "Kana": "りょうかい",
+    "Romaji": "ryoukai"
+  },
+  {
+    "Kanji": "模様",
+    "Kana": "もよう",
+    "Romaji": "moyou"
+  },
+  {
+    "Kanji": "張",
+    "Kana": "ちょう",
+    "Romaji": "chou"
+  },
+  {
+    "Kanji": "拓",
+    "Kana": "たく",
+    "Romaji": "taku"
+  },
+  {
+    "Kanji": "相違",
+    "Kana": "そうい",
+    "Romaji": "soui"
+  },
+  {
+    "Kanji": "勇気",
+    "Kana": "ゆうき",
+    "Romaji": "yuuki"
+  },
+  {
+    "Kanji": "翌日",
+    "Kana": "よくじつ",
+    "Romaji": "yokujitsu"
+  },
+  {
+    "Kanji": "グラス",
+    "Kana": "グラス",
+    "Romaji": "gurasu"
+  },
+  {
+    "Kanji": "蛇",
+    "Kana": "へび",
+    "Romaji": "hebi"
+  },
+  {
+    "Kanji": "黄",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "具合",
+    "Kana": "ぐあい",
+    "Romaji": "guai"
+  },
+  {
+    "Kanji": "監視",
+    "Kana": "かんし",
+    "Romaji": "kanshi"
+  },
+  {
+    "Kanji": "そっ",
+    "Kana": "そっ",
+    "Romaji": "so"
+  },
+  {
+    "Kanji": "護衛",
+    "Kana": "ごえい",
+    "Romaji": "goei"
+  },
+  {
+    "Kanji": "祭",
+    "Kana": "まつり",
+    "Romaji": "matsuri"
+  },
+  {
+    "Kanji": "めん",
+    "Kana": "めん",
+    "Romaji": "men"
+  },
+  {
+    "Kanji": "手足",
+    "Kana": "てあし",
+    "Romaji": "teashi"
+  },
+  {
+    "Kanji": "トイレ",
+    "Kana": "トイレ",
+    "Romaji": "toire"
+  },
+  {
+    "Kanji": "ほん",
+    "Kana": "ほん",
+    "Romaji": "hon"
+  },
+  {
+    "Kanji": "記録",
+    "Kana": "きろく",
+    "Romaji": "kiroku"
+  },
+  {
+    "Kanji": "舞台",
+    "Kana": "ぶたい",
+    "Romaji": "butai"
+  },
+  {
+    "Kanji": "台所",
+    "Kana": "だいどころ",
+    "Romaji": "daidokoro"
+  },
+  {
+    "Kanji": "地方",
+    "Kana": "ちほう",
+    "Romaji": "chihou"
+  },
+  {
+    "Kanji": "嫌い",
+    "Kana": "きらい",
+    "Romaji": "kirai"
+  },
+  {
+    "Kanji": "無線",
+    "Kana": "むせん",
+    "Romaji": "musen"
+  },
+  {
+    "Kanji": "都合",
+    "Kana": "つごう",
+    "Romaji": "tsugou"
+  },
+  {
+    "Kanji": "村人",
+    "Kana": "むらびと",
+    "Romaji": "murabito"
+  },
+  {
+    "Kanji": "カン",
+    "Kana": "カン",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "謎",
+    "Kana": "なぞ",
+    "Romaji": "nazo"
+  },
+  {
+    "Kanji": "俊一",
+    "Kana": "しゅんいち",
+    "Romaji": "shunichi"
+  },
+  {
+    "Kanji": "戦場",
+    "Kana": "せんじょう",
+    "Romaji": "senjou"
+  },
+  {
+    "Kanji": "警官",
+    "Kana": "けいかん",
+    "Romaji": "keikan"
+  },
+  {
+    "Kanji": "亜",
+    "Kana": "あ",
+    "Romaji": "a"
+  },
+  {
+    "Kanji": "ズボン",
+    "Kana": "ズボン",
+    "Romaji": "zubon"
+  },
+  {
+    "Kanji": "水準",
+    "Kana": "すいじゅん",
+    "Romaji": "suijun"
+  },
+  {
+    "Kanji": "落下",
+    "Kana": "らっか",
+    "Romaji": "rakka"
+  },
+  {
+    "Kanji": "わら",
+    "Kana": "わら",
+    "Romaji": "wara"
+  },
+  {
+    "Kanji": "どころ",
+    "Kana": "どころ",
+    "Romaji": "dokoro"
+  },
+  {
+    "Kanji": "おいで",
+    "Kana": "おいで",
+    "Romaji": "oide"
+  },
+  {
+    "Kanji": "聖戦",
+    "Kana": "せいせん",
+    "Romaji": "seisen"
+  },
+  {
+    "Kanji": "さけ",
+    "Kana": "さけ",
+    "Romaji": "sake"
+  },
+  {
+    "Kanji": "女房",
+    "Kana": "にょうぼう",
+    "Romaji": "nyoubou"
+  },
+  {
+    "Kanji": "帝国",
+    "Kana": "ていこく",
+    "Romaji": "teikoku"
+  },
+  {
+    "Kanji": "運",
+    "Kana": "うん",
+    "Romaji": "un"
+  },
+  {
+    "Kanji": "意思",
+    "Kana": "いし",
+    "Romaji": "ishi"
+  },
+  {
+    "Kanji": "夕方",
+    "Kana": "ゆうがた",
+    "Romaji": "yuugata"
+  },
+  {
+    "Kanji": "普段",
+    "Kana": "ふだん",
+    "Romaji": "fudan"
+  },
+  {
+    "Kanji": "男爵",
+    "Kana": "だんしゃく",
+    "Romaji": "danshaku"
+  },
+  {
+    "Kanji": "乱暴",
+    "Kana": "らんぼう",
+    "Romaji": "ranbou"
+  },
+  {
+    "Kanji": "ポ",
+    "Kana": "ポ",
+    "Romaji": "po"
+  },
+  {
+    "Kanji": "揺",
+    "Kana": "ゆら",
+    "Romaji": "yura"
+  },
+  {
+    "Kanji": "不幸",
+    "Kana": "ふこう",
+    "Romaji": "fukou"
+  },
+  {
+    "Kanji": "袖",
+    "Kana": "そで",
+    "Romaji": "sode"
+  },
+  {
+    "Kanji": "巨人",
+    "Kana": "きょじん",
+    "Romaji": "kyojin"
+  },
+  {
+    "Kanji": "ダン",
+    "Kana": "ダン",
+    "Romaji": "dan"
+  },
+  {
+    "Kanji": "羽",
+    "Kana": "はね",
+    "Romaji": "hane"
+  },
+  {
+    "Kanji": "そく",
+    "Kana": "そく",
+    "Romaji": "soku"
+  },
+  {
+    "Kanji": "悟史",
+    "Kana": "さとし",
+    "Romaji": "satoshi"
+  },
+  {
+    "Kanji": "学園",
+    "Kana": "がくえん",
+    "Romaji": "gakuen"
+  },
+  {
+    "Kanji": "文化",
+    "Kana": "ぶんか",
+    "Romaji": "bunka"
+  },
+  {
+    "Kanji": "ごらん",
+    "Kana": "ごらん",
+    "Romaji": "goran"
+  },
+  {
+    "Kanji": "後方",
+    "Kana": "こうほう",
+    "Romaji": "kouhou"
+  },
+  {
+    "Kanji": "らく",
+    "Kana": "らく",
+    "Romaji": "raku"
+  },
+  {
+    "Kanji": "足元",
+    "Kana": "あしもと",
+    "Romaji": "ashimoto"
+  },
+  {
+    "Kanji": "労働",
+    "Kana": "ろうどう",
+    "Romaji": "roudou"
+  },
+  {
+    "Kanji": "ふたつ",
+    "Kana": "ふたつ",
+    "Romaji": "futatsu"
+  },
+  {
+    "Kanji": "セックス",
+    "Kana": "セックス",
+    "Romaji": "sekkusu"
+  },
+  {
+    "Kanji": "棚",
+    "Kana": "たな",
+    "Romaji": "tana"
+  },
+  {
+    "Kanji": "半ば",
+    "Kana": "なかば",
+    "Romaji": "nakaba"
+  },
+  {
+    "Kanji": "解決",
+    "Kana": "かいけつ",
+    "Romaji": "kaiketsu"
+  },
+  {
+    "Kanji": "強力",
+    "Kana": "きょうりょく",
+    "Romaji": "kyouryoku"
+  },
+  {
+    "Kanji": "りか",
+    "Kana": "りか",
+    "Romaji": "rika"
+  },
+  {
+    "Kanji": "隊員",
+    "Kana": "たいいん",
+    "Romaji": "taiin"
+  },
+  {
+    "Kanji": "恋人",
+    "Kana": "こいびと",
+    "Romaji": "koibito"
+  },
+  {
+    "Kanji": "部長",
+    "Kana": "ぶちょう",
+    "Romaji": "buchou"
+  },
+  {
+    "Kanji": "自殺",
+    "Kana": "じさつ",
+    "Romaji": "jisatsu"
+  },
+  {
+    "Kanji": "怪物",
+    "Kana": "かいぶつ",
+    "Romaji": "kaibutsu"
+  },
+  {
+    "Kanji": "接触",
+    "Kana": "せっしょく",
+    "Romaji": "sesshoku"
+  },
+  {
+    "Kanji": "征",
+    "Kana": "せい",
+    "Romaji": "sei"
+  },
+  {
+    "Kanji": "政治",
+    "Kana": "せいじ",
+    "Romaji": "seiji"
+  },
+  {
+    "Kanji": "高校",
+    "Kana": "こうこう",
+    "Romaji": "koukou"
+  },
+  {
+    "Kanji": "蓋",
+    "Kana": "ふた",
+    "Romaji": "futa"
+  },
+  {
+    "Kanji": "世の中",
+    "Kana": "よのなか",
+    "Romaji": "yononaka"
+  },
+  {
+    "Kanji": "降下",
+    "Kana": "こうか",
+    "Romaji": "kouka"
+  },
+  {
+    "Kanji": "一撃",
+    "Kana": "いちげき",
+    "Romaji": "ichigeki"
+  },
+  {
+    "Kanji": "趣味",
+    "Kana": "しゅみ",
+    "Romaji": "shumi"
+  },
+  {
+    "Kanji": "船長",
+    "Kana": "せんちょう",
+    "Romaji": "senchou"
+  },
+  {
+    "Kanji": "リス",
+    "Kana": "リス",
+    "Romaji": "risu"
+  },
+  {
+    "Kanji": "シャトル",
+    "Kana": "シャトル",
+    "Romaji": "shatoru"
+  },
+  {
+    "Kanji": "会議",
+    "Kana": "かいぎ",
+    "Romaji": "kaigi"
+  },
+  {
+    "Kanji": "皿",
+    "Kana": "さら",
+    "Romaji": "sara"
+  },
+  {
+    "Kanji": "マンション",
+    "Kana": "マンション",
+    "Romaji": "manshon"
+  },
+  {
+    "Kanji": "決心",
+    "Kana": "けっしん",
+    "Romaji": "kesshin"
+  },
+  {
+    "Kanji": "いす",
+    "Kana": "いす",
+    "Romaji": "isu"
+  },
+  {
+    "Kanji": "気の毒",
+    "Kana": "きのどく",
+    "Romaji": "kinodoku"
+  },
+  {
+    "Kanji": "あっち",
+    "Kana": "あっち",
+    "Romaji": "acchi"
+  },
+  {
+    "Kanji": "異様",
+    "Kana": "いよう",
+    "Romaji": "iyou"
+  },
+  {
+    "Kanji": "兄さん",
+    "Kana": "にいさん",
+    "Romaji": "niisan"
+  },
+  {
+    "Kanji": "眼鏡",
+    "Kana": "めがね",
+    "Romaji": "megane"
+  },
+  {
+    "Kanji": "ちん",
+    "Kana": "ちん",
+    "Romaji": "chin"
+  },
+  {
+    "Kanji": "計算",
+    "Kana": "けいさん",
+    "Romaji": "keisan"
+  },
+  {
+    "Kanji": "めぐみ",
+    "Kana": "めぐみ",
+    "Romaji": "megumi"
+  },
+  {
+    "Kanji": "実験",
+    "Kana": "じっけん",
+    "Romaji": "jikken"
+  },
+  {
+    "Kanji": "音楽",
+    "Kana": "おんがく",
+    "Romaji": "ongaku"
+  },
+  {
+    "Kanji": "先ほど",
+    "Kana": "さきほど",
+    "Romaji": "sakihodo"
+  },
+  {
+    "Kanji": "はつ",
+    "Kana": "はつ",
+    "Romaji": "hatsu"
+  },
+  {
+    "Kanji": "麻美",
+    "Kana": "あさみ",
+    "Romaji": "asami"
+  },
+  {
+    "Kanji": "街道",
+    "Kana": "かいどう",
+    "Romaji": "kaidou"
+  },
+  {
+    "Kanji": "コト",
+    "Kana": "コト",
+    "Romaji": "koto"
+  },
+  {
+    "Kanji": "認識",
+    "Kana": "にんしき",
+    "Romaji": "ninshiki"
+  },
+  {
+    "Kanji": "警部",
+    "Kana": "けいぶ",
+    "Romaji": "keibu"
+  },
+  {
+    "Kanji": "男女",
+    "Kana": "だんじょ",
+    "Romaji": "danjo"
+  },
+  {
+    "Kanji": "湯",
+    "Kana": "ゆ",
+    "Romaji": "yu"
+  },
+  {
+    "Kanji": "桐",
+    "Kana": "きり",
+    "Romaji": "kiri"
+  },
+  {
+    "Kanji": "物語",
+    "Kana": "ものがたり",
+    "Romaji": "monogatari"
+  },
+  {
+    "Kanji": "動揺",
+    "Kana": "どうよう",
+    "Romaji": "douyou"
+  },
+  {
+    "Kanji": "絶望",
+    "Kana": "ぜつぼう",
+    "Romaji": "zetsubou"
+  },
+  {
+    "Kanji": "膣",
+    "Kana": "ちつ",
+    "Romaji": "chitsu"
+  },
+  {
+    "Kanji": "今年",
+    "Kana": "ことし",
+    "Romaji": "kotoshi"
+  },
+  {
+    "Kanji": "紐",
+    "Kana": "ひも",
+    "Romaji": "himo"
+  },
+  {
+    "Kanji": "脱出",
+    "Kana": "だっしゅつ",
+    "Romaji": "dasshutsu"
+  },
+  {
+    "Kanji": "大地",
+    "Kana": "だいち",
+    "Romaji": "daichi"
+  },
+  {
+    "Kanji": "牙",
+    "Kana": "きば",
+    "Romaji": "kiba"
+  },
+  {
+    "Kanji": "種類",
+    "Kana": "しゅるい",
+    "Romaji": "shurui"
+  },
+  {
+    "Kanji": "影響",
+    "Kana": "えいきょう",
+    "Romaji": "eikyou"
+  },
+  {
+    "Kanji": "怪",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "芝居",
+    "Kana": "しばい",
+    "Romaji": "shibai"
+  },
+  {
+    "Kanji": "しょく",
+    "Kana": "しょく",
+    "Romaji": "shoku"
+  },
+  {
+    "Kanji": "外国",
+    "Kana": "がいこく",
+    "Romaji": "gaikoku"
+  },
+  {
+    "Kanji": "造",
+    "Kana": "みやつこ",
+    "Romaji": "miyatsuko"
+  },
+  {
+    "Kanji": "作品",
+    "Kana": "さくひん",
+    "Romaji": "sakuhin"
+  },
+  {
+    "Kanji": "ブリッジ",
+    "Kana": "ブリッジ",
+    "Romaji": "burijji"
+  },
+  {
+    "Kanji": "ボタン",
+    "Kana": "ボタン",
+    "Romaji": "botan"
+  },
+  {
+    "Kanji": "教育",
+    "Kana": "きょういく",
+    "Romaji": "kyouiku"
+  },
+  {
+    "Kanji": "真面目",
+    "Kana": "まじめ",
+    "Romaji": "majime"
+  },
+  {
+    "Kanji": "まとも",
+    "Kana": "まとも",
+    "Romaji": "matomo"
+  },
+  {
+    "Kanji": "展開",
+    "Kana": "てんかい",
+    "Romaji": "tenkai"
+  },
+  {
+    "Kanji": "らい",
+    "Kana": "らい",
+    "Romaji": "rai"
+  },
+  {
+    "Kanji": "ケイ",
+    "Kana": "ケイ",
+    "Romaji": "kei"
+  },
+  {
+    "Kanji": "喜び",
+    "Kana": "よろこび",
+    "Romaji": "yorokobi"
+  },
+  {
+    "Kanji": "よそ",
+    "Kana": "よそ",
+    "Romaji": "yoso"
+  },
+  {
+    "Kanji": "掃除",
+    "Kana": "そうじ",
+    "Romaji": "souji"
+  },
+  {
+    "Kanji": "電気",
+    "Kana": "でんき",
+    "Romaji": "denki"
+  },
+  {
+    "Kanji": "校舎",
+    "Kana": "こうしゃ",
+    "Romaji": "kousha"
+  },
+  {
+    "Kanji": "意",
+    "Kana": "い",
+    "Romaji": "i"
+  },
+  {
+    "Kanji": "捜査",
+    "Kana": "そうさ",
+    "Romaji": "sousa"
+  },
+  {
+    "Kanji": "梨",
+    "Kana": "なし",
+    "Romaji": "nashi"
+  },
+  {
+    "Kanji": "泥",
+    "Kana": "どろ",
+    "Romaji": "doro"
+  },
+  {
+    "Kanji": "勝利",
+    "Kana": "しょうり",
+    "Romaji": "shouri"
+  },
+  {
+    "Kanji": "蜜",
+    "Kana": "みつ",
+    "Romaji": "mitsu"
+  },
+  {
+    "Kanji": "女中",
+    "Kana": "じょちゅう",
+    "Romaji": "jochuu"
+  },
+  {
+    "Kanji": "本部",
+    "Kana": "ほんぶ",
+    "Romaji": "honbu"
+  },
+  {
+    "Kanji": "年齢",
+    "Kana": "ねんれい",
+    "Romaji": "nenrei"
+  },
+  {
+    "Kanji": "弁当",
+    "Kana": "べんとう",
+    "Romaji": "bentou"
+  },
+  {
+    "Kanji": "バイ",
+    "Kana": "バイ",
+    "Romaji": "bai"
+  },
+  {
+    "Kanji": "無数",
+    "Kana": "むすう",
+    "Romaji": "musuu"
+  },
+  {
+    "Kanji": "平和",
+    "Kana": "へいわ",
+    "Romaji": "heiwa"
+  },
+  {
+    "Kanji": "真ん中",
+    "Kana": "まんなか",
+    "Romaji": "mannaka"
+  },
+  {
+    "Kanji": "停止",
+    "Kana": "ていし",
+    "Romaji": "teishi"
+  },
+  {
+    "Kanji": "次第",
+    "Kana": "しだい",
+    "Romaji": "shidai"
+  },
+  {
+    "Kanji": "室内",
+    "Kana": "しつない",
+    "Romaji": "shitsunai"
+  },
+  {
+    "Kanji": "最大",
+    "Kana": "さいだい",
+    "Romaji": "saidai"
+  },
+  {
+    "Kanji": "陽",
+    "Kana": "ひ",
+    "Romaji": "hi"
+  },
+  {
+    "Kanji": "整備",
+    "Kana": "せいび",
+    "Romaji": "seibi"
+  },
+  {
+    "Kanji": "王国",
+    "Kana": "おうこく",
+    "Romaji": "oukoku"
+  },
+  {
+    "Kanji": "ショック",
+    "Kana": "ショック",
+    "Romaji": "shokku"
+  },
+  {
+    "Kanji": "今朝",
+    "Kana": "けさ",
+    "Romaji": "kesa"
+  },
+  {
+    "Kanji": "沙耶",
+    "Kana": "さや",
+    "Romaji": "saya"
+  },
+  {
+    "Kanji": "亀",
+    "Kana": "かめ",
+    "Romaji": "kame"
+  },
+  {
+    "Kanji": "何人",
+    "Kana": "なんにん",
+    "Romaji": "nannin"
+  },
+  {
+    "Kanji": "大勢",
+    "Kana": "たいせい",
+    "Romaji": "taisei"
+  },
+  {
+    "Kanji": "集団",
+    "Kana": "しゅうだん",
+    "Romaji": "shuudan"
+  },
+  {
+    "Kanji": "専門",
+    "Kana": "せんもん",
+    "Romaji": "senmon"
+  },
+  {
+    "Kanji": "証明",
+    "Kana": "しょうめい",
+    "Romaji": "shoumei"
+  },
+  {
+    "Kanji": "朱",
+    "Kana": "しゅ",
+    "Romaji": "shu"
+  },
+  {
+    "Kanji": "発射",
+    "Kana": "はっしゃ",
+    "Romaji": "hassha"
+  },
+  {
+    "Kanji": "上空",
+    "Kana": "じょうくう",
+    "Romaji": "joukuu"
+  },
+  {
+    "Kanji": "後悔",
+    "Kana": "こうかい",
+    "Romaji": "koukai"
+  },
+  {
+    "Kanji": "見当",
+    "Kana": "けんとう",
+    "Romaji": "kentou"
+  },
+  {
+    "Kanji": "派手",
+    "Kana": "はで",
+    "Romaji": "hade"
+  },
+  {
+    "Kanji": "男の子",
+    "Kana": "おとこのこ",
+    "Romaji": "otokonoko"
+  },
+  {
+    "Kanji": "坂",
+    "Kana": "さか",
+    "Romaji": "saka"
+  },
+  {
+    "Kanji": "残り",
+    "Kana": "のこり",
+    "Romaji": "nokori"
+  },
+  {
+    "Kanji": "夢中",
+    "Kana": "むちゅう",
+    "Romaji": "muchuu"
+  },
+  {
+    "Kanji": "かね",
+    "Kana": "かね",
+    "Romaji": "kane"
+  },
+  {
+    "Kanji": "ベルト",
+    "Kana": "ベルト",
+    "Romaji": "beruto"
+  },
+  {
+    "Kanji": "年間",
+    "Kana": "ねんかん",
+    "Romaji": "nenkan"
+  },
+  {
+    "Kanji": "適当",
+    "Kana": "てきとう",
+    "Romaji": "tekitou"
+  },
+  {
+    "Kanji": "狼",
+    "Kana": "おおかみ",
+    "Romaji": "ookami"
+  },
+  {
+    "Kanji": "懐",
+    "Kana": "ふところ",
+    "Romaji": "futokoro"
+  },
+  {
+    "Kanji": "コート",
+    "Kana": "コート",
+    "Romaji": "ko-to"
+  },
+  {
+    "Kanji": "ことば",
+    "Kana": "ことば",
+    "Romaji": "kotoba"
+  },
+  {
+    "Kanji": "柳",
+    "Kana": "やなぎ",
+    "Romaji": "yanagi"
+  },
+  {
+    "Kanji": "対",
+    "Kana": "たい",
+    "Romaji": "tai"
+  },
+  {
+    "Kanji": "甲板",
+    "Kana": "かんぱん",
+    "Romaji": "kanpan"
+  },
+  {
+    "Kanji": "カウンター",
+    "Kana": "カウンター",
+    "Romaji": "kaunta-"
+  },
+  {
+    "Kanji": "居間",
+    "Kana": "いま",
+    "Romaji": "ima"
+  },
+  {
+    "Kanji": "驚き",
+    "Kana": "おどろき",
+    "Romaji": "odoroki"
+  },
+  {
+    "Kanji": "助け",
+    "Kana": "たすけ",
+    "Romaji": "tasuke"
+  },
+  {
+    "Kanji": "地獄",
+    "Kana": "じごく",
+    "Romaji": "jigoku"
+  },
+  {
+    "Kanji": "臭",
+    "Kana": "におい",
+    "Romaji": "nioi"
+  },
+  {
+    "Kanji": "球",
+    "Kana": "たま",
+    "Romaji": "tama"
+  },
+  {
+    "Kanji": "こんど",
+    "Kana": "こんど",
+    "Romaji": "kondo"
+  },
+  {
+    "Kanji": "解",
+    "Kana": "かい",
+    "Romaji": "kai"
+  },
+  {
+    "Kanji": "監督",
+    "Kana": "かんとく",
+    "Romaji": "kantoku"
+  },
+  {
+    "Kanji": "発生",
+    "Kana": "はっせい",
+    "Romaji": "hassei"
+  },
+  {
+    "Kanji": "話題",
+    "Kana": "わだい",
+    "Romaji": "wadai"
+  },
+  {
+    "Kanji": "けが",
+    "Kana": "けが",
+    "Romaji": "kega"
+  },
+  {
+    "Kanji": "更",
+    "Kana": "さら",
+    "Romaji": "sara"
+  },
+  {
+    "Kanji": "皮肉",
+    "Kana": "ひにく",
+    "Romaji": "hiniku"
+  },
+  {
+    "Kanji": "システム",
+    "Kana": "システム",
+    "Romaji": "shisutemu"
+  },
+  {
+    "Kanji": "見沢",
+    "Kana": "みさわ",
+    "Romaji": "misawa"
+  },
+  {
+    "Kanji": "主張",
+    "Kana": "しゅちょう",
+    "Romaji": "shuchou"
+  },
+  {
+    "Kanji": "機能",
+    "Kana": "きのう",
+    "Romaji": "kinou"
+  },
+  {
+    "Kanji": "実行",
+    "Kana": "じっこう",
+    "Romaji": "jikkou"
+  },
+  {
+    "Kanji": "がち",
+    "Kana": "がち",
+    "Romaji": "gachi"
+  },
+  {
+    "Kanji": "不審",
+    "Kana": "ふしん",
+    "Romaji": "fushin"
+  },
+  {
+    "Kanji": "パイ",
+    "Kana": "パイ",
+    "Romaji": "pai"
+  },
+  {
+    "Kanji": "バード",
+    "Kana": "バード",
+    "Romaji": "ba-do"
+  },
+  {
+    "Kanji": "すか",
+    "Kana": "すか",
+    "Romaji": "suka"
+  },
+  {
+    "Kanji": "特殊",
+    "Kana": "とくしゅ",
+    "Romaji": "tokushu"
+  },
+  {
+    "Kanji": "布団",
+    "Kana": "ふとん",
+    "Romaji": "futon"
+  },
+  {
+    "Kanji": "時刻",
+    "Kana": "じこく",
+    "Romaji": "jikoku"
+  },
+  {
+    "Kanji": "像",
+    "Kana": "ぞう",
+    "Romaji": "zou"
+  },
+  {
+    "Kanji": "並",
+    "Kana": "なみ",
+    "Romaji": "nami"
+  },
+  {
+    "Kanji": "スピード",
+    "Kana": "スピード",
+    "Romaji": "supi-do"
+  },
+  {
+    "Kanji": "ヤン",
+    "Kana": "ヤン",
+    "Romaji": "yan"
+  },
+  {
+    "Kanji": "社",
+    "Kana": "しゃ",
+    "Romaji": "sha"
+  },
+  {
+    "Kanji": "退屈",
+    "Kana": "たいくつ",
+    "Romaji": "taikutsu"
+  },
+  {
+    "Kanji": "直後",
+    "Kana": "ちょくご",
+    "Romaji": "chokugo"
+  },
+  {
+    "Kanji": "ばら",
+    "Kana": "ばら",
+    "Romaji": "bara"
+  },
+  {
+    "Kanji": "心持",
+    "Kana": "こころもち",
+    "Romaji": "kokoromochi"
+  },
+  {
+    "Kanji": "レベル",
+    "Kana": "レベル",
+    "Romaji": "reberu"
+  },
+  {
+    "Kanji": "勇",
+    "Kana": "いさむ",
+    "Romaji": "isamu"
+  },
+  {
+    "Kanji": "軌道",
+    "Kana": "きどう",
+    "Romaji": "kidou"
+  },
+  {
+    "Kanji": "映像",
+    "Kana": "えいぞう",
+    "Romaji": "eizou"
+  },
+  {
+    "Kanji": "ふり",
+    "Kana": "ふり",
+    "Romaji": "furi"
+  },
+  {
+    "Kanji": "階級",
+    "Kana": "かいきゅう",
+    "Romaji": "kaikyuu"
+  },
+  {
+    "Kanji": "姉妹",
+    "Kana": "しまい",
+    "Romaji": "shimai"
+  },
+  {
+    "Kanji": "得意",
+    "Kana": "とくい",
+    "Romaji": "tokui"
+  },
+  {
+    "Kanji": "陣",
+    "Kana": "じん",
+    "Romaji": "jin"
+  },
+  {
+    "Kanji": "申し訳",
+    "Kana": "もうしわけ",
+    "Romaji": "moushiwake"
+  },
+  {
+    "Kanji": "伝説",
+    "Kana": "でんせつ",
+    "Romaji": "densetsu"
+  },
+  {
+    "Kanji": "条",
+    "Kana": "じょう",
+    "Romaji": "jou"
+  },
+  {
+    "Kanji": "勘",
+    "Kana": "かん",
+    "Romaji": "kan"
+  },
+  {
+    "Kanji": "合図",
+    "Kana": "あいず",
+    "Romaji": "aizu"
+  },
+  {
+    "Kanji": "市民",
+    "Kana": "しみん",
+    "Romaji": "shimin"
+  },
+  {
+    "Kanji": "幻",
+    "Kana": "まぼろし",
+    "Romaji": "maboroshi"
+  },
+  {
+    "Kanji": "製",
+    "Kana": "せい",
+    "Romaji": "sei"
+  },
+  {
+    "Kanji": "晶",
+    "Kana": "あきら",
+    "Romaji": "akira"
+  },
+  {
+    "Kanji": "した",
+    "Kana": "した",
+    "Romaji": "shita"
+  },
+  {
+    "Kanji": "逢坂",
+    "Kana": "おうさか",
+    "Romaji": "ousaka"
+  },
+  {
+    "Kanji": "竹",
+    "Kana": "たけ",
+    "Romaji": "take"
+  },
+  {
+    "Kanji": "牛",
+    "Kana": "うし",
+    "Romaji": "ushi"
+  },
+  {
+    "Kanji": "図",
+    "Kana": "ず",
+    "Romaji": "zu"
+  },
+  {
+    "Kanji": "おのれ",
+    "Kana": "おのれ",
+    "Romaji": "onore"
+  },
+  {
+    "Kanji": "佐",
+    "Kana": "さ",
+    "Romaji": "sa"
+  },
+  {
+    "Kanji": "儀式",
+    "Kana": "ぎしき",
+    "Romaji": "gishiki"
+  },
+  {
+    "Kanji": "百合",
+    "Kana": "ひゃくごう",
+    "Romaji": "hyakugou"
+  },
+  {
+    "Kanji": "説",
+    "Kana": "せつ",
+    "Romaji": "setsu"
+  },
+  {
+    "Kanji": "慎重",
+    "Kana": "しんちょう",
+    "Romaji": "shinchou"
+  },
+  {
+    "Kanji": "せつ",
+    "Kana": "せつ",
+    "Romaji": "setsu"
+  },
+  {
+    "Kanji": "微妙",
+    "Kana": "びみょう",
+    "Romaji": "bimyou"
+  },
+  {
+    "Kanji": "田",
+    "Kana": "た",
+    "Romaji": "ta"
+  },
+  {
+    "Kanji": "里",
+    "Kana": "さと",
+    "Romaji": "sato"
+  },
+  {
+    "Kanji": "水前寺",
+    "Kana": "すいぜんじ",
+    "Romaji": "suizenji"
+  },
+  {
+    "Kanji": "畑",
+    "Kana": "はたけ",
+    "Romaji": "hatake"
+  },
+  {
+    "Kanji": "両方",
+    "Kana": "りょうほう",
+    "Romaji": "ryouhou"
+  },
+  {
+    "Kanji": "しら",
+    "Kana": "しら",
+    "Romaji": "shira"
+  },
+  {
+    "Kanji": "後退",
+    "Kana": "こうたい",
+    "Romaji": "koutai"
+  },
+  {
+    "Kanji": "伸",
+    "Kana": "しん",
+    "Romaji": "shin"
+  },
+  {
+    "Kanji": "絶叫",
+    "Kana": "ぜっきょう",
+    "Romaji": "zekkyou"
+  },
+  {
+    "Kanji": "つめ",
+    "Kana": "つめ",
+    "Romaji": "tsume"
+  },
+  {
+    "Kanji": "運転",
+    "Kana": "うんてん",
+    "Romaji": "unten"
+  },
+  {
+    "Kanji": "沙",
+    "Kana": "いさご",
+    "Romaji": "isago"
+  },
+  {
+    "Kanji": "敦",
+    "Kana": "あつし",
+    "Romaji": "atsushi"
+  },
+  {
+    "Kanji": "ピンク",
+    "Kana": "ピンク",
+    "Romaji": "pinku"
+  },
+  {
+    "Kanji": "透明",
+    "Kana": "とうめい",
+    "Romaji": "toumei"
+  },
+  {
+    "Kanji": "あいさつ",
+    "Kana": "あいさつ",
+    "Romaji": "aisatsu"
+  },
+  {
+    "Kanji": "段",
+    "Kana": "だん",
+    "Romaji": "dan"
+  },
+  {
+    "Kanji": "熊",
+    "Kana": "くま",
+    "Romaji": "kuma"
+  },
+  {
+    "Kanji": "目撃",
+    "Kana": "もくげき",
+    "Romaji": "mokugeki"
+  },
+  {
+    "Kanji": "さまざま",
+    "Kana": "さまざま",
+    "Romaji": "samazama"
+  },
+  {
+    "Kanji": "兄ちゃん",
+    "Kana": "にいちゃん",
+    "Romaji": "niichan"
+  },
+  {
+    "Kanji": "構造",
+    "Kana": "こうぞう",
+    "Romaji": "kouzou"
+  },
+  {
+    "Kanji": "風景",
+    "Kana": "ふうけい",
+    "Romaji": "fuukei"
+  },
+  {
+    "Kanji": "小声",
+    "Kana": "こごえ",
+    "Romaji": "kogoe"
+  },
+  {
+    "Kanji": "嵐",
+    "Kana": "あらし",
+    "Romaji": "arashi"
+  },
+  {
+    "Kanji": "傭兵",
+    "Kana": "ようへい",
+    "Romaji": "youhei"
+  },
+  {
+    "Kanji": "大佐",
+    "Kana": "たいさ",
+    "Romaji": "taisa"
+  },
+  {
+    "Kanji": "かま",
+    "Kana": "かま",
+    "Romaji": "kama"
+  },
+  {
+    "Kanji": "ライ",
+    "Kana": "ライ",
+    "Romaji": "rai"
+  },
+  {
+    "Kanji": "艶",
+    "Kana": "つや",
+    "Romaji": "tsuya"
+  },
+  {
+    "Kanji": "くず",
+    "Kana": "くず",
+    "Romaji": "kuzu"
+  },
+  {
+    "Kanji": "久しぶり",
+    "Kana": "ひさしぶり",
+    "Romaji": "hisashiburi"
+  },
+  {
+    "Kanji": "素",
+    "Kana": "もと",
+    "Romaji": "moto"
+  },
+  {
+    "Kanji": "暗黒",
+    "Kana": "あんこく",
+    "Romaji": "ankoku"
+  },
+  {
+    "Kanji": "上昇",
+    "Kana": "じょうしょう",
+    "Romaji": "joushou"
+  },
+  {
+    "Kanji": "管理",
+    "Kana": "かんり",
+    "Romaji": "kanri"
+  },
+  {
+    "Kanji": "是",
+    "Kana": "ぜ",
+    "Romaji": "ze"
+  },
+  {
+    "Kanji": "容赦",
+    "Kana": "ようしゃ",
+    "Romaji": "yousha"
+  },
+  {
+    "Kanji": "回復",
+    "Kana": "かいふく",
+    "Romaji": "kaifuku"
+  },
+  {
+    "Kanji": "兵器",
+    "Kana": "へいき",
+    "Romaji": "heiki"
+  },
+  {
+    "Kanji": "癖",
+    "Kana": "くせ",
+    "Romaji": "kuse"
+  },
+  {
+    "Kanji": "宝",
+    "Kana": "たから",
+    "Romaji": "takara"
+  },
+  {
+    "Kanji": "きのう",
+    "Kana": "きのう",
+    "Romaji": "kinou"
+  },
+  {
+    "Kanji": "母さん",
+    "Kana": "かあさん",
+    "Romaji": "kaasan"
+  },
+  {
+    "Kanji": "権",
+    "Kana": "けん",
+    "Romaji": "ken"
+  },
+  {
+    "Kanji": "欲望",
+    "Kana": "よくぼう",
+    "Romaji": "yokubou"
+  },
+  {
+    "Kanji": "幸福",
+    "Kana": "こうふく",
+    "Romaji": "koufuku"
+  },
+  {
+    "Kanji": "アル",
+    "Kana": "アル",
+    "Romaji": "aru"
+  },
+  {
+    "Kanji": "コックピット",
+    "Kana": "コックピット",
+    "Romaji": "kokkupitto"
+  },
+  {
+    "Kanji": "技",
+    "Kana": "わざ",
+    "Romaji": "waza"
+  },
+  {
+    "Kanji": "正時",
+    "Kana": "まさとき",
+    "Romaji": "masatoki"
+  },
+  {
+    "Kanji": "見物",
+    "Kana": "けんぶつ",
+    "Romaji": "kenbutsu"
+  },
+  {
+    "Kanji": "騒ぎ",
+    "Kana": "さわぎ",
+    "Romaji": "sawagi"
+  },
+  {
+    "Kanji": "長門",
+    "Kana": "ながと",
+    "Romaji": "nagato"
+  },
+  {
+    "Kanji": "いくつか",
+    "Kana": "いくつか",
+    "Romaji": "ikutsuka"
+  },
+  {
+    "Kanji": "結論",
+    "Kana": "けつろん",
+    "Romaji": "ketsuron"
+  },
+  {
+    "Kanji": "自転車",
+    "Kana": "じてんしゃ",
+    "Romaji": "jitensha"
+  },
+  {
+    "Kanji": "百合子",
+    "Kana": "ゆりこ",
+    "Romaji": "yuriko"
+  },
+  {
+    "Kanji": "故郷",
+    "Kana": "こきょう",
+    "Romaji": "kokyou"
+  },
+  {
+    "Kanji": "しゃく",
+    "Kana": "しゃく",
+    "Romaji": "shaku"
+  },
+  {
+    "Kanji": "休み",
+    "Kana": "やすみ",
+    "Romaji": "yasumi"
+  },
+  {
+    "Kanji": "北村",
+    "Kana": "きたむら",
+    "Romaji": "kitamura"
+  },
+  {
+    "Kanji": "院",
+    "Kana": "いん",
+    "Romaji": "in"
+  },
+  {
+    "Kanji": "麒麟",
+    "Kana": "きりん",
+    "Romaji": "kirin"
+  },
+  {
+    "Kanji": "物体",
+    "Kana": "ぶったい",
+    "Romaji": "buttai"
+  },
+  {
+    "Kanji": "連続",
+    "Kana": "れんぞく",
+    "Romaji": "renzoku"
+  },
+  {
+    "Kanji": "千鶴子",
+    "Kana": "ちづこ",
+    "Romaji": "chiduko"
+  },
+  {
+    "Kanji": "渡",
+    "Kana": "わたり",
+    "Romaji": "watari"
+  },
+  {
+    "Kanji": "広田",
+    "Kana": "ひろた",
+    "Romaji": "hirota"
+  },
+  {
+    "Kanji": "行方",
+    "Kana": "ゆくえ",
+    "Romaji": "yukue"
+  },
+  {
+    "Kanji": "詰",
+    "Kana": "つめ",
+    "Romaji": "tsume"
+  },
+  {
+    "Kanji": "乳",
+    "Kana": "ちち",
+    "Romaji": "chichi"
+  },
+  {
+    "Kanji": "８",
+    "Kana": "はち",
+    "Romaji": "hachi"
+  },
+  {
+    "Kanji": "ちょうだい",
+    "Kana": "ちょうだい",
+    "Romaji": "choudai"
+  },
+  {
+    "Kanji": "ナン",
+    "Kana": "ナン",
+    "Romaji": "nan"
+  },
+  {
+    "Kanji": "契約",
+    "Kana": "けいやく",
+    "Romaji": "keiyaku"
+  },
+  {
+    "Kanji": "くし",
+    "Kana": "くし",
+    "Romaji": "kushi"
+  },
+  {
+    "Kanji": "座敷",
+    "Kana": "ざしき",
+    "Romaji": "zashiki"
+  },
+  {
+    "Kanji": "苦",
+    "Kana": "く",
+    "Romaji": "ku"
+  },
+  {
+    "Kanji": "源",
+    "Kana": "みなもと",
+    "Romaji": "minamoto"
+  },
+  {
+    "Kanji": "掛",
+    "Kana": "かけ",
+    "Romaji": "kake"
+  },
+  {
+    "Kanji": "三郎",
+    "Kana": "さぶろう",
+    "Romaji": "saburou"
+  },
+  {
+    "Kanji": "着",
+    "Kana": "ちゃく",
+    "Romaji": "chaku"
+  },
+  {
+    "Kanji": "警備",
+    "Kana": "けいび",
+    "Romaji": "keibi"
+  },
+  {
+    "Kanji": "不満",
+    "Kana": "ふまん",
+    "Romaji": "fuman"
+  },
+  {
+    "Kanji": "スー",
+    "Kana": "スー",
+    "Romaji": "su-"
+  },
+  {
+    "Kanji": "心理",
+    "Kana": "しんり",
+    "Romaji": "shinri"
+  },
+  {
+    "Kanji": "教授",
+    "Kana": "きょうじゅ",
+    "Romaji": "kyouju"
+  },
+  {
+    "Kanji": "当たり前",
+    "Kana": "あたりまえ",
+    "Romaji": "atarimae"
+  },
+  {
+    "Kanji": "時期",
+    "Kana": "じき",
+    "Romaji": "jiki"
+  },
+  {
+    "Kanji": "係",
+    "Kana": "かかり",
+    "Romaji": "kakari"
+  },
+  {
+    "Kanji": "弓",
+    "Kana": "ゆみ",
+    "Romaji": "yumi"
+  },
+  {
+    "Kanji": "食堂",
+    "Kana": "しょくどう",
+    "Romaji": "shokudou"
+  },
+  {
+    "Kanji": "魅力",
+    "Kana": "みりょく",
+    "Romaji": "miryoku"
+  },
+  {
+    "Kanji": "ちょ",
+    "Kana": "ちょ",
+    "Romaji": "cho"
+  },
+  {
+    "Kanji": "体験",
+    "Kana": "たいけん",
+    "Romaji": "taiken"
+  },
+  {
+    "Kanji": "無意識",
+    "Kana": "むいしき",
+    "Romaji": "muishiki"
+  },
+  {
+    "Kanji": "貴子",
+    "Kana": "たかこ",
+    "Romaji": "takako"
+  },
+  {
+    "Kanji": "有名",
+    "Kana": "ゆうめい",
+    "Romaji": "yuumei"
+  },
+  {
+    "Kanji": "雑誌",
+    "Kana": "ざっし",
+    "Romaji": "zasshi"
+  },
+  {
+    "Kanji": "委員",
+    "Kana": "いいん",
+    "Romaji": "iin"
+  },
+  {
+    "Kanji": "芸術",
+    "Kana": "げいじゅつ",
+    "Romaji": "geijutsu"
+  },
+  {
+    "Kanji": "永遠",
+    "Kana": "えいえん",
+    "Romaji": "eien"
+  },
+  {
+    "Kanji": "枕",
+    "Kana": "まくら",
+    "Romaji": "makura"
+  },
+  {
+    "Kanji": "網",
+    "Kana": "あみ",
+    "Romaji": "ami"
+  },
+  {
+    "Kanji": "王宮",
+    "Kana": "おうきゅう",
+    "Romaji": "oukyuu"
+  },
+  {
+    "Kanji": "身分",
+    "Kana": "みぶん",
+    "Romaji": "mibun"
+  },
+  {
+    "Kanji": "兄弟",
+    "Kana": "きょうだい",
+    "Romaji": "kyoudai"
+  },
+  {
+    "Kanji": "野々山",
+    "Kana": "ののやま",
+    "Romaji": "nonoyama"
+  },
+  {
+    "Kanji": "生き物",
+    "Kana": "いきもの",
+    "Romaji": "ikimono"
+  },
+  {
+    "Kanji": "衛",
+    "Kana": "まもる",
+    "Romaji": "mamoru"
+  },
+  {
+    "Kanji": "操作",
+    "Kana": "そうさ",
+    "Romaji": "sousa"
+  },
+  {
+    "Kanji": "伯爵",
+    "Kana": "はくしゃく",
+    "Romaji": "hakushaku"
+  },
+  {
+    "Kanji": "清",
+    "Kana": "きよし",
+    "Romaji": "kiyoshi"
+  },
+  {
+    "Kanji": "うた",
+    "Kana": "うた",
+    "Romaji": "uta"
+  },
+  {
+    "Kanji": "別れ",
+    "Kana": "わかれ",
+    "Romaji": "wakare"
+  },
+  {
+    "Kanji": "携帯",
+    "Kana": "けいたい",
+    "Romaji": "keitai"
+  },
+  {
+    "Kanji": "ブラ",
+    "Kana": "ブラ",
+    "Romaji": "bura"
+  },
+  {
+    "Kanji": "襲",
+    "Kana": "かさね",
+    "Romaji": "kasane"
+  },
+  {
+    "Kanji": "師匠",
+    "Kana": "ししょう",
+    "Romaji": "shishou"
+  },
+  {
+    "Kanji": "かげ",
+    "Kana": "かげ",
+    "Romaji": "kage"
+  },
+  {
+    "Kanji": "シート",
+    "Kana": "シート",
+    "Romaji": "shi-to"
+  },
+  {
+    "Kanji": "男子",
+    "Kana": "だんし",
+    "Romaji": "danshi"
+  },
+  {
+    "Kanji": "曲",
+    "Kana": "きょく",
+    "Romaji": "kyoku"
+  },
+  {
+    "Kanji": "使い",
+    "Kana": "つかい",
+    "Romaji": "tsukai"
+  },
+  {
+    "Kanji": "龍",
+    "Kana": "りゅう",
+    "Romaji": "ryuu"
+  },
+  {
+    "Kanji": "背筋",
+    "Kana": "せすじ",
+    "Romaji": "sesuji"
+  },
+  {
+    "Kanji": "鈴",
+    "Kana": "すず",
+    "Romaji": "suzu"
+  },
+  {
+    "Kanji": "砲",
+    "Kana": "ほう",
+    "Romaji": "hou"
+  },
+  {
+    "Kanji": "昼間",
+    "Kana": "ひるま",
+    "Romaji": "hiruma"
+  },
+  {
+    "Kanji": "真美",
+    "Kana": "まみ",
+    "Romaji": "mami"
+  },
+  {
+    "Kanji": "新庄",
+    "Kana": "しんじょう",
+    "Romaji": "shinjou"
+  },
+  {
+    "Kanji": "うま",
+    "Kana": "うま",
+    "Romaji": "uma"
+  },
+  {
+    "Kanji": "ロープ",
+    "Kana": "ロープ",
+    "Romaji": "ro-pu"
+  },
+  {
+    "Kanji": "動作",
+    "Kana": "どうさ",
+    "Romaji": "dousa"
+  },
+  {
+    "Kanji": "割",
+    "Kana": "わり",
+    "Romaji": "wari"
+  },
+  {
+    "Kanji": "軒",
+    "Kana": "のき",
+    "Romaji": "noki"
+  },
+  {
+    "Kanji": "湖",
+    "Kana": "みずうみ",
+    "Romaji": "mizuumi"
+  },
+  {
+    "Kanji": "紫",
+    "Kana": "むらさき",
+    "Romaji": "murasaki"
+  },
+  {
+    "Kanji": "自覚",
+    "Kana": "じかく",
+    "Romaji": "jikaku"
+  },
+  {
+    "Kanji": "呪",
+    "Kana": "のろい",
+    "Romaji": "noroi"
+  },
+  {
+    "Kanji": "好奇",
+    "Kana": "こうき",
+    "Romaji": "kouki"
+  },
+  {
+    "Kanji": "学者",
+    "Kana": "がくしゃ",
+    "Romaji": "gakusha"
+  },
+  {
+    "Kanji": "くだ",
+    "Kana": "くだ",
+    "Romaji": "kuda"
+  },
+  {
+    "Kanji": "上手",
+    "Kana": "じょうず",
+    "Romaji": "jouzu"
+  },
+  {
+    "Kanji": "池",
+    "Kana": "いけ",
+    "Romaji": "ike"
+  },
+  {
+    "Kanji": "会長",
+    "Kana": "かいちょう",
+    "Romaji": "kaichou"
+  },
+  {
+    "Kanji": "ホール",
+    "Kana": "ホール",
+    "Romaji": "ho-ru"
+  },
+  {
+    "Kanji": "婆",
+    "Kana": "ばば",
+    "Romaji": "baba"
+  },
+  {
+    "Kanji": "子ども",
+    "Kana": "こども",
+    "Romaji": "kodomo"
+  },
+  {
+    "Kanji": "ダム",
+    "Kana": "ダム",
+    "Romaji": "damu"
+  },
+  {
+    "Kanji": "マイ",
+    "Kana": "マイ",
+    "Romaji": "mai"
+  },
+  {
+    "Kanji": "ロック",
+    "Kana": "ロック",
+    "Romaji": "rokku"
+  },
+  {
+    "Kanji": "縦",
+    "Kana": "たて",
+    "Romaji": "tate"
+  },
+  {
+    "Kanji": "亭主",
+    "Kana": "ていしゅ",
+    "Romaji": "teishu"
+  },
+  {
+    "Kanji": "中年",
+    "Kana": "ちゅうねん",
+    "Romaji": "chuunen"
+  },
+  {
+    "Kanji": "通",
+    "Kana": "つう",
+    "Romaji": "tsuu"
+  },
+  {
+    "Kanji": "たか",
+    "Kana": "たか",
+    "Romaji": "taka"
+  },
+  {
+    "Kanji": "水面",
+    "Kana": "すいめん",
+    "Romaji": "suimen"
+  },
+  {
+    "Kanji": "同情",
+    "Kana": "どうじょう",
+    "Romaji": "doujou"
+  },
+  {
+    "Kanji": "午前",
+    "Kana": "ごぜん",
+    "Romaji": "gozen"
+  },
+  {
+    "Kanji": "期",
+    "Kana": "き",
+    "Romaji": "ki"
+  },
+  {
+    "Kanji": "司",
+    "Kana": "つかさ",
+    "Romaji": "tsukasa"
+  },
+  {
+    "Kanji": "度目",
+    "Kana": "どめ",
+    "Romaji": "dome"
+  },
+  {
+    "Kanji": "自慢",
+    "Kana": "じまん",
+    "Romaji": "jiman"
+  },
+  {
+    "Kanji": "幅",
+    "Kana": "はば",
+    "Romaji": "haba"
+  },
+  {
+    "Kanji": "とつ",
+    "Kana": "とつ",
+    "Romaji": "totsu"
+  },
+  {
+    "Kanji": "はか",
+    "Kana": "はか",
+    "Romaji": "haka"
+  },
+  {
+    "Kanji": "方角",
+    "Kana": "ほうがく",
+    "Romaji": "hougaku"
+  },
+  {
+    "Kanji": "理想",
+    "Kana": "りそう",
+    "Romaji": "risou"
+  },
+  {
+    "Kanji": "蔦子",
+    "Kana": "つたこ",
+    "Romaji": "tsutako"
+  },
+  {
+    "Kanji": "里香",
+    "Kana": "りか",
+    "Romaji": "rika"
+  },
+  {
+    "Kanji": "くちびる",
+    "Kana": "くちびる",
+    "Romaji": "kuchibiru"
+  },
+  {
+    "Kanji": "マイク",
+    "Kana": "マイク",
+    "Romaji": "maiku"
+  },
+  {
+    "Kanji": "さば",
+    "Kana": "さば",
+    "Romaji": "saba"
+  },
+  {
+    "Kanji": "シエスタ",
+    "Kana": "シエスタ",
+    "Romaji": "shiesuta"
+  },
+  {
+    "Kanji": "拳銃",
+    "Kana": "けんじゅう",
+    "Romaji": "kenjuu"
+  },
+  {
+    "Kanji": "おやじ",
+    "Kana": "おやじ",
+    "Romaji": "oyaji"
+  },
+  {
+    "Kanji": "ドル",
+    "Kana": "ドル",
+    "Romaji": "doru"
+  },
+  {
+    "Kanji": "木々",
+    "Kana": "きぎ",
+    "Romaji": "kigi"
+  },
+  {
+    "Kanji": "候",
+    "Kana": "こう",
+    "Romaji": "kou"
+  },
+  {
+    "Kanji": "日々",
+    "Kana": "ひび",
+    "Romaji": "hibi"
+  },
+  {
+    "Kanji": "崎",
+    "Kana": "さき",
+    "Romaji": "saki"
+  },
+  {
+    "Kanji": "ユウ",
+    "Kana": "ユウ",
+    "Romaji": "yuu"
+  },
+  {
+    "Kanji": "保護",
+    "Kana": "ほご",
+    "Romaji": "hogo"
+  },
+  {
+    "Kanji": "飯",
+    "Kana": "めし",
+    "Romaji": "meshi"
+  },
+  {
+    "Kanji": "ケース",
+    "Kana": "ケース",
+    "Romaji": "ke-su"
+  },
+  {
+    "Kanji": "本能",
+    "Kana": "ほんのう",
+    "Romaji": "honnou"
+  },
+  {
+    "Kanji": "ビーム",
+    "Kana": "ビーム",
+    "Romaji": "bi-mu"
+  },
+  {
+    "Kanji": "とっさ",
+    "Kana": "とっさ",
+    "Romaji": "tossa"
+  },
+  {
+    "Kanji": "老婆",
+    "Kana": "ろうば",
+    "Romaji": "rouba"
+  },
+  {
+    "Kanji": "ビール",
+    "Kana": "ビール",
+    "Romaji": "bi-ru"
+  },
+  {
+    "Kanji": "分の",
+    "Kana": "ぶんの",
+    "Romaji": "bunno"
+  },
+  {
+    "Kanji": "限界",
+    "Kana": "げんかい",
+    "Romaji": "genkai"
+  },
+  {
+    "Kanji": "画面",
+    "Kana": "がめん",
+    "Romaji": "gamen"
+  },
+  {
+    "Kanji": "教会",
+    "Kana": "きょうかい",
+    "Romaji": "kyoukai"
+  },
+  {
+    "Kanji": "受話器",
+    "Kana": "じゅわき",
+    "Romaji": "juwaki"
+  },
+  {
+    "Kanji": "食",
+    "Kana": "しょく",
+    "Romaji": "shoku"
+  },
+  {
+    "Kanji": "チャンス",
+    "Kana": "チャンス",
+    "Romaji": "chansu"
+  },
+  {
+    "Kanji": "あき",
+    "Kana": "あき",
+    "Romaji": "aki"
+  },
+  {
+    "Kanji": "びん",
+    "Kana": "びん",
+    "Romaji": "bin"
+  },
+  {
+    "Kanji": "儀",
+    "Kana": "ただし",
+    "Romaji": "tadashi"
+  },
+  {
+    "Kanji": "一斉",
+    "Kana": "いっせい",
+    "Romaji": "issei"
+  },
+  {
+    "Kanji": "卵",
+    "Kana": "たまご",
+    "Romaji": "tamago"
+  },
+  {
+    "Kanji": "詩音",
+    "Kana": "しおん",
+    "Romaji": "shion"
+  },
+  {
+    "Kanji": "お互い",
+    "Kana": "おたがい",
+    "Romaji": "otagai"
+  },
+  {
+    "Kanji": "範囲",
+    "Kana": "はんい",
+    "Romaji": "hani"
+  },
+  {
+    "Kanji": "松",
+    "Kana": "まつ",
+    "Romaji": "matsu"
+  },
+  {
+    "Kanji": "コン",
+    "Kana": "コン",
+    "Romaji": "kon"
+  },
+  {
+    "Kanji": "予感",
+    "Kana": "よかん",
+    "Romaji": "yokan"
+  },
+  {
+    "Kanji": "言い方",
+    "Kana": "いいかた",
+    "Romaji": "iikata"
+  },
+  {
+    "Kanji": "のち",
+    "Kana": "のち",
+    "Romaji": "nochi"
+  },
+  {
+    "Kanji": "理",
+    "Kana": "り",
+    "Romaji": "ri"
+  },
+  {
+    "Kanji": "鎖",
+    "Kana": "くさり",
+    "Romaji": "kusari"
+  },
+  {
+    "Kanji": "家庭",
+    "Kana": "かてい",
+    "Romaji": "katei"
+  },
+  {
+    "Kanji": "筋肉",
+    "Kana": "きんにく",
+    "Romaji": "kinniku"
+  },
+  {
+    "Kanji": "真奈美",
+    "Kana": "まなみ",
+    "Romaji": "manami"
+  },
+  {
+    "Kanji": "社長",
+    "Kana": "しゃちょう",
+    "Romaji": "shachou"
+  },
+  {
+    "Kanji": "装備",
+    "Kana": "そうび",
+    "Romaji": "soubi"
+  },
+  {
+    "Kanji": "決定",
+    "Kana": "けってい",
+    "Romaji": "kettei"
+  },
+  {
+    "Kanji": "侍",
+    "Kana": "さむらい",
+    "Romaji": "samurai"
+  },
+  {
+    "Kanji": "束",
+    "Kana": "たば",
+    "Romaji": "taba"
+  },
+  {
+    "Kanji": "強",
+    "Kana": "つよし",
+    "Romaji": "tsuyoshi"
+  },
+  {
+    "Kanji": "以下",
+    "Kana": "いか",
+    "Romaji": "ika"
+  },
+  {
+    "Kanji": "事務",
+    "Kana": "じむ",
+    "Romaji": "jimu"
+  },
+  {
+    "Kanji": "京都",
+    "Kana": "きょうと",
+    "Romaji": "kyouto"
+  },
+  {
+    "Kanji": "疑い",
+    "Kana": "うたがい",
+    "Romaji": "utagai"
+  },
+  {
+    "Kanji": "スーツ",
+    "Kana": "スーツ",
+    "Romaji": "su-tsu"
+  },
+  {
+    "Kanji": "フランス",
+    "Kana": "フランス",
+    "Romaji": "furansu"
+  },
+  {
+    "Kanji": "マリア",
+    "Kana": "マリア",
+    "Romaji": "maria"
+  },
+  {
+    "Kanji": "和彦",
+    "Kana": "かずひこ",
+    "Romaji": "kazuhiko"
+  },
+  {
+    "Kanji": "叫び",
+    "Kana": "さけび",
+    "Romaji": "sakebi"
+  },
+  {
+    "Kanji": "ルーム",
+    "Kana": "ルーム",
+    "Romaji": "ru-mu"
+  },
+  {
+    "Kanji": "出入り",
+    "Kana": "でいり",
+    "Romaji": "deiri"
+  },
+  {
+    "Kanji": "成長",
+    "Kana": "せいちょう",
+    "Romaji": "seichou"
+  },
+  {
+    "Kanji": "病",
+    "Kana": "やまい",
+    "Romaji": "yamai"
+  },
+  {
+    "Kanji": "事務所",
+    "Kana": "じむしょ",
+    "Romaji": "jimusho"
+  },
+  {
+    "Kanji": "トラック",
+    "Kana": "トラック",
+    "Romaji": "torakku"
+  },
+  {
+    "Kanji": "蔵",
+    "Kana": "くら",
+    "Romaji": "kura"
+  },
+  {
+    "Kanji": "流",
+    "Kana": "りゅう",
+    "Romaji": "ryuu"
+  },
+  {
+    "Kanji": "練習",
+    "Kana": "れんしゅう",
+    "Romaji": "renshuu"
+  },
+  {
+    "Kanji": "婆さん",
+    "Kana": "ばあさん",
+    "Romaji": "baasan"
+  },
+  {
+    "Kanji": "時分",
+    "Kana": "じぶん",
+    "Romaji": "jibun"
+  },
+  {
+    "Kanji": "交渉",
+    "Kana": "こうしょう",
+    "Romaji": "koushou"
+  },
+  {
+    "Kanji": "笑い声",
+    "Kana": "わらいごえ",
+    "Romaji": "waraigoe"
+  },
+  {
+    "Kanji": "ひま",
+    "Kana": "ひま",
+    "Romaji": "hima"
+  },
+  {
+    "Kanji": "親切",
+    "Kana": "しんせつ",
+    "Romaji": "shinsetsu"
+  },
+  {
+    "Kanji": "尋",
+    "Kana": "ひろ",
+    "Romaji": "hiro"
+  },
+  {
+    "Kanji": "ホント",
+    "Kana": "ホント",
+    "Romaji": "honto"
+  },
+  {
+    "Kanji": "制御",
+    "Kana": "せいぎょ",
+    "Romaji": "seigyo"
+  },
+  {
+    "Kanji": "かわり",
+    "Kana": "かわり",
+    "Romaji": "kawari"
+  },
+  {
+    "Kanji": "能",
+    "Kana": "のう",
+    "Romaji": "nou"
+  },
+  {
+    "Kanji": "レーザー",
+    "Kana": "レーザー",
+    "Romaji": "re-za-"
+  },
+  {
+    "Kanji": "黄金",
+    "Kana": "おうごん",
+    "Romaji": "ougon"
+  },
+  {
+    "Kanji": "爆弾",
+    "Kana": "ばくだん",
+    "Romaji": "bakudan"
+  },
+  {
+    "Kanji": "処女",
+    "Kana": "しょじょ",
+    "Romaji": "shojo"
+  },
+  {
+    "Kanji": "コウ",
+    "Kana": "コウ",
+    "Romaji": "kou"
+  },
+  {
+    "Kanji": "皮膚",
+    "Kana": "ひふ",
+    "Romaji": "hifu"
+  },
+  {
+    "Kanji": "口元",
+    "Kana": "くちもと",
+    "Romaji": "kuchimoto"
+  },
+  {
+    "Kanji": "かぎ",
+    "Kana": "かぎ",
+    "Romaji": "kagi"
+  },
+  {
+    "Kanji": "厭",
+    "Kana": "いや",
+    "Romaji": "iya"
+  },
+  {
+    "Kanji": "美少女",
+    "Kana": "びしょうじょ",
+    "Romaji": "bishoujo"
+  },
+  {
+    "Kanji": "ペ",
+    "Kana": "ペ",
+    "Romaji": "pe"
+  },
+  {
+    "Kanji": "書類",
+    "Kana": "しょるい",
+    "Romaji": "shorui"
+  },
+  {
+    "Kanji": "ミス",
+    "Kana": "ミス",
+    "Romaji": "misu"
+  },
+  {
+    "Kanji": "崖",
+    "Kana": "がけ",
+    "Romaji": "gake"
+  },
+  {
+    "Kanji": "固定",
+    "Kana": "こてい",
+    "Romaji": "kotei"
+  },
+  {
+    "Kanji": "信頼",
+    "Kana": "しんらい",
+    "Romaji": "shinrai"
+  },
+  {
+    "Kanji": "目標",
+    "Kana": "もくひょう",
+    "Romaji": "mokuhyou"
+  },
+  {
+    "Kanji": "熱心",
+    "Kana": "ねっしん",
+    "Romaji": "nesshin"
+  },
+  {
+    "Kanji": "始末",
+    "Kana": "しまつ",
+    "Romaji": "shimatsu"
+  },
+  {
+    "Kanji": "ブルー",
+    "Kana": "ブルー",
+    "Romaji": "buru-"
+  },
+  {
+    "Kanji": "赤ん坊",
+    "Kana": "あかんぼう",
+    "Romaji": "akanbou"
+  },
+  {
+    "Kanji": "珍",
+    "Kana": "ちん",
+    "Romaji": "chin"
+  },
+  {
+    "Kanji": "罰",
+    "Kana": "ばち",
+    "Romaji": "bachi"
+  },
+  {
+    "Kanji": "イメージ",
+    "Kana": "イメージ",
+    "Romaji": "ime-ji"
+  },
+  {
+    "Kanji": "合",
+    "Kana": "ごう",
+    "Romaji": "gou"
+  },
+  {
+    "Kanji": "幸",
+    "Kana": "みゆき",
+    "Romaji": "miyuki"
+  },
+  {
+    "Kanji": "王様",
+    "Kana": "おうさま",
+    "Romaji": "ousama"
+  },
+  {
+    "Kanji": "油",
+    "Kana": "あぶら",
+    "Romaji": "abura"
+  },
+  {
+    "Kanji": "痙攣",
+    "Kana": "けいれん",
+    "Romaji": "keiren"
+  },
+  {
+    "Kanji": "人気",
+    "Kana": "にんき",
+    "Romaji": "ninki"
+  },
+  {
+    "Kanji": "周辺",
+    "Kana": "しゅうへん",
+    "Romaji": "shuuhen"
+  },
+  {
+    "Kanji": "片方",
+    "Kana": "かたほう",
+    "Romaji": "katahou"
+  },
+  {
+    "Kanji": "翠",
+    "Kana": "みどり",
+    "Romaji": "midori"
+  },
+  {
+    "Kanji": "羽根",
+    "Kana": "はね",
+    "Romaji": "hane"
+  },
+  {
+    "Kanji": "麻衣",
+    "Kana": "まい",
+    "Romaji": "mai"
+  },
+  {
+    "Kanji": "奴ら",
+    "Kana": "やつら",
+    "Romaji": "yatsura"
+  },
+  {
+    "Kanji": "劉",
+    "Kana": "りゅう",
+    "Romaji": "ryuu"
+  },
+  {
+    "Kanji": "ざま",
+    "Kana": "ざま",
+    "Romaji": "zama"
+  },
+  {
+    "Kanji": "不気味",
+    "Kana": "ぶきみ",
+    "Romaji": "bukimi"
+  },
+  {
+    "Kanji": "暗闇",
+    "Kana": "くらやみ",
+    "Romaji": "kurayami"
+  },
+  {
+    "Kanji": "荒",
+    "Kana": "あら",
+    "Romaji": "ara"
+  },
+  {
+    "Kanji": "ゆか",
+    "Kana": "ゆか",
+    "Romaji": "yuka"
+  },
+  {
+    "Kanji": "溜息",
+    "Kana": "ためいき",
+    "Romaji": "tameiki"
+  },
+  {
+    "Kanji": "兵衛",
+    "Kana": "ひょうえ",
+    "Romaji": "hyoue"
+  },
+  {
+    "Kanji": "ライフル",
+    "Kana": "ライフル",
+    "Romaji": "raifuru"
+  },
+  {
+    "Kanji": "ひょう",
+    "Kana": "ひょう",
+    "Romaji": "hyou"
+  },
+  {
+    "Kanji": "こぶし",
+    "Kana": "こぶし",
+    "Romaji": "kobushi"
+  },
+  {
+    "Kanji": "物理",
+    "Kana": "ぶつり",
+    "Romaji": "butsuri"
+  },
+  {
+    "Kanji": "向き",
+    "Kana": "むき",
+    "Romaji": "muki"
+  },
+  {
+    "Kanji": "あちら",
+    "Kana": "あちら",
+    "Romaji": "achira"
+  },
+  {
+    "Kanji": "隻",
+    "Kana": "せき",
+    "Romaji": "seki"
+  },
+  {
+    "Kanji": "区",
+    "Kana": "く",
+    "Romaji": "ku"
+  },
+  {
+    "Kanji": "警備隊",
+    "Kana": "けいびたい",
+    "Romaji": "keibitai"
+  },
+  {
+    "Kanji": "実感",
+    "Kana": "じっかん",
+    "Romaji": "jikkan"
+  },
+  {
+    "Kanji": "へや",
+    "Kana": "へや",
+    "Romaji": "heya"
+  },
+  {
+    "Kanji": "油断",
+    "Kana": "ゆだん",
+    "Romaji": "yudan"
+  },
+  {
+    "Kanji": "物質",
+    "Kana": "ぶっしつ",
+    "Romaji": "busshitsu"
+  },
+  {
+    "Kanji": "前進",
+    "Kana": "ぜんしん",
+    "Romaji": "zenshin"
+  },
+  {
+    "Kanji": "きし",
+    "Kana": "きし",
+    "Romaji": "kishi"
+  },
+  {
+    "Kanji": "堂",
+    "Kana": "どう",
+    "Romaji": "dou"
+  },
+  {
+    "Kanji": "成",
+    "Kana": "しげる",
+    "Romaji": "shigeru"
+  },
+  {
+    "Kanji": "留守",
+    "Kana": "るす",
+    "Romaji": "rusu"
+  },
+  {
+    "Kanji": "皺",
+    "Kana": "しわ",
+    "Romaji": "shiwa"
+  },
+  {
+    "Kanji": "そん",
+    "Kana": "そん",
+    "Romaji": "son"
+  },
+  {
+    "Kanji": "唐突",
+    "Kana": "とうとつ",
+    "Romaji": "toutotsu"
+  },
+  {
+    "Kanji": "デッキ",
+    "Kana": "デッキ",
+    "Romaji": "dekki"
+  },
+  {
+    "Kanji": "大量",
+    "Kana": "たいりょう",
+    "Romaji": "tairyou"
+  },
+  {
+    "Kanji": "亘",
+    "Kana": "わたる",
+    "Romaji": "wataru"
+  },
+  {
+    "Kanji": "舟",
+    "Kana": "ふね",
+    "Romaji": "fune"
+  },
+  {
+    "Kanji": "軍人",
+    "Kana": "ぐんじん",
+    "Romaji": "gunjin"
+  },
+  {
+    "Kanji": "内心",
+    "Kana": "ないしん",
+    "Romaji": "naishin"
+  },
+  {
+    "Kanji": "盗賊",
+    "Kana": "とうぞく",
+    "Romaji": "touzoku"
+  },
+  {
+    "Kanji": "基本",
+    "Kana": "きほん",
+    "Romaji": "kihon"
+  },
+  {
+    "Kanji": "おじさん",
+    "Kana": "おじさん",
+    "Romaji": "ojisan"
+  },
+  {
+    "Kanji": "芯",
+    "Kana": "しん",
+    "Romaji": "shin"
+  },
+  {
+    "Kanji": "豹",
+    "Kana": "ひょう",
+    "Romaji": "hyou"
+  },
+  {
+    "Kanji": "はじ",
+    "Kana": "はじ",
+    "Romaji": "haji"
+  },
+  {
+    "Kanji": "カーテン",
+    "Kana": "カーテン",
+    "Romaji": "ka-ten"
+  },
+  {
+    "Kanji": "文明",
+    "Kana": "ぶんめい",
+    "Romaji": "bunmei"
+  },
+  {
+    "Kanji": "和夫",
+    "Kana": "かずお",
+    "Romaji": "kazuo"
+  },
+  {
+    "Kanji": "装甲",
+    "Kana": "そうこう",
+    "Romaji": "soukou"
+  },
+  {
+    "Kanji": "まり",
+    "Kana": "まり",
+    "Romaji": "mari"
+  },
+  {
+    "Kanji": "丁寧",
+    "Kana": "ていねい",
+    "Romaji": "teinei"
+  },
+  {
+    "Kanji": "綾",
+    "Kana": "あや",
+    "Romaji": "aya"
+  },
+  {
+    "Kanji": "肘",
+    "Kana": "ひじ",
+    "Romaji": "hiji"
+  },
+  {
+    "Kanji": "パパ",
+    "Kana": "パパ",
+    "Romaji": "papa"
+  },
+  {
+    "Kanji": "誤解",
+    "Kana": "ごかい",
+    "Romaji": "gokai"
+  },
+  {
+    "Kanji": "困難",
+    "Kana": "こんなん",
+    "Romaji": "konnan"
+  },
+  {
+    "Kanji": "マント",
+    "Kana": "マント",
+    "Romaji": "manto"
+  },
+  {
+    "Kanji": "おと",
+    "Kana": "おと",
+    "Romaji": "oto"
+  },
+  {
+    "Kanji": "ぐち",
+    "Kana": "ぐち",
+    "Romaji": "guchi"
+  },
+  {
+    "Kanji": "絹",
+    "Kana": "きぬ",
+    "Romaji": "kinu"
+  },
+  {
+    "Kanji": "銭",
+    "Kana": "せん",
+    "Romaji": "sen"
+  },
+  {
+    "Kanji": "環境",
+    "Kana": "かんきょう",
+    "Romaji": "kankyou"
+  },
+  {
+    "Kanji": "役人",
+    "Kana": "やくにん",
+    "Romaji": "yakunin"
+  },
+  {
+    "Kanji": "諸君",
+    "Kana": "しょくん",
+    "Romaji": "shokun"
+  },
+  {
+    "Kanji": "衛門",
+    "Kana": "えもん",
+    "Romaji": "emon"
+  },
+  {
+    "Kanji": "宇宙船",
+    "Kana": "うちゅうせん",
+    "Romaji": "uchuusen"
+  }
+]

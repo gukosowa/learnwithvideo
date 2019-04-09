@@ -1,1 +1,0 @@
-First commit: Lean With Video

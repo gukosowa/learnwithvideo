@@ -1,0 +1,572 @@
+[
+  {
+    "Kanji": "いい",
+    "Kana": "いい",
+    "Romaji": "ii"
+  },
+  {
+    "Kanji": "よい",
+    "Kana": "よい",
+    "Romaji": "yoi"
+  },
+  {
+    "Kanji": "悪い",
+    "Kana": "わるい",
+    "Romaji": "warui"
+  },
+  {
+    "Kanji": "大きい",
+    "Kana": "おおきい",
+    "Romaji": "ookii"
+  },
+  {
+    "Kanji": "早い",
+    "Kana": "はやい",
+    "Romaji": "hayai"
+  },
+  {
+    "Kanji": "長い",
+    "Kana": "ながい",
+    "Romaji": "nagai"
+  },
+  {
+    "Kanji": "白い",
+    "Kana": "しろい",
+    "Romaji": "shiroi"
+  },
+  {
+    "Kanji": "強い",
+    "Kana": "つよい",
+    "Romaji": "tsuyoi"
+  },
+  {
+    "Kanji": "高い",
+    "Kana": "たかい",
+    "Romaji": "takai"
+  },
+  {
+    "Kanji": "若い",
+    "Kana": "わかい",
+    "Romaji": "wakai"
+  },
+  {
+    "Kanji": "深い",
+    "Kana": "ふかい",
+    "Romaji": "fukai"
+  },
+  {
+    "Kanji": "黒い",
+    "Kana": "くろい",
+    "Romaji": "kuroi"
+  },
+  {
+    "Kanji": "小さい",
+    "Kana": "ちいさい",
+    "Romaji": "chiisai"
+  },
+  {
+    "Kanji": "多い",
+    "Kana": "おおい",
+    "Romaji": "ooi"
+  },
+  {
+    "Kanji": "良い",
+    "Kana": "よい",
+    "Romaji": "yoi"
+  },
+  {
+    "Kanji": "くい",
+    "Kana": "くい",
+    "Romaji": "kui"
+  },
+  {
+    "Kanji": "ひどい",
+    "Kana": "ひどい",
+    "Romaji": "hidoi"
+  },
+  {
+    "Kanji": "軽い",
+    "Kana": "かるい",
+    "Romaji": "karui"
+  },
+  {
+    "Kanji": "美しい",
+    "Kana": "うつくしい",
+    "Romaji": "utsukushii"
+  },
+  {
+    "Kanji": "赤い",
+    "Kana": "あかい",
+    "Romaji": "akai"
+  },
+  {
+    "Kanji": "暗い",
+    "Kana": "くらい",
+    "Romaji": "kurai"
+  },
+  {
+    "Kanji": "遠い",
+    "Kana": "とおい",
+    "Romaji": "tooi"
+  },
+  {
+    "Kanji": "うい",
+    "Kana": "うい",
+    "Romaji": "ui"
+  },
+  {
+    "Kanji": "うまい",
+    "Kana": "うまい",
+    "Romaji": "umai"
+  },
+  {
+    "Kanji": "新しい",
+    "Kana": "あたらしい",
+    "Romaji": "atarashii"
+  },
+  {
+    "Kanji": "激しい",
+    "Kana": "はげしい",
+    "Romaji": "hageshii"
+  },
+  {
+    "Kanji": "低い",
+    "Kana": "ひくい",
+    "Romaji": "hikui"
+  },
+  {
+    "Kanji": "重い",
+    "Kana": "おもい",
+    "Romaji": "omoi"
+  },
+  {
+    "Kanji": "痛い",
+    "Kana": "いたい",
+    "Romaji": "itai"
+  },
+  {
+    "Kanji": "熱い",
+    "Kana": "あつい",
+    "Romaji": "atsui"
+  },
+  {
+    "Kanji": "冷たい",
+    "Kana": "つめたい",
+    "Romaji": "tsumetai"
+  },
+  {
+    "Kanji": "すごい",
+    "Kana": "すごい",
+    "Romaji": "sugoi"
+  },
+  {
+    "Kanji": "おかしい",
+    "Kana": "おかしい",
+    "Romaji": "okashii"
+  },
+  {
+    "Kanji": "怖い",
+    "Kana": "こわい",
+    "Romaji": "kowai"
+  },
+  {
+    "Kanji": "広い",
+    "Kana": "ひろい",
+    "Romaji": "hiroi"
+  },
+  {
+    "Kanji": "欲しい",
+    "Kana": "ほしい",
+    "Romaji": "hoshii"
+  },
+  {
+    "Kanji": "細い",
+    "Kana": "ほそい",
+    "Romaji": "hosoi"
+  },
+  {
+    "Kanji": "明るい",
+    "Kana": "あかるい",
+    "Romaji": "akarui"
+  },
+  {
+    "Kanji": "楽しい",
+    "Kana": "たのしい",
+    "Romaji": "tanoshii"
+  },
+  {
+    "Kanji": "恐ろしい",
+    "Kana": "おそろしい",
+    "Romaji": "osoroshii"
+  },
+  {
+    "Kanji": "遅い",
+    "Kana": "おそい",
+    "Romaji": "osoi"
+  },
+  {
+    "Kanji": "ほしい",
+    "Kana": "ほしい",
+    "Romaji": "hoshii"
+  },
+  {
+    "Kanji": "短い",
+    "Kana": "みじかい",
+    "Romaji": "mijikai"
+  },
+  {
+    "Kanji": "青い",
+    "Kana": "あおい",
+    "Romaji": "aoi"
+  },
+  {
+    "Kanji": "恥ずかしい",
+    "Kana": "はずかしい",
+    "Romaji": "hazukashii"
+  },
+  {
+    "Kanji": "面白い",
+    "Kana": "おもしろい",
+    "Romaji": "omoshiroi"
+  },
+  {
+    "Kanji": "古い",
+    "Kana": "ふるい",
+    "Romaji": "furui"
+  },
+  {
+    "Kanji": "少ない",
+    "Kana": "すくない",
+    "Romaji": "sukunai"
+  },
+  {
+    "Kanji": "鋭い",
+    "Kana": "するどい",
+    "Romaji": "surudoi"
+  },
+  {
+    "Kanji": "甘い",
+    "Kana": "あまい",
+    "Romaji": "amai"
+  },
+  {
+    "Kanji": "正しい",
+    "Kana": "ただしい",
+    "Romaji": "tadashii"
+  },
+  {
+    "Kanji": "よろしい",
+    "Kana": "よろしい",
+    "Romaji": "yoroshii"
+  },
+  {
+    "Kanji": "苦しい",
+    "Kana": "くるしい",
+    "Romaji": "kurushii"
+  },
+  {
+    "Kanji": "こい",
+    "Kana": "こい",
+    "Romaji": "koi"
+  },
+  {
+    "Kanji": "狭い",
+    "Kana": "せまい",
+    "Romaji": "semai"
+  },
+  {
+    "Kanji": "嬉しい",
+    "Kana": "うれしい",
+    "Romaji": "ureshii"
+  },
+  {
+    "Kanji": "薄い",
+    "Kana": "うすい",
+    "Romaji": "usui"
+  },
+  {
+    "Kanji": "優しい",
+    "Kana": "やさしい",
+    "Romaji": "yasashii"
+  },
+  {
+    "Kanji": "っぽい",
+    "Kana": "っぽい",
+    "Romaji": "ppoi"
+  },
+  {
+    "Kanji": "太い",
+    "Kana": "ふとい",
+    "Romaji": "futoi"
+  },
+  {
+    "Kanji": "寒い",
+    "Kana": "さむい",
+    "Romaji": "samui"
+  },
+  {
+    "Kanji": "悲しい",
+    "Kana": "かなしい",
+    "Romaji": "kanashii"
+  },
+  {
+    "Kanji": "あつい",
+    "Kana": "あつい",
+    "Romaji": "atsui"
+  },
+  {
+    "Kanji": "丸い",
+    "Kana": "まるい",
+    "Romaji": "marui"
+  },
+  {
+    "Kanji": "やすい",
+    "Kana": "やすい",
+    "Romaji": "yasui"
+  },
+  {
+    "Kanji": "弱い",
+    "Kana": "よわい",
+    "Romaji": "yowai"
+  },
+  {
+    "Kanji": "固い",
+    "Kana": "かたい",
+    "Romaji": "katai"
+  },
+  {
+    "Kanji": "うれしい",
+    "Kana": "うれしい",
+    "Romaji": "ureshii"
+  },
+  {
+    "Kanji": "つらい",
+    "Kana": "つらい",
+    "Romaji": "tsurai"
+  },
+  {
+    "Kanji": "濃い",
+    "Kana": "こい",
+    "Romaji": "koi"
+  },
+  {
+    "Kanji": "かわいい",
+    "Kana": "かわいい",
+    "Romaji": "kawaii"
+  },
+  {
+    "Kanji": "難しい",
+    "Kana": "むずかしい",
+    "Romaji": "muzukashii"
+  },
+  {
+    "Kanji": "可愛い",
+    "Kana": "かわいい",
+    "Romaji": "kawaii"
+  },
+  {
+    "Kanji": "珍しい",
+    "Kana": "めずらしい",
+    "Romaji": "mezurashii"
+  },
+  {
+    "Kanji": "ぽい",
+    "Kana": "ぽい",
+    "Romaji": "poi"
+  },
+  {
+    "Kanji": "速い",
+    "Kana": "はやい",
+    "Romaji": "hayai"
+  },
+  {
+    "Kanji": "にくい",
+    "Kana": "にくい",
+    "Romaji": "nikui"
+  },
+  {
+    "Kanji": "すい",
+    "Kana": "すい",
+    "Romaji": "sui"
+  },
+  {
+    "Kanji": "やさしい",
+    "Kana": "やさしい",
+    "Romaji": "yasashii"
+  },
+  {
+    "Kanji": "硬い",
+    "Kana": "かたい",
+    "Romaji": "katai"
+  },
+  {
+    "Kanji": "まずい",
+    "Kana": "まずい",
+    "Romaji": "mazui"
+  },
+  {
+    "Kanji": "おとなしい",
+    "Kana": "おとなしい",
+    "Romaji": "otonashii"
+  },
+  {
+    "Kanji": "うるさい",
+    "Kana": "うるさい",
+    "Romaji": "urusai"
+  },
+  {
+    "Kanji": "好い",
+    "Kana": "よい",
+    "Romaji": "yoi"
+  },
+  {
+    "Kanji": "きつい",
+    "Kana": "きつい",
+    "Romaji": "kitsui"
+  },
+  {
+    "Kanji": "幼い",
+    "Kana": "おさない",
+    "Romaji": "osanai"
+  },
+  {
+    "Kanji": "凄い",
+    "Kana": "すごい",
+    "Romaji": "sugoi"
+  },
+  {
+    "Kanji": "わるい",
+    "Kana": "わるい",
+    "Romaji": "warui"
+  },
+  {
+    "Kanji": "寂しい",
+    "Kana": "さびしい",
+    "Romaji": "sabishii"
+  },
+  {
+    "Kanji": "汚い",
+    "Kana": "きたない",
+    "Romaji": "kitanai"
+  },
+  {
+    "Kanji": "おもしろい",
+    "Kana": "おもしろい",
+    "Romaji": "omoshiroi"
+  },
+  {
+    "Kanji": "おいしい",
+    "Kana": "おいしい",
+    "Romaji": "oishii"
+  },
+  {
+    "Kanji": "暑い",
+    "Kana": "あつい",
+    "Romaji": "atsui"
+  },
+  {
+    "Kanji": "たまらない",
+    "Kana": "たまらない",
+    "Romaji": "tamaranai"
+  },
+  {
+    "Kanji": "浅い",
+    "Kana": "あさい",
+    "Romaji": "asai"
+  },
+  {
+    "Kanji": "柔らかい",
+    "Kana": "やわらかい",
+    "Romaji": "yawarakai"
+  },
+  {
+    "Kanji": "厚い",
+    "Kana": "あつい",
+    "Romaji": "atsui"
+  },
+  {
+    "Kanji": "怪しい",
+    "Kana": "あやしい",
+    "Romaji": "ayashii"
+  },
+  {
+    "Kanji": "忙しい",
+    "Kana": "いそがしい",
+    "Romaji": "isogashii"
+  },
+  {
+    "Kanji": "がたい",
+    "Kana": "がたい",
+    "Romaji": "gatai"
+  },
+  {
+    "Kanji": "危ない",
+    "Kana": "あぶない",
+    "Romaji": "abunai"
+  },
+  {
+    "Kanji": "厳しい",
+    "Kana": "きびしい",
+    "Romaji": "kibishii"
+  },
+  {
+    "Kanji": "薄暗い",
+    "Kana": "うすぐらい",
+    "Romaji": "usugurai"
+  },
+  {
+    "Kanji": "親しい",
+    "Kana": "したしい",
+    "Romaji": "shitashii"
+  },
+  {
+    "Kanji": "素早い",
+    "Kana": "すばやい",
+    "Romaji": "subayai"
+  },
+  {
+    "Kanji": "詳しい",
+    "Kana": "くわしい",
+    "Romaji": "kuwashii"
+  },
+  {
+    "Kanji": "黄色い",
+    "Kana": "きいろい",
+    "Romaji": "kiiroi"
+  },
+  {
+    "Kanji": "荒い",
+    "Kana": "あらい",
+    "Romaji": "arai"
+  },
+  {
+    "Kanji": "とんでもない",
+    "Kana": "とんでもない",
+    "Romaji": "tondemonai"
+  },
+  {
+    "Kanji": "細かい",
+    "Kana": "こまかい",
+    "Romaji": "komakai"
+  },
+  {
+    "Kanji": "偉い",
+    "Kana": "えらい",
+    "Romaji": "erai"
+  },
+  {
+    "Kanji": "辛い",
+    "Kana": "つらい",
+    "Romaji": "tsurai"
+  },
+  {
+    "Kanji": "淡い",
+    "Kana": "あわい",
+    "Romaji": "awai"
+  },
+  {
+    "Kanji": "情けない",
+    "Kana": "なさけない",
+    "Romaji": "nasakenai"
+  }
+]
