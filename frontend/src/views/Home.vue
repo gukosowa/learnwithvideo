@@ -151,50 +151,72 @@
 </template>
 
 <script>
+import gql from 'graphql-tag'
+
 export default {
-  name: 'home',
-  components: {
-  },
+    name: 'home',
+    components: {
+    },
 
-  //* /////////////////////////////////////////////////////////////////
-  //* /////////////////////////////////////////////////////////////////
-  data () {
-    return {
-        editText: "",
-        currentTime: 0,
-        progress: 0,
-        processId: null,
-        duration: 1,
-        url: "V6ZfH28jU28",
-        paused: false,
-        timeline: [8.1, 18.2, 31, 37.7, 41.4, 44.7, 51.1, 58, 63.3],
-        dialogue: [
-        "鳥の絡まるぼろる長屋、ひたすら. 筆走る", 
-        "宵待草がささやいた、駆け出すえどのまち。", 
-        "月夜の浮世に小道、真の画工となるべし",
-        "夢叶うなら人魂で",
-        "行く気散じや夏の原",
-        "歌い世に響く、三味の音",
-        "北から涼風が穂を揺らす",
-        "写る月の影が弧を描き",
-        "今主役はおいら江戸錦"],
-        cachedTimeline: [],
-        cacheCurrentDialogueId: -1,
-        dialogueId: 0,
-        timeFormater: v => `${this.formatTime(v)}`,
-        // eslint-disable-next-line
-        hightlightCurrentDialogue: b => [
-            [this.timeline[this.dialogueId]*1.35, (!this.timeline[this.dialogueId+1]) ? this.duration : (this.timeline[this.dialogueId+1]*1.37), { backgroundColor: 'red' }],
-        ],
-        editTextDirty: false,
+    //* /////////////////////////////////////////////////////////////////
+    //* /////////////////////////////////////////////////////////////////
+    data () {
+        return {
+            editText: "",
+            currentTime: 0,
+            progress: 0,
+            processId: null,
+            duration: 1,
+            url: "V6ZfH28jU28",
+            paused: false,
+            timeline: [8.1, 18.2, 31, 37.7, 41.4, 44.7, 51.1, 58, 63.3],
+            dialogue: [
+            "鳥の絡まるぼろる長屋、ひたすら. 筆走る", 
+            "宵待草がささやいた、駆け出すえどのまち。", 
+            "月夜の浮世に小道、真の画工となるべし",
+            "夢叶うなら人魂で",
+            "行く気散じや夏の原",
+            "歌い世に響く、三味の音",
+            "北から涼風が穂を揺らす",
+            "写る月の影が弧を描き",
+            "今主役はおいら江戸錦"],
+            cachedTimeline: [],
+            cacheCurrentDialogueId: -1,
+            dialogueId: 0,
+            timeFormater: v => `${this.formatTime(v)}`,
+            // eslint-disable-next-line
+            hightlightCurrentDialogue: b => [
+                [this.timeline[this.dialogueId]*1.35, (!this.timeline[this.dialogueId+1]) ? this.duration : (this.timeline[this.dialogueId+1]*1.37), { backgroundColor: 'red' }],
+            ],
+            editTextDirty: false,
 
-        xHighlightMenu: 0,
-        yHighlightMenu: 0,
-        showHighlightText: false,
-        selectedText: '',
-        wordTable: [{vocab_id:1, start_pos:0, dialogue_id:0, word:"鳥", custom_info:"fgf"}],
-    }
-  },
+            xHighlightMenu: 0,
+            yHighlightMenu: 0,
+            showHighlightText: false,
+            selectedText: "",
+            wordTable: [{vocab_id:1, start_pos:0, dialogue_id:0, word:"鳥", custom_info:"fgf"}],
+            word: {},
+        }
+    },
+
+    apollo: {
+        // Query with parameters
+        word: {
+            // gql query
+            query: gql`query WordGet($id: Int!) {
+                word(id: $id) {
+                    definition {
+                        word
+                    }
+                }
+                
+            }`,
+            // Static parameters
+            variables: {
+                id: '1',
+            },
+        },
+    },
 
     //* /////////////////////////////////////////////////////////////////
     //* /////////////////////////////////////////////////////////////////
@@ -567,6 +589,28 @@ export default {
             this.yHighlightMenu = y + window.scrollY - 10
             this.selectedText = selection.toString()
             this.showHighlightText = true
+            console.log("dsf");
+            // TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            this.$apollo.query({
+                // Query
+                query: gql`query ($id: Int!) {
+                    word(id: $id) {
+                        definition {
+                            word
+                        }
+                    }
+                
+                }`,
+                // Static parameters
+                variables: {
+                    id: '1',
+                },
+            }).then((data) => {
+                data = data.data.word[0].definition.word;
+                console.log(data);
+            }).catch((error) => {
+                console.error(error)
+            })
         }
     },
 }

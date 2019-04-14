@@ -24,7 +24,7 @@ class DefinitionQuery extends Query
     public function args()
     {
         return [
-
+            'id' => ['name' => 'id', 'type' => Type::int()],
         ];
     }
 
