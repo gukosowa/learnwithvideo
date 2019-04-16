@@ -25,6 +25,8 @@ class DefinitionQuery extends Query
     {
         return [
             'id' => ['name' => 'id', 'type' => Type::int()],
+            'word' => ['name' => 'word', 'type' => Type::string()],
+            'furigana' => ['name' => 'furigana', 'type' => Type::string()],
         ];
     }
 
@@ -35,6 +37,19 @@ class DefinitionQuery extends Query
 
         if (isset($args['id'])) {
             return Definition::where('id' , $args['id'])->get();
+        }
+
+        if (isset($args['word']) & isset($args['furigana'])) {
+            return Definition::where('word', "like", "%" . $args['word'] . "%")
+                                ->orWhere('furigana', "like", "%" . $args['furigana'] . "%")->get();
+        }
+
+        if (isset($args['word'])) {
+            return Definition::where('word', "like", "%" . $args['word'] . "%")->get();
+        }
+
+        if (isset($args['furigana'])) {
+            return Definition::where('word', "like", "%" . $args['furigana'] . "%")->get();
         }
 
         return Definition::all();

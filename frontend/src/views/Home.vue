@@ -1,153 +1,187 @@
 <template>
-  <div class="bg-gray-900 text-white flex flex-grow" style="background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%);">
-    <!-- container -->
-    <div class="container max-w-3xl">
-      <div class="home flex flex-col">
+    <div class="bg-gray-900 text-white flex flex-grow" style="background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%);">
+        <!-- container -->
+        <div class="container max-w-3xl">
+            <div class="home flex flex-col">
 
-        <!-- Video container -->
-        <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col mt-10 z-10">
-            <youtube class="self-center w-full z-0" 
-                player-width="100%"
-                :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, cc_load_policy: 0, cc_lang_pref:'en', wmode:'transparent' }" 
-                :video-id="url"
-                @ready="ready" 
-                @paused="pause" 
-                @playing="playing"
-            ></youtube>
-            <div class="bg-black">
-                <div class="bg-gray-700 w-full h-1" v-bind:style="{ width: progress + '%' }"></div>
-            </div>
-        </div>
-
-        <!-- Text selection overlay -->
-        <div v-show="showHighlightText"  @mouseover="pause" @mouseleave="play" class="highlightMenu rounded-lg bg-gray-900 py-3 px-2 z-50 absolute" style="transform: translate(-50%, -100%);" :style="{ left: `${xHighlightMenu}px`, top: `${yHighlightMenu}px` }" @mousedown.prevent="">
-            <span class="mr-2 p-3 cursor-pointer" @mousedown.prevent="getDefinition">
-                Add Word
-            </span>
-            <!-- <span class="ml-2" @mousedown.prevent="handleAction('highlight')">
-                Highlight
-            </span> -->
-            <!-- You can add more buttons here -->
-        </div>
-
-        <!-- CONTENT -->
-        <div @mousedown="deselectDialogue" @mouseover="pause" @mouseleave="play" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 h-48 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0" style="background-color: #283243;">
-            <div ref="dialogueField" class="text-4xl text-center">
-                {{ editText }}
-            </div>
-        </div>
-
-        <!-- Controlls -->
-        <div class="flex flex-col shadow-lg bottom-0 absolute mb-5 p-4 rounded-lg z-20 self-center" style="background-color: #0f1218;">
-
-          <!-- Edit controlls -->
-          <div @mousedown="timeLineClick" class="flex flex-col">
-                <div class="flex items-center w-full mb-1">
-                    <div class="w-full flex flex-row">
-
-                    <!-- Insert button -->
-                    <button @click="addEmptyDialogue" class="bg-gray-700 w-6 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-2 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                        *
-                    </button>
-
-                    <!-- Insert button -->
-                    <button @click="saveDialogue" 
-                    class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
-                    :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }">
-                        Save text
-                    </button>
-
-                    <!-- dialogue text -->
-                    <input 
-                    v-model="editText"
-                    @input="changeEditText"
-                    class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
-                    id="inline-full-name" 
-                    type="text" 
-                    value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
-                    autocomplete="off"
-                    placeholder="Dialogue here">
+                <!-- Video container -->
+                <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col mt-10 z-10">
+                    <youtube class="self-center w-full z-0" 
+                        player-width="100%"
+                        :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, cc_load_policy: 0, cc_lang_pref:'en', wmode:'transparent' }" 
+                        :video-id="url"
+                        @ready="ready" 
+                        @paused="pause" 
+                        @playing="playing"
+                    ></youtube>
+                    <div class="bg-black">
+                        <div class="bg-gray-700 w-full h-1" v-bind:style="{ width: progress + '%' }"></div>
                     </div>
                 </div>
 
-                <!-- timeline -->
-                <vue-slider
-                class="mt-2"
-                v-model="currentTime"
-                tooltip="always" tooltipPlacement="right"
-                width="100%"
-                height="0.9rem"
-                :lazy="false"
-                :duration="0"
-                :min="0"
-                :interval="0.1"
-                :max="durationTime"
-                :tooltip-formatter="timeFormater"
-                :process="false"
-                @change="changeCurrentTime"
-                ></vue-slider>
+                <!-- Text selection overlay TODO  @mouseover="pause" @mouseleave="play" --> 
+                <div v-show="showHighlightText" class="flex flex-row highlightMenu rounded-lg bg-gray-900 py-3 px-2 z-50 absolute" style="transform: translate(-50%, -100%);" :style="{ left: `${xHighlightMenu}px`, top: `${yHighlightMenu}px` }" @mousedown.prevent="">
+                    <span class="w-24 text-center cursor-pointer" @mousedown.prevent="getDefinition">
+                        Add Word
+                    </span>
+                    <span class="w-24 text-center cursor-pointer"  @mousedown.prevent="openNewWindow('https://jisho.org/search/' + selectedText + '%20%23words')">
+                        Search
+                    </span>
+                    <!-- <span class="ml-2" @mousedown.prevent="handleAction('highlight')">
+                        Highlight
+                    </span> -->
+                    <!-- You can add more buttons here -->
+                </div>
 
-                <!-- editor timeline -->
-                <vue-slider 
-                class="mb-1"
-                v-model="timeline" 
-                height="1.2rem"
-                :enable-cross="false"
-                :dotSize="18"
-                @change="timeLineRelease" 
-                :duration="0"
-                :min="0" 
-                :interval="0.1" 
-                :max="durationTime" 
-                :process="hightlightCurrentDialogue"
-                :tooltip-formatter="timeFormater"
-                tooltipPlacement="bottom"
-                width="100%"
-                :lazy="true"></vue-slider>
+                <!-- CONTENT  TODO  @mouseover="pause" @mouseleave="play"  -->
+                <div @mousedown="deselectDialogue" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 h-48 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0" style="background-color: #283243;">
+                    <div ref="dialogueField" class="text-4xl text-center">
+                        {{ editText }}
+                    </div>
+                </div>
+
+                <!-- Controlls -->
+                <div class="flex flex-col shadow-lg bottom-0 absolute mb-5 p-4 rounded-lg z-20 self-center" style="background-color: #0f1218;">
+
+                    <!-- Edit controlls -->
+                    <div @mousedown="timeLineClick" class="flex flex-col">
+                        <div class="flex items-center w-full mb-1">
+                            <div class="w-full flex flex-row">
+
+                            <!-- Insert button -->
+                            <button @click="addEmptyDialogue" class="bg-gray-700 w-6 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-2 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                                *
+                            </button>
+
+                            <!-- Insert button -->
+                            <button @click="saveDialogue" 
+                            class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
+                            :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }">
+                                Save text
+                            </button>
+
+                            <!-- dialogue text -->
+                            <input 
+                            v-model="editText"
+                            @input="changeEditText"
+                            class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
+                            id="inline-full-name" 
+                            type="text" 
+                            value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
+                            autocomplete="off"
+                            placeholder="Dialogue here">
+                            </div>
+                        </div>
+
+                        <!-- timeline -->
+                        <vue-slider
+                        class="mt-2"
+                        v-model="currentTime"
+                        tooltip="always" tooltipPlacement="right"
+                        width="100%"
+                        height="0.9rem"
+                        :lazy="false"
+                        :duration="0"
+                        :min="0"
+                        :interval="0.1"
+                        :max="durationTime"
+                        :tooltip-formatter="timeFormater"
+                        :process="false"
+                        @change="changeCurrentTime"
+                        ></vue-slider>
+
+                        <!-- editor timeline -->
+                        <vue-slider 
+                        class="mb-1"
+                        v-model="timeline" 
+                        height="1.2rem"
+                        :enable-cross="false"
+                        :dotSize="18"
+                        @change="timeLineRelease" 
+                        :duration="0"
+                        :min="0" 
+                        :interval="0.1" 
+                        :max="durationTime" 
+                        :process="hightlightCurrentDialogue"
+                        :tooltip-formatter="timeFormater"
+                        tooltipPlacement="bottom"
+                        width="100%"
+                        :lazy="true"></vue-slider>
+                    </div>
+
+                    <!-- normal controlls -->
+                    <div class="flex flex-row items-center">
+                        <!-- play button -->
+                        <button @click="togglePlay" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                            Play
+                        </button>
+
+                    <!-- next/ prev dialogue -->
+                    <div class="inline-flex ml-5">
+                        <button @click="jumpPrevious" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-l focus:outline-none">
+                            Prev
+                        </button>
+                        <button @click="jumpNext" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-r focus:outline-none">
+                            Next
+                        </button>
+                    </div>
+
+                    <!-- time slider -->
+                    <div class="w-3/4 mx-5 relative">
+                        <vue-slider 
+                            v-model="currentTime"
+                            tooltip="focus" tooltipPlacement="top"
+                            width="333px"
+                            height="0.9rem"
+                            :lazy="true"
+                            :duration="0"
+                            :min="0"
+                            :interval="0.1"
+                            :max="durationTime"
+                            :tooltip-formatter="timeFormater"
+                            @change="changeCurrentTime"
+                        ></vue-slider>
+                    </div>
+
+                    <!-- time as text -->
+                    <span class="text-sm w-32 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+                </div>
+
+                
+
             </div>
-
-            <!-- normal controlls -->
-            <div class="flex flex-row items-center">
-                <!-- play button -->
-                <button @click="togglePlay" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                    Play
-                </button>
-
-            <!-- next/ prev dialogue -->
-            <div class="inline-flex ml-5">
-                <button @click="jumpPrevious" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-l focus:outline-none">
-                    Prev
-                </button>
-                <button @click="jumpNext" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-r focus:outline-none">
-                    Next
-                </button>
-            </div>
-
-            <!-- time slider -->
-            <div class="w-3/4 mx-5 relative">
-                <vue-slider 
-                    v-model="currentTime"
-                    tooltip="focus" tooltipPlacement="top"
-                    width="333px"
-                    height="0.9rem"
-                    :lazy="true"
-                    :duration="0"
-                    :min="0"
-                    :interval="0.1"
-                    :max="durationTime"
-                    :tooltip-formatter="timeFormater"
-                    @change="changeCurrentTime"
-                ></vue-slider>
-            </div>
-
-            <!-- time as text -->
-            <span class="text-sm w-32 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
-          </div>
         </div>
-        
-      </div>
+
+        <div v-show="showHighlightText" v-on:mousedown.prevent class="flex flex-row container absolute h-64 top-0 w-full rounded-lg z-30"  style="background-color: #0f1218; top:6rem;">
+            <div class="w-1/3 overflow-y-auto">
+                <ul class="w-full definition-list">
+                    <li @click="getDefinitionDetail(item.id)" :id="item.id" class="p-2 text-2xl cursor-pointer" v-for="item in definitions"  :key="item.id">
+                        {{ item.word }}
+                    </li>
+                </ul>
+            </div>
+            <div class="pl-3 w-2/3 p-4 flex flex-row">
+                <div class="w-1/3 h-full bg-gray-900" :style="'background: url(https://picsum.photos/' + Math.min(Math.max(detailDefinition.id*10, 200), 500) + '/500) no-repeat center; background-size: cover;'">
+                    <!-- <img src="https://picsum.photos/566/500" /> -->
+                    <!-- <img :src="detailDefinition.image" /> -->
+                </div>
+                <div class="pl-4 flex flex-col">
+                    <div class="absolute right-0 mr-4 top-4 flex flex-col text-right">
+                        <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span>  <span class="text-orange-500"> {{ detailDefinition.jlpt }}</span></span>
+                        <span class="text-sm"><span class="text-white">Type:</span>  <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.part_of_speech) }}</span></span>
+                        <span class="text-sm"><span class="text-white">#</span> <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.id) }}</span></span>
+                    </div>
+                    <span class="text-md">{{ detailDefinition.furigana }}</span>
+                    <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
+                    <span class="text-4xl cursor-pointer" @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')">{{ detailDefinition.word }}</span> 
+                    <span class="text-sm"><span class="text-orange-500">Definition:</span> {{ convertDefinition(detailDefinition.definition) }}</span>
+                    <span class="text-sm"><span class="text-orange-500">Tags:</span> {{ detailDefinition.tags }}</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -195,7 +229,8 @@ export default {
             showHighlightText: false,
             selectedText: "",
             wordTable: [{vocab_id:1, start_pos:0, dialogue_id:0, word:"鳥", custom_info:"fgf"}],
-            word: {},
+            definitions: {},
+            detailDefinition: {},
         }
     },
 
@@ -254,12 +289,156 @@ export default {
         //#####################################################
         //
         //
-        getDefinition() {
+        getDefinitions() {
+            var vm = this;
+            console.log(vm.selectedText);
             // GET request for remote image
-            const baseURI = 'http://localhost:8000/api/definition';
-            this.$http.get(baseURI).then((result) => {
-                console.log(result);
+            this.$apollo.query({
+                // Query
+                query: gql`query ($word: String!) {
+                    definition(word: $word, furigana: $word) {
+                        id
+                        word
+                    }
+                
+                }`,
+                // Static parameters
+                variables: {
+                    word: vm.selectedText,
+                },
+            }).then((data) => {
+                // data = data.data.word[0].definition.word;
+                console.log(data.data.definition);
+                var definition = data.data.definition;
+
+                this.definitions = data.data.definition.sort(function(a, b){
+                    return a.word.length - b.word.length;
+                });
+
+
+                if (this.definitions.length > 0) {
+                    this.getDefinitionDetail(this.definitions[0].id);
+                }
+                // definition.forEach(function (word) {
+
+                // });
+            }).catch((error) => {
+                console.error(error)
             })
+        },
+
+        //#####################################################
+        //
+        //
+        getDefinitionDetail(id) {
+            // GET request for remote image
+            this.$apollo.query({
+                // Query
+                query: gql`query ($id: Int!) {
+                    definition(id: $id) {
+                        id
+                        word
+                        furigana
+                        part_of_speech
+                        image
+                        jlpt
+                        tags
+                        definition
+                    }
+                
+                }`,
+                // Static parameters
+                variables: {
+                    id: id,
+                },
+            }).then((data) => {
+                // data = data.data.word[0].definition.word;
+                console.log(data.data.definition);
+                this.detailDefinition = data.data.definition[0];
+                // definition.forEach(function (word) {
+
+                // });
+            }).catch((error) => {
+                console.error(error)
+            })
+        },
+
+        //#####################################################
+        //
+        //
+        convertPartOfSpeech(short) {
+            switch(short) {
+                case "n":
+                    return "noun"
+                    break;
+                case "v":
+                    return "verb"
+                    break;
+                case "a":
+                    return "adjective"
+                    break;
+                case "i":
+                    return "i adjective"
+                    break;
+                case "in":
+                    return "interjection"
+                    break;
+                case "na":
+                    return "na adjective"
+                    break;
+                case "c":
+                    return "conjuction"
+                    break;
+                case "adv":
+                    return "adverb"
+                    break;
+                case "pA":
+                    return "prenoun adjective"
+                    break;
+                case "p":
+                    return "particle"
+                    break;
+                case "su":
+                    return "suffix"
+                    break;
+                case "pr":
+                    return "prefix"
+                    break;
+                case "pp":
+                    return "preposition"
+                    break;
+                case "mw":
+                    return "measure word"
+                    break;
+            }
+            return short;
+        },
+
+        //#####################################################
+        //
+        //
+        convertDefinition(short) {
+            if (short != undefined) {
+                return short.replace(/;/g, ", ");
+            } else {
+                return "";
+            }
+        },
+
+        //#####################################################
+        //
+        //
+        openNewWindow(url) {
+            this.pause();
+            // window.open(url, '_blank', 'location=yes,height=700,width=1000, screenX=' + this.FindLeftScreenBoundry() + ' , left=' + this.FindLeftScreenBoundry() + ', scrollbars=yes,status=yes');
+
+            this.popupCenter(url, "Jisho", 1000, 700, {toolbar:1, resizable:1, location:1, menubar:1, status:1});
+        },
+
+        popupCenter(url, title, w, h, opts) {
+            var left = window.screenX + (screen.width / 2) - (w / 2);
+            var top = (screen.height / 2) - (h / 2) - 350;
+            return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
         },
 
         //#####################################################
@@ -588,29 +767,13 @@ export default {
             this.xHighlightMenu = x + (width / 2)
             this.yHighlightMenu = y + window.scrollY - 10
             this.selectedText = selection.toString()
+
+            if (this.showHighlightText == false) {
+                this.getDefinitions();
+                this.pause();
+            }
+
             this.showHighlightText = true
-            console.log("dsf");
-            // TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            this.$apollo.query({
-                // Query
-                query: gql`query ($id: Int!) {
-                    word(id: $id) {
-                        definition {
-                            word
-                        }
-                    }
-                
-                }`,
-                // Static parameters
-                variables: {
-                    id: '1',
-                },
-            }).then((data) => {
-                data = data.data.word[0].definition.word;
-                console.log(data);
-            }).catch((error) => {
-                console.error(error)
-            })
         }
     },
 }
@@ -644,6 +807,17 @@ export default {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-top: 6px solid #1a202c;
+}
+
+
+.definition-list li:nth-child(even) { 
+
+}
+.definition-list li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.definition-list li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* .highlightMenuItem {
