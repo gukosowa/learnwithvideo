@@ -76,6 +76,7 @@ return [
                 'kanji'         => App\GraphQL\Query\KanjiQuery::class,
                 'video'         => App\GraphQL\Query\VideoQuery::class,
                 'word'          => App\GraphQL\Query\WordQuery::class,
+                'jisho'          => App\GraphQL\Query\JishoQuery::class,
             ],
             'mutation' => [
 

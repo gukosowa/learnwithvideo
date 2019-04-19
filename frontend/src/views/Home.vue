@@ -1,8 +1,12 @@
 <template>
-    <div class="bg-gray-900 text-white flex flex-grow" style="background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%);">
+    <div class="bg-gray-900 text-white flex flex-grow flex-row w-full" style="background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%);">
+        <button @click="editMode = !editMode; deselectDialogue(); ((!editMode) ? play() : pause())" class="absolute bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none z-20 m-4">
+            {{ (editMode ? "Normal Mode" : "Edit Mode") }}
+        </button>
+        
         <!-- container -->
-        <div class="container max-w-3xl">
-            <div class="home flex flex-col">
+        <div :class="{ 'w-3/5 ml-10 ml-16' : editMode, 'container flex flex-col items-center' : !editMode }"> 
+            <div class="home flex flex-col" style="max-width:900px;" :class="{ 'home-edit' : editMode }" >
 
                 <!-- Video container -->
                 <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col mt-10 z-10">
@@ -21,8 +25,8 @@
 
                 <!-- Text selection overlay TODO  @mouseover="pause" @mouseleave="play" --> 
                 <div v-show="showHighlightText" class="flex flex-row highlightMenu rounded-lg bg-gray-900 py-3 px-2 z-50 absolute" style="transform: translate(-50%, -100%);" :style="{ left: `${xHighlightMenu}px`, top: `${yHighlightMenu}px` }" @mousedown.prevent="">
-                    <span class="w-24 text-center cursor-pointer" @mousedown.prevent="getDefinition">
-                        Add Word
+                    <span class="w-32 text-center cursor-pointer" @mousedown.prevent="getDefinition">
+                        Add new Word
                     </span>
                     <span class="w-24 text-center cursor-pointer"  @mousedown.prevent="openNewWindow('https://jisho.org/search/' + selectedText + '%20%23words')">
                         Search
@@ -34,42 +38,43 @@
                 </div>
 
                 <!-- CONTENT  TODO  @mouseover="pause" @mouseleave="play"  -->
-                <div @mousedown="deselectDialogue" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 h-48 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0" style="background-color: #283243;">
-                    <div ref="dialogueField" class="text-4xl text-center">
+                <div @mousedown="deselectDialogue" @mouseup="onMouseup" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 h-48 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0 relative" style="background-color: #283243;">
+                    <div id="selectedHighlight" class="absolute" style="background-color: rgb(32, 97, 208);"></div>
+                    <div ref="dialogueField" :style="{ cursor: (!editMode ? 'help' : '') }" @mousedown="clearHighlightBox" class="text-4xl text-center z-10">
                         {{ editText }}
                     </div>
                 </div>
 
                 <!-- Controlls -->
-                <div class="flex flex-col shadow-lg bottom-0 absolute mb-5 p-4 rounded-lg z-20 self-center" style="background-color: #0f1218;">
+                <div class="flex flex-col shadow-lg bottom-0 mt-4 mb-5 p-4 rounded-lg z-20 self-center" style="background-color: #0f1218;">
 
                     <!-- Edit controlls -->
-                    <div @mousedown="timeLineClick" class="flex flex-col">
+                    <div @mousedown="timeLineClick" class="flex flex-col" v-show="editMode">
                         <div class="flex items-center w-full mb-1">
                             <div class="w-full flex flex-row">
 
-                            <!-- Insert button -->
-                            <button @click="addEmptyDialogue" class="bg-gray-700 w-6 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-2 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                                *
-                            </button>
+                                <!-- Insert button -->
+                                <button @click="addEmptyDialogue" class="bg-gray-700 w-6 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-2 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                                    *
+                                </button>
 
-                            <!-- Insert button -->
-                            <button @click="saveDialogue" 
-                            class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
-                            :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }">
-                                Save text
-                            </button>
+                                <!-- Insert button -->
+                                <button @click="saveDialogue" 
+                                class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
+                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }">
+                                    Save text
+                                </button>
 
-                            <!-- dialogue text -->
-                            <input 
-                            v-model="editText"
-                            @input="changeEditText"
-                            class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
-                            id="inline-full-name" 
-                            type="text" 
-                            value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
-                            autocomplete="off"
-                            placeholder="Dialogue here">
+                                <!-- dialogue text -->
+                                <input 
+                                v-model="editText"
+                                @input="changeEditText"
+                                class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
+                                id="inline-full-name" 
+                                type="text" 
+                                value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
+                                autocomplete="off"
+                                placeholder="Dialogue here">
                             </div>
                         </div>
 
@@ -116,80 +121,120 @@
                             Play
                         </button>
 
-                    <!-- next/ prev dialogue -->
-                    <div class="inline-flex ml-5">
-                        <button @click="jumpPrevious" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-l focus:outline-none">
-                            Prev
-                        </button>
-                        <button @click="jumpNext" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-r focus:outline-none">
-                            Next
-                        </button>
+                        <!-- next/ prev dialogue -->
+                        <div class="inline-flex ml-5">
+                            <button @click="jumpPrevious" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-l focus:outline-none">
+                                Prev
+                            </button>
+                            <button @click="jumpNext" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded-r focus:outline-none">
+                                Next
+                            </button>
+                        </div>
+
+                        <!-- time slider -->
+                        <div class="w-3/4 mx-5 relative">
+                            <vue-slider 
+                                v-model="currentTime"
+                                tooltip="focus" tooltipPlacement="top"
+                                width="333px"
+                                height="0.9rem"
+                                :lazy="true"
+                                :duration="0"
+                                :min="0"
+                                :interval="0.1"
+                                :max="durationTime"
+                                :tooltip-formatter="timeFormater"
+                                @change="changeCurrentTime"
+                            ></vue-slider>
+                        </div>
+
+                        <!-- time as text -->
+                        <span class="text-sm w-32 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
 
-                    <!-- time slider -->
-                    <div class="w-3/4 mx-5 relative">
-                        <vue-slider 
-                            v-model="currentTime"
-                            tooltip="focus" tooltipPlacement="top"
-                            width="333px"
-                            height="0.9rem"
-                            :lazy="true"
-                            :duration="0"
-                            :min="0"
-                            :interval="0.1"
-                            :max="durationTime"
-                            :tooltip-formatter="timeFormater"
-                            @change="changeCurrentTime"
-                        ></vue-slider>
-                    </div>
-
-                    <!-- time as text -->
-                    <span class="text-sm w-32 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                 </div>
-
-                
-
             </div>
         </div>
-
-        <div v-show="showHighlightText" v-on:mousedown.prevent class="flex flex-row container absolute h-64 top-0 w-full rounded-lg z-30"  style="background-color: #0f1218; top:6rem;">
-            <div class="w-1/3 overflow-y-auto">
-                <ul class="w-full definition-list">
-                    <li @click="getDefinitionDetail(item.id)" :id="item.id" class="p-2 text-2xl cursor-pointer" v-for="item in definitions"  :key="item.id">
+<!-- v-on:mousedown.prevent -->
+        <div class="bg-gray-900" v-show="editMode" :class="{ 'w-2/5 ml-10' : editMode }">
+            <div class="bg-gray-900 flex flex-row">
+                <div class="w-1/2 text-center py-2">
+                    Database
+                </div>
+                <div class="text-center py-2" style="opacity:0.4;">
+                    &#x2BC7;
+                </div>
+                <div class="w-1/2 text-center py-2">
+                    Jisho.org
+                </div>
+            </div>
+            <div class="bg-gray-800 flex flex-row">
+                <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
+                    <div v-show="loadingDB" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
+                        <div class="rhombus"></div>
+                        <div class="rhombus"></div>
+                        <div class="rhombus"></div>
+                    </div>
+                    <li @click="getDefinitionDetail(item.id, index)" :id="item.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == index) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(item, index) in definitions"  :key="item.id">
                         {{ item.word }}
                     </li>
                 </ul>
+                <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
+                <!-- loadingJisho -->
+                    <div v-show="loadingJisho" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
+                        <div class="rhombus"></div>
+                        <div class="rhombus"></div>
+                        <div class="rhombus"></div>
+                    </div>
+                    <li @click="getDetailFromJisho(index)" :id="index" class="p-2 text-2xl cursor-pointer" :style="(listIndexJisho == index) ? 'background-color: rgb(48, 88, 124) !important;' : ''" v-for="(item, index) in jishoDefinitions"  :key="index">
+                        {{ (!item.japanese[0].word ? item.japanese[0].reading : item.japanese[0].word) }}
+                    </li>
+                </ul>
             </div>
-            <div class="pl-3 w-2/3 p-4 flex flex-row">
-                <div class="w-1/3 h-full bg-gray-900" :style="'background: url(https://picsum.photos/' + Math.min(Math.max(detailDefinition.id*10, 200), 500) + '/500) no-repeat center; background-size: cover;'">
+            <div class="flex flex-col p-4" v-show="listIndexJisho != -1 || listIndexDB != -1">
+                <!-- <div class="w-1/3 h-full bg-gray-900" :style="'background: url(https://picsum.photos/200/200) no-repeat center; background-size: cover;'"> -->
                     <!-- <img src="https://picsum.photos/566/500" /> -->
                     <!-- <img :src="detailDefinition.image" /> -->
+                <!-- </div> -->
+                <div class="absolute right-0 mr-4 flex flex-col text-right">
+                    <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span> <Click-to-Edit v-model="detailDefinition.jlpt" type="number" class="text-orange-500" inputStyle="width:40px;"/></span>
+                    <span class="text-sm" v-show="listIndexDB != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? convertPartOfSpeech(detailDefinition.part_of_speech) : "") }}</pre></span></span>
+                    <span class="text-sm" v-show="listIndexJisho != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? detailDefinition.part_of_speech.replace(", ", "\n") : "") }}</pre></span></span>
+                    <span class="text-sm" v-show="detailDefinition.id != -1"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
                 </div>
-                <div class="pl-4 flex flex-col">
-                    <div class="absolute right-0 mr-4 top-4 flex flex-col text-right">
-                        <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span>  <span class="text-orange-500"> {{ detailDefinition.jlpt }}</span></span>
-                        <span class="text-sm"><span class="text-white">Type:</span>  <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.part_of_speech) }}</span></span>
-                        <span class="text-sm"><span class="text-white">#</span> <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.id) }}</span></span>
-                    </div>
-                    <span class="text-md">{{ detailDefinition.furigana }}</span>
-                    <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
-                    <span class="text-4xl cursor-pointer" @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')">{{ detailDefinition.word }}</span> 
-                    <span class="text-sm"><span class="text-orange-500">Definition:</span> {{ convertDefinition(detailDefinition.definition) }}</span>
-                    <span class="text-sm"><span class="text-orange-500">Tags:</span> {{ detailDefinition.tags }}</span>
-                </div>
+                <span class="text-md" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.furigana" inputStyle="width:70%;" type="text" class="text-white" /></span>
+                <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
+                <span class="text-4xl" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.word" type="text" inputStyle="width:70%;" class="text-white" /></span> 
+                <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span><br><Click-to-Edit :value="convertDefinition(detailDefinition.definition)" :input="detailDefinition.definition" type="text" inputStyle="width:70%;" class="text-white" /></span>
+                <span class="text-sm mt-2"><span class="text-orange-500">Tags:</span><br><Click-to-Edit v-model="detailDefinition.tags" type="text" inputStyle="width:70%;" class="text-white" /></span>
+            </div>
+
+            <div class="flex flex-row justify-around">
+                <button v-show="listIndexDB != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                    Apply to selection
+                </button>
+
+                <button v-show="listIndexJisho != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                    Pull Word
+                </button>
+
+                <button v-show="listIndexJisho != -1 || listIndexDB != -1"  @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                    Search
+                </button>
             </div>
         </div>
-
-        </div>
+        
     </div>
 </template>
 
 <script>
-import gql from 'graphql-tag'
+import gql from 'graphql-tag';
+import ClickToEdit from '@/components/ClickToEdit.vue';
 
 export default {
     name: 'home',
     components: {
+        ClickToEdit
     },
 
     //* /////////////////////////////////////////////////////////////////
@@ -200,7 +245,7 @@ export default {
             currentTime: 0,
             progress: 0,
             processId: null,
-            duration: 1,
+            duration: 100,
             url: "V6ZfH28jU28",
             paused: false,
             timeline: [8.1, 18.2, 31, 37.7, 41.4, 44.7, 51.1, 58, 63.3],
@@ -224,33 +269,21 @@ export default {
             ],
             editTextDirty: false,
 
+            editMode: true,
+
             xHighlightMenu: 0,
             yHighlightMenu: 0,
             showHighlightText: false,
             selectedText: "",
             wordTable: [{vocab_id:1, start_pos:0, dialogue_id:0, word:"鳥", custom_info:"fgf"}],
             definitions: {},
+            jishoDefinitions: {},
             detailDefinition: {},
+            loadingDB: false,
+            loadingJisho: false,
+            listIndexDB: -1,
+            listIndexJisho: -1,
         }
-    },
-
-    apollo: {
-        // Query with parameters
-        word: {
-            // gql query
-            query: gql`query WordGet($id: Int!) {
-                word(id: $id) {
-                    definition {
-                        word
-                    }
-                }
-                
-            }`,
-            // Static parameters
-            variables: {
-                id: '1',
-            },
-        },
     },
 
     //* /////////////////////////////////////////////////////////////////
@@ -274,13 +307,13 @@ export default {
     //* /////////////////////////////////////////////////////////////////
     //* /////////////////////////////////////////////////////////////////
     mounted () {
-        window.addEventListener('mouseup', this.onMouseup);
+        // window.addEventListener('mouseup', this.onMouseup);
     },
 
     //* /////////////////////////////////////////////////////////////////
     //* /////////////////////////////////////////////////////////////////
     beforeDestroy () {
-        window.removeEventListener('mouseup', this.onMouseup)
+        // window.removeEventListener('mouseup', this.onMouseup)
     },
 
     //* /////////////////////////////////////////////////////////////////
@@ -289,16 +322,22 @@ export default {
         //#####################################################
         //
         //
-        getDefinitions() {
+        async getDefinitions() {
+            this.loadingDB = true;
+            this.loadingJisho = true;
             var vm = this;
             console.log(vm.selectedText);
+
+            this.getDefinitionFromJisho();
+
             // GET request for remote image
-            this.$apollo.query({
+            const result = await this.$apollo.query({
                 // Query
-                query: gql`query ($word: String!) {
+                query: gql`query Definitions($word: String!) {
                     definition(word: $word, furigana: $word) {
                         id
                         word
+                        furigana
                     }
                 
                 }`,
@@ -307,17 +346,25 @@ export default {
                     word: vm.selectedText,
                 },
             }).then((data) => {
+                this.loadingDB = false;
+                
                 // data = data.data.word[0].definition.word;
                 console.log(data.data.definition);
                 var definition = data.data.definition;
 
-                this.definitions = data.data.definition.sort(function(a, b){
+                this.definitions = definition.sort(function(a, b){
                     return a.word.length - b.word.length;
                 });
 
 
                 if (this.definitions.length > 0) {
-                    this.getDefinitionDetail(this.definitions[0].id);
+                    if (this.definitions[0].word == this.selectedText || this.definitions[0].furigana == this.selectedText) {
+                        this.getDefinitionDetail(this.definitions[0].id, 0);
+                    } else {
+                        this.getDefinitionFromJisho(true);
+                    }
+                } else {
+                    this.getDefinitionFromJisho(true);
                 }
                 // definition.forEach(function (word) {
 
@@ -325,16 +372,20 @@ export default {
             }).catch((error) => {
                 console.error(error)
             })
+
         },
 
         //#####################################################
         //
         //
-        getDefinitionDetail(id) {
+        async getDefinitionDetail(dbid, index = -1) {
+            this.listIndexJisho = -1;
+            this.listIndexDB = index;
+            console.log(dbid);
             // GET request for remote image
-            this.$apollo.query({
+            const result = await this.$apollo.query({
                 // Query
-                query: gql`query ($id: Int!) {
+                query: gql`query Definition($id: Int!) {
                     definition(id: $id) {
                         id
                         word
@@ -349,11 +400,14 @@ export default {
                 }`,
                 // Static parameters
                 variables: {
-                    id: id,
+                    id: dbid,
                 },
+                
+                fetchPolicy: 'no-cache'
             }).then((data) => {
                 // data = data.data.word[0].definition.word;
-                console.log(data.data.definition);
+                // console.log(data.data.definition);
+                console.log(data);
                 this.detailDefinition = data.data.definition[0];
                 // definition.forEach(function (word) {
 
@@ -366,52 +420,164 @@ export default {
         //#####################################################
         //
         //
+        async getDefinitionFromJisho(select) {
+            console.log("defifrom jisho");
+            // var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+            //     targetUrl = 'https://jisho.org/api/v1/search/words?keyword=' + this.selectedText
+            // fetch(proxyUrl + targetUrl)
+            // .then(blob => blob.json())
+            // .then(data => {
+            //     this.jishoDefinitions = data.data
+            //     console.table(data.data);
+            // })
+            // .catch(e => {
+            //     console.log(e);
+            //     return e;
+            // });
+
+            var vm = this;
+            // GET request for remote image
+            const result = await this.$apollo.query({
+                // Query
+                query: gql`query ($keyword: String!) {
+                    jisho(keyword: $keyword)
+                }`,
+                // Static parameters
+                variables: {
+                    keyword: vm.selectedText,
+                },
+                
+                
+            }).then((data) => {
+                this.loadingJisho = false;
+
+                if (data.data.jisho == "") {
+                    this.jishoDefinitions = {};
+                    return;
+                }
+                var json = JSON.parse(data.data.jisho);
+
+
+                this.jishoDefinitions = json.data;
+
+                console.log(this.jishoDefinitions);
+
+                this.jishoDefinitions = this.jishoDefinitions.sort(function(a, b){
+                    console.log(a);
+                    if (a.japanese[0].word != undefined && b.japanese[0].word != undefined) {
+                        return a.japanese[0].word.length - b.japanese[0].word.length;
+                    } else {
+                        return 1;
+                    }
+                });
+
+                if (select == true) {
+                    this.getDetailFromJisho(0)
+                }
+                // this.jishoDefinitions = data;
+
+                // if (this.definitions.length > 0) {
+                //     this.getDefinitionDetail(this.definitions[0].id);
+                // }
+                // definition.forEach(function (word) {
+
+                // });
+            }).catch((error) => {
+                console.error(error)
+            })
+
+            
+        },
+
+        //#####################################################
+        //
+        //
+        async getDetailFromJisho(index) {
+            this.listIndexDB = -1;
+            if (this.jishoDefinitions.length == 0) {
+                this.listIndexJisho = -1;
+                return;
+            }
+
+            this.listIndexJisho = index;
+
+            console.log("jisho cache get");
+            var def = this.jishoDefinitions[index];
+            if (def.jlpt.length > 0 && def.jlpt[0] != undefined) {
+                this.detailDefinition.jlpt = def.jlpt[0].replace("jlpt-n", "");
+            }
+            this.detailDefinition.part_of_speech = def.senses[0].parts_of_speech.join(", ");
+            this.detailDefinition.id = -1;
+            this.detailDefinition.furigana = def.japanese[0].reading;
+            this.detailDefinition.word = def.japanese[0].word;
+            this.detailDefinition.definition = def.senses[0].english_definitions.join(", ");
+            this.detailDefinition.tags = def.senses[0].tags.join(", ");
+
+            console.log(index);
+            console.log(this.detailDefinition);
+
+            // <div class="absolute right-0 mr-4 flex flex-col text-right">
+            //         <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span>  <span class="text-orange-500"> {{ detailDefinition.jlpt }}</span></span>
+            //         <span class="text-sm"><span class="text-white">Type:</span>  <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.part_of_speech) }}</span></span>
+            //         <span class="text-sm"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
+            //     </div>
+            //     <span class="text-md">{{ detailDefinition.furigana }}</span>
+            //     <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
+            //     <span class="text-4xl cursor-pointer" @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')">{{ detailDefinition.word }}</span> 
+            //     <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span> {{ convertDefinition(detailDefinition.definition) }}</span>
+            //     <span class="text-sm mt-2"><span class="text-orange-500">Tags:</span> {{ detailDefinition.tags }}</span>
+        },
+
+        //#####################################################
+        //
+        //
         convertPartOfSpeech(short) {
+            var pof = "";
             switch(short) {
                 case "n":
-                    return "noun"
+                    pof = "Noun"
                     break;
                 case "v":
-                    return "verb"
+                    pof = "Verb"
                     break;
                 case "a":
-                    return "adjective"
+                    pof = "Adjective"
                     break;
                 case "i":
-                    return "i adjective"
+                    pof = "i Adjective"
                     break;
                 case "in":
-                    return "interjection"
+                    pof = "Interjection"
                     break;
                 case "na":
-                    return "na adjective"
+                    pof = "na Adjective"
                     break;
                 case "c":
-                    return "conjuction"
+                    pof = "Conjuction"
                     break;
                 case "adv":
-                    return "adverb"
+                    pof = "Adverb"
                     break;
                 case "pA":
-                    return "prenoun adjective"
+                    pof = "prenoun Adjective"
                     break;
                 case "p":
-                    return "particle"
+                    pof = "Particle"
                     break;
                 case "su":
-                    return "suffix"
+                    pof = "Suffix"
                     break;
                 case "pr":
-                    return "prefix"
+                    pof = "Prefix"
                     break;
                 case "pp":
-                    return "preposition"
+                    pof = "Preposition"
                     break;
                 case "mw":
-                    return "measure word"
+                    pof = "Measure word"
                     break;
             }
-            return short;
+            return pof;
         },
 
         //#####################################################
@@ -432,10 +598,10 @@ export default {
             this.pause();
             // window.open(url, '_blank', 'location=yes,height=700,width=1000, screenX=' + this.FindLeftScreenBoundry() + ' , left=' + this.FindLeftScreenBoundry() + ', scrollbars=yes,status=yes');
 
-            this.popupCenter(url, "Jisho", 1000, 700, {toolbar:1, resizable:1, location:1, menubar:1, status:1});
+            this.popupCenter(url, "Jisho", 1000, 700);
         },
 
-        popupCenter(url, title, w, h, opts) {
+        popupCenter(url, title, w, h) {
             var left = window.screenX + (screen.width / 2) - (w / 2);
             var top = (screen.height / 2) - (h / 2) - 350;
             return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
@@ -483,7 +649,6 @@ export default {
         //
         //
         ready (event) {
-            console.log("ready video", event);
             this.player = event.target
 
             // this.timeline.push(this.player.getDuration());
@@ -703,6 +868,7 @@ export default {
         //
         //
         deselectDialogue() {
+            this.clearHighlightBox();
             this.showHighlightText = false;
 
             var sel;
@@ -727,31 +893,49 @@ export default {
         //#####################################################
         //
         //
+        clearSelection() {
+            if (window.getSelection) {window.getSelection().removeAllRanges();}
+            else if (document.selection) {document.selection.empty();}
+        },
+
+        //#####################################################
+        //
+        //
+        clearHighlightBox() {
+            console.log("sd");
+            var highlightBox = document.getElementById("selectedHighlight");
+            highlightBox.style.width = 0;
+            highlightBox.style.height = 0;
+        },
+
+        //#####################################################
+        //
+        //
         onMouseup () {
             const selection = window.getSelection();
-            if (selection.rangeCount == 0) {
+            if (selection.rangeCount == 0 || this.editMode == false) {
                 return;
             }
             const selectionRange = selection.getRangeAt(0)
 
             // startNode is the element that the selection starts in
-            const startNode = selectionRange.startContainer.parentNode
+            // const startNode = selectionRange.startContainer.parentNode
             // endNode is the element that the selection ends in
-            const endNode = selectionRange.endContainer.parentNode
+            // const endNode = selectionRange.endContainer.parentNode
 
             // if the selected text is not part of the highlightableEl (i.e. <p>)
             // OR
             // if startNode !== endNode (i.e. the user selected multiple paragraphs)
             // Then
             // Don't show the menu (this selection is invalid)
-            console.log(startNode.isSameNode(this.highlightableEl));
-            if (!startNode.isSameNode(this.highlightableEl) || !startNode.isSameNode(endNode)) {
-                this.showHighlightText = false
-                return
-            }
+            // console.log(startNode.isSameNode(this.highlightableEl));
+            // if (!startNode.isSameNode(this.highlightableEl) || !startNode.isSameNode(endNode)) {
+            //     this.showHighlightText = false
+            //     return
+            // }
 
             // Get the x, y, and width of the selection
-            const { x, y, width } = selectionRange.getBoundingClientRect()
+            const { x, y, width, height } = selectionRange.getBoundingClientRect()
 
             // If width === 0 (i.e. no selection)
             // Then, hide the menu
@@ -759,6 +943,15 @@ export default {
                 this.showHighlightText = false
                 return
             }
+
+            var highlightBox = document.getElementById("selectedHighlight");
+            var highlightBoxParent = highlightBox.parentElement;
+
+            highlightBox.style.left = (x - highlightBoxParent.offsetLeft - 1) + "px";
+            highlightBox.style.top = ((y - highlightBoxParent.offsetTop + 9) + window.scrollY - 10) + "px";
+            highlightBox.style.width = width;
+            highlightBox.style.height = height;
+            
 
             // Finally, if the selection is valid,
             // set the position of the menu element,
@@ -774,6 +967,8 @@ export default {
             }
 
             this.showHighlightText = true
+
+            //this.clearSelection();
         }
     },
 }
@@ -819,6 +1014,64 @@ export default {
 .definition-list li:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+.home {
+    margin-top:3%; 
+}
+
+@media only screen and (min-width: 1920px) { 
+    .home-edit {
+        margin-left:8%; 
+    }
+    .home {
+        margin-top:9%; 
+    }
+}
+
+.looping-rhombuses-spinner, .looping-rhombuses-spinner * {
+      box-sizing: border-box;
+    }
+
+    .looping-rhombuses-spinner {
+      width: calc(15px * 4);
+      height: 15px;
+    }
+
+    .looping-rhombuses-spinner .rhombus {
+      height: 15px;
+      width: 15px;
+      background-color: #c7dbf5;
+      left: calc(15px * 4);
+      position: absolute;
+      margin: 0 auto;
+      border-radius: 2px;
+      transform: translateY(0) rotate(45deg) scale(0);
+      animation: looping-rhombuses-spinner-animation 2500ms linear infinite;
+    }
+
+    .looping-rhombuses-spinner .rhombus:nth-child(1) {
+      animation-delay: calc(2500ms * 1 / -1.5);
+    }
+
+    .looping-rhombuses-spinner .rhombus:nth-child(2) {
+      animation-delay: calc(2500ms * 2 / -1.5);
+    }
+
+    .looping-rhombuses-spinner .rhombus:nth-child(3) {
+      animation-delay: calc(2500ms * 3 / -1.5);
+    }
+
+    @keyframes looping-rhombuses-spinner-animation {
+      0% {
+        transform: translateX(0) rotate(45deg) scale(0);
+      }
+      50% {
+        transform: translateX(-233%) rotate(45deg) scale(1);
+      }
+      100% {
+        transform: translateX(-466%) rotate(45deg) scale(0);
+      }
+    }
 
 /* .highlightMenuItem {
   color: #FFF;

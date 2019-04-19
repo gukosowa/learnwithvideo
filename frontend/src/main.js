@@ -38,6 +38,14 @@ const apolloProvider = new VueApollo({
   defaultClient: apolloClient,
 })
 
+//* New Line
+import Nl2br from 'vue-nl2br'
+Vue.component('nl2br', Nl2br)
+
+//* Autosize Input
+import VueInputAutowidth from 'vue-input-autowidth'
+Vue.use(VueInputAutowidth)
+
 Vue.config.productionTip = false
 
 new Vue({

@@ -14,6 +14,8 @@
     "graphql": "^14.2.1",
     "vue": "^2.6.10",
     "vue-apollo": "^3.0.0-beta.28",
+    "vue-input-autowidth": "^1.0.3",
+    "vue-nl2br": "^0.1.1",
     "vue-router": "^3.0.1",
     "vue-slider-component": "^3.0.25",
     "vue-youtube-embed": "^2.2.1",
