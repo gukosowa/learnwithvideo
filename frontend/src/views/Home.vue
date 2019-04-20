@@ -38,10 +38,14 @@
                 </div>
 
                 <!-- CONTENT  TODO  @mouseover="pause" @mouseleave="play"  -->
-                <div @mousedown="deselectDialogue" @mouseup="onMouseup" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 h-48 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0 relative" style="background-color: #283243;">
+                <div @mousedown="deselectDialogue" @mouseup="onMouseup" class="-mt-3 mx-3 p-6 py-12 bg-gray-800 pb-0 shadow-lg border rounded-lg border-gray-900 flex flex-col mt-10 z-0 relative" style="background-color: #283243;">
                     <div id="selectedHighlight" class="absolute" style="background-color: rgb(32, 97, 208);"></div>
                     <div ref="dialogueField" :style="{ cursor: (!editMode ? 'help' : '') }" @mousedown="clearHighlightBox" class="text-4xl text-center z-10">
                         {{ editText }}
+                    </div>
+
+                    <div ref="translationField" class="text-sm text-center z-10 relative bottom-0 mt-4 mb-2 self-center" style="opacity:0.5;">
+                        {{ translationText }}
                     </div>
                 </div>
 
@@ -146,6 +150,9 @@
                                 :tooltip-formatter="timeFormater"
                                 @change="changeCurrentTime"
                             ></vue-slider>
+                            <div style="position:absolute; width:5px; height:2px; bottom:0px; background-color:rgb(181, 182, 103);"
+                                :style="{ left: (getProgressFromTime(item) * 100) + '%' }"
+                                 v-for="(item, index) in timeline" :key="index"></div>
                         </div>
 
                         <!-- time as text -->
@@ -155,7 +162,7 @@
                 </div>
             </div>
         </div>
-<!-- v-on:mousedown.prevent -->
+        <!-- v-on:mousedown.prevent -->
         <div class="w-0" :style="editMode ? 'visibility:visible;' : 'visibility:hidden;'" :class="{ 'w-2/5 ml-10 block' : editMode }">
             <div class="bg-gray-900 pb-4 shadow-lg slide-out-editmode" :class="{ 'slide-in-editmode' : editMode }" style="border-bottom-left-radius: 8px;">
                 <div class="bg-gray-900 flex flex-row">
@@ -212,15 +219,15 @@
     
                 <div class="flex flex-row justify-around">
                     <button v-show="listIndexDB != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                        Apply to selection
+                        ✔️ Apply to selection
                     </button>
     
                     <button v-show="listIndexJisho != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                        Pull Word
+                        &#x2BC7; Pull Word
                     </button>
     
                     <button v-show="listIndexJisho != -1 || listIndexDB != -1"  @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                        Search
+                        🔍 Search
                     </button>
                 </div>
             </div>
@@ -244,6 +251,7 @@ export default {
     data () {
         return {
             editText: "",
+            translationText: "",
             currentTime: 0,
             progress: 0,
             processId: null,
@@ -261,13 +269,23 @@ export default {
             "北から涼風が穂を揺らす",
             "写る月の影が弧を描き",
             "今主役はおいら江戸錦"],
+            translation: [
+            "The ivy entwines itself around the run-down row house, while my writing brush earnestly runs (across the page).", 
+            "The evening primrose whispered. I will run through the town of Edo.", 
+            "On a moonlit night, on the path of my fleeting life, I shall become geniune artist!",
+            "If my dream comes true, I'll be a disembodied soul,",
+            "and go to the summer fields as a pastime",
+            "It sings and echoes in the world, the sound of the three-stringed guitar.",
+            "The cool breeze from the north shakes the head of the plants.",
+            "The projected shadow of the moon draws an arc.",
+            "Now, the leading man is me, in fine Edo clothing!"],
             cachedTimeline: [],
             cacheCurrentDialogueId: -1,
             dialogueId: 0,
             timeFormater: v => `${this.formatTime(v)}`,
             // eslint-disable-next-line
             hightlightCurrentDialogue: b => [
-                [this.timeline[this.dialogueId]*1.35, (!this.timeline[this.dialogueId+1]) ? this.duration : (this.timeline[this.dialogueId+1]*1.37), { backgroundColor: 'red' }],
+                [this.getProgressFromTime(this.timeline[this.dialogueId])*100, (!this.timeline[this.dialogueId+1]) ? 100 : this.getProgressFromTime(this.timeline[this.dialogueId+1])*100, { backgroundColor: 'red' }]
             ],
             editTextDirty: false,
 
@@ -622,7 +640,7 @@ export default {
         timeLineClick() {
             this.cachedTimeline = this.timeline;
             console.log("cache timeline to cachedTimeline");
-            
+            this.cacheCurrentDialogueId = -1;
             this.deselectDialogue();
         },
 
@@ -794,6 +812,7 @@ export default {
         //
         updateShowDialogue() {
             this.currentTime = this.player.getCurrentTime();
+            this.dialogueId = 0;
             for(var i = 0;i < this.timeline.length; i++) {
                 if (this.currentTime > this.timeline[i]) {
                     this.dialogueId = i;
@@ -803,6 +822,7 @@ export default {
                 this.deselectDialogue();
                 this.editTextDirty = false;
                 this.editText = this.dialogue[this.dialogueId];
+                this.translationText = this.translation[this.dialogueId];
                 this.cacheCurrentDialogueId = this.dialogueId;
             }
         },
@@ -819,6 +839,16 @@ export default {
             minutes = minutes < 10 ? '0' + minutes : minutes;
 
             return minutes + ':' + seconds;
+        },
+
+        //#####################################################
+        //
+        //
+        getProgressFromTime(time) {
+            if (!this.duration) {
+                return 0;
+            }
+            return time / this.duration;
         },
 
         //#####################################################
@@ -904,7 +934,6 @@ export default {
         //
         //
         clearHighlightBox() {
-            console.log("sd");
             var highlightBox = document.getElementById("selectedHighlight");
             highlightBox.style.width = 0;
             highlightBox.style.height = 0;
