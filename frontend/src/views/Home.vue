@@ -1,15 +1,11 @@
 <template>
-    <div class="bg-gray-900 text-white flex flex-grow flex-row w-full" style="background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%);">
-        <button @click="editMode = !editMode; deselectDialogue(); ((!editMode) ? play() : pause())" class="absolute bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none z-20 m-4">
-            {{ (editMode ? "Normal Mode" : "Edit Mode") }}
-        </button>
-        
+    <div class="text-white flex flex-grow flex-row w-full body" style="">
         <!-- container -->
-        <div :class="{ 'w-3/5 ml-10 ml-16' : editMode, 'container flex flex-col items-center' : !editMode }"> 
-            <div class="home flex flex-col" style="max-width:900px;" :class="{ 'home-edit' : editMode }" >
+        <div :class="{ 'w-3/5 flex justify-center' : editMode, 'container flex flex-col items-center' : !editMode }" style="padding: 0.3rem;"> 
+            <div class="home w-full flex flex-col" style="max-width:900px;" :class="{ 'home-edit' : editMode }" :style="{ 'margin-top': (!editMode ? '10%' : '7%') }" >
 
                 <!-- Video container -->
-                <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col mt-10 z-10">
+                <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col z-10">
                     <youtube class="self-center w-full z-0" 
                         player-width="100%"
                         :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, cc_load_policy: 0, cc_lang_pref:'en', wmode:'transparent' }" 
@@ -18,6 +14,10 @@
                         @paused="pause" 
                         @playing="playing"
                     ></youtube>
+                    <button @click="editMode = !editMode; deselectDialogue(); ((!editMode) ? play() : pause())" class="z-10 absolute bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none z-20"
+                    :class="{ 'border-none bg-gray-900 hover:bg-gray-800' : !editMode }">
+                        {{ (editMode ? "Normal Mode" : "Edit Mode") }}
+                    </button>
                     <div class="bg-black">
                         <div class="bg-gray-700 w-full h-1" v-bind:style="{ width: progress + '%' }"></div>
                     </div>
@@ -46,7 +46,7 @@
                 </div>
 
                 <!-- Controlls -->
-                <div class="flex flex-col shadow-lg bottom-0 mt-4 mb-5 p-4 rounded-lg z-20 self-center" style="background-color: #0f1218;">
+                <div class="flex flex-col shadow-lg bottom-0 mt-4 mb-5 p-4 rounded-lg z-20" style="background-color: #0f1218;">
 
                     <!-- Edit controlls -->
                     <div @mousedown="timeLineClick" class="flex flex-col" v-show="editMode">
@@ -61,7 +61,7 @@
                                 <!-- Insert button -->
                                 <button @click="saveDialogue" 
                                 class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
-                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }">
+                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }" style="transition: 0.2s;">
                                     Save text
                                 </button>
 
@@ -132,11 +132,11 @@
                         </div>
 
                         <!-- time slider -->
-                        <div class="w-3/4 mx-5 relative">
+                        <div class="mx-5 relative w-full">
                             <vue-slider 
                                 v-model="currentTime"
                                 tooltip="focus" tooltipPlacement="top"
-                                width="333px"
+                                width="100%"
                                 height="0.9rem"
                                 :lazy="true"
                                 :duration="0"
@@ -149,78 +149,80 @@
                         </div>
 
                         <!-- time as text -->
-                        <span class="text-sm w-32 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+                        <span class="text-sm w-56 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
 
                 </div>
             </div>
         </div>
 <!-- v-on:mousedown.prevent -->
-        <div class="bg-gray-900" v-show="editMode" :class="{ 'w-2/5 ml-10' : editMode }">
-            <div class="bg-gray-900 flex flex-row">
-                <div class="w-1/2 text-center py-2">
-                    Database
-                </div>
-                <div class="text-center py-2" style="opacity:0.4;">
-                    &#x2BC7;
-                </div>
-                <div class="w-1/2 text-center py-2">
-                    Jisho.org
-                </div>
-            </div>
-            <div class="bg-gray-800 flex flex-row">
-                <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
-                    <div v-show="loadingDB" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
-                        <div class="rhombus"></div>
-                        <div class="rhombus"></div>
-                        <div class="rhombus"></div>
+        <div class="w-0" :style="editMode ? 'visibility:visible;' : 'visibility:hidden;'" :class="{ 'w-2/5 ml-10 block' : editMode }">
+            <div class="bg-gray-900 pb-4 shadow-lg slide-out-editmode" :class="{ 'slide-in-editmode' : editMode }" style="border-bottom-left-radius: 8px;">
+                <div class="bg-gray-900 flex flex-row">
+                    <div class="w-1/2 text-center py-2">
+                        Database
                     </div>
-                    <li @click="getDefinitionDetail(item.id, index)" :id="item.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == index) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(item, index) in definitions"  :key="item.id">
-                        {{ item.word }}
-                    </li>
-                </ul>
-                <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
-                <!-- loadingJisho -->
-                    <div v-show="loadingJisho" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
-                        <div class="rhombus"></div>
-                        <div class="rhombus"></div>
-                        <div class="rhombus"></div>
+                    <div class="text-center py-2" style="opacity:0.4;">
+                        &#x2BC7;
                     </div>
-                    <li @click="getDetailFromJisho(index)" :id="index" class="p-2 text-2xl cursor-pointer" :style="(listIndexJisho == index) ? 'background-color: rgb(48, 88, 124) !important;' : ''" v-for="(item, index) in jishoDefinitions"  :key="index">
-                        {{ (!item.japanese[0].word ? item.japanese[0].reading : item.japanese[0].word) }}
-                    </li>
-                </ul>
-            </div>
-            <div class="flex flex-col p-4" v-show="listIndexJisho != -1 || listIndexDB != -1">
-                <!-- <div class="w-1/3 h-full bg-gray-900" :style="'background: url(https://picsum.photos/200/200) no-repeat center; background-size: cover;'"> -->
-                    <!-- <img src="https://picsum.photos/566/500" /> -->
-                    <!-- <img :src="detailDefinition.image" /> -->
-                <!-- </div> -->
-                <div class="absolute right-0 mr-4 flex flex-col text-right">
-                    <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span> <Click-to-Edit v-model="detailDefinition.jlpt" type="number" class="text-orange-500" inputStyle="width:40px;"/></span>
-                    <span class="text-sm" v-show="listIndexDB != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? convertPartOfSpeech(detailDefinition.part_of_speech) : "") }}</pre></span></span>
-                    <span class="text-sm" v-show="listIndexJisho != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? detailDefinition.part_of_speech.replace(", ", "\n") : "") }}</pre></span></span>
-                    <span class="text-sm" v-show="detailDefinition.id != -1"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
+                    <div class="w-1/2 text-center py-2">
+                        Jisho.org
+                    </div>
                 </div>
-                <span class="text-md" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.furigana" inputStyle="width:70%;" type="text" class="text-white" /></span>
-                <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
-                <span class="text-4xl" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.word" type="text" inputStyle="width:70%;" class="text-white" /></span> 
-                <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span><br><Click-to-Edit :value="convertDefinition(detailDefinition.definition)" :input="detailDefinition.definition" type="text" inputStyle="width:70%;" class="text-white" /></span>
-                <span class="text-sm mt-2"><span class="text-orange-500">Tags:</span><br><Click-to-Edit v-model="detailDefinition.tags" type="text" inputStyle="width:70%;" class="text-white" /></span>
-            </div>
-
-            <div class="flex flex-row justify-around">
-                <button v-show="listIndexDB != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                    Apply to selection
-                </button>
-
-                <button v-show="listIndexJisho != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                    Pull Word
-                </button>
-
-                <button v-show="listIndexJisho != -1 || listIndexDB != -1"  @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
-                    Search
-                </button>
+                <div class="bg-gray-800 flex flex-row">
+                    <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
+                        <div v-show="loadingDB" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
+                            <div class="rhombus"></div>
+                            <div class="rhombus"></div>
+                            <div class="rhombus"></div>
+                        </div>
+                        <li @click="getDefinitionDetail(item.id, index)" :id="item.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == index) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(item, index) in definitions"  :key="item.id">
+                            {{ item.word }}
+                        </li>
+                    </ul>
+                    <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
+                    <!-- loadingJisho -->
+                        <div v-show="loadingJisho" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
+                            <div class="rhombus"></div>
+                            <div class="rhombus"></div>
+                            <div class="rhombus"></div>
+                        </div>
+                        <li @click="getDetailFromJisho(index)" :id="index" class="p-2 text-2xl cursor-pointer" :style="(listIndexJisho == index) ? 'background-color: rgb(48, 88, 124) !important;' : ''" v-for="(item, index) in jishoDefinitions"  :key="index">
+                            {{ (!item.japanese[0].word ? item.japanese[0].reading : item.japanese[0].word) }}
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col p-4" v-show="listIndexJisho != -1 || listIndexDB != -1">
+                    <!-- <div class="w-1/3 h-full bg-gray-900" :style="'background: url(https://picsum.photos/200/200) no-repeat center; background-size: cover;'"> -->
+                        <!-- <img src="https://picsum.photos/566/500" /> -->
+                        <!-- <img :src="detailDefinition.image" /> -->
+                    <!-- </div> -->
+                    <div class="absolute right-0 mr-4 flex flex-col text-right">
+                        <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span> <Click-to-Edit v-model="detailDefinition.jlpt" type="number" class="text-orange-500" inputStyle="width:40px;"/></span>
+                        <span class="text-sm" v-show="listIndexDB != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? convertPartOfSpeech(detailDefinition.part_of_speech) : "") }}</pre></span></span>
+                        <span class="text-sm" v-show="listIndexJisho != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? detailDefinition.part_of_speech.replace(", ", "\n") : "") }}</pre></span></span>
+                        <span class="text-sm" v-show="detailDefinition.id != -1"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
+                    </div>
+                    <span class="text-md" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.furigana" inputStyle="width:70%;" type="text" class="text-white" /></span>
+                    <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
+                    <span class="text-4xl" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.word" type="text" inputStyle="width:70%;" class="text-white" /></span> 
+                    <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span><br><Click-to-Edit :value="convertDefinition(detailDefinition.definition)" :input="detailDefinition.definition" type="text" inputStyle="width:70%;" class="text-white" /></span>
+                    <span class="text-sm mt-2"><span class="text-orange-500">Tags:</span><br><Click-to-Edit v-model="detailDefinition.tags" type="text" inputStyle="width:70%;" class="text-white" /></span>
+                </div>
+    
+                <div class="flex flex-row justify-around">
+                    <button v-show="listIndexDB != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                        Apply to selection
+                    </button>
+    
+                    <button v-show="listIndexJisho != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                        Pull Word
+                    </button>
+    
+                    <button v-show="listIndexJisho != -1 || listIndexDB != -1"  @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                        Search
+                    </button>
+                </div>
             </div>
         </div>
         
@@ -1015,7 +1017,14 @@ export default {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.body {
+    background-color: rgb(18, 29, 47);
+    /* background-image: linear-gradient(-31deg, rgb(29, 33, 37) 0%, rgb(32, 41, 56) 100%); */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1609' height='1340.8' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.02'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .home {
+    transition: margin 0.2s;
     margin-top:3%; 
 }
 
@@ -1026,6 +1035,22 @@ export default {
     .home {
         margin-top:9%; 
     }
+}
+
+.slide-out-editmode {
+    opacity: 0;
+    transition-duration: 0.3s;
+    /* -webkit-transform: translateX(100%); */
+    position: relative;
+    margin-left: 100px;
+    min-width: 274px;
+}
+
+.slide-in-editmode {
+    opacity: 1;
+    /* -webkit-transform: translateX(0%); */
+    margin-left: 0px;
+    min-width: 274px;
 }
 
 .looping-rhombuses-spinner, .looping-rhombuses-spinner * {
