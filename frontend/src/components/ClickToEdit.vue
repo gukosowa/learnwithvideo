@@ -14,7 +14,7 @@
            @keyup.enter.prevent="valueLocal = $event.target.value; edit = false; $emit('input', valueLocal);"
            v-focus=""
              />
-        <span id="text" v-else="" style="min-width:20px; min-height:15px; display:inline-block" @click="edit = true;">
+        <span id="text" v-else="" style="min-width:20px; min-height:15px; display:inline-block" :style="(valueLocal == '' ? 'background-color:rgba(17, 22, 31, 0.74); border-radius:9px;' : '')" @click="edit = true;">
           {{valueLocal}}
         </span>
 </template>

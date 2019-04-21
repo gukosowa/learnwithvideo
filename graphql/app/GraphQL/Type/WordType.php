@@ -29,7 +29,7 @@ class WordType extends GraphQLType
                 'description' => 'The corresponding definition id to this word',
             ],
             'definition' => [
-                'type' => GraphQL::type('definition'),
+                'type' => GraphQL::type('definitionType'),
                 'description' => 'The corresponding definition object to this word',
             ],
             'custom_definition' => [

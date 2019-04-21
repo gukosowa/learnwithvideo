@@ -2,23 +2,37 @@
     <div class="text-white flex flex-grow flex-row w-full body" style="">
         <!-- container -->
         <div :class="{ 'w-3/5 flex justify-center' : editMode, 'container flex flex-col items-center' : !editMode }" style="padding: 0.3rem;"> 
-            <div class="home w-full flex flex-col" style="max-width:900px;" :class="{ 'home-edit' : editMode }" :style="{ 'margin-top': (!editMode ? '10%' : '7%') }" >
+            <div class="home w-full flex flex-col" style="max-width:900px;" :class="{ 'home-edit' : editMode }">
 
                 <!-- Video container -->
-                <div ref="container" class="video-container shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col z-10">
-                    <youtube class="self-center w-full z-0" 
+                <div ref="container" class="video-container bg-black shadow-lg border rounded-lg overflow-hidden border-gray-900 flex flex-col z-10 relative" style="">
+                    <div style="position:relative; margin-top:56.25%; width:100%; display:block;"></div>
+                    <div style="
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        z-index: 18;
+                        box-shadow: inset 0px 0px 29px -3px #000000;
+                        /* box-shadow: 0px 0px 0px 3px #0f1218; */
+                    "></div>
+                    <youtube class="youtube-container self-center w-full h-full z-0" 
+                        style="position:absolute; width:100%; height:100%;"
+                        ref="youtube"
                         player-width="100%"
-                        :player-vars="{ autoplay: 1, controls: 0, showinfo: 0, cc_load_policy: 0, cc_lang_pref:'en', wmode:'transparent' }" 
+                        player-height="100%"
+                        :player-vars="{ resize: true, autoplay: 1, controls: 0, showinfo: 0, cc_load_policy: 0, cc_lang_pref:'en', wmode:'transparent' }" 
                         :video-id="url"
                         @ready="ready" 
                         @paused="pause" 
                         @playing="playing"
                     ></youtube>
-                    <button @click="editMode = !editMode; deselectDialogue(); ((!editMode) ? play() : pause())" class="z-10 absolute bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none z-20"
-                    :class="{ 'border-none bg-gray-900 hover:bg-gray-800' : !editMode }">
-                        {{ (editMode ? "Normal Mode" : "Edit Mode") }}
-                    </button>
-                    <div class="bg-black">
+                    <div class="w-full absolute top-0 inset-x-0 z-20">
+                        <button @click="editMode = !editMode; deselectDialogue(); ((!editMode) ? play() : pause())" class="z-10 bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none z-20"
+                        :class="{ 'border-none bg-gray-900 hover:bg-gray-800' : !editMode }">
+                            {{ (editMode ? "Normal Mode" : "Edit Mode") }}
+                        </button>
+                    </div>
+                    <div class="bg-black z-20">
                         <div class="bg-gray-700 w-full h-1" v-bind:style="{ width: progress + '%' }"></div>
                     </div>
                 </div>
@@ -64,8 +78,8 @@
 
                                 <!-- Insert button -->
                                 <button @click="saveDialogue" 
-                                class="bg-gray-700 w-32 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
-                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }" style="transition: 0.2s;">
+                                class="bg-gray-700 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
+                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }" style="transition: 0.2s; min-width: 7rem;">
                                     Save text
                                 </button>
 
@@ -156,7 +170,7 @@
                         </div>
 
                         <!-- time as text -->
-                        <span class="text-sm w-56 text-center">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
+                        <span class="text-sm text-center" style="min-width: 5.5rem">{{ formatTime(currentTime) }} / {{ formatTime(duration) }}</span>
                     </div>
 
                 </div>
@@ -177,14 +191,14 @@
                     </div>
                 </div>
                 <div class="bg-gray-800 flex flex-row">
-                    <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
+                    <ul id="listDB" class="w-1/2 definition-list h-64 overflow-y-auto relative">
                         <div v-show="loadingDB" class="absolute top-0 right-0 looping-rhombuses-spinner m-5" style="postition:absolute !important;">
                             <div class="rhombus"></div>
                             <div class="rhombus"></div>
                             <div class="rhombus"></div>
                         </div>
                         <li @click="getDefinitionDetail(item.id, index)" :id="item.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == index) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(item, index) in definitions"  :key="item.id">
-                            {{ item.word }}
+                            {{ (!item.word ? item.furigana : item.word) }}
                         </li>
                     </ul>
                     <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
@@ -222,7 +236,7 @@
                         ✔️ Apply to selection
                     </button>
     
-                    <button v-show="listIndexJisho != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                    <button v-show="listIndexJisho != -1" @click="pullFromJisho" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
                         &#x2BC7; Pull Word
                     </button>
     
@@ -239,6 +253,7 @@
 <script>
 import gql from 'graphql-tag';
 import ClickToEdit from '@/components/ClickToEdit.vue';
+import { setTimeout } from 'timers';
 
 export default {
     name: 'home',
@@ -257,18 +272,19 @@ export default {
             processId: null,
             duration: 100,
             url: "V6ZfH28jU28",
+            aspectRatio: 0.5625,
             paused: false,
             timeline: [8.1, 18.2, 31, 37.7, 41.4, 44.7, 51.1, 58, 63.3],
             dialogue: [
-            "鳥の絡まるぼろる長屋、ひたすら. 筆走る", 
-            "宵待草がささやいた、駆け出すえどのまち。", 
-            "月夜の浮世に小道、真の画工となるべし",
-            "夢叶うなら人魂で",
-            "行く気散じや夏の原",
-            "歌い世に響く、三味の音",
-            "北から涼風が穂を揺らす",
-            "写る月の影が弧を描き",
-            "今主役はおいら江戸錦"],
+                "鳥の絡まるぼろる長屋、ひたすら. 筆走る", 
+                "宵待草がささやいた、駆け出すえどのまち。", 
+                "月夜の浮世に小道、真の画工となるべし",
+                "夢叶うなら人魂で",
+                "行く気散じや夏の原",
+                "歌い世に響く、三味の音",
+                "北から涼風が穂を揺らす",
+                "写る月の影が弧を描き",
+                "今主役はおいら江戸錦"],
             translation: [
             "The ivy entwines itself around the run-down row house, while my writing brush earnestly runs (across the page).", 
             "The evening primrose whispered. I will run through the town of Edo.", 
@@ -291,6 +307,8 @@ export default {
 
             editMode: true,
 
+            oembed: {},
+            
             xHighlightMenu: 0,
             yHighlightMenu: 0,
             showHighlightText: false,
@@ -327,7 +345,32 @@ export default {
     //* /////////////////////////////////////////////////////////////////
     //* /////////////////////////////////////////////////////////////////
     mounted () {
-        // window.addEventListener('mouseup', this.onMouseup);
+        // var vm = this;
+        
+
+        // // GET request for remote image
+        // this.$apollo.query({
+        //     // Query
+        //     query: gql`query ($url: String!) {
+        //         youtubeoembed(url: $url) {
+        //             width
+        //             height
+        //         }
+            
+        //     }`,
+        //     // Static parameters
+        //     variables: {
+        //         url: vm.url,
+        //     },
+        // }).then((response) => {
+        //     vm.oembed = response.data.youtubeoembed;
+        // }).catch((error) => {
+        //     console.error(error)
+        // });
+
+        window.addEventListener("resize", function() {
+            // vm.setContainerAspectRatio();
+        });
     },
 
     //* /////////////////////////////////////////////////////////////////
@@ -342,16 +385,25 @@ export default {
         //#####################################################
         //
         //
+        setContainerAspectRatio() {
+            var element = document.querySelector(".youtube-container");
+            var height = element.offsetWidth * this.aspectRatio;
+            element.style.setProperty("height", height + "px")
+        },
+
+        //#####################################################
+        //
+        //
         async getDefinitions() {
             this.loadingDB = true;
             this.loadingJisho = true;
             var vm = this;
-            console.log(vm.selectedText);
+            // console.log("Get DB Definitions List and select: " + selectWord, vm.selectedText);
 
             this.getDefinitionFromJisho();
 
             // GET request for remote image
-            const result = await this.$apollo.query({
+            await this.$apollo.query({
                 // Query
                 query: gql`query Definitions($word: String!) {
                     definition(word: $word, furigana: $word) {
@@ -363,13 +415,15 @@ export default {
                 }`,
                 // Static parameters
                 variables: {
-                    word: vm.selectedText,
+                    word: encodeURIComponent(vm.selectedText),
                 },
+
+                fetchPolicy: 'no-cache'
             }).then((data) => {
                 this.loadingDB = false;
                 
                 // data = data.data.word[0].definition.word;
-                console.log(data.data.definition);
+                console.log("Get DB Definition list", data);
                 var definition = data.data.definition;
 
                 this.definitions = definition.sort(function(a, b){
@@ -377,15 +431,33 @@ export default {
                 });
 
 
-                if (this.definitions.length > 0) {
-                    if (this.definitions[0].word == this.selectedText || this.definitions[0].furigana == this.selectedText) {
-                        this.getDefinitionDetail(this.definitions[0].id, 0);
-                    } else {
-                        this.getDefinitionFromJisho(true);
+                // if (selectWord != "") {
+                    // let i = 0;
+                    // this.definitions.forEach(function(def) {
+                    //         if (def.word == selectWord || def.furigana == selectWord) {
+                    //             vm.listIndexJisho = -1;
+                    //             vm.listIndexDB = i;
+                    //         }
+                    //     i++;
+                    // });
+                // } else {
+                    let found = false;
+                    if (vm.definitions.length > 0) {
+                        for (let i = 0; i < vm.definitions.length; i++) {
+                            let def = vm.definitions[i];
+                            if (def.word == vm.selectedText || def.furigana == vm.selectedText) {
+                                vm.getDefinitionDetail(def.id, i);
+                                found = true;
+                                break;
+                            }
+                        }
                     }
-                } else {
-                    this.getDefinitionFromJisho(true);
-                }
+                    if (found == false) {
+                        console.log("Nothing found in own list > select from jisho");
+                        vm.getDefinitionFromJisho(true);
+                    }
+                // }
+                
                 // definition.forEach(function (word) {
 
                 // });
@@ -401,9 +473,12 @@ export default {
         async getDefinitionDetail(dbid, index = -1) {
             this.listIndexJisho = -1;
             this.listIndexDB = index;
+            if (dbid == undefined) {
+                return;
+            }
             console.log(dbid);
             // GET request for remote image
-            const result = await this.$apollo.query({
+            await this.$apollo.query({
                 // Query
                 query: gql`query Definition($id: Int!) {
                     definition(id: $id) {
@@ -429,6 +504,7 @@ export default {
                 // console.log(data.data.definition);
                 console.log(data);
                 this.detailDefinition = data.data.definition[0];
+
                 // definition.forEach(function (word) {
 
                 // });
@@ -441,7 +517,6 @@ export default {
         //
         //
         async getDefinitionFromJisho(select) {
-            console.log("defifrom jisho");
             // var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
             //     targetUrl = 'https://jisho.org/api/v1/search/words?keyword=' + this.selectedText
             // fetch(proxyUrl + targetUrl)
@@ -457,33 +532,47 @@ export default {
 
             var vm = this;
             // GET request for remote image
-            const result = await this.$apollo.query({
+            await this.$apollo.query({
                 // Query
                 query: gql`query ($keyword: String!) {
-                    jisho(keyword: $keyword)
+                    jisho(keyword: $keyword) {
+                        data {
+                            japanese {
+                                reading,
+                                word
+                            }
+                            senses {
+                                english_definitions
+                                parts_of_speech
+                                tags
+                            }
+                            jlpt,
+                            is_common,
+                            slug
+                        },
+                        meta
+                    }
                 }`,
                 // Static parameters
                 variables: {
                     keyword: vm.selectedText,
                 },
                 
-                
-            }).then((data) => {
+                fetchPolicy: 'no-cache'
+            }).then((result) => {
+
+                console.log("Get Definition from JISHO with select " + select, result.data.jisho);
+
                 this.loadingJisho = false;
 
-                if (data.data.jisho == "") {
+                if (result.data.jisho.meta != 200) {
                     this.jishoDefinitions = {};
                     return;
                 }
-                var json = JSON.parse(data.data.jisho);
 
-
-                this.jishoDefinitions = json.data;
-
-                console.log(this.jishoDefinitions);
+                this.jishoDefinitions = result.data.jisho.data;
 
                 this.jishoDefinitions = this.jishoDefinitions.sort(function(a, b){
-                    console.log(a);
                     if (a.japanese[0].word != undefined && b.japanese[0].word != undefined) {
                         return a.japanese[0].word.length - b.japanese[0].word.length;
                     } else {
@@ -521,10 +610,9 @@ export default {
 
             this.listIndexJisho = index;
 
-            console.log("jisho cache get");
             var def = this.jishoDefinitions[index];
             if (def.jlpt.length > 0 && def.jlpt[0] != undefined) {
-                this.detailDefinition.jlpt = def.jlpt[0].replace("jlpt-n", "");
+                this.detailDefinition.jlpt = def.jlpt[0];
             }
             this.detailDefinition.part_of_speech = def.senses[0].parts_of_speech.join(", ");
             this.detailDefinition.id = -1;
@@ -532,20 +620,86 @@ export default {
             this.detailDefinition.word = def.japanese[0].word;
             this.detailDefinition.definition = def.senses[0].english_definitions.join(", ");
             this.detailDefinition.tags = def.senses[0].tags.join(", ");
+        },
 
-            console.log(index);
+        //#####################################################
+        //
+        //
+        async pullFromJisho() {
+            this.detailDefinition.word = !this.detailDefinition.word ? "" : this.detailDefinition.word;
+            this.detailDefinition.furigana = !this.detailDefinition.furigana ? "" : this.detailDefinition.furigana;
+            this.detailDefinition.part_of_speech = !this.detailDefinition.part_of_speech ? "" : this.detailDefinition.part_of_speech;
+            this.detailDefinition.definition = !this.detailDefinition.definition ? "" : this.detailDefinition.definition;
+            this.detailDefinition.image = !this.detailDefinition.image ? "" : this.detailDefinition.image;
+            this.detailDefinition.ispeech_id = !this.detailDefinition.ispeech_id ? -1 : parseInt(this.detailDefinition.ispeech_id);
+            this.detailDefinition.jlpt = !this.detailDefinition.jlpt ? -1 : parseInt(this.detailDefinition.jlpt);
+            this.detailDefinition.tags = !this.detailDefinition.tags ? "" : this.detailDefinition.tags;
+            console.log(encodeURIComponent(this.detailDefinition.word));
+            var vm = this;
             console.log(this.detailDefinition);
+            this.$apollo.mutate({
+                // Query
+                mutation: gql`mutation ($word: String, $furigana: String, $part_of_speech: String, $definition: String, $image: String, $ispeech_id: Int, $jlpt: Int, $tags: String) {
+                    createDefinition(word : $word, furigana : $furigana, part_of_speech : $part_of_speech, definition : $definition, image : $image, ispeech_id : $ispeech_id, jlpt : $jlpt, tags : $tags) {
+                        id
+                        word
+                        furigana
+                        definition
+                    }
+                }`,
+                // Parameters
+                variables: {
+                    word: encodeURIComponent(vm.detailDefinition.word),
+                    furigana: encodeURIComponent(vm.detailDefinition.furigana),
+                    part_of_speech: encodeURIComponent(vm.detailDefinition.part_of_speech),
+                    definition: encodeURIComponent(vm.detailDefinition.definition),
+                    image: encodeURIComponent(vm.detailDefinition.image),
+                    ispeech_id: encodeURIComponent(vm.detailDefinition.ispeech_id),
+                    jlpt: encodeURIComponent(vm.detailDefinition.jlpt),
+                    tags: encodeURIComponent(vm.detailDefinition.tags)
+                },
+                
+            }).then((response) => {
+                // Result
+                console.log("MADE DEFINITION");
+                console.log(response.data.createDefinition.id)
 
-            // <div class="absolute right-0 mr-4 flex flex-col text-right">
-            //         <span v-if="detailDefinition.jlpt != -1" class="text-sm"><span class="text-white">JLPT:</span>  <span class="text-orange-500"> {{ detailDefinition.jlpt }}</span></span>
-            //         <span class="text-sm"><span class="text-white">Type:</span>  <span class="text-orange-500"> {{ convertPartOfSpeech(detailDefinition.part_of_speech) }}</span></span>
-            //         <span class="text-sm"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
-            //     </div>
-            //     <span class="text-md">{{ detailDefinition.furigana }}</span>
-            //     <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
-            //     <span class="text-4xl cursor-pointer" @click="openNewWindow('https://jisho.org/search/' + detailDefinition.word + '%20%23words')">{{ detailDefinition.word }}</span> 
-            //     <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span> {{ convertDefinition(detailDefinition.definition) }}</span>
-            //     <span class="text-sm mt-2"><span class="text-orange-500">Tags:</span> {{ detailDefinition.tags }}</span>
+                this.definitions.push({
+                    word: this.detailDefinition.word,
+                    furigana: this.detailDefinition.furigana,
+                    part_of_speech: this.detailDefinition.part_of_speech,
+                    definition: this.detailDefinition.definition,
+                    image: this.detailDefinition.image,
+                    ispeech_id: this.detailDefinition.ispeech_id,
+                    jlpt: this.detailDefinition.jlpt,
+                    tags: this.detailDefinition.tags
+                });
+
+                setTimeout(function() {
+                    var listDB = document.getElementById("listDB");
+                    listDB.scrollTop = 9999999999999999;
+                }, 50); 
+
+                let i = 0;
+                vm.definitions.forEach(function(def) {
+                        if (def.word == vm.detailDefinition.word || def.furigana == vm.detailDefinition.furigana) {
+                            vm.listIndexJisho = -1;
+                            vm.listIndexDB = i;
+                        }
+                    i++;
+                });
+
+                vm.getDefinitionDetail(response.data.createDefinition.id, vm.listIndexDB);
+                console.log(response)
+            }).catch((res) => {
+                console.log(res);
+                console.log(res.graphQLErrors);
+                const errors = res.graphQLErrors.map((error) => {
+                    return error.message;
+                });
+
+                console.error(errors);
+            });
         },
 
         //#####################################################
@@ -616,8 +770,6 @@ export default {
         //
         openNewWindow(url) {
             this.pause();
-            // window.open(url, '_blank', 'location=yes,height=700,width=1000, screenX=' + this.FindLeftScreenBoundry() + ' , left=' + this.FindLeftScreenBoundry() + ', scrollbars=yes,status=yes');
-
             this.popupCenter(url, "Jisho", 1000, 700);
         },
 
@@ -648,8 +800,6 @@ export default {
         //
         //
         timeLineRelease() {
-            // this.changeCurrentTime(this.diffArray(this.cachedTimeline, this.timeline)[1]);
-            console.log("check difference and change the time");
             this.timeline = this.timeline.sort(function(a, b){return a - b});
             this.cachedTimeline = this.timeline;
 
@@ -670,12 +820,6 @@ export default {
         //
         ready (event) {
             this.player = event.target
-
-            // this.timeline.push(this.player.getDuration());
-            // var frames = document.getElementsByTagName("iframe");
-            // for (var i = 0; i < frames.length; i++) {
-            //   frames[i].src += "?wmode=transparent";
-            // }
         },
 
         //#####################################################
@@ -725,7 +869,6 @@ export default {
         //
         //
         addEmptyDialogue() {
-            // this.pause();
             this.addDialogue("");
         },
 
@@ -804,7 +947,7 @@ export default {
                     // Update the current dialogue shown
                     this.updateShowDialogue();
                 }
-            }, 150);
+            }, 1000/60);
         },
 
         //#####################################################
@@ -1054,15 +1197,16 @@ export default {
 
 .home {
     transition: margin 0.2s;
-    margin-top:3%; 
+    margin-top:5%;
+}
+.home-edit {
+    margin-top:2%;
+    margin-left:8%; 
 }
 
-@media only screen and (min-width: 1920px) { 
-    .home-edit {
-        margin-left:8%; 
-    }
+@media (min-width: 1920px) { 
     .home {
-        margin-top:9%; 
+        margin-top: 12%; 
     }
 }
 
@@ -1083,49 +1227,49 @@ export default {
 }
 
 .looping-rhombuses-spinner, .looping-rhombuses-spinner * {
-      box-sizing: border-box;
-    }
+    box-sizing: border-box;
+}
 
-    .looping-rhombuses-spinner {
-      width: calc(15px * 4);
-      height: 15px;
-    }
+.looping-rhombuses-spinner {
+    width: calc(15px * 4);
+    height: 15px;
+}
 
-    .looping-rhombuses-spinner .rhombus {
-      height: 15px;
-      width: 15px;
-      background-color: #c7dbf5;
-      left: calc(15px * 4);
-      position: absolute;
-      margin: 0 auto;
-      border-radius: 2px;
-      transform: translateY(0) rotate(45deg) scale(0);
-      animation: looping-rhombuses-spinner-animation 2500ms linear infinite;
-    }
+.looping-rhombuses-spinner .rhombus {
+    height: 15px;
+    width: 15px;
+    background-color: #c7dbf5;
+    left: calc(15px * 4);
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 2px;
+    transform: translateY(0) rotate(45deg) scale(0);
+    animation: looping-rhombuses-spinner-animation 2500ms linear infinite;
+}
 
-    .looping-rhombuses-spinner .rhombus:nth-child(1) {
-      animation-delay: calc(2500ms * 1 / -1.5);
-    }
+.looping-rhombuses-spinner .rhombus:nth-child(1) {
+    animation-delay: calc(2500ms * 1 / -1.5);
+}
 
-    .looping-rhombuses-spinner .rhombus:nth-child(2) {
-      animation-delay: calc(2500ms * 2 / -1.5);
-    }
+.looping-rhombuses-spinner .rhombus:nth-child(2) {
+    animation-delay: calc(2500ms * 2 / -1.5);
+}
 
-    .looping-rhombuses-spinner .rhombus:nth-child(3) {
-      animation-delay: calc(2500ms * 3 / -1.5);
-    }
+.looping-rhombuses-spinner .rhombus:nth-child(3) {
+    animation-delay: calc(2500ms * 3 / -1.5);
+}
 
-    @keyframes looping-rhombuses-spinner-animation {
-      0% {
-        transform: translateX(0) rotate(45deg) scale(0);
-      }
-      50% {
-        transform: translateX(-233%) rotate(45deg) scale(1);
-      }
-      100% {
-        transform: translateX(-466%) rotate(45deg) scale(0);
-      }
+@keyframes looping-rhombuses-spinner-animation {
+    0% {
+    transform: translateX(0) rotate(45deg) scale(0);
     }
+    50% {
+    transform: translateX(-233%) rotate(45deg) scale(1);
+    }
+    100% {
+    transform: translateX(-466%) rotate(45deg) scale(0);
+    }
+}
 
 /* .highlightMenuItem {
   color: #FFF;

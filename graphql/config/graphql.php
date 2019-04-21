@@ -76,19 +76,26 @@ return [
                 'kanji'         => App\GraphQL\Query\KanjiQuery::class,
                 'video'         => App\GraphQL\Query\VideoQuery::class,
                 'word'          => App\GraphQL\Query\WordQuery::class,
-                'jisho'          => App\GraphQL\Query\JishoQuery::class,
+                'jisho'         => App\GraphQL\Query\JishoQuery::class,
+                'youtubeoembed' => App\GraphQL\Query\YoutubeOEmbedQuery::class,
             ],
             'mutation' => [
-
+                'createDefinition'    => App\GraphQL\Mutation\CreateDefinitionMutation::class,
             ]
         ],
     ],
     'types' => [
-        'definition'    => App\GraphQL\Type\DefinitionType::class,
+        'definitionType' => App\GraphQL\Type\DefinitionType::class,
         'dialogue'      => App\GraphQL\Type\DialogueType::class,
         'kanji'         => App\GraphQL\Type\KanjiType::class,
         'video'         => App\GraphQL\Type\VideoType::class,
         'word'          => App\GraphQL\Type\WordType::class,
+        'jishoType'          => App\GraphQL\Type\JishoType::class,
+        'jishoDataType'      => App\GraphQL\Type\JishoDataType::class,
+        'jishoDataSensesType'      => App\GraphQL\Type\JishoDataSensesType::class,
+        'jishoDataAttributionType'      => App\GraphQL\Type\JishoDataAttributionType::class,
+        'jishoDataJapaneseType'      => App\GraphQL\Type\JishoDataJapaneseType::class,
+        'youtubeoembedtype' => App\GraphQL\Type\YoutubeOEmbedType::class,
     ],
     //      'user' => [
     //          'query' => [

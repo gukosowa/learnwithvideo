@@ -31,6 +31,7 @@ const httpLink = new HttpLink({
 const cache = new InMemoryCache()
 // Create the apollo client
 const apolloClient = new ApolloClient({
+  debug: true,
   link: httpLink,
   cache,
 })
@@ -48,7 +49,7 @@ Vue.use(VueInputAutowidth)
 
 Vue.config.productionTip = false
 
-new Vue({
+window.vue = new Vue({
   router,
   store,
   apolloProvider,

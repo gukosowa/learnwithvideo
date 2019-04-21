@@ -35,15 +35,15 @@ class Definitions extends AbstractMigration
         // create the table
         $table = $this->table('definitions');
         $table
-                ->addColumn('word', 'string', ['limit' => 25])
-                ->addColumn('furigana', 'string', ['limit' => 25])
-                ->addColumn('part_of_speech', 'string', ['limit' => 3, 'comment' => 'n = noun, v = verb, a = Adj, i = iAdj, in = interjection na = naAdj, 
+                ->addColumn('word', 'string', ['limit' => 25, 'default' => ''])
+                ->addColumn('furigana', 'string', ['limit' => 25, 'default' => ''])
+                ->addColumn('part_of_speech', 'string', ['limit' => 3, 'default' => '', 'comment' => 'n = noun, v = verb, a = Adj, i = iAdj, in = interjection na = naAdj, 
                 c = conjunction, adv = adverb, pA = prenounAdjective, p = particle, su = suffix, pr = prefix, pp = preposition, mw = measure word'])
-                ->addColumn('definition', 'string')
-                ->addColumn('jlpt', 'integer')
-                ->addColumn('tags', 'string')
-                ->addColumn('image', 'string')
-                ->addColumn('ispeech_id', 'integer')
+                ->addColumn('definition', 'string', ['default' => ''])
+                ->addColumn('jlpt', 'integer', ['null' => true])
+                ->addColumn('tags', 'string', ['default' => ''])
+                ->addColumn('image', 'string', ['null' => true])
+                ->addColumn('ispeech_id', 'integer', ['null' => true])
                 ->addTimestamps()
                 ->save();
     }

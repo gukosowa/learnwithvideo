@@ -18,7 +18,7 @@ class DefinitionQuery extends Query
 
     public function type()
     {
-        return Type::listOf(GraphQL::type('definition'));
+        return Type::listOf(GraphQL::type('definitionType'));
     }
 
     public function args()
@@ -40,16 +40,16 @@ class DefinitionQuery extends Query
         }
 
         if (isset($args['word']) & isset($args['furigana'])) {
-            return Definition::where('word', "like", "%" . $args['word'] . "%")
-                                ->orWhere('furigana', "like", "%" . $args['furigana'] . "%")->get();
+            return Definition::where('word', "like", "%" . urldecode ($args['word']) . "%")
+                                ->orWhere('furigana', "like", "%" . urldecode ($args['furigana']) . "%")->get();
         }
 
         if (isset($args['word'])) {
-            return Definition::where('word', "like", "%" . $args['word'] . "%")->get();
+            return Definition::where('word', "like", "%" . urldecode ($args['word']) . "%")->get();
         }
 
         if (isset($args['furigana'])) {
-            return Definition::where('word', "like", "%" . $args['furigana'] . "%")->get();
+            return Definition::where('word', "like", "%" . urldecode ($args['furigana']) . "%")->get();
         }
 
         return Definition::all();
