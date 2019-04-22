@@ -13,7 +13,7 @@
                         position: absolute;
                         z-index: 18;
                         box-shadow: inset 0px 0px 29px -3px #000000;
-                        /* box-shadow: 0px 0px 0px 3px #0f1218; */
+                        pointer-events: none;
                     "></div>
                     <youtube class="youtube-container self-center w-full h-full z-0" 
                         style="position:absolute; width:100%; height:100%;"
