@@ -47,6 +47,9 @@ Vue.component('nl2br', Nl2br)
 import VueInputAutowidth from 'vue-input-autowidth'
 Vue.use(VueInputAutowidth)
 
+//* https://github.com/WaniKani/WanaKana
+window.wanakana = require('wanakana');
+
 Vue.config.productionTip = false
 
 window.vue = new Vue({

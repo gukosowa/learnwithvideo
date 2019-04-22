@@ -19,7 +19,8 @@
     "vue-router": "^3.0.1",
     "vue-slider-component": "^3.0.25",
     "vue-youtube-embed": "^2.2.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "wanakana": "^4.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

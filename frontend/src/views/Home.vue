@@ -16,7 +16,7 @@
                         pointer-events: none;
                     "></div>
                     <youtube class="youtube-container self-center w-full h-full z-0" 
-                        style="position:absolute; width:100%; height:100%;"
+                        style="position:absolute; width:100%; height:100%; margin-top: -2px;"
                         ref="youtube"
                         player-width="100%"
                         player-height="100%"
@@ -39,7 +39,7 @@
 
                 <!-- Text selection overlay TODO  @mouseover="pause" @mouseleave="play" --> 
                 <div v-show="showHighlightText" class="flex flex-row highlightMenu rounded-lg bg-gray-900 py-3 px-2 z-50 absolute" style="transform: translate(-50%, -100%);" :style="{ left: `${xHighlightMenu}px`, top: `${yHighlightMenu}px` }" @mousedown.prevent="">
-                    <span class="w-32 text-center cursor-pointer" @mousedown.prevent="getDefinition">
+                    <span class="w-32 text-center cursor-pointer" @mousedown.prevent="">
                         Add new Word
                     </span>
                     <span class="w-24 text-center cursor-pointer"  @mousedown.prevent="openNewWindow('https://jisho.org/search/' + selectedText + '%20%23words')">
@@ -197,8 +197,8 @@
                             <div class="rhombus"></div>
                             <div class="rhombus"></div>
                         </div>
-                        <li @click="getDefinitionDetail(item.id, index)" :id="item.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == index) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(item, index) in definitions"  :key="item.id">
-                            {{ (!item.word ? item.furigana : item.word) }}
+                        <li @click="getDefinitionDetail(itemDB.id, indexDB)" :id="itemDB.id" class="p-2 text-2xl cursor-pointer" :style="(listIndexDB == indexDB) ? 'background-color: rgb(48, 124, 71) !important;' : ''" v-for="(itemDB, indexDB) in definitions"  :key="'B' + indexDB">
+                            {{ (!itemDB.word ? itemDB.furigana : itemDB.word) }}
                         </li>
                     </ul>
                     <ul class="w-1/2 definition-list h-64 overflow-y-auto relative">
@@ -208,7 +208,7 @@
                             <div class="rhombus"></div>
                             <div class="rhombus"></div>
                         </div>
-                        <li @click="getDetailFromJisho(index)" :id="index" class="p-2 text-2xl cursor-pointer" :style="(listIndexJisho == index) ? 'background-color: rgb(48, 88, 124) !important;' : ''" v-for="(item, index) in jishoDefinitions"  :key="index">
+                        <li @click="getDetailFromJisho(index)" :id="index" class="p-2 text-2xl cursor-pointer" :style="(listIndexJisho == index) ? 'background-color: rgb(48, 88, 124) !important;' : ''" v-for="(item, index) in jishoDefinitions"  :key="'A' + index">
                             {{ (!item.japanese[0].word ? item.japanese[0].reading : item.japanese[0].word) }}
                         </li>
                     </ul>
@@ -224,7 +224,7 @@
                         <span class="text-sm" v-show="listIndexJisho != -1"><span class="text-orange-500"> <pre>{{ (detailDefinition.part_of_speech != undefined ? detailDefinition.part_of_speech.replace(", ", "\n") : "") }}</pre></span></span>
                         <span class="text-sm" v-show="detailDefinition.id != -1"><span class="text-white">#</span> <span class="text-orange-500"> {{ detailDefinition.id }}</span></span>
                     </div>
-                    <span class="text-md" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.furigana" inputStyle="width:70%;" type="text" class="text-white" /></span>
+                    <span class="text-md" v-if="detailDefinition.word != undefined"><Click-to-Edit :kana="true" v-model="detailDefinition.furigana" inputStyle="width:70%;" type="text" class="text-white" /></span>
                     <!-- <a :href="'https://jisho.org/word/' + detailDefinition.word" target="_blank" @click="pause"></a> -->
                     <span class="text-4xl" v-if="detailDefinition.word != undefined"><Click-to-Edit v-model="detailDefinition.word" type="text" inputStyle="width:70%;" class="text-white" /></span> 
                     <span class="text-sm mt-2"><span class="text-orange-500">Definition:</span><br><Click-to-Edit :value="convertDefinition(detailDefinition.definition)" :input="detailDefinition.definition" type="text" inputStyle="width:70%;" class="text-white" /></span>
@@ -321,6 +321,8 @@ export default {
             loadingJisho: false,
             listIndexDB: -1,
             listIndexJisho: -1,
+            apolloFetchDB: false,
+            apolloFetchJisho: false,
         }
     },
 
@@ -394,94 +396,26 @@ export default {
         //#####################################################
         //
         //
-        async getDefinitions() {
+        getDefinitions() {
+            if (this.selectedText == "") {
+                this.deselectDialogue();
+                return;
+            }
+
+            if (this.apolloFetchDB) {
+                return;
+            }
+            this.apolloFetchDB = true;
+
+            var vm = this;
             this.loadingDB = true;
             this.loadingJisho = true;
-            var vm = this;
-            // console.log("Get DB Definitions List and select: " + selectWord, vm.selectedText);
-
-            this.getDefinitionFromJisho();
 
             // GET request for remote image
-            await this.$apollo.query({
+            this.$apollo.query({
                 // Query
                 query: gql`query Definitions($word: String!) {
                     definition(word: $word, furigana: $word) {
-                        id
-                        word
-                        furigana
-                    }
-                
-                }`,
-                // Static parameters
-                variables: {
-                    word: encodeURIComponent(vm.selectedText),
-                },
-
-                fetchPolicy: 'no-cache'
-            }).then((data) => {
-                this.loadingDB = false;
-                
-                // data = data.data.word[0].definition.word;
-                console.log("Get DB Definition list", data);
-                var definition = data.data.definition;
-
-                this.definitions = definition.sort(function(a, b){
-                    return a.word.length - b.word.length;
-                });
-
-
-                // if (selectWord != "") {
-                    // let i = 0;
-                    // this.definitions.forEach(function(def) {
-                    //         if (def.word == selectWord || def.furigana == selectWord) {
-                    //             vm.listIndexJisho = -1;
-                    //             vm.listIndexDB = i;
-                    //         }
-                    //     i++;
-                    // });
-                // } else {
-                    let found = false;
-                    if (vm.definitions.length > 0) {
-                        for (let i = 0; i < vm.definitions.length; i++) {
-                            let def = vm.definitions[i];
-                            if (def.word == vm.selectedText || def.furigana == vm.selectedText) {
-                                vm.getDefinitionDetail(def.id, i);
-                                found = true;
-                                break;
-                            }
-                        }
-                    }
-                    if (found == false) {
-                        console.log("Nothing found in own list > select from jisho");
-                        vm.getDefinitionFromJisho(true);
-                    }
-                // }
-                
-                // definition.forEach(function (word) {
-
-                // });
-            }).catch((error) => {
-                console.error(error)
-            })
-
-        },
-
-        //#####################################################
-        //
-        //
-        async getDefinitionDetail(dbid, index = -1) {
-            this.listIndexJisho = -1;
-            this.listIndexDB = index;
-            if (dbid == undefined) {
-                return;
-            }
-            console.log(dbid);
-            // GET request for remote image
-            await this.$apollo.query({
-                // Query
-                query: gql`query Definition($id: Int!) {
-                    definition(id: $id) {
                         id
                         word
                         furigana
@@ -493,46 +427,78 @@ export default {
                     }
                 
                 }`,
-                // Static parameters
                 variables: {
-                    id: dbid,
+                    word: encodeURIComponent(vm.selectedText),
                 },
-                
-                fetchPolicy: 'no-cache'
+
+                // fetchPolicy: 'no-cache'
             }).then((data) => {
-                // data = data.data.word[0].definition.word;
-                // console.log(data.data.definition);
-                console.log(data);
-                this.detailDefinition = data.data.definition[0];
+                this.loadingDB = false;
+                this.apolloFetchDB = false;
+                
+                // console.log("Get DB Definition list", data);
 
-                // definition.forEach(function (word) {
+                var definition = data.data.definition;
 
-                // });
+                this.definitions = definition.sort(function(a, b){
+                    return a.word.length - b.word.length;
+                });
+
+                let found = false;
+                if (vm.definitions.length > 0) {
+                    for (let i = 0; i < vm.definitions.length; i++) {
+                        let def = vm.definitions[i];
+                        if (def.word == vm.selectedText || def.furigana == vm.selectedText) {
+                            vm.getDefinitionDetail(def.id, i);
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+                if (found == false) {
+                    // console.log("Nothing found in own list > select from jisho");
+                    vm.getDefinitionFromJisho(true);
+                } else {
+                    this.getDefinitionFromJisho();
+                }
+
             }).catch((error) => {
+                this.apolloFetchDB = false;
                 console.error(error)
             })
+
         },
 
         //#####################################################
         //
         //
-        async getDefinitionFromJisho(select) {
-            // var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-            //     targetUrl = 'https://jisho.org/api/v1/search/words?keyword=' + this.selectedText
-            // fetch(proxyUrl + targetUrl)
-            // .then(blob => blob.json())
-            // .then(data => {
-            //     this.jishoDefinitions = data.data
-            //     console.table(data.data);
-            // })
-            // .catch(e => {
-            //     console.log(e);
-            //     return e;
-            // });
+        getDefinitionDetail(dbid, index = -1) {
+            this.listIndexJisho = -1;
+            this.listIndexDB = index;
+            if (dbid == undefined) {
+                return;
+            }
+            this.detailDefinition = Object.assign({}, this.definitions[index]);
+        },
+
+        //#####################################################
+        //
+        //
+        getDefinitionFromJisho(select) {
+            if (this.selectedText == "") {
+                this.deselectDialogue();
+                return;
+            }
+
+            if (this.apolloFetchJisho) {
+                return;
+            }
+            this.apolloFetchJisho = true;
+
 
             var vm = this;
             // GET request for remote image
-            await this.$apollo.query({
+            this.apolloFetchJisho = this.$apollo.query({
                 // Query
                 query: gql`query ($keyword: String!) {
                     jisho(keyword: $keyword) {
@@ -553,15 +519,15 @@ export default {
                         meta
                     }
                 }`,
-                // Static parameters
                 variables: {
                     keyword: vm.selectedText,
                 },
                 
-                fetchPolicy: 'no-cache'
+                // fetchPolicy: 'no-cache'
             }).then((result) => {
+                this.apolloFetchJisho = false;
 
-                console.log("Get Definition from JISHO with select " + select, result.data.jisho);
+                // console.log("Get Definition from JISHO with select " + select, result.data.jisho);
 
                 this.loadingJisho = false;
 
@@ -583,16 +549,10 @@ export default {
                 if (select == true) {
                     this.getDetailFromJisho(0)
                 }
-                // this.jishoDefinitions = data;
 
-                // if (this.definitions.length > 0) {
-                //     this.getDefinitionDetail(this.definitions[0].id);
-                // }
-                // definition.forEach(function (word) {
-
-                // });
             }).catch((error) => {
                 console.error(error)
+                this.apolloFetchJisho = false;
             })
 
             
@@ -601,7 +561,7 @@ export default {
         //#####################################################
         //
         //
-        async getDetailFromJisho(index) {
+        getDetailFromJisho(index) {
             this.listIndexDB = -1;
             if (this.jishoDefinitions.length == 0) {
                 this.listIndexJisho = -1;
@@ -802,7 +762,7 @@ export default {
         timeLineRelease() {
             this.timeline = this.timeline.sort(function(a, b){return a - b});
             this.cachedTimeline = this.timeline;
-
+            this.cacheCurrentDialogueId = -1;
             // Update the current dialogue shown
             this.updateShowDialogue();
         },
@@ -1133,7 +1093,13 @@ export default {
             // then, show the menu
             this.xHighlightMenu = x + (width / 2)
             this.yHighlightMenu = y + window.scrollY - 10
-            this.selectedText = selection.toString()
+            this.selectedText = selection.toString().trim();
+
+            if (this.selectedText == "") {
+                this.deselectDialogue();
+                return;
+            }
+
 
             if (this.showHighlightText == false) {
                 this.getDefinitions();

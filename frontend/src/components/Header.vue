@@ -5,12 +5,14 @@
 		<span class="absolute header-text text-white font-hairline">BIDEO</span>
 	</div>
 	<div ref="headerElement" class="right-0 mr-10 flex flex-row absolute float-right items-center">
-	  <input id="navSearch" class="header-search shadow appearance-none border rounded w-full py-1 px-3 text-grey-400 tracking-wider font-light focus:outline-none focus:shadow-outline"
-	  		 type="text" placeholder="Search videos">
-
-	  <div class="">
-		<img src="@/assets/img/settings.svg" width="30px" class="header-settings ml-5"/>
-	  </div>
+        <div class="header-search rounded" style="position:relative;">
+            <input id="navSearch" class="shadow appearance-none rounded w-full py-1 px-3 text-grey-400 tracking-wider font-light focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Search videos">
+            <div class="header-search-overlay bg-gray-700 border-2 border-gray-700 w-full h-full absolute top-0 pointer-events-none"></div>
+        </div>
+        <div class="">
+            <img src="@/assets/img/settings.svg" width="30px" class="header-settings ml-5"/>
+        </div>
 	</div>
   </div>
 </template>
@@ -33,43 +35,21 @@ export default {
 		
 		var vm = this;
 
-		// vm.onOutWait = true;
-		// setTimeout(function() {
-		// 	vm.showHeader = false;
-        // }, vm.timeoutHide + 1000);
-        console.log(vm.$refs.headerElement);
 
 		window.addEventListener("mousemove", function(e) {
             vm.distanceToHeaderElement = calculateDistance(vm.$refs.headerElement, e.pageX, e.pageY);
 
 			vm.animateHeader(vm.distanceToHeaderElement);
-			// if (e.y <= 0) {
-			// 	vm.showHeader = true;
-			// 	vm.onOutWait = false;
-			// } else if (e.y > 45) {
-				
-			// 	if (vm.onOutWait == false) {
-			// 		if (e.y >= 500) {
-			// 			vm.onOutWait = true;
-			// 			setTimeout(function() {
-			// 				vm.showHeader = false;
-			// 				vm.navSearch.blur();
-			// 			}, vm.timeoutHide);
-			// 		}
-			// 	}
-			// }
+
 		});
 	},
 	//* TODO https://www.trysmudford.com/blog/linear-interpolation/ -> https://codepen.io/trys/pen/XPaYBj/
 	methods: {
 		animateHeader(mouseY) {
-			// let header = document.querySelector('.header');
-			// header.setAttribute('style',`height:${this.headLerp(2.5, 2, mouseY)}rem; background-color: rgb(${this.headLerp(74, 40, mouseY)}, ${this.headLerp(85, 50, mouseY)}, ${this.headLerp(104, 67, mouseY)});')`);
-			// console.log(this.headLerp(5,10,mouseY));
 			var start = 5;
 			var end = 32;
 
-			var searchBar = document.querySelector('.header-search');
+            var searchBar = document.getElementById("navSearch");
 			var isFocused = (document.activeElement === searchBar);
 			if (isFocused) {
 				mouseY = 0;
@@ -110,6 +90,15 @@ export default {
 							to: -50,               // CSS property upper limit
 							value: 0,              // Starting point
 							suffix: "%"           // Optional suffix (px, deg, turn)
+                        },
+                        {
+							y1: start,   
+							y2: end,     
+							property: '--yTranslate', 
+							from: -12,    
+							to: 0,    
+							value: 0,
+							suffix: "%"    
 						},
 						{
 							y1: start,            
@@ -192,6 +181,20 @@ export default {
 							to: 0.3,            
 							value: 0,           
 							suffix: ""          
+						}
+					],
+                },
+                {
+					element: document.querySelector('.header-search-overlay'),
+					items: [
+						{
+							y1: start,            
+							y2: end,              
+							property: '--opacity',
+							from: 0,              
+							to: 1,              
+							value: 0,             
+							suffix: ""           
 						}
 					],
 				},
@@ -321,9 +324,10 @@ function calculateDistance(elem, mouseX, mouseY) {
 	--opacity: 0.3;
 	--scale: 0.6;
 	--xTranslate: 0;
+	--yTranslate: 0;
 	transform-origin: 0% 56%;
 	opacity: var(--opacity);
-	transform: scale(var(--scale), var(--scale)) translate(var(--xTranslate),0);
+	transform: scale(var(--scale), var(--scale)) translate(var(--xTranslate), var(--yTranslate));
 }
 .header-text {
 	--opacity: 0;
@@ -334,7 +338,7 @@ function calculateDistance(elem, mouseX, mouseY) {
 	letter-spacing: 1.6rem;
 	font-size: 21.7px;
 	opacity: var(--opacity);
-	transform: scale(var(--scale), var(--scale)) translate(var(--xTranslate),139%);
+	transform: scale(var(--scale), var(--scale)) translate(var(--xTranslate),124%);
 }
 .header-search {
 	--color: #8383834d;
@@ -344,6 +348,10 @@ function calculateDistance(elem, mouseX, mouseY) {
 	transform-origin: 100% 53%;
 	transform: scale(1, var(--scale));
 	background-color: var(--color);
+}
+.header-search-overlay {
+    --opacity: 1;
+    opacity: var(--opacity);
 }
 .header-settings {
 	--opacity: 0.4;
