@@ -25,6 +25,7 @@ class DialogueQuery extends Query
     {
         return [
             'id' => ['name' => 'id', 'type' => Type::int()],
+            'videoId' => ['name' => 'videoId', 'type' => Type::int()],
         ];
     }
 
@@ -39,6 +40,10 @@ class DialogueQuery extends Query
 
         if (isset($args['id'])) {
             return Dialogue::where('id' , $args['id'])->get();
+        }
+
+        if (isset($args['videoId'])) {
+            return Dialogue::where('video_id' , $args['videoId'])->get();
         }
 
         // if (isset($args['video_id'])) {

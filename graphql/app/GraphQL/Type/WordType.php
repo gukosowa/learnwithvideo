@@ -32,6 +32,22 @@ class WordType extends GraphQLType
                 'type' => GraphQL::type('definitionType'),
                 'description' => 'The corresponding definition object to this word',
             ],
+            'dialogue_id' => [
+                'type' => Type::int(),
+                'description' => 'The corresponding definition id to this word',
+            ],
+            'dialogue' => [
+                'type' => GraphQL::type('dialogue'),
+                'description' => 'The corresponding dialogue object to this word',
+            ],
+            'start_char' => [
+                'type' => Type::int(),
+                'description' => 'At which character the word starts',
+            ],
+            'word' => [
+                'type' => Type::string(),
+                'description' => 'The word which is highlighted',
+            ],
             'custom_definition' => [
                 'type' => Type::string(),
                 'description' => 'If something is different to the main definition, it comes here',

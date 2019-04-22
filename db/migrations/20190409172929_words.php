@@ -36,11 +36,16 @@ class Words extends AbstractMigration
         $table = $this->table('words');
         $table
                 ->addColumn('definition_id', 'biginteger')
+                ->addColumn('dialogue_id', 'biginteger')
+                ->addColumn('start_char', 'integer')
+                ->addColumn('word', 'string')
                 ->addColumn('custom_definition', 'string')
                 ->addColumn('custom_word', 'string', ['limit' => 60])
                 ->addColumn('custom_furigana', 'string', ['limit' => 60])
                 ->addColumn('ispeech_id', 'integer')
                 ->addTimestamps()
+                ->addForeignKey('definition_id', 'definitions', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
+                ->addForeignKey('dialogue_id', 'dialogues', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
                 ->save();
     }
 }

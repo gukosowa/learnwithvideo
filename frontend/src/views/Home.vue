@@ -76,23 +76,33 @@
                                     *
                                 </button>
 
-                                <!-- Insert button -->
-                                <button @click="saveDialogue" 
-                                class="bg-gray-700 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
-                                :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }" style="transition: 0.2s; min-width: 7rem;">
-                                    Save text
-                                </button>
-
-                                <!-- dialogue text -->
-                                <input 
-                                v-model="editText"
-                                @input="changeEditText"
-                                class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
-                                id="inline-full-name" 
-                                type="text" 
-                                value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
-                                autocomplete="off"
-                                placeholder="Dialogue here">
+                                <div class="" v-show="!hasWordInDialogue" style="display:contents;">
+                                    <!-- Insert button -->
+                                    <button @click="saveDialogue" 
+                                    class="bg-gray-700 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
+                                    :class="{ 'bg-red-500 hover:bg-red-600 border-red-800' : editTextDirty }" style="transition: 0.2s; min-width: 7rem;">
+                                        Save text
+                                    </button>
+    
+                                    <!-- dialogue text -->
+                                    <input 
+                                    v-model="editText"
+                                    @input="changeEditText"
+                                    class="bg-gray-300 w-full appearance-none border-2 border-gray-300 rounded w-full py-2 px-4 text-gray-900 leading-tight focus:outline-none focus:bg-white focus:border-blue-500" 
+                                    id="inline-full-name" 
+                                    type="text" 
+                                    value="鳥の絡まるぼろる長屋、ひたすら. 筆走る"
+                                    autocomplete="off"
+                                    placeholder="Dialogue here">
+                                </div>
+                                <div class="" v-show="hasWordInDialogue" style="display:contents">
+                                    <!-- Insert button -->
+                                    <button @click="removeAllWordsFromDialogue" 
+                                    class="bg-gray-700 mr-3 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none"
+                                    style="min-width: 7rem;">
+                                        Remove all words
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
@@ -232,7 +242,7 @@
                 </div>
     
                 <div class="flex flex-row justify-around">
-                    <button v-show="listIndexDB != -1" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
+                    <button v-show="listIndexDB != -1" @click="addWordToDialogue" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 border-b-4 border-gray-800 hover:border-gray-700 rounded focus:outline-none">
                         ✔️ Apply to selection
                     </button>
     
@@ -312,8 +322,11 @@ export default {
             xHighlightMenu: 0,
             yHighlightMenu: 0,
             showHighlightText: false,
+
             selectedText: "",
-            wordTable: [{vocab_id:1, start_pos:0, dialogue_id:0, word:"鳥", custom_info:"fgf"}],
+
+            // {definition_id: this.detailDefinition.id, dialogue_id: dialogueId, start_pos: selectedStartPos, word: this.selectedText};
+            wordTable: [],
             definitions: {},
             jishoDefinitions: {},
             detailDefinition: {},
@@ -341,6 +354,20 @@ export default {
         //
         highlightableEl () {
             return this.$refs.dialogueField
+        },
+
+        //#####################################################
+        //
+        //
+        hasWordInDialogue () {
+            var vm = this;
+            var found = false;
+            this.wordTable.forEach(function(word) {
+                if (word.dialogue_id == vm.dialogueId) {
+                    found = true;
+                }
+            });
+            return found;
         }
     },
 
@@ -435,6 +462,11 @@ export default {
             }).then((data) => {
                 this.loadingDB = false;
                 this.apolloFetchDB = false;
+
+                if (this.showHighlightText == false) {
+                    this.definitions = {};
+                    return;
+                }
                 
                 // console.log("Get DB Definition list", data);
 
@@ -531,7 +563,7 @@ export default {
 
                 this.loadingJisho = false;
 
-                if (result.data.jisho.meta != 200) {
+                if (result.data.jisho.meta != 200 || this.showHighlightText == false) {
                     this.jishoDefinitions = {};
                     return;
                 }
@@ -594,9 +626,9 @@ export default {
             this.detailDefinition.ispeech_id = !this.detailDefinition.ispeech_id ? -1 : parseInt(this.detailDefinition.ispeech_id);
             this.detailDefinition.jlpt = !this.detailDefinition.jlpt ? -1 : parseInt(this.detailDefinition.jlpt);
             this.detailDefinition.tags = !this.detailDefinition.tags ? "" : this.detailDefinition.tags;
-            console.log(encodeURIComponent(this.detailDefinition.word));
+
             var vm = this;
-            console.log(this.detailDefinition);
+
             this.$apollo.mutate({
                 // Query
                 mutation: gql`mutation ($word: String, $furigana: String, $part_of_speech: String, $definition: String, $image: String, $ispeech_id: Int, $jlpt: Int, $tags: String) {
@@ -624,7 +656,8 @@ export default {
                 console.log("MADE DEFINITION");
                 console.log(response.data.createDefinition.id)
 
-                this.definitions.push({
+                this.definitions.unshift({
+                    id: response.data.createDefinition.id,
                     word: this.detailDefinition.word,
                     furigana: this.detailDefinition.furigana,
                     part_of_speech: this.detailDefinition.part_of_speech,
@@ -637,7 +670,7 @@ export default {
 
                 setTimeout(function() {
                     var listDB = document.getElementById("listDB");
-                    listDB.scrollTop = 9999999999999999;
+                    listDB.scrollTop = 0;
                 }, 50); 
 
                 let i = 0;
@@ -660,6 +693,23 @@ export default {
 
                 console.error(errors);
             });
+        },
+
+        //#####################################################
+        //
+        //
+        addWordToDialogue() {
+            // TODO MUST -1 here ... or at least like DB
+            var dialogueId = this.dialogueId;
+
+            var selectedStartPos = getCaretCharacterOffsetWithin(this.$refs.dialogueField);
+            if (selectedStartPos < 0) selectedStartPos = 0;
+            if (selectedStartPos > this.editText.length-1) selectedStartPos = this.editText.length-1;
+
+            var addingWord = {definition_id: this.detailDefinition.id, dialogue_id: dialogueId, start_pos: selectedStartPos, word: this.selectedText};
+            this.wordTable.push(addingWord);
+
+            this.deselectDialogue();
         },
 
         //#####################################################
@@ -845,6 +895,16 @@ export default {
         //#####################################################
         //
         //
+        removeAllWordsFromDialogue() {
+            var vm = this;
+            this.wordTable = this.wordTable.filter(function(ele){
+                return ele.dialogue_id != vm.dialogueId;
+            });
+        },
+
+        //#####################################################
+        //
+        //
         jumpNext() {
             if (this.currentTime >= this.timeline.slice(-1)[0]) {
                 return;
@@ -1003,6 +1063,13 @@ export default {
         //
         //
         deselectDialogue() {
+            this.listIndexJisho = -1;
+            this.listIndexDB = -1;
+            this.loadingDB = false;
+            this.loadingJisho = false;
+            this.definitions = {};
+            this.jishoDefinitions = {};
+            this.detailDefinition = {};
             this.clearHighlightBox();
             this.showHighlightText = false;
 
@@ -1050,7 +1117,7 @@ export default {
             if (selection.rangeCount == 0 || this.editMode == false) {
                 return;
             }
-            const selectionRange = selection.getRangeAt(0)
+            const selectionRange = selection.getRangeAt(0);
 
             // startNode is the element that the selection starts in
             // const startNode = selectionRange.startContainer.parentNode
@@ -1113,6 +1180,27 @@ export default {
     },
 }
 
+
+function getCaretCharacterOffsetWithin(element) {
+    var caretOffset = 0;
+    var doc = element.ownerDocument || element.document;
+    var win = doc.defaultView || doc.parentWindow;
+    var sel;
+    if (typeof window.getSelection != "undefined") {
+        var range = window.getSelection().getRangeAt(0);
+        var selected = range.toString().length; // *
+        var preCaretRange = range.cloneRange();
+        preCaretRange.selectNodeContents(element);
+        preCaretRange.setEnd(range.endContainer, range.endOffset);
+
+        if(selected){ // *
+            caretOffset = preCaretRange.toString().length - selected; // *
+        } else { // *
+            caretOffset = preCaretRange.toString().length; 
+        } // *
+    }
+    return caretOffset - 21;
+}
 </script>
 
 <style scoped>

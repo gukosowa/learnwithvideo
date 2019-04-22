@@ -10,4 +10,9 @@ class Word extends Model
     {
         return $this->belongsTo(Definition::class);
     }
+
+    public function dialogue()
+    {
+        return $this->belongsTo(Dialogue::class);
+    }
 }

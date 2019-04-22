@@ -38,8 +38,9 @@ class Dialogues extends AbstractMigration
                 ->addColumn('video_id', 'biginteger')
                 ->addColumn('text', 'text')
                 ->addColumn('translation', 'text')
-                ->addColumn('time', 'integer')
+                ->addColumn('time', 'float')
                 ->addTimestamps()
+                ->addForeignKey('video_id', 'videos', 'id', ['delete'=> 'SET_NULL', 'update'=> 'NO_ACTION'])
                 ->save();
     }
 }

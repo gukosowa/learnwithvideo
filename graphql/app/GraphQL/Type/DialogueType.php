@@ -32,6 +32,10 @@ class DialogueType extends GraphQLType
                 'type' => GraphQL::type('video'),
                 'description' => 'The associated video object',
             ],
+            'words' => [
+                'type' => Type::listOf(GraphQL::type('word')),
+                'description' => 'The corresponding definition id to this word',
+            ],
             'text' => [
                 'type' => Type::string(),
                 'description' => 'The actual dialogue text',
@@ -41,7 +45,7 @@ class DialogueType extends GraphQLType
                 'description' => 'Translation of dialogue',
             ],
             'time' => [
-                'type' => Type::string(),
+                'type' => Type::float(),
                 'description' => 'At which time does this dialogue start',
             ],
             'created_at' => [

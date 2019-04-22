@@ -14,4 +14,9 @@ class Dialogue extends Model
     {
         return $this->belongsTo(Video::class);
     }
+
+    public function words()
+    {
+        return $this->hasMany(Word::class);
+    }
 }
